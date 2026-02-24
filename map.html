@@ -2,29 +2,111 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>LMRI Map</title>
+  <title>LMRI Map – Ethiopia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
   <style>
-    body { margin:0; }
-    #map { height:100vh; }
-    .legend {
-      background:white;
-      padding:8px;
-      font-size:12px;
-      line-height:18px;
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    #map {
+      height: 100vh;
+    }
+
+    #panel {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      z-index: 999;
+      background: #ffffff;
+      padding: 12px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+      width: 270px;
+    }
+
+    #panel h3 {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    #panel .row {
+      margin-bottom: 10px;
+    }
+
+    #panel label {
+      display: block;
+      font-size: 12px;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+
+    #panel select {
+      width: 100%;
+      padding: 6px;
+      font-size: 12px;
+    }
+
+    #panel input[type="checkbox"] {
+      margin-right: 6px;
+    }
+
+    #stats {
+      font-size: 12px;
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid #eee;
     }
   </style>
 </head>
+
 <body>
 
-<div id="map"></div>
+  <div id="panel">
+    <h3>LMRI Filters</h3>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <div class="row">
+      <label>Metric</label>
+      <select id="metric">
+        <option value="nosupport" selected>No support (LMRI_NoSupport)</option>
+        <option value="support">Support (LMRI_Support)</option>
+      </select>
+    </div>
 
-<script src="assets/js/map.js"></script>
+    <div class="row">
+      <label>Region</label>
+      <select id="region">
+        <option value="">All</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label>Zone</label>
+      <select id="zone" disabled>
+        <option value="">All</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label>
+        <input type="checkbox" id="showCircles" checked>
+        Show HR volume circles
+      </label>
+    </div>
+
+    <div id="stats"></div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="assets/js/map.js"></script>
 
 </body>
 </html>
