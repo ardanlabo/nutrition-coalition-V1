@@ -1,0 +1,122 @@
+﻿Woreda,Zone,Region,adm3_pcode,Facilities_NoSupport,HR_NoSupport,LMRI_NoSupport,LowN_Flag,Facilities_Support,HR_Support,LMRI_Support,Delta
+Abaala,Zone 2,Afar,ET020203,8,4,0.5,0,0,0,,
+Abaya,West Guji,Oromia,ET041513,19,0,0,0,0,0,,
+Abergelle,Waghimra,Amhara,ET030805,29,0,0,0,0,0,,
+Abergelle Yechila,Central,Tigray,ET010210,14,0,0,0,0,0,,
+Abi Adi,Central,Tigray,ET010211,1,0,0,1,0,0,,
+Abobo,Agnuak,Gambella,ET120201,2,0,0,1,1,0,0,0
+Adadle,Shebele,Somali,ET050602,27,0,0,0,0,0,,
+Adet,Central,Tigray,ET010207,17,1,0.06,0,0,0,,
+Adidaero,North Western,Tigray,ET010111,2,1,0.5,1,7,0,0,-0.5
+Afdam,Sitti,Somali,ET050105,3,0,0,1,0,0,,
+Ahferom,Central,Tigray,ET010202,14,0,0,0,0,0,,
+Ahsea,Central,Tigray,ET010215,10,0,0,0,0,0,,
+Argoba,South Wollo,Amhara,ET030401,9,3,0.33,0,0,0,,
+Asgede,North Western,Tigray,ET010105,9,2,0.22,0,9,0,0,-0.22
+Assaita,Zone 1,Afar,ET020103,4,2,0.5,1,0,0,,
+Atsibi,Eastern,Tigray,ET010307,0,0,,0,15,1,0.07,
+Axum Town,Central,Tigray,ET010213,2,2,1,1,0,0,,
+Baka Dawula,Ari zone,South Ethiopia,ET070710,1,0,0,1,0,0,,
+Bambasi,Assosa,Benishangul Gumuz,ET060305,46,32,0.7,0,0,0,,
+Barbare,Bale,Oromia,ET041114,10,0,0,0,0,0,,
+Bare,Afder,Somali,ET050807,1,1,1,1,0,0,,
+Becho,South West Shoa,Oromia,ET041309,0,0,,0,2,0,0,
+Bedeno,East Hararghe,Oromia,ET041013,41,0,0,0,9,0,0,0
+Bercano,Shebele,Somali,ET050608,23,12,0.52,0,0,0,,
+Berihale,Zone 2,Afar,ET020205,0,0,,0,1,0,0,
+Buldigilu,Assosa,Benishangul Gumuz,ET060306,26,0,0,0,0,0,,
+Charati,Afder,Somali,ET050802,6,0,0,0,4,0,0,0
+Dalol,Zone 2,Afar,ET020206,7,0,0,0,0,0,,
+Dangur,Metekel,Benishangul Gumuz,ET060201,4,0,0,1,1,0,0,0
+Debreberhan town,North Shewa,Amhara,ET030520,3,0,0,1,0,0,,
+Dekasuftu,Liben,Somali,ET050991,8,6,0.75,0,0,0,,
+Dembi Dollo,Kellem Wollega,Oromia,ET041806,1,0,0,1,3,0,0,0
+Dibatie,Metekel,Benishangul Gumuz,ET060205,3,0,0,1,0,0,,
+Dimeka Town,South Omo,South Ethiopia,ET070704,1,0,0,1,0,0,,
+Dire,Borena,Oromia,ET041211,19,0,0,0,0,0,,
+Dogua Temben,South Eastern,Tigray,ET010604,2,0,0,1,10,0,0,0
+Dolo-Ado,Liben,Somali,ET050902,9,0,0,0,1,0,0,0
+Dolo-Bay,Afder,Somali,ET050808,10,4,0.4,0,1,0,0,-0.4
+East Imi,Shebele,Somali,ET050601,18,8,0.44,0,0,0,,
+El-Woye,Borena,Oromia,ET041295,1,0,0,1,9,0,0,0
+Elele,Shebele,Somali,ET050698,12,0,0,0,0,0,,
+Elkari,Afder,Somali,ET050804,7,4,0.57,0,0,0,,
+Embaseneyti,Central,Tigray,ET010219,10,1,0.1,0,1,0,0,-0.1
+Erar,Sitti,Somali,ET050104,11,10,0.91,0,0,0,,
+Filtu,Liben,Somali,ET050901,2,0,0,1,0,0,,
+Gambella Zuriya,Agnuak,Gambella,ET120202,0,0,,0,3,2,0.67,
+Gamella town,Agnuak,Gambella,ET120206,2,0,0,1,0,0,,
+Gidan,North Wollo,Amhara,ET030303,8,6,0.75,0,0,0,,
+Gimbi,West Wollega,Oromia,ET040103,12,6,0.5,0,0,0,,
+Gode city,Shebele,Somali,ET050696,5,0,0,0,0,0,,
+Godey,Shebele,Somali,ET050604,21,0,0,0,0,0,,
+Gog,Agnuak,Gambella,ET120203,11,0,0,0,0,0,,
+Gola Oda,East Hararghe,Oromia,ET041017,22,3,0.14,0,0,0,,
+Goro,Bale,Oromia,ET041116,13,1,0.08,0,0,0,,
+Gubalafto,North Wollo,Amhara,ET030307,1,1,1,1,1,0,0,-1
+Guchi,Borena,Oromia,ET041290,9,0,0,0,0,0,,
+Gura Dhamole,Bale,Oromia,ET041115,6,1,0.17,0,0,0,,
+Gurawa,East Hararghe,Oromia,ET041016,55,18,0.33,0,0,0,,
+Guto Gida,East Wollega,Oromia,ET040213,4,4,1,1,3,0,0,-1
+Habru,North Wollo,Amhara,ET030308,12,4,0.33,0,0,0,,
+Hahayle,Central,Tigray,ET010217,11,1,0.09,0,0,0,,
+Hamer Woreda,South Omo,South Ethiopia,ET070704,3,2,0.67,1,0,0,,
+Harana Buluk,Bale,Oromia,ET041111,9,3,0.33,0,0,0,,
+Harawa,Fafan,Somali,ET050299,1,0,0,1,0,0,,
+Hargelle,Afder,Somali,ET050806,9,4,0.44,0,2,0,0,-0.44
+Harshin,Fafan,Somali,ET050207,33,23,0.7,0,0,0,,
+Hawa Gelan,Kellem Wollega,Oromia,ET041801,7,0,0,0,0,0,,
+Hawzen,Eastern,Tigray,ET010305,0,0,,0,27,1,0.04,
+Hintalo,South Eastern,Tigray,ET010603,17,15,0.88,0,0,0,,
+Indabaguna,North Western,Tigray,ET010114,0,0,,0,1,0,0,
+Intang,Itang Special woreda,Gambella,ET120407,15,0,0,0,0,0,,
+Jinka town,Ari zone,South Ethiopia,ET070709,1,0,0,1,0,0,,
+Kabribayah,Fafan,Somali,ET050206,43,13,0.3,0,0,0,,
+Kelafo,Shebele,Somali,ET050605,0,0,,0,15,4,0.27,
+Kersadula,Liben,Somali,,7,5,0.71,0,0,0,,
+Keyh-Tekli,Central,Tigray,ET010221,13,0,0,0,0,0,,
+Kilte-awlaelo,Eastern,Tigray,ET010306,0,0,,0,14,12,0.86,
+Kolla-tembien,Central,Tigray,ET010208,16,5,0.31,0,0,0,,
+Laelay Koraro,North Western,Tigray,ET010104,12,0,0,0,0,0,,
+Lailay Maichew,Central,Tigray,ET010205,7,0,0,0,9,0,0,0
+Lataa sibuu,West Wollega,Oromia,ET040197,14,10,0.71,0,1,0,0,-0.71
+Lega Hidha,East Bale,Oromia,ET042102,0,0,,0,10,0,0,
+Maichew,Southern,Tigray,ET010409,3,0,0,1,0,0,,
+Marsin,Korahe,Somali,ET050586,0,0,,0,15,12,0.8,
+Mekoni,Southern,Tigray,ET010412,5,1,0.2,0,0,0,,
+Mena Sibu,West Wollega,Oromia,ET040101,19,13,0.68,0,0,0,,
+Mendi,West Wollega,Oromia,ET040198,1,0,0,1,0,0,,
+Mieso,West Hararghe,Oromia,ET040901,4,0,0,1,31,9,0.29,0.29
+Miyo,Borena,Oromia,ET041216,29,0,0,0,0,0,,
+Moyale,Borena,Oromia,ET041210,22,0,0,0,0,0,,
+Naeder,Central,Tigray,ET010209,14,0,0,0,0,0,,
+Nguenyyiel refugee camp,Itang Special woreda,Gambella,ET120407,0,0,,0,1,0,0,
+Oura,Assosa,Benishangul Gumuz,,41,4,0.1,0,0,0,,
+Pinyudo I refugee camp,Agnuak,Gambella,ET120407,0,0,,0,1,0,0,
+Pinyudo II Refugee camp,Agnuak,Gambella,ET120407,0,0,,0,1,0,0,
+Rama,Central,Tigray,ET010214,5,0,0,0,4,0,0,0
+Raya Azebo,Southern,Tigray,ET010406,12,0,0,0,0,0,,
+Raya Kobo,North Wollo,Amhara,ET030302,11,8,0.73,0,0,0,,
+Rayitu,East Bale,Oromia,ET042104,5,0,0,0,1,0,0,0
+Samree,South Eastern,Tigray,ET010606,8,0,0,0,5,0,0,0
+Sasiga,East Wollega,Oromia,ET040211,9,3,0.33,0,3,1,0.33,0
+Sayo,Kellem Wollega,Oromia,ET041805,0,0,,0,4,0,0,
+Sehala Seyemt,Waghimra,Amhara,ET030806,11,0,0,0,0,0,,
+Seharti,South Eastern,Tigray,ET010601,0,0,,0,12,0,0,
+Shilabo,Korahe,Somali,ET050503,0,0,,0,6,1,0.17,
+Shire,North Western,Tigray,ET010101,1,0,0,1,3,1,0.33,0.33
+South Ari,Ari zone,South Ethiopia,ET070702,1,0,0,1,0,0,,
+Subhasaesie,Eastern,Tigray,ET010303,15,1,0.07,0,0,0,,
+Tahtay Koraro,North Western,Tigray,ET010104,10,3,0.3,0,13,6,0.46,0.16
+Tahtay Maychew,Central,Tigray,ET010206,13,0,0,0,0,0,,
+Tanqua Milash,Central,Tigray,ET010222,11,0,0,0,0,0,,
+Teltalle,Borena,Oromia,ET041212,25,0,0,0,0,0,,
+Tsaeda Emba,Eastern,Tigray,ET010314,14,0,0,0,0,0,,
+Tsagbiji,Waghimra,Amhara,ET030808,13,0,0,0,0,0,,
+Tsimbla,North Western,Tigray,ET010113,7,0,0,0,4,0,0,0
+Tsirae Wemberta,Eastern,Tigray,ET010315,0,0,,0,14,2,0.14,
+Turmi Town,South Omo,South Ethiopia,ET070704,1,0,0,1,0,0,,
+West Imi,Afder,Somali,ET050805,12,12,1,0,0,0,,
+Wolisso town,South West Shoa,Oromia,ET041303,6,0,0,0,2,0,0,0
+Ziqulla,Waghimra,Amhara,ET030801,12,3,0.25,0,18,2,0.11,-0.14
+,,,,0,266,,0,298,54,,
