@@ -17,15 +17,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // -------------------------
 map.createPane("adm3Pane");
 map.getPane("adm3Pane").style.zIndex = 400;
-map.getPane("adm3Pane").style.pointerEvents = "auto"; // IMPORTANT: allow hover
+map.getPane("adm3Pane").style.pointerEvents = "auto"; // allow hover on woredas
 
 map.createPane("adm2Pane");
 map.getPane("adm2Pane").style.zIndex = 500;
-map.getPane("adm2Pane").style.pointerEvents = "none"; // IMPORTANT: never block hover
+map.getPane("adm2Pane").style.pointerEvents = "none"; // never block hover
 
 map.createPane("adm1Pane");
 map.getPane("adm1Pane").style.zIndex = 600;
-map.getPane("adm1Pane").style.pointerEvents = "none"; // IMPORTANT: never block hover
+map.getPane("adm1Pane").style.pointerEvents = "none"; // never block hover
 
 // -------------------------
 // State + UI
@@ -35,12 +35,15 @@ let dataByPcode = {};
 let adm3Layer = null;          // choropleth (woreda)
 let circlesLayer = L.layerGroup().addTo(map);
 
-let adm1HaloLayer = null;
-let adm1RedLayer = null;
-let adm2Layer = null;
+let adm1HaloLayer = null;      // white halo
+let adm1RedLayer = null;       // red region outline
+let adm2Layer = null;          // grey zone outline
 
 let adm1Geo = null;
 let adm2Geo = null;
+
+// Legend
+let legendControl = null;
 
 const ui = {
   metric: document.getElementById('metric'),
@@ -51,7 +54,7 @@ const ui = {
 };
 
 const state = {
-  metric: "nosupport",
+  metric: "nosupport", // "nosupport" | "support"
   region: "",
   zone: "",
   showCircles: true
@@ -88,6 +91,9 @@ function getColor(v) {
   return "#FFEDA0";
 }
 
+// -------------------------
+// Tooltip builder (full info)
+// -------------------------
 function buildTooltipHTML(row) {
   const { lmri, n, hr } = getMetricFields();
   const lmriVal = safeNum(row[lmri]);
@@ -124,10 +130,10 @@ function styleAdm3(feature) {
   const pcode = (feature?.properties?.adm3_pcode || "").trim();
   const row = dataByPcode[pcode];
 
-  // Hide polygons without data (clean)
+  // Hide polygons without data (clean map)
   if (!row) return { fillOpacity: 0, weight: 0 };
 
-  // Drill-down hide other regions/zones
+  // Drill-down: hide outside selected region/zone
   if (state.region && row.Region !== state.region) return { fillOpacity: 0, weight: 0 };
   if (state.zone && row.Zone !== state.zone) return { fillOpacity: 0, weight: 0 };
 
@@ -138,7 +144,8 @@ function styleAdm3(feature) {
   const lowN = (safeNum(row.LowN_Flag) === 1) || (nVal > 0 && nVal < 5);
   const opacity = lowN ? 0.30 : 0.70;
 
-  const borderColor = state.region ? "#000" : "#444";  // woreda borders black when drill-down
+  // Borders: black when region selected, subtle when national
+  const borderColor = state.region ? "#000" : "#444";
   const borderWeight = state.region ? 0.9 : 0.35;
 
   return {
@@ -154,17 +161,17 @@ function onEachAdm3(feature, layer) {
   const row = dataByPcode[pcode];
   if (!row) return;
 
-  // Native Leaflet tooltip (stable hover)
+  // Native Leaflet tooltip on polygons
   layer.bindTooltip(buildTooltipHTML(row), {
     sticky: true,
     direction: "auto",
     opacity: 0.95
   });
 
-  // Visual highlight on hover
+  // highlight on hover + refresh tooltip content (if metric changes)
   layer.on("mouseover", () => {
     if (!passesFilter(row)) return;
-    layer.setTooltipContent(buildTooltipHTML(row)); // refresh if metric changed
+    layer.setTooltipContent(buildTooltipHTML(row));
     layer.setStyle({ weight: state.region ? 1.4 : 0.8 });
   });
 
@@ -178,7 +185,7 @@ function onEachAdm3(feature, layer) {
 // -------------------------
 function circleRadius(hr) {
   const x = Math.max(0, Number(hr) || 0);
-  return 2500 * Math.sqrt(x);
+  return 2500 * Math.sqrt(x); // meters
 }
 
 function rebuildCircles() {
@@ -254,7 +261,7 @@ function fitToSelection() {
 }
 
 // -------------------------
-// ADM1 / ADM2 overlays (non-interactive, so they never steal hover)
+// ADM1 / ADM2 overlays
 // -------------------------
 function styleAdm1Halo() { return { fillOpacity: 0, weight: 6.0, color: "#FFFFFF" }; }
 function styleAdm1Red()  { return { fillOpacity: 0, weight: 2.8, color: "#C00000" }; }
@@ -311,6 +318,56 @@ function rebuildAdminOverlays() {
 }
 
 // -------------------------
+// Legend (fixed classes, professional, stable)
+// -------------------------
+function createLegend() {
+  if (legendControl) map.removeControl(legendControl);
+
+  legendControl = L.control({ position: "bottomright" });
+
+  legendControl.onAdd = function () {
+    const div = L.DomUtil.create("div", "legend");
+
+    // Inline styles (stable; no dependency)
+    div.style.background = "white";
+    div.style.padding = "10px 12px";
+    div.style.fontSize = "12px";
+    div.style.lineHeight = "16px";
+    div.style.borderRadius = "8px";
+    div.style.boxShadow = "0 2px 10px rgba(0,0,0,0.15)";
+    div.style.minWidth = "190px";
+
+    const metricLabel = state.metric === "support"
+      ? "LMRI (Supported)"
+      : "LMRI (No Support)";
+
+    const row = (color, label) => `
+      <div style="display:flex;align-items:center;margin:3px 0;">
+        <span style="width:12px;height:12px;background:${color};border:1px solid #999;margin-right:8px;"></span>
+        <span>${label}</span>
+      </div>
+    `;
+
+    div.innerHTML = `
+      <div style="font-weight:700;margin-bottom:6px;">${metricLabel}</div>
+      ${row("#800026", "≥ 50%")}
+      ${row("#BD0026", "30–49%")}
+      ${row("#E31A1C", "20–29%")}
+      ${row("#FC4E2A", "10–19%")}
+      ${row("#FD8D3C", "1–9%")}
+      ${row("#FFEDA0", "0%")}
+      <div style="border-top:1px solid #eee;margin:8px 0;"></div>
+      <div>⭕ Circle size = HR count</div>
+      <div style="opacity:0.7;">Low N = reduced opacity</div>
+    `;
+
+    return div;
+  };
+
+  legendControl.addTo(map);
+}
+
+// -------------------------
 // Filters population
 // -------------------------
 function populateRegions() {
@@ -352,6 +409,8 @@ function applyAll() {
   rebuildCircles();
   updateStats();
   fitToSelection();
+  // legend text depends on metric
+  createLegend();
 }
 
 // -------------------------
@@ -415,8 +474,9 @@ Promise.all([
   // Filters
   populateRegions();
 
-  // Overlays
+  // Overlays + legend
   rebuildAdminOverlays();
+  createLegend();
 
   // Initial view
   updateStats();
