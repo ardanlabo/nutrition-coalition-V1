@@ -17,13 +17,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // -------------------------
 let dataByPcode = {};
 
-let adm3Layer = null;          // Choropleth layer (woreda)
+let adm3Layer = null;                // Choropleth layer (woreda)
 let circlesLayer = L.layerGroup().addTo(map);
 
-let adm1Layer = null;          // Regions outline (red)
-let adm2Layer = null;          // Zones outline (grey)
+let adm1HaloLayer = null;            // white halo
+let adm1RedLayer = null;             // red outline
+let adm2Layer = null;                // zones outline (grey)
 
-let adm1Geo = null;            // Stored GeoJSON for rebuild
+let adm1Geo = null;                  // stored GeoJSON for rebuild
 let adm2Geo = null;
 
 const ui = {
@@ -73,51 +74,57 @@ function getColor(v) {
 }
 
 // -------------------------
-// Tooltip builder (always works)
+// Tooltip builder (full info)
 // -------------------------
 function buildTooltipHTML(row) {
   const { lmri, n, hr } = getMetricFields();
-
   const lmriVal = safeNum(row[lmri]);
   const nVal = safeNum(row[n]);
   const hrVal = safeNum(row[hr]);
+
+  // Delta and support/no-support context if present
+  const deltaVal = safeNum(row.Delta);
+  const lmriSupport = safeNum(row.LMRI_Support);
+  const lmriNoSupport = safeNum(row.LMRI_NoSupport);
 
   return `
     <b>${row.Woreda}</b><br>
     Region: ${row.Region}<br>
     Zone: ${row.Zone}<br>
     P-code: ${row.adm3_pcode}<br>
+    <hr style="margin:6px 0;border:none;border-top:1px solid #eee;">
+    <b>Selected metric</b><br>
     LMRI: ${lmriVal === null ? "—" : (lmriVal * 100).toFixed(1) + "%"}<br>
     Facilities: ${nVal === null ? "—" : nVal}<br>
     HR count: ${hrVal === null ? "—" : hrVal}<br>
-    ${(safeNum(row.LowN_Flag) === 1) ? "<i>Low N caution</i>" : ""}
+    <hr style="margin:6px 0;border:none;border-top:1px solid #eee;">
+    <b>Comparison</b><br>
+    LMRI (No support): ${lmriNoSupport === null ? "—" : (lmriNoSupport * 100).toFixed(1) + "%"}<br>
+    LMRI (Support): ${lmriSupport === null ? "—" : (lmriSupport * 100).toFixed(1) + "%"}<br>
+    Delta (Sup - NoSup): ${deltaVal === null ? "—" : (deltaVal * 100).toFixed(1) + "%"}<br>
+    ${(safeNum(row.LowN_Flag) === 1) ? "<br><i>Low N caution (opacity reduced)</i>" : ""}
   `;
 }
 
 // -------------------------
 // ADM3 (woreda) styling
-// Colors: based on LMRI
 // Borders:
-// - National view: thin dark grey
-// - Region selected: black and stronger
+// - national: subtle dark grey
+// - region selected: black + stronger
 // Visibility:
-// - If region selected, hide everything outside region
-// - If zone selected, hide everything outside zone
-// - If no data row, hide completely (clean map)
+// - hide polygons outside selected region/zone
+// - hide polygons without data row (clean map)
 // -------------------------
 function styleAdm3(feature) {
   const pcode = (feature?.properties?.adm3_pcode || "").trim();
   const row = dataByPcode[pcode];
 
-  // Clean map: hide polygons without data row
   if (!row) return { fillOpacity: 0, weight: 0 };
 
-  // Drill-down: hide other regions when region selected
   if (state.region && row.Region !== state.region) {
     return { fillOpacity: 0, weight: 0 };
   }
 
-  // Drill-down: hide other zones when zone selected
   if (state.zone && row.Zone !== state.zone) {
     return { fillOpacity: 0, weight: 0 };
   }
@@ -145,16 +152,19 @@ function onEachAdm3(feature, layer) {
   const row = dataByPcode[pcode];
   if (!row) return;
 
-  // Bind tooltip once (empty), then update content on hover (stable)
-  layer.bindTooltip("", { sticky: true, direction: "auto", opacity: 0.95 });
+  // Guarantee tooltip exists (never blank), refresh content on hover
+  layer.bindTooltip(buildTooltipHTML(row), {
+    sticky: true,
+    direction: "auto",
+    opacity: 0.95
+  });
 
   layer.on("mouseover", () => {
-    // only show tooltip if polygon is currently visible under filters
     if (!passesFilter(row)) {
       layer.closeTooltip();
       return;
     }
-    layer.setTooltipContent(buildTooltipHTML(row));
+    layer.setTooltipContent(buildTooltipHTML(row)); // refresh if metric changed
     layer.openTooltip();
     layer.setStyle({ weight: state.region ? 1.4 : 0.8 });
   });
@@ -166,7 +176,6 @@ function onEachAdm3(feature, layer) {
 
 // -------------------------
 // Circles (HR volume)
-// Only for visible features (filters applied)
 // -------------------------
 function circleRadius(hr) {
   const x = Math.max(0, Number(hr) || 0);
@@ -247,15 +256,19 @@ function fitToSelection() {
 
 // -------------------------
 // ADM1 / ADM2 overlays rebuild
-// Colors required:
-// - ADM1 red always, but ONLY selected region when region filter active
-// - ADM2 grey only when region selected (and only inside that region)
+// Requirement:
+// - ADM1 red visible always, BUT when region selected: show ONLY that region
+// - Add halo under ADM1 red for clarity
+// - ADM2 grey ONLY when region selected (and only inside it)
 // -------------------------
-function styleAdm1() {
-  return { fillOpacity: 0, weight: 2.6, color: "#C00000" }; // red
+function styleAdm1Halo() {
+  return { fillOpacity: 0, weight: 6.0, color: "#FFFFFF" }; // white halo
 }
-function styleAdm2() {
-  return { fillOpacity: 0, weight: 1.6, color: "#888" }; // grey
+function styleAdm1Red() {
+  return { fillOpacity: 0, weight: 2.8, color: "#C00000" }; // red line
+}
+function styleAdm2Grey() {
+  return { fillOpacity: 0, weight: 1.6, color: "#888" };   // grey line
 }
 
 function regionMatch(props) {
@@ -274,20 +287,23 @@ function regionMatch(props) {
 }
 
 function rebuildAdminOverlays() {
-  if (adm1Layer && map.hasLayer(adm1Layer)) map.removeLayer(adm1Layer);
+  if (adm1HaloLayer && map.hasLayer(adm1HaloLayer)) map.removeLayer(adm1HaloLayer);
+  if (adm1RedLayer && map.hasLayer(adm1RedLayer)) map.removeLayer(adm1RedLayer);
   if (adm2Layer && map.hasLayer(adm2Layer)) map.removeLayer(adm2Layer);
 
   if (adm1Geo) {
-    adm1Layer = L.geoJSON(adm1Geo, {
-      filter: f => (state.region ? regionMatch(f.properties) : true),
-      style: styleAdm1
-    }).addTo(map);
+    const filterFn = f => (state.region ? regionMatch(f.properties) : true);
+
+    // Halo first (below)
+    adm1HaloLayer = L.geoJSON(adm1Geo, { filter: filterFn, style: styleAdm1Halo }).addTo(map);
+    // Red on top
+    adm1RedLayer  = L.geoJSON(adm1Geo, { filter: filterFn, style: styleAdm1Red }).addTo(map);
   }
 
   if (adm2Geo && state.region) {
     adm2Layer = L.geoJSON(adm2Geo, {
       filter: f => regionMatch(f.properties),
-      style: styleAdm2
+      style: styleAdm2Grey
     }).addTo(map);
   } else {
     adm2Layer = null;
@@ -343,7 +359,6 @@ function applyAll() {
 // -------------------------
 ui.metric.addEventListener("change", () => {
   state.metric = ui.metric.value;
-  // tooltips auto-refresh on hover because we rebuild content on mouseover
   applyAll();
 });
 
@@ -395,7 +410,7 @@ Promise.all([
   // Filters
   populateRegions();
 
-  // Overlays (ADM1 red always; ADM2 grey only when region selected)
+  // Overlays
   rebuildAdminOverlays();
 
   // Initial view
