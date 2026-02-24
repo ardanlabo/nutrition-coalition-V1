@@ -20,8 +20,8 @@ let dataByPcode = {};
 let adm3Layer = null;          // Choropleth layer (woreda)
 let circlesLayer = L.layerGroup().addTo(map);
 
-let adm1Layer = null;          // Regions outline
-let adm2Layer = null;          // Zones outline
+let adm1Layer = null;          // Regions outline (red)
+let adm2Layer = null;          // Zones outline (grey)
 
 let adm1Geo = null;            // Stored GeoJSON for rebuild
 let adm2Geo = null;
@@ -73,23 +73,51 @@ function getColor(v) {
 }
 
 // -------------------------
+// Tooltip builder (always works)
+// -------------------------
+function buildTooltipHTML(row) {
+  const { lmri, n, hr } = getMetricFields();
+
+  const lmriVal = safeNum(row[lmri]);
+  const nVal = safeNum(row[n]);
+  const hrVal = safeNum(row[hr]);
+
+  return `
+    <b>${row.Woreda}</b><br>
+    Region: ${row.Region}<br>
+    Zone: ${row.Zone}<br>
+    P-code: ${row.adm3_pcode}<br>
+    LMRI: ${lmriVal === null ? "—" : (lmriVal * 100).toFixed(1) + "%"}<br>
+    Facilities: ${nVal === null ? "—" : nVal}<br>
+    HR count: ${hrVal === null ? "—" : hrVal}<br>
+    ${(safeNum(row.LowN_Flag) === 1) ? "<i>Low N caution</i>" : ""}
+  `;
+}
+
+// -------------------------
 // ADM3 (woreda) styling
-// - national: light boundaries (not too busy)
-// - region selected: ONLY selected region visible, boundaries black
+// Colors: based on LMRI
+// Borders:
+// - National view: thin dark grey
+// - Region selected: black and stronger
+// Visibility:
+// - If region selected, hide everything outside region
+// - If zone selected, hide everything outside zone
+// - If no data row, hide completely (clean map)
 // -------------------------
 function styleAdm3(feature) {
   const pcode = (feature?.properties?.adm3_pcode || "").trim();
   const row = dataByPcode[pcode];
 
-  // No data row => hide completely (clean map)
+  // Clean map: hide polygons without data row
   if (!row) return { fillOpacity: 0, weight: 0 };
 
-  // If a region is selected, hide EVERYTHING outside it (no borders, no fill)
+  // Drill-down: hide other regions when region selected
   if (state.region && row.Region !== state.region) {
     return { fillOpacity: 0, weight: 0 };
   }
 
-  // If zone selected, hide everything outside that zone too
+  // Drill-down: hide other zones when zone selected
   if (state.zone && row.Zone !== state.zone) {
     return { fillOpacity: 0, weight: 0 };
   }
@@ -101,9 +129,6 @@ function styleAdm3(feature) {
   const lowN = (safeNum(row.LowN_Flag) === 1) || (nVal > 0 && nVal < 5);
   const opacity = lowN ? 0.30 : 0.70;
 
-  // Borders color logic:
-  // - If region selected => black borders (woreda)
-  // - Else (national) => lighter borders (avoid clutter)
   const borderColor = state.region ? "#000" : "#444";
   const borderWeight = state.region ? 0.9 : 0.35;
 
@@ -120,33 +145,28 @@ function onEachAdm3(feature, layer) {
   const row = dataByPcode[pcode];
   if (!row) return;
 
-  layer.on('mouseover', () => layer.setStyle({ weight: state.region ? 1.4 : 0.8 }));
-  layer.on('mouseout', () => adm3Layer && adm3Layer.resetStyle(layer));
+  // Bind tooltip once (empty), then update content on hover (stable)
+  layer.bindTooltip("", { sticky: true, direction: "auto", opacity: 0.95 });
 
-  layer.bindTooltip(() => {
-    if (!passesFilter(row)) return "";
+  layer.on("mouseover", () => {
+    // only show tooltip if polygon is currently visible under filters
+    if (!passesFilter(row)) {
+      layer.closeTooltip();
+      return;
+    }
+    layer.setTooltipContent(buildTooltipHTML(row));
+    layer.openTooltip();
+    layer.setStyle({ weight: state.region ? 1.4 : 0.8 });
+  });
 
-    const { lmri, n, hr } = getMetricFields();
-    const lmriVal = safeNum(row[lmri]);
-    const nVal = safeNum(row[n]);
-    const hrVal = safeNum(row[hr]);
-
-    return `
-      <b>${row.Woreda}</b><br>
-      Region: ${row.Region}<br>
-      Zone: ${row.Zone}<br>
-      P-code: ${row.adm3_pcode}<br>
-      LMRI: ${lmriVal === null ? "—" : (lmriVal * 100).toFixed(1) + "%"}<br>
-      Facilities: ${nVal === null ? "—" : nVal}<br>
-      HR count: ${hrVal === null ? "—" : hrVal}<br>
-      ${(safeNum(row.LowN_Flag) === 1) ? "<i>Low N caution</i>" : ""}
-    `;
-  }, { sticky: true });
+  layer.on("mouseout", () => {
+    if (adm3Layer) adm3Layer.resetStyle(layer);
+  });
 }
 
 // -------------------------
 // Circles (HR volume)
-// Only visible for features currently visible (filters applied)
+// Only for visible features (filters applied)
 // -------------------------
 function circleRadius(hr) {
   const x = Math.max(0, Number(hr) || 0);
@@ -163,8 +183,6 @@ function rebuildCircles() {
     const pcode = (layer.feature?.properties?.adm3_pcode || "").trim();
     const row = dataByPcode[pcode];
     if (!row) return;
-
-    // Must pass current filters AND be inside selected region if region is set
     if (!passesFilter(row)) return;
 
     const hrVal = safeNum(row[hr]);
@@ -229,8 +247,9 @@ function fitToSelection() {
 
 // -------------------------
 // ADM1 / ADM2 overlays rebuild
-// - National: show ALL ADM1 red
-// - Region selected: show ONLY selected ADM1 red, show ADM2 grey (only that region)
+// Colors required:
+// - ADM1 red always, but ONLY selected region when region filter active
+// - ADM2 grey only when region selected (and only inside that region)
 // -------------------------
 function styleAdm1() {
   return { fillOpacity: 0, weight: 2.6, color: "#C00000" }; // red
@@ -240,8 +259,6 @@ function styleAdm2() {
 }
 
 function regionMatch(props) {
-  // We try to match common naming conventions across OCHA layers
-  // Prefer adm1_name if present.
   const r = state.region;
   if (!r) return true;
 
@@ -257,19 +274,16 @@ function regionMatch(props) {
 }
 
 function rebuildAdminOverlays() {
-  // Remove existing layers
   if (adm1Layer && map.hasLayer(adm1Layer)) map.removeLayer(adm1Layer);
   if (adm2Layer && map.hasLayer(adm2Layer)) map.removeLayer(adm2Layer);
 
-  // ADM1: always visible, but filtered to selected region if region is set
   if (adm1Geo) {
     adm1Layer = L.geoJSON(adm1Geo, {
-      filter: f => state.region ? regionMatch(f.properties) : true,
+      filter: f => (state.region ? regionMatch(f.properties) : true),
       style: styleAdm1
     }).addTo(map);
   }
 
-  // ADM2: ONLY visible when a region is selected; also filtered to that region
   if (adm2Geo && state.region) {
     adm2Layer = L.geoJSON(adm2Geo, {
       filter: f => regionMatch(f.properties),
@@ -314,7 +328,7 @@ function populateZonesForRegion(region) {
 }
 
 // -------------------------
-// Apply changes
+// Apply all changes
 // -------------------------
 function applyAll() {
   if (adm3Layer) adm3Layer.setStyle(styleAdm3);
@@ -329,6 +343,7 @@ function applyAll() {
 // -------------------------
 ui.metric.addEventListener("change", () => {
   state.metric = ui.metric.value;
+  // tooltips auto-refresh on hover because we rebuild content on mouseover
   applyAll();
 });
 
@@ -358,8 +373,8 @@ Promise.all([
     if (!r.ok) throw new Error("Missing: data/adm3_ethiopia.geojson");
     return r.json();
   }),
-  fetch('data/adm1_ethiopia.geojson').then(r => r.ok ? r.json() : null),
-  fetch('data/adm2_ethiopia.geojson').then(r => r.ok ? r.json() : null),
+  fetch('data/adm1_ethiopia.geojson').then(r => (r.ok ? r.json() : null)),
+  fetch('data/adm2_ethiopia.geojson').then(r => (r.ok ? r.json() : null)),
   fetch('data/lmri_woreda_t2_pcode.csv').then(r => {
     if (!r.ok) throw new Error("Missing: data/lmri_woreda_t2_pcode.csv");
     return r.text();
@@ -369,20 +384,21 @@ Promise.all([
   adm1Geo = a1;
   adm2Geo = a2;
 
-  // Build lookup by pcode
   csvData.forEach(row => {
     const p = (row.adm3_pcode || "").trim();
     if (p) dataByPcode[p] = row;
   });
 
-  // Woreda layer
+  // ADM3 choropleth
   adm3Layer = L.geoJSON(adm3Geo, { style: styleAdm3, onEachFeature: onEachAdm3 }).addTo(map);
 
-  // Populate filters
+  // Filters
   populateRegions();
 
-  // Build overlays + initial view
+  // Overlays (ADM1 red always; ADM2 grey only when region selected)
   rebuildAdminOverlays();
+
+  // Initial view
   updateStats();
   map.fitBounds(adm3Layer.getBounds(), { padding: [10, 10] });
   rebuildCircles();
