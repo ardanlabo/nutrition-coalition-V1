@@ -13,6 +13,18 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // -------------------------
+// Panes (layer order is deterministic)
+// -------------------------
+map.createPane("adm3Pane"); // choropleth
+map.getPane("adm3Pane").style.zIndex = 400;
+
+map.createPane("adm2Pane"); // zone boundaries
+map.getPane("adm2Pane").style.zIndex = 500;
+
+map.createPane("adm1Pane"); // region boundaries (halo + red)
+map.getPane("adm1Pane").style.zIndex = 600;
+
+// -------------------------
 // State + UI
 // -------------------------
 let dataByPcode = {};
@@ -24,7 +36,7 @@ let adm1HaloLayer = null;            // white halo
 let adm1RedLayer = null;             // red outline
 let adm2Layer = null;                // zones outline (grey)
 
-let adm1Geo = null;                  // stored GeoJSON for rebuild
+let adm1Geo = null;
 let adm2Geo = null;
 
 const ui = {
@@ -82,7 +94,6 @@ function buildTooltipHTML(row) {
   const nVal = safeNum(row[n]);
   const hrVal = safeNum(row[hr]);
 
-  // Delta and support/no-support context if present
   const deltaVal = safeNum(row.Delta);
   const lmriSupport = safeNum(row.LMRI_Support);
   const lmriNoSupport = safeNum(row.LMRI_NoSupport);
@@ -107,27 +118,18 @@ function buildTooltipHTML(row) {
 }
 
 // -------------------------
-// ADM3 (woreda) styling
-// Borders:
-// - national: subtle dark grey
-// - region selected: black + stronger
-// Visibility:
-// - hide polygons outside selected region/zone
-// - hide polygons without data row (clean map)
+// ADM3 styling (woreda)
 // -------------------------
 function styleAdm3(feature) {
   const pcode = (feature?.properties?.adm3_pcode || "").trim();
   const row = dataByPcode[pcode];
 
+  // hide without data (clean)
   if (!row) return { fillOpacity: 0, weight: 0 };
 
-  if (state.region && row.Region !== state.region) {
-    return { fillOpacity: 0, weight: 0 };
-  }
-
-  if (state.zone && row.Zone !== state.zone) {
-    return { fillOpacity: 0, weight: 0 };
-  }
+  // drill-down hide other regions/zones
+  if (state.region && row.Region !== state.region) return { fillOpacity: 0, weight: 0 };
+  if (state.zone && row.Zone !== state.zone) return { fillOpacity: 0, weight: 0 };
 
   const { lmri, n } = getMetricFields();
   const v = safeNum(row[lmri]) ?? 0;
@@ -152,7 +154,7 @@ function onEachAdm3(feature, layer) {
   const row = dataByPcode[pcode];
   if (!row) return;
 
-  // Guarantee tooltip exists (never blank), refresh content on hover
+  // Tooltip always exists; content refreshed on hover
   layer.bindTooltip(buildTooltipHTML(row), {
     sticky: true,
     direction: "auto",
@@ -164,7 +166,7 @@ function onEachAdm3(feature, layer) {
       layer.closeTooltip();
       return;
     }
-    layer.setTooltipContent(buildTooltipHTML(row)); // refresh if metric changed
+    layer.setTooltipContent(buildTooltipHTML(row));
     layer.openTooltip();
     layer.setStyle({ weight: state.region ? 1.4 : 0.8 });
   });
@@ -179,7 +181,7 @@ function onEachAdm3(feature, layer) {
 // -------------------------
 function circleRadius(hr) {
   const x = Math.max(0, Number(hr) || 0);
-  return 2500 * Math.sqrt(x); // meters
+  return 2500 * Math.sqrt(x);
 }
 
 function rebuildCircles() {
@@ -255,21 +257,11 @@ function fitToSelection() {
 }
 
 // -------------------------
-// ADM1 / ADM2 overlays rebuild
-// Requirement:
-// - ADM1 red visible always, BUT when region selected: show ONLY that region
-// - Add halo under ADM1 red for clarity
-// - ADM2 grey ONLY when region selected (and only inside it)
+// ADM1/ADM2 overlays (NON-INTERACTIVE so they don't block tooltips)
 // -------------------------
-function styleAdm1Halo() {
-  return { fillOpacity: 0, weight: 6.0, color: "#FFFFFF" }; // white halo
-}
-function styleAdm1Red() {
-  return { fillOpacity: 0, weight: 2.8, color: "#C00000" }; // red line
-}
-function styleAdm2Grey() {
-  return { fillOpacity: 0, weight: 1.6, color: "#888" };   // grey line
-}
+function styleAdm1Halo() { return { fillOpacity: 0, weight: 6.0, color: "#FFFFFF" }; }
+function styleAdm1Red()  { return { fillOpacity: 0, weight: 2.8, color: "#C00000" }; }
+function styleAdm2Grey() { return { fillOpacity: 0, weight: 1.6, color: "#888" }; }
 
 function regionMatch(props) {
   const r = state.region;
@@ -294,14 +286,25 @@ function rebuildAdminOverlays() {
   if (adm1Geo) {
     const filterFn = f => (state.region ? regionMatch(f.properties) : true);
 
-    // Halo first (below)
-    adm1HaloLayer = L.geoJSON(adm1Geo, { filter: filterFn, style: styleAdm1Halo }).addTo(map);
-    // Red on top
-    adm1RedLayer  = L.geoJSON(adm1Geo, { filter: filterFn, style: styleAdm1Red }).addTo(map);
+    adm1HaloLayer = L.geoJSON(adm1Geo, {
+      pane: "adm1Pane",
+      interactive: false,
+      filter: filterFn,
+      style: styleAdm1Halo
+    }).addTo(map);
+
+    adm1RedLayer = L.geoJSON(adm1Geo, {
+      pane: "adm1Pane",
+      interactive: false,
+      filter: filterFn,
+      style: styleAdm1Red
+    }).addTo(map);
   }
 
   if (adm2Geo && state.region) {
     adm2Layer = L.geoJSON(adm2Geo, {
+      pane: "adm2Pane",
+      interactive: false,
       filter: f => regionMatch(f.properties),
       style: styleAdm2Grey
     }).addTo(map);
@@ -344,7 +347,7 @@ function populateZonesForRegion(region) {
 }
 
 // -------------------------
-// Apply all changes
+// Apply changes
 // -------------------------
 function applyAll() {
   if (adm3Layer) adm3Layer.setStyle(styleAdm3);
@@ -404,13 +407,18 @@ Promise.all([
     if (p) dataByPcode[p] = row;
   });
 
-  // ADM3 choropleth
-  adm3Layer = L.geoJSON(adm3Geo, { style: styleAdm3, onEachFeature: onEachAdm3 }).addTo(map);
+  // ADM3 choropleth (interactive, receives hover)
+  adm3Layer = L.geoJSON(adm3Geo, {
+    pane: "adm3Pane",
+    interactive: true,
+    style: styleAdm3,
+    onEachFeature: onEachAdm3
+  }).addTo(map);
 
   // Filters
   populateRegions();
 
-  // Overlays
+  // Overlays (non-interactive)
   rebuildAdminOverlays();
 
   // Initial view
