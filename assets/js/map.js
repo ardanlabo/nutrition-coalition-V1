@@ -13,28 +13,31 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // -------------------------
-// Panes (layer order is deterministic)
+// Panes (deterministic z-order + pointer-events control)
 // -------------------------
-map.createPane("adm3Pane"); // choropleth
+map.createPane("adm3Pane");
 map.getPane("adm3Pane").style.zIndex = 400;
+map.getPane("adm3Pane").style.pointerEvents = "auto"; // IMPORTANT: allow hover
 
-map.createPane("adm2Pane"); // zone boundaries
+map.createPane("adm2Pane");
 map.getPane("adm2Pane").style.zIndex = 500;
+map.getPane("adm2Pane").style.pointerEvents = "none"; // IMPORTANT: never block hover
 
-map.createPane("adm1Pane"); // region boundaries (halo + red)
+map.createPane("adm1Pane");
 map.getPane("adm1Pane").style.zIndex = 600;
+map.getPane("adm1Pane").style.pointerEvents = "none"; // IMPORTANT: never block hover
 
 // -------------------------
 // State + UI
 // -------------------------
 let dataByPcode = {};
 
-let adm3Layer = null;                // Choropleth layer (woreda)
+let adm3Layer = null;          // choropleth (woreda)
 let circlesLayer = L.layerGroup().addTo(map);
 
-let adm1HaloLayer = null;            // white halo
-let adm1RedLayer = null;             // red outline
-let adm2Layer = null;                // zones outline (grey)
+let adm1HaloLayer = null;
+let adm1RedLayer = null;
+let adm2Layer = null;
 
 let adm1Geo = null;
 let adm2Geo = null;
@@ -48,7 +51,7 @@ const ui = {
 };
 
 const state = {
-  metric: "nosupport", // "nosupport" | "support"
+  metric: "nosupport",
   region: "",
   zone: "",
   showCircles: true
@@ -85,9 +88,6 @@ function getColor(v) {
   return "#FFEDA0";
 }
 
-// -------------------------
-// Tooltip builder (full info)
-// -------------------------
 function buildTooltipHTML(row) {
   const { lmri, n, hr } = getMetricFields();
   const lmriVal = safeNum(row[lmri]);
@@ -118,16 +118,16 @@ function buildTooltipHTML(row) {
 }
 
 // -------------------------
-// ADM3 styling (woreda)
+// ADM3 (woreda) style
 // -------------------------
 function styleAdm3(feature) {
   const pcode = (feature?.properties?.adm3_pcode || "").trim();
   const row = dataByPcode[pcode];
 
-  // hide without data (clean)
+  // Hide polygons without data (clean)
   if (!row) return { fillOpacity: 0, weight: 0 };
 
-  // drill-down hide other regions/zones
+  // Drill-down hide other regions/zones
   if (state.region && row.Region !== state.region) return { fillOpacity: 0, weight: 0 };
   if (state.zone && row.Zone !== state.zone) return { fillOpacity: 0, weight: 0 };
 
@@ -138,7 +138,7 @@ function styleAdm3(feature) {
   const lowN = (safeNum(row.LowN_Flag) === 1) || (nVal > 0 && nVal < 5);
   const opacity = lowN ? 0.30 : 0.70;
 
-  const borderColor = state.region ? "#000" : "#444";
+  const borderColor = state.region ? "#000" : "#444";  // woreda borders black when drill-down
   const borderWeight = state.region ? 0.9 : 0.35;
 
   return {
@@ -154,20 +154,17 @@ function onEachAdm3(feature, layer) {
   const row = dataByPcode[pcode];
   if (!row) return;
 
-  // Tooltip always exists; content refreshed on hover
+  // Native Leaflet tooltip (stable hover)
   layer.bindTooltip(buildTooltipHTML(row), {
     sticky: true,
     direction: "auto",
     opacity: 0.95
   });
 
+  // Visual highlight on hover
   layer.on("mouseover", () => {
-    if (!passesFilter(row)) {
-      layer.closeTooltip();
-      return;
-    }
-    layer.setTooltipContent(buildTooltipHTML(row));
-    layer.openTooltip();
+    if (!passesFilter(row)) return;
+    layer.setTooltipContent(buildTooltipHTML(row)); // refresh if metric changed
     layer.setStyle({ weight: state.region ? 1.4 : 0.8 });
   });
 
@@ -257,7 +254,7 @@ function fitToSelection() {
 }
 
 // -------------------------
-// ADM1/ADM2 overlays (NON-INTERACTIVE so they don't block tooltips)
+// ADM1 / ADM2 overlays (non-interactive, so they never steal hover)
 // -------------------------
 function styleAdm1Halo() { return { fillOpacity: 0, weight: 6.0, color: "#FFFFFF" }; }
 function styleAdm1Red()  { return { fillOpacity: 0, weight: 2.8, color: "#C00000" }; }
@@ -407,7 +404,7 @@ Promise.all([
     if (p) dataByPcode[p] = row;
   });
 
-  // ADM3 choropleth (interactive, receives hover)
+  // ADM3 choropleth (interactive)
   adm3Layer = L.geoJSON(adm3Geo, {
     pane: "adm3Pane",
     interactive: true,
@@ -418,7 +415,7 @@ Promise.all([
   // Filters
   populateRegions();
 
-  // Overlays (non-interactive)
+  // Overlays
   rebuildAdminOverlays();
 
   // Initial view
