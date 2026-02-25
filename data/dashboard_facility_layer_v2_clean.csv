@@ -1,0 +1,1490 @@
+region,zone,woreda,adm3_pcode,hf_name,hf_id,otp_admitted_t1,otp_admitted_t2,otp_active_t1,otp_active_t2,lmri_t1_days,lmri_t2_days,lmri_t1_critical (0/1),lmri_t2_critical (0/1),lmri_delta (t2_days - t1_days),reporting_months_t1,reporting_months_t2,data_reliability_score_t2 (reporting_months_t2 / 6),low_data_flag (1 si DRS < 0.5),rutf_supply_modality_t1,rutf_supply_modality_t2
+Oromia,Kellem Wollega,Dembi Dollo,ET041806,Dembi Dollo,ET041806|dembi dollo|01,184,149,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Kellem Wollega,Dembi Dollo,ET041806,Biftu,ET041806|biftu|01,0,0,0,0,,,,,,,,,,1.0,1.0
+Oromia,Kellem Wollega,Dembi Dollo,ET041806,Dollo,ET041806|dollo|01,0,0,0,0,,,,,,,,,,1.0,1.0
+Oromia,Kellem Wollega,Dembi Dollo,ET041806,Denbi Dollo Hospital,ET041806|denbi dollo hospital|01,0,0,0,0,,,,,,,,,,,
+Oromia,Kellem Wollega,Sayo,ET041805,Ano HC,ET041805|ano hc|01,57,56,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 43 Health post,ET060305|mander 43 health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Womba health post,ET060305|womba health post|01,4,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Chuta Gochi,ET040103|chuta gochi|01,9,31,1,1,120.0,21.0,1.0,0.0,-99.0,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Inango Danbal,ET040103|inango danbal|01,10,11,1,1,60.0,33.0,1.0,1.0,-27.0,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Mendi Health center,ET040101|mendi health center|01,23,16,1,1,30.0,45.0,0.0,1.0,15.0,,,,,1.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Gombo Qiltu jale HP,ET040101|gombo qiltu jale hp|01,0,1,0,1,,100.0,,1.0,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Lafto salga Hp,ET040101|lafto salga hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Riga sachi Hp,ET040101|riga sachi hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Wara Jiru HC,ET040197|wara jiru hc|01,76,34,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 40 health post,ET060305|mander 40 health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 42 health post,ET060305|mander 42 health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 51 health post,ET060305|mander 51 health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 52 health post,ET060305|mander 52 health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Afa febnare,ET060305|afa febnare|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Afa buldaro,ET060305|afa buldaro|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Harawe Health center,ET040101|harawe health center|01,19,19,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,A/Danbi HP (tbe stracture not found) the only no HP,ET040101|a/danbi hp (tbe stracture not found) the only no hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Harawe danbi HP (the name only distracted during the confilict),ET040101|harawe danbi hp (the name only distracted during the confilict)|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Buke tobara HP,ET040101|buke tobara hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Buke sachi HP (No stractural HP is found ),ET040101|buke sachi hp (no stractural hp is found )|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Babo tobara HP,ET040101|babo tobara hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Qela Dabus HP (the stracture of the HP was damaged during the confilict .),ET040101|qela dabus hp (the stracture of the hp was damaged during the confilict .)|01,3,0,1,0,150.0,,1.0,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Bengowa HP,ET040101|bengowa hp|01,14,0,1,0,30.0,,0.0,,,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Kersa walga HP,ET040101|kersa walga hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Selama,ET060305|selama|01,3,8,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Shobora,ET060305|shobora|01,5,1,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Shingla,ET060305|shingla|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Jematsa Health center,ET060305|jematsa health center|01,5,3,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Keshimando 2,ET060305|keshimando 2|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander47 HP,ET060305|mander47 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 48 HP,ET060305|mander 48 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 49 HP,ET060305|mander 49 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Tole health post,ET040103|tole health post|01,20,8,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Bikiltu Tokuma,ET040103|bikiltu tokuma|01,12,22,1,1,90.0,120.0,1.0,1.0,30.0,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Jogir Health center,ET040103|jogir health center|01,13,13,1,1,10.0,21.0,0.0,0.0,11.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Mukfude,0|mukfude|01,10,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Onidel,0|onidel|01,2,5,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Dabus atibako,0|dabus atibako|01,6,4,1,1,0.0,5.0,0.0,0.0,5.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Mugofude,0|mugofude|01,3,8,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba 3,0|amba 3|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba 4,0|amba 4|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Hoha 15,0|hoha 15|01,ND,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mutsa showara,ET060305|mutsa showara|01,1,2,1,1,0.0,20.0,0.0,0.0,20.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mutsa sirna,ET060305|mutsa sirna|01,4,9,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Eshen Almetema,ET060305|eshen almetema|01,4,2,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Eshen Alkeshafi (wolega),ET060305|eshen alkeshafi (wolega)|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mender 55,ET060305|mender 55|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mender 50,ET060305|mender 50|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Belmili,0|belmili|01,0,2,0,1,,10.0,,0.0,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Selga 20,0|selga 20|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Menage selga,0|menage selga|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Basha buda,0|basha buda|01,1,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Felderu,0|felderu|01,ND,2,1,1,180.0,0.0,1.0,0.0,-180.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Akuda,0|akuda|01,8,8,1,1,0.0,10.0,0.0,0.0,10.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Baro,0|baro|01,1,1,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Robeyu,0|robeyu|01,1,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Ambu 2,0|ambu 2|01,2,1,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Oura HC,0|oura hc|01,6,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Kellem Wollega,Sayo,ET041805,Mata,ET041805|mata|01,3,3,1,1,14.0,0.0,0.0,0.0,-14.0,,,,,1.0,1.0
+Oromia,Kellem Wollega,Sayo,ET041805,Kure Geyib Health Center,ET041805|kure geyib health center|01,58,59,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,1.0,1.0
+Oromia,Kellem Wollega,Sayo,ET041805,Duli Hc,ET041805|duli hc|01,15,16,1,1,20.0,7.0,0.0,0.0,-13.0,,,,,1.0,1.0
+Benishangul Gumuz,Assosa,Oura,0,Testes,0|testes|01,2,1,1,1,0.0,180.0,0.0,1.0,180.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba9,0|amba9|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Wudaba,0|wudaba|01,4,4,1,1,5.0,15.0,0.0,0.0,10.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba7,0|amba7|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Alubo,0|alubo|01,1,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Agusha,0|agusha|01,3,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Newi,ET010208|newi|01,19,18,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Dedere,ET010208|dedere|01,9,53,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Bulpili,ET060306|bulpili|01,5,9,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Belfudi,ET060306|belfudi|01,14,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Zumba-02,ET060306|zumba-02|01,8,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abi Adi,ET010211,Abi Adi health center,ET010211|abi adi health center|01,88,100,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Alalitu  Gombi HP,ET040101|alalitu gombi hp|01,0,0,0,0,,,,,,,,,,,
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Megale,ET060306|megale|01,15,23,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Agbe HC,ET010222|agbe hc|01,0,4,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Rubakeze HC,ET010222|rubakeze hc|01,0,1,0,1,,27.0,,0.0,,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Limat HP,ET010222|limat hp|01,18,11,1,1,30.0,17.0,0.0,0.0,-13.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Selam HP,ET010222|selam hp|01,39,25,1,1,29.0,20.0,0.0,0.0,-9.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Adiweyane HP,ET010222|adiweyane hp|01,29,9,1,1,24.0,18.0,0.0,0.0,-6.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Sheka tekli,ET010222|sheka tekli|01,33,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Simret HP,ET010222|simret hp|01,83,16,1,1,21.0,0.0,0.0,0.0,-21.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Menachke HP,ET010222|menachke hp|01,11,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Gori HC,ET040197|gori hc|01,50,34,1,1,9.0,90.0,0.0,1.0,81.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Hadash tekli,ET010222|hadash tekli|01,5,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Bambasi health center,ET060305|bambasi health center|01,7,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Guya HC,ET010208|guya hc|01,27,74,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Guroro HC,ET010208|guroro hc|01,24,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Arena HC,ET010208|arena hc|01,57,52,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Baga sheka,ET010208|baga sheka|01,19,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,D/Netseb,ET010208|d/netseb|01,32,53,1,1,0.0,15.0,0.0,0.0,15.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Dabus,ET060305|dabus|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 44 health post,ET060305|mander 44 health post|01,0,1,0,1,,150.0,,1.0,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 45 health post,ET060305|mander 45 health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Beltsere HC,ET060306|beltsere hc|01,16,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Belanjaro HP,ET060306|belanjaro hp|01,4,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Zumba -o1 HP,ET060306|zumba -o1 hp|01,11,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Daharezab HC,ET060306|daharezab hc|01,15,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Abba Eebba,ET040197|abba eebba|01,0,18,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Amuma Gorgis,ET040197|amuma gorgis|01,4,5,1,1,90.0,0.0,1.0,0.0,-90.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba5,0|amba5|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Sombo sadan Gitan,ET040197|sombo sadan gitan|01,ND,ND,1,1,90.0,120.0,1.0,1.0,30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba6,0|amba6|01,ND,0,1,0,180.0,,1.0,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba1,0|amba1|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba11,0|amba11|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Buke Gori,ET040197|buke gori|01,ND,ND,1,1,90.0,90.0,1.0,1.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba10,0|amba10|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Amba8,0|amba8|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,Kellem Wollega,Hawa Gelan,ET041801,Machara health center,ET041801|machara health center|01,223,216,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Kellem Wollega,Hawa Gelan,ET041801,Gaba Robi Health center,ET041801|gaba robi health center|01,59,73,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Kellem Wollega,Hawa Gelan,ET041801,Hawa Galan primary hospital,ET041801|hawa galan primary hospital|01,0,0,0,0,,,,,,,,,,,
+Oromia,Kellem Wollega,Hawa Gelan,ET041801,Haro machara HP (new OTP site which started in July/2025),ET041801|haro machara hp (new otp site which started in july/2025)|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,Kellem Wollega,Hawa Gelan,ET041801,Gudina wacho HP (new OTP site which started in July 2025),ET041801|gudina wacho hp (new otp site which started in july 2025)|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,Kellem Wollega,Hawa Gelan,ET041801,Arere health center,ET041801|arere health center|01,57,52,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Kellem Wollega,Hawa Gelan,ET041801,Site 21 health center (OTP and SC service reinitiated after More than 5 months of discontinuation),ET041801|site 21 health center (otp and sc service reinitiated after more than 5 months of discontinuation)|01,68,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Oura Daraselam,0|oura daraselam|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Gumba Alifashhir Hc,0|gumba alifashhir hc|01,4,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Aniya HC,ET041013|aniya hc|01,0,0,0,0,,,,,,,,,,,
+Benishangul Gumuz,Assosa,Oura,0,Gumba telifadari,0|gumba telifadari|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Selga22 HC,0|selga22 hc|01,0,2,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Selga24,0|selga24|01,0,1,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Selga23,0|selga23|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Selga19,0|selga19|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Hoha18,0|hoha18|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Genami HP,ET041013|genami hp|01,31,27,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,East Hararghe,Gurawa,ET041016,K/Kas,ET041016|k/kas|01,34,19,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Dursitu,ET041016|dursitu|01,23,28,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Tuta Jeneta,ET041016|tuta jeneta|01,7,13,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Areblija HP,ET041016|areblija hp|01,8,19,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Mizan HP,ET010222|mizan hp|01,26,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tanqua Milash,ET010222,Agbe HP,ET010222|agbe hp|01,6,9,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Dogu Town Hp,ET041016|dogu town hp|01,7,11,1,1,60.0,45.0,1.0,1.0,-15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Dogu Hc,ET041016|dogu hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Gurawa,ET041016,M/J/Belina Hp,ET041016|m/j/belina hp|01,15,4,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Rasa Negeya Hp,ET041016|rasa negeya hp|01,32,18,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Tokuma Hire Hp,ET041016|tokuma hire hp|01,8,18,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Meda Jalela Hp,ET041016|meda jalela hp|01,5,48,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Dalo sewa,ET040103|dalo sewa|01,0,0,0,0,,,,,,,,,,,
+Oromia,West Wollega,Gimbi,ET040103,Dalo sewa,ET040103|dalo sewa|02,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Lalisa Yesus,ET040103|lalisa yesus|01,ND,3,1,1,60.0,10.0,1.0,0.0,-50.0,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Cuta gorgis,ET040103|cuta gorgis|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Amuma Alaltu,ET040197|amuma alaltu|01,4,5,1,1,120.0,100.0,1.0,1.0,-20.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Mura wanki,ET040197|mura wanki|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Gida Bundi,ET040197|gida bundi|01,3,4,1,1,80.0,60.0,1.0,1.0,-20.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Ganka Gitan,ET040197|ganka gitan|01,6,5,1,1,40.0,90.0,1.0,1.0,50.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Deber Tsahay,ET010208|deber tsahay|01,11,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Waligalte warajiru,ET040197|waligalte warajiru|01,7,10,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Gida Dale,ET040197|gida dale|01,5,4,1,1,50.0,65.0,1.0,1.0,15.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Gori 02,ET040197|gori 02|01,5,ND,1,1,0.0,120.0,0.0,1.0,120.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Lomicha dulo,ET040197|lomicha dulo|01,8,7,1,1,15.0,20.0,0.0,0.0,5.0,,,,,0.0,0.0
+Oromia,West Wollega,Lataa sibuu,ET040197,Wara Jiru 01,ET040197|wara jiru 01|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Bedeno,ET041013|bedeno|01,49,29,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,1.0,1.0
+Oromia,East Hararghe,Bedeno,ET041013,Caffe Belina,ET041013|caffe belina|01,39,17,1,1,38.0,0.0,1.0,0.0,-38.0,,,,,1.0,1.0
+Oromia,East Hararghe,Bedeno,ET041013,Dhertu,ET041013|dhertu|01,22,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,East Hararghe,Bedeno,ET041013,Hincini,ET041013|hincini|01,17,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,East Hararghe,Bedeno,ET041013,Hindessa,ET041013|hindessa|01,13,12,1,1,14.0,0.0,0.0,0.0,-14.0,,,,,1.0,1.0
+Oromia,East Hararghe,Bedeno,ET041013,Lenca,ET041013|lenca|01,27,29,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,East Hararghe,Bedeno,ET041013,Bereket,ET041013|bereket|01,25,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,East Hararghe,Bedeno,ET041013,Tortora kela,ET041013|tortora kela|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Bedeno,ET041013,Ije buna,ET041013|ije buna|01,21,14,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,1.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Oda Bishani,ET041013|oda bishani|01,22,38,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Ilil Derartu,ET041013|ilil derartu|01,9,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Tortora kella,ET041013|tortora kella|01,66,61,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,0.0,1.0
+Oromia,East Hararghe,Gola Oda,ET041017,Jaben,ET041017|jaben|01,37,25,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Tuula,ET041017|tuula|01,36,37,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Tirtiro 03,ET041017|tirtiro 03|01,11,33,1,1,20.0,30.0,0.0,0.0,10.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Tirtiro 02,ET041017|tirtiro 02|01,28,29,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Biftu Negaya,ET041017|biftu negaya|01,22,20,1,1,25.0,30.0,0.0,0.0,5.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Dima Jeneta,ET041017|dima jeneta|01,49,53,1,1,25.0,20.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Burqa Health Center,ET041017|burqa health center|01,101,64,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Dima Misra,ET041017|dima misra|01,44,42,1,1,25.0,120.0,0.0,1.0,95.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Golo Negaya,ET041017|golo negaya|01,32,23,1,1,35.0,30.0,1.0,0.0,-5.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Goro Abu,ET041017|goro abu|01,13,10,1,1,35.0,30.0,1.0,0.0,-5.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Goro Abu Health Center,ET041017|goro abu health center|01,33,12,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Megartu,ET041016|megartu|01,8,12,1,1,30.0,45.0,0.0,1.0,15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Ifa Bate,ET041016|ifa bate|01,11,12,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 46 health center,ET060305|mander 46 health center|01,3,2,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Mander 46 HP,ET060305|mander 46 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Areblija HC,ET041016|areblija hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Gurawa,ET041016,Milkawa,ET041016|milkawa|01,21,6,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,LIMAT HP,ET010221|limat hp|01,8,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,G/melisley HP,ET010221|g/melisley hp|01,36,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Workamba HC (cluster pon),ET010221|workamba hc (cluster pon)|01,39,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Dembela HP,ET010221|dembela hp|01,14,13,1,1,0.0,21.0,0.0,0.0,21.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Gelebeda HC,ET010221|gelebeda hc|01,45,32,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Adi-ha HC,ET010221|adi-ha hc|01,11,15,1,1,0.0,14.0,0.0,0.0,14.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Wuhdet HP,ET010221|wuhdet hp|01,82,38,1,1,21.0,7.0,0.0,0.0,-14.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,A/bkalsi HP,ET010221|a/bkalsi hp|01,26,33,1,1,0.0,14.0,0.0,0.0,14.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Dr.Ataklti HP,ET010221|dr.ataklti hp|01,22,9,1,1,7.0,0.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Tsetsera HC,ET010221|tsetsera hc|01,43,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Menji HP,ET010221|menji hp|01,25,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Dabanew,ET010221|dabanew|01,52,47,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Tigray,Central,Keyh-Tekli,ET010221,Selam HP,ET010221|selam hp|01,22,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Gruwre,ET010210|gruwre|01,23,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Yechila primary hospital,ET010210|yechila primary hospital|01,41,27,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,E/rufael,ET010210|e/rufael|01,18,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,F/hiwot,ET010210|f/hiwot|01,15,30,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Lemlem,ET010210|lemlem|01,26,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,N/birhan,ET010210|n/birhan|01,31,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Hadnet,ET010210|hadnet|01,5,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Simret,ET010210|simret|01,38,44,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,T/weyni,ET010210|t/weyni|01,15,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Gera,ET010210|gera|01,24,50,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Siye,ET010210|siye|01,47,47,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Jijike,ET010210|jijike|01,28,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Tseykeme,ET010210|tseykeme|01,13,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Abergelle Yechila,ET010210,Hidmo HP,ET010210|hidmo hp|01,6,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Melbana Health post,ET041216|melbana health post|01,10,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,M/ Furda,ET041013|m/ furda|01,4,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Gorowodo,ET041013|gorowodo|01,8,10,1,1,35.0,0.0,1.0,0.0,-35.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Tirtiro Manguddo,ET041013|tirtiro manguddo|01,15,28,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Rasa Jeneta,ET041013|rasa jeneta|01,26,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Furda,ET041013|furda|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Bedeno,ET041013,Ije biya,ET041013|ije biya|01,29,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Dadafurda,ET041013|dadafurda|01,13,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Meyra Gudina Hp,ET041016|meyra gudina hp|01,33,28,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Lafto Somolo Hp,ET041016|lafto somolo hp|01,26,22,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Dire Gemechu Hp,ET041016|dire gemechu hp|01,37,43,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Lafto Harawa Hp,ET041016|lafto harawa hp|01,23,25,1,1,30.0,45.0,0.0,1.0,15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Mojo Sade Hp,ET041016|mojo sade hp|01,40,49,1,1,0.0,75.0,0.0,1.0,75.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Mojo Adano Hp,ET041016|mojo adano hp|01,19,12,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Mata Mojo Hp,ET041016|mata mojo hp|01,26,17,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Lafto Hc,ET041016|lafto hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Gurawa,ET041016,Megala Arba HC,ET041016|megala arba hc|01,0,0,0,0,,,,,,,,,,,
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Buldigilu HC,ET060306|buldigilu hc|01,3,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Duli HP,ET060306|duli hp|01,7,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Abango HP,ET060306|abango hp|01,6,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Buchi,ET060306|buchi|01,4,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Bambasi 02HP,ET060305|bambasi 02hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Bambasi o1 HP,ET060305|bambasi o1 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Sonka Health post,ET060305|sonka health post|01,180,3,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Keshimado 4 HP,ET060305|keshimado 4 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Kwshimado 4,ET060305|kwshimado 4|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Keshimado 1 HP,ET060305|keshimado 1 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Keshimado 3 HP,ET060305|keshimado 3 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Aba sena,ET040103|aba sena|01,2,7,1,1,45.0,90.0,1.0,1.0,45.0,,,,,0.0,0.0
+Oromia,Borena,Guchi,ET041290,Luboma,ET041290|luboma|01,12,9,1,1,0.0,2.0,0.0,0.0,2.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Jematsa HP,ET060305|jematsa hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Wadesa warka,ET040103|wadesa warka|01,3,2,1,1,27.0,0.0,0.0,0.0,-27.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Pinyudo primary hospital,ET120203|pinyudo primary hospital|01,18,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Beldush HP,ET060306|beldush hp|01,2,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Gimbi,ET040103,Gambela 01,ET040103|gambela 01|01,0,8,0,1,,45.0,,1.0,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Ida dabus,ET060305|ida dabus|01,1,3,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Buda salga HP,ET060305|buda salga hp|01,0,2,0,1,,120.0,,1.0,,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Chulul jiru Belina HP,ET041016|chulul jiru belina hp|01,13,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Lafto Ela Tatesa HP,ET041016|lafto ela tatesa hp|01,11,10,1,1,15.0,15.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Mojo Tasimo,ET041016|mojo tasimo|01,9,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Mojo baledi HP,ET041016|mojo baledi hp|01,25,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Bedeno H/C,ET041013|bedeno h/c|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Bedeno,ET041013,Bedeno hospital,ET041013|bedeno hospital|01,0,0,0,0,,,,,,,,,,,
+Benishangul Gumuz,Assosa,Bambasi,ET060305,sisa 2 HP,ET060305|sisa 2 hp|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Sisa 1 HP,ET060305|sisa 1 hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Ayanto HP,ET060305|ayanto hp|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Golema HP,ET060305|golema hp|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Shio HP,ET060305|shio hp|01,ND,9,1,1,180.0,60.0,1.0,1.0,-120.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Bergosh HP,ET060305|bergosh hp|01,ND,ND,1,1,180.0,0.0,1.0,0.0,-180.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Guya,ET010208|guya|01,31,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Jirubelina HP,ET041013|jirubelina hp|01,29,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Burka Nagaya HP,ET041013|burka nagaya hp|01,31,18,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Tortora gudda Hap,ET041013|tortora gudda hap|01,24,15,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,itang health center,ET120407|itang health center|01,13,10,1,1,0.0,10.0,0.0,0.0,10.0,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,pol/birhane  selam,ET120407|pol/birhane selam|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,mera health post,ET120407|mera health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,pulkode health post,ET120407|pulkode health post|01,14,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,telul health post,ET120407|telul health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,wanky health post,ET120407|wanky health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,adong health post,ET120407|adong health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,leer health center,ET120407|leer health center|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,pukumu,ET120407|pukumu|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,Eliya health center,ET120407|eliya health center|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,Ebago health post,ET120407|ebago health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,Bazil health center,ET120407|bazil health center|01,20,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,watgach health post,ET120407|watgach health post|01,9,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,drong health post,ET120407|drong health post|01,17,15,1,1,6.0,8.0,0.0,0.0,2.0,,,,,0.0,0.0
+Gambella,Itang Special woreda,Intang,ET120407,war health post,ET120407|war health post|01,14,18,1,1,6.0,7.0,0.0,0.0,1.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Deber Genet,ET010208|deber genet|01,8,10,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Simert,ET010208|simert|01,38,34,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Zelakime,ET010208|zelakime|01,15,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Haro belina HP,ET041013|haro belina hp|01,15,31,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Weldiya Rammis,ET041013|weldiya rammis|01,24,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Bachek kela HP,ET041013|bachek kela hp|01,23,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Biyo Ramis HP,ET041013|biyo ramis hp|01,42,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Kushi mengl health center,0|kushi mengl health center|01,ND,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Afednsho,0|afednsho|01,5,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Selga21,0|selga21|01,0,1,0,1,,60.0,,1.0,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Oura,0,Tsentshalu,0|tsentshalu|01,1,1,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Meta Ramis HC,ET041013|meta ramis hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Bedeno,ET041013,Meta Ramis Hp,ET041013|meta ramis hp|01,76,54,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Gololcha Ramis Hp,ET041013|gololcha ramis hp|01,45,37,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Dirota Ramis Hp,ET041013|dirota ramis hp|01,33,40,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Manguddo Ramis Hp,ET041013|manguddo ramis hp|01,35,59,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Shelum Ememi,ET010208|shelum ememi|01,41,12,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Merere,ET010208|merere|01,39,23,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Chamo,ET010208|chamo|01,27,76,1,1,0.0,45.0,0.0,1.0,45.0,,,,,0.0,0.0
+Tigray,Central,Kolla-tembien,ET010208,Yakar,ET010208|yakar|01,28,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Hariro Gulti Hp,ET041013|hariro gulti hp|01,11,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Dechatu Mojo Hp,ET041013|dechatu mojo hp|01,4,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Mojo Hamid Hp,ET041013|mojo hamid hp|01,18,10,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Dodota Mojo Hp,ET041013|dodota mojo hp|01,17,12,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Hariro Gulti H/c,ET041013|hariro gulti h/c|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Gola Oda,ET041017,Mojo Health Center,ET041017|mojo health center|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Gola Oda,ET041017,Mojo,ET041017|mojo|01,3,8,1,1,20.0,30.0,0.0,0.0,10.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Tirtiro Deneba,ET041017|tirtiro deneba|01,16,15,1,1,20.0,30.0,0.0,0.0,10.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Haranacha,ET041017|haranacha|01,69,55,1,1,20.0,30.0,0.0,0.0,10.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Jidomisra,ET041017|jidomisra|01,78,93,1,1,25.0,20.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Satawa,ET041017|satawa|01,71,57,1,1,30.0,25.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Bereda Lencha,ET041017|bereda lencha|01,61,74,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Chopi Degaga,ET041017|chopi degaga|01,70,84,1,1,45.0,0.0,1.0,0.0,-45.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Chopi Miawa,ET041017|chopi miawa|01,93,109,1,1,40.0,45.0,1.0,1.0,5.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Gowgoe,ET041017|gowgoe|01,64,88,1,1,40.0,40.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gola Oda,ET041017,Gowgow,ET041017|gowgow|01,61,72,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Oleny,ET120203|oleny|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Pochalla health center,ET120203|pochalla health center|01,6,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Thata Health Post,ET120203|thata health post|01,8,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Mendi,ET040198,Mendi primary Hospital,ET040198|mendi primary hospital|01,0,0,0,0,,,,,,,,,,,
+Oromia,West Wollega,Mena Sibu,ET040101,Wama Health center,ET040101|wama health center|01,12,15,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Kara wayu Afa Jabbi HP,ET040101|kara wayu afa jabbi hp|01,2,3,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Chala dabus HP,ET040101|chala dabus hp|01,5,7,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Guyo xayiba HP,ET040101|guyo xayiba hp|01,2,3,1,1,90.0,90.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,West Wollega,Mena Sibu,ET040101,Wajeiti kiltu lubo HP,ET040101|wajeiti kiltu lubo hp|01,3,4,1,1,90.0,90.0,1.0,1.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Agenga health post,ET120203|agenga health post|01,6,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Pwoljay health post,ET120203|pwoljay health post|01,5,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Gog dipach health center,ET120203|gog dipach health center|01,8,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Jingjor health post,ET120203|jingjor health post|01,2,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Athete health post,ET120203|athete health post|01,2,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Aukoy health post,ET120203|aukoy health post|01,5,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gog,ET120203,Okedi health post,ET120203|okedi health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Buldigilu -01,ET060306|buldigilu -01|01,1,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Buldigilu-02,ET060306|buldigilu-02|01,0,1,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Belfudi,ET060306|belfudi|02,1,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Kunfi,ET060306|kunfi|01,2,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Alkashaf Hc,ET060306|alkashaf hc|01,9,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Alkashf HP,ET060306|alkashf hp|01,0,1,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Belmili Hp,ET060306|belmili hp|01,2,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Beladaru HP,ET060306|beladaru hp|01,2,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Kedoshonshol Hp,ET060306|kedoshonshol hp|01,2,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Daharezab Hp,ET060306|daharezab hp|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Kedo Jp,ET060306|kedo jp|01,1,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Milindu Hp,ET060306|milindu hp|01,2,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Buldigilu,ET060306,Faduni Hp,ET060306|faduni hp|01,2,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Boshima kerkege HP,ET060305|boshima kerkege hp|01,ND,3,1,1,180.0,0.0,1.0,0.0,-180.0,,,,,0.0,0.0
+Benishangul Gumuz,Assosa,Bambasi,ET060305,Boshima maekel Hp,ET060305|boshima maekel hp|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Kurfa biyo,ET041016|kurfa biyo|01,6,19,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Biftu HP,ET041016|biftu hp|01,16,16,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Gefra kenchera HP,ET041016|gefra kenchera hp|01,14,12,1,1,0.0,45.0,0.0,1.0,45.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Jiru gemachu HP,ET041016|jiru gemachu hp|01,18,16,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Goro Jalela HP,ET041016|goro jalela hp|01,6,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Lencha HP,ET041016|lencha hp|01,40,47,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Rasa Jeneta HP,ET041016|rasa jeneta hp|01,18,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Hula jeneta HP,ET041016|hula jeneta hp|01,17,24,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Birbirsa HP,ET041016|birbirsa hp|01,63,30,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Ejersa tobota Hp,ET041016|ejersa tobota hp|01,17,3,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,B/Gudina Hp,ET041016|b/gudina hp|01,49,89,1,1,0.0,45.0,0.0,1.0,45.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,O/Jeneta Hp,ET041016|o/jeneta hp|01,54,50,1,1,45.0,0.0,1.0,0.0,-45.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,B/M/Lalisa,ET041016|b/m/lalisa|01,40,39,1,1,45.0,0.0,1.0,0.0,-45.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,B/Jeneta,ET041016|b/jeneta|01,12,36,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,G/Burqaa,ET041016|g/burqaa|01,39,31,1,1,45.0,0.0,1.0,0.0,-45.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Qufa,ET041016|qufa|01,36,47,1,1,45.0,0.0,1.0,0.0,-45.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Girawa Town,ET041016|girawa town|01,25,32,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Girawa,ET041016|girawa|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Gurawa,ET041016,Melba HC,ET041016|melba hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Gurawa,ET041016,Oromitu HC,ET041016|oromitu hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Bedeno,ET041013,Haradeneba HC,ET041013|haradeneba hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Bedeno,ET041013,Haradeneba Hp,ET041013|haradeneba hp|01,42,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Burka bedhaso Hp,ET041013|burka bedhaso hp|01,24,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Hashuko Hp,ET041013|hashuko hp|01,15,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Bortolo Hp,ET041013|bortolo hp|01,38,63,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Harokersa HC,ET041013|harokersa hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Bedeno,ET041013,Kara Ifa HP,ET041013|kara ifa hp|01,21,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Gobaharo HP,ET041013|gobaharo hp|01,29,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Meda Nagaya HP,ET041013|meda nagaya hp|01,11,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Bedeno,ET041013,Haro Qarsa HP,ET041013|haro qarsa hp|01,7,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Tsata HP,ET030808|tsata hp|01,63,36,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Azira Beleka HP,ET030808|azira beleka hp|01,22,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Zanziba HP,ET030808|zanziba hp|01,25,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Arisherewa HP,ET030808|arisherewa hp|01,28,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Mikun HP,ET030808|mikun hp|01,50,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Etikun HP,ET030808|etikun hp|01,37,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Shimlia Albeta  HP,ET030808|shimlia albeta hp|01,32,23,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Selmage HP,ET030808|selmage hp|01,38,29,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Cherey  HP,ET030808|cherey hp|01,22,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Bad HP,ET030808|bad hp|01,18,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Tsagbiji,ET030808,Selmage HC,ET030808|selmage hc|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Tsagbiji,ET030808,Mikun HC,ET030808|mikun hc|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Tsagbiji,ET030808,Tsata HC,ET030808|tsata hc|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Ziqulla,ET030801,Debire-Abay  HP,ET030801|debire-abay hp|01,32,53,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Gambella,Agnuak,Gambella Zuriya,ET120202,"Jewi Nutrition site-1 ,2 and 3","ET120202|jewi nutrition site-1 ,2 and 3|01",377,492,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Erise-Genet  HP,ET030801|erise-genet hp|01,71,45,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Hagere-Selam  HP,ET030801|hagere-selam hp|01,7,74,1,1,0.0,8.0,0.0,0.0,8.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Semen-Ber  HP,ET030801|semen-ber hp|01,15,25,1,1,5.0,0.0,0.0,0.0,-5.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Debire abeba HP,ET030801|debire abeba hp|01,8,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Addis fire HP,ET030801|addis fire hp|01,16,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Neka tederaje HP,ET030801|neka tederaje hp|01,55,50,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Keka Mariyam HP,ET030801|keka mariyam hp|01,21,47,1,1,4.0,11.0,0.0,0.0,7.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Addis alem HP,ET030801|addis alem hp|01,14,90,1,1,15.0,30.0,0.0,0.0,15.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Dil betegel HP,ET030801|dil betegel hp|01,18,56,1,1,0.0,20.0,0.0,0.0,20.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Nesa Worke,ET030801|nesa worke|01,38,45,1,1,14.0,7.0,0.0,0.0,-7.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Nesantet Melkam,ET030801|nesantet melkam|01,19,32,1,1,4.0,0.0,0.0,0.0,-4.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Tsiska HP,ET030801|tsiska hp|01,50,56,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Debire-Tsehay  HP,ET030801|debire-tsehay hp|01,46,183,1,1,5.0,7.0,0.0,0.0,2.0,,,,,1.0,1.0
+Amhara,Waghimra,Abergelle,ET030805,D/Birhan HP,ET030805|d/birhan hp|01,18,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Itang Special woreda,Nguenyyiel refugee camp,ET120407,Nguenyyiel Nutrition site 1,ET120407|nguenyyiel nutrition site 1|01,527,731,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Abergelle,ET030805,Adizelagni HP,ET030805|adizelagni hp|01,32,34,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Sikala HP,ET030805|sikala hp|01,37,43,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Silala,ET041216|silala|01,7,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Tsiska  health center,ET030801|tsiska health center|01,50,56,1,1,4.0,10.0,0.0,0.0,6.0,,,,,1.0,1.0
+Amhara,Waghimra,Abergelle,ET030805,Saka,ET030805|saka|01,29,38,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Wirkadinu HP,ET030805|wirkadinu hp|01,65,35,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Kedamit  Health center,ET030801|kedamit health center|01,58,101,1,1,14.0,14.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Telaje Health Center,ET030801|telaje health center|01,14,90,1,1,30.0,60.0,0.0,1.0,30.0,,,,,1.0,1.0
+Gambella,Agnuak,Pinyudo I refugee camp,ET120407,Pinyudo 1 Refugee Camp,ET120407|pinyudo 1 refugee camp|01,304,440,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Areshewa Health Center,ET030801|areshewa health center|01,55,50,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Mishira Health Center,ET030801|mishira health center|01,7,74,1,1,14.0,60.0,0.0,1.0,46.0,,,,,1.0,1.0
+Gambella,Agnuak,Pinyudo II Refugee camp,ET120407,Pinyudo 2 Refugee Camp,ET120407|pinyudo 2 refugee camp|01,31,78,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,Waghimra,Ziqulla,ET030801,Tiska primary Hospital,ET030801|tiska primary hospital|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Abergelle,ET030805,Genet HP,ET030805|genet hp|01,12,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Tsana HP,ET030805|tsana hp|01,18,50,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Firtatiku HP,ET030805|firtatiku hp|01,29,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Niwrak Health Center,ET030805|niwrak health center|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Abergelle,ET030805,Seria Health Center,ET030805|seria health center|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Abergelle,ET030805,Tsana Health Center,ET030805|tsana health center|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Abergelle,ET030805,Ambadago Health Center,ET030805|ambadago health center|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Abergelle,ET030805,Ambadago HP,ET030805|ambadago hp|01,33,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Tsilari Gergeb HP,ET030805|tsilari gergeb hp|01,66,64,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Debi Health Center,ET030805|debi health center|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Guchi,ET041290,Gofa HC,ET041290|gofa hc|01,5,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Guchi,ET041290,Irdari HC,ET041290|irdari hc|01,8,6,1,1,5.0,0.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Shirfamba HP,ET030805|shirfamba hp|01,17,29,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Dihirigiba HP,ET030805|dihirigiba hp|01,13,69,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Kuaro HP,ET030805|kuaro hp|01,42,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Debi HP,ET030805|debi hp|01,25,31,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Beleka HP,ET030805|beleka hp|01,19,53,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Hadawe,ET050604|hadawe|01,5,6,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Niwrak HP,ET030805|niwrak hp|01,54,41,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Billaa,ET041212|billaa|01,18,24,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Bule korma HC,ET041212|bule korma hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Teltalle,ET041212,Bule kormaHP,ET041212|bule kormahp|01,19,47,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Gandhilee,ET041212|gandhilee|01,13,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Dibe Gaya HC,ET041212|dibe gaya hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Teltalle,ET041212,Dibe Gaya Hp,ET041212|dibe gaya hp|01,13,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Elkune,ET041212|elkune|01,18,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Kare Horda,ET041016|kare horda|01,8,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Hake bas,ET041016|hake bas|01,8,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Wajin jirenya,ET041016|wajin jirenya|01,10,14,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Hake bas HC,ET041016|hake bas hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Miyo,ET041216,Hidi,ET041216|hidi|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Hararghe,Gurawa,ET041016,Tokuma Jalela,ET041016|tokuma jalela|01,8,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Doroba 03,ET041016|doroba 03|01,6,17,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Chefe jeneta,ET041016|chefe jeneta|01,7,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Hararghe,Gurawa,ET041016,Doroba 03,ET041016|doroba 03|02,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Moyale,ET041210,Hararsam hp,ET041210|hararsam hp|01,14,12,1,1,5.0,4.0,0.0,0.0,-1.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Lalabije,ET041210|lalabije|01,0,8,0,1,,3.0,,0.0,,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Tile Mado,ET041210|tile mado|01,14,13,1,1,4.0,5.0,0.0,0.0,1.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Fulo tole,ET041212|fulo tole|01,21,32,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Hadho,ET041212|hadho|01,13,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Lagasure,ET041210|lagasure|01,11,12,1,1,4.0,5.0,0.0,0.0,1.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Jerarsa,ET041212|jerarsa|01,16,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Ibsa,ET041212|ibsa|01,8,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Milami town/01,ET041212|milami town/01|01,15,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Milami town HC,ET041212|milami town hc|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Teltalle,ET041212,Milammi Rural,ET041212|milammi rural|01,15,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Elele,ET050698|elele|01,46,27,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Boku,ET041216|boku|01,1,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Bargun,ET050698|bargun|01,44,18,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Dure,ET050698|dure|01,14,3,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Adiadeye,ET050698|adiadeye|01,17,5,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Harwayn,ET050698|harwayn|01,17,7,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Armale,ET050698|armale|01,20,4,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Qanbay,ET050698|qanbay|01,7,6,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Fakaw,ET050698|fakaw|01,12,6,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Budud,ET050698|budud|01,16,3,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Ayanbadan,ET050698|ayanbadan|01,15,3,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Gadhijabane,ET050698|gadhijabane|01,13,5,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Elele,ET050698,Gedla,ET050698|gedla|01,6,3,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Gode city,ET050696,03 HP,ET050696|03 hp|01,48,95,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Gode city,ET050696,04 HP,ET050696|04 hp|01,62,77,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Gode city,ET050696,"Gode Ga,alo HC","ET050696|gode ga,alo hc|01",29,52,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Gode city,ET050696,06 HP,ET050696|06 hp|01,65,100,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Gode city,ET050696,10 HP,ET050696|10 hp|01,15,47,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Kulcha rural,ET041212|kulcha rural|01,24,34,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Darge Dhaba,ET041212|darge dhaba|01,9,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Kulcha Town,ET041212|kulcha town|01,12,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Kulcha,ET041212|kulcha|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Teltalle,ET041212,Kalo,ET041212|kalo|01,19,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Wayyu wando,ET041212|wayyu wando|01,12,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Illan HC,ET050604|illan hc|01,6,2,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Melbana,ET041216|melbana|01,0,0,0,0,,,,,,,,,,,
+Somali,Shebele,Adadle,ET050602,Boholhagare,ET050602|boholhagare|01,45,36,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Bule Dambi,ET041212|bule dambi|01,10,34,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Hatuse,ET041212|hatuse|01,16,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Udhi,ET050602|udhi|01,29,15,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,"Badila,ad","ET050604|badila,ad|01",4,8,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Dabafayd,ET050602|dabafayd|01,42,22,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Barre,ET050604|barre|01,2,8,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Digino,ET050604|digino|01,9,7,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Dafdafey,ET050602|dafdafey|01,15,4,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Danogab,ET050602|danogab|01,10,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Meleb,ET041210|meleb|01,14,10,1,1,6.0,7.0,0.0,0.0,1.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,"Doloba,ad","ET050604|doloba,ad|01",12,6,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Dambi Sapante,ET041210|dambi sapante|01,12,6,1,1,6.0,4.0,0.0,0.0,-2.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Dudade,ET050604|dudade|01,8,12,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Bede,ET041210|bede|01,9,0,1,0,5.0,,0.0,,,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Gabias,ET050604|gabias|01,27,13,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Iladigalu,ET041210|iladigalu|01,0,6,0,1,,4.0,,0.0,,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Marmaro,ET041212|marmaro|01,17,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Godirey,ET050604|godirey|01,0,8,0,1,,30.0,,0.0,,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Buladi,ET041210|buladi|01,9,11,1,1,5.0,4.0,0.0,0.0,-1.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Haralo,ET041211|haralo|01,7,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Higlo,ET050602|higlo|01,36,14,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Hididole,ET050604|hididole|01,14,11,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Bokola,ET041210|bokola|01,7,9,1,1,5.0,4.0,0.0,0.0,-1.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Hobyo,ET050604|hobyo|01,9,7,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Kurtun,ET050602|kurtun|01,3,20,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Karinka,ET050604|karinka|01,3,5,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Liban,ET050602|liban|01,12,4,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Kayane,ET050604|kayane|01,3,5,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Marsin Hc,ET050586|marsin hc|01,67,8,1,1,35.0,14.0,1.0,0.0,-21.0,,,,,1.0,1.0
+Oromia,Borena,Dire,ET041211,Dida Jarsa,ET041211|dida jarsa|01,2,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Kunka,ET050604|kunka|01,1,6,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Ubaley,ET050604|ubaley|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Fulo Romso,ET041211|fulo romso|01,4,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Garwan,ET050586|garwan|01,21,17,1,1,15.0,31.0,0.0,1.0,16.0,,,,,1.0,1.0
+Somali,Shebele,Godey,ET050604,Weylosidig,ET050604|weylosidig|01,10,10,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Malkasalah,ET050602|malkasalah|01,32,20,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Yahasjamal,ET050604|yahasjamal|01,1,7,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Anokulul,ET050604|anokulul|01,20,14,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Tonceeley,ET050586|tonceeley|01,12,9,1,1,19.0,90.0,0.0,1.0,71.0,,,,,1.0,1.0
+Somali,Shebele,Godey,ET050604,Harder,ET050604|harder|01,8,4,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Didibe Romso,ET041211|didibe romso|01,2,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Tarfodley,ET050604|tarfodley|01,3,4,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Wardid,ET050602|wardid|01,12,10,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Dida mega,ET041211|dida mega|01,8,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Godey,ET050604,Weylogir,ET050604|weylogir|01,1,9,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Dololo makala,ET041211|dololo makala|01,2,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Gabal,ET050602|gabal|01,24,20,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Iskudhonley,ET050586|iskudhonley|01,34,14,1,1,23.0,120.0,0.0,1.0,97.0,,,,,1.0,1.0
+Somali,Korahe,Marsin,ET050586,Tulocambar,ET050586|tulocambar|01,15,6,1,1,14.0,160.0,0.0,1.0,146.0,,,,,1.0,1.0
+Oromia,Borena,Dire,ET041211,Romso,ET041211|romso|01,4,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Harus,ET050602|harus|01,13,20,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Dh-bore,ET050586|dh-bore|01,28,17,1,1,21.0,0.0,0.0,0.0,-21.0,,,,,1.0,1.0
+Somali,Shebele,Adadle,ET050602,Birlays,ET050602|birlays|01,14,16,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Waysha,ET050586|waysha|01,16,12,1,1,14.0,120.0,0.0,1.0,106.0,,,,,1.0,1.0
+Somali,Korahe,Marsin,ET050586,H-qawar,ET050586|h-qawar|01,14,5,1,1,0.0,180.0,0.0,1.0,180.0,,,,,1.0,1.0
+Somali,Shebele,Adadle,ET050602,Harsog,ET050602|harsog|01,16,10,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Landher,ET050586|landher|01,14,7,1,1,15.0,120.0,0.0,1.0,105.0,,,,,1.0,1.0
+Somali,Korahe,Marsin,ET050586,Jiic,ET050586|jiic|01,24,13,1,1,14.0,120.0,0.0,1.0,106.0,,,,,1.0,1.0
+Somali,Shebele,Adadle,ET050602,Kulmis,ET050602|kulmis|01,13,6,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Murlandher,ET050586|murlandher|01,9,5,1,1,15.0,160.0,0.0,1.0,145.0,,,,,1.0,1.0
+Somali,Shebele,Adadle,ET050602,Todob,ET050602|todob|01,24,21,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Labihowle,ET050586|labihowle|01,17,9,1,1,120.0,0.0,1.0,0.0,-120.0,,,,,0.0,1.0
+Somali,Shebele,Adadle,ET050602,Jerey,ET050602|jerey|01,33,12,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Gombise,ET050586|gombise|01,12,10,1,1,14.0,160.0,0.0,1.0,146.0,,,,,1.0,1.0
+Somali,Shebele,Adadle,ET050602,Hilogududo,ET050602|hilogududo|01,9,10,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Digino,ET050602|digino|01,11,11,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Bursaredo,ET050602|bursaredo|01,26,15,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Gabo gabo,ET050586|gabo gabo|01,46,50,1,1,120.0,120.0,1.0,1.0,0.0,,,,,1.0,1.0
+Somali,Shebele,Adadle,ET050602,Biyolow,ET050602|biyolow|01,3,11,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Sigole,ET050602|sigole|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Aney,ET050602|aney|01,6,6,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Hodon,ET050602|hodon|01,14,20,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Korahe,Marsin,ET050586,Nustrik,ET050586|nustrik|01,49,62,1,1,14.0,120.0,0.0,1.0,106.0,,,,,1.0,1.0
+Somali,Shebele,Adadle,ET050602,Diri,ET050602|diri|01,15,9,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Folmarodi,ET050602|folmarodi|01,0,6,0,1,,30.0,,0.0,,,,,,0.0,0.0
+Somali,Shebele,Adadle,ET050602,Bunshoweyn,ET050602|bunshoweyn|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Raranle,ET050608|raranle|01,26,26,1,1,28.0,30.0,0.0,0.0,2.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Dudun,ET050608|dudun|01,32,29,1,1,26.0,30.0,0.0,0.0,4.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Hoomey,ET050608|hoomey|01,23,34,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Dibudajin,ET050608|dibudajin|01,34,35,1,1,28.0,25.0,0.0,0.0,-3.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Dabaaldag,ET050608|dabaaldag|01,21,35,1,1,25.0,28.0,0.0,0.0,3.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Bardiqorax,ET050608|bardiqorax|01,40,41,1,1,28.0,29.0,0.0,0.0,1.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Sankabar,ET050608|sankabar|01,29,43,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Biyolow,ET050608|biyolow|01,32,43,1,1,28.0,0.0,0.0,0.0,-28.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Garboxaradho,ET050608|garboxaradho|01,11,21,1,1,26.0,30.0,0.0,0.0,4.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Shanacha,ET041216|shanacha|01,6,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Chari Liche,ET041216|chari liche|01,6,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Hiddii Lolaa 01,ET041216|hiddii lolaa 01|01,15,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Hiddii Lolaa 02,ET041216|hiddii lolaa 02|01,17,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Miyo Arda jila,ET041216|miyo arda jila|01,22,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Guchi,ET041290,Kala,ET041290|kala|01,5,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Guchi,ET041290,Harkeke,ET041290|harkeke|01,2,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Guchi,ET041290,Erdari HP,ET041290|erdari hp|01,4,7,1,1,2.0,5.0,0.0,0.0,3.0,,,,,0.0,0.0
+Oromia,Borena,Guchi,ET041290,Walmura,ET041290|walmura|01,8,11,1,1,0.0,4.0,0.0,0.0,4.0,,,,,0.0,0.0
+Oromia,Borena,Guchi,ET041290,Arbora,ET041290|arbora|01,1,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Guchi,ET041290,Korma ilu,ET041290|korma ilu|01,5,3,1,1,2.0,0.0,0.0,0.0,-2.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Makanisa,ET041212|makanisa|01,13,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Teltalle,ET041212,Hoboki,ET041212|hoboki|01,11,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Tuka,ET041210|tuka|01,16,10,1,1,4.0,5.0,0.0,0.0,1.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Dambi Hara,ET041210|dambi hara|01,12,10,1,1,5.0,4.0,0.0,0.0,-1.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Dambi Chame,ET041210|dambi chame|01,11,13,1,1,4.0,4.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Mudi Ambo,ET041210|mudi ambo|01,13,12,1,1,4.0,5.0,0.0,0.0,1.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Mado,ET041210|mado|01,12,10,1,1,4.0,5.0,0.0,0.0,1.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Bika,ET041210|bika|01,12,13,1,1,5.0,5.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Argane,ET041210|argane|01,13,8,1,1,5.0,0.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Mormora,ET041210|mormora|01,12,13,1,1,5.0,5.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Bokola HC,ET041210|bokola hc|01,8,0,1,0,4.0,,0.0,,,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Tile Mado HC,ET041210|tile mado hc|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Tuka,ET041210|tuka|02,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,Borena,Moyale,ET041210,Mado,ET041210|mado|02,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Gomo,ET041216|gomo|01,11,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Dhokisu,ET041216|dhokisu|01,9,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Chari Turura,ET041216|chari turura|01,5,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Dikicha,ET041216|dikicha|01,5,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Dhirri,ET041216|dhirri|01,2,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Baha,ET041216|baha|01,8,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Kuroo Qanxala,ET041216|kuroo qanxala|01,7,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Meti,ET041216|meti|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Miyo,ET041216,Meti,ET041216|meti|02,14,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Tesso,ET041216|tesso|01,9,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Dagaga,ET041211|dagaga|01,6,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Gololcha,ET041211|gololcha|01,4,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Hodhodh,ET041211|hodhodh|01,3,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Ardawale,ET041211|ardawale|01,5,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Madacho,ET041211|madacho|01,6,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Samaro,ET041211|samaro|01,10,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Dibaandiba,ET041216|dibaandiba|01,5,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Mega,ET041211|mega|01,20,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Soda,ET041211|soda|01,5,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Soda urban,ET041211|soda urban|01,4,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Magado,ET041211|magado|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Dire,ET041211,Sake,ET041211|sake|01,4,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Boku magala,ET041216|boku magala|01,6,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Boku Badiyaa,ET041216|boku badiyaa|01,7,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Dire,ET041211,Magado,ET041211|magado|02,4,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Gombisa,ET041216|gombisa|01,0,0,0,0,,,,,,,,,,,
+Oromia,Borena,Miyo,ET041216,Hidhi babo,ET041216|hidhi babo|01,0,3,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Dukale,ET041216|dukale|01,4,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Dhaka roba,ET041216|dhaka roba|01,7,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Gombisa,ET041216|gombisa|02,5,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Borena,Miyo,ET041216,Girnco,ET041216|girnco|01,2,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Beles HP,ET010104|beles hp|01,5,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Beles health center,ET010104|beles health center|01,5,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Adi golo,ET010104|adi golo|01,8,6,1,1,14.0,0.0,0.0,0.0,-14.0,,,,,1.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Adi Menabr HP,ET010104|adi menabr hp|01,11,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Selam health post,ET010104|selam health post|01,9,14,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,1.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,May Timket,ET010104|may timket|01,18,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,Selam Health post,ET010105|selam health post|01,10,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Semema Health post,ET010104|semema health post|01,7,4,1,1,0.0,14.0,0.0,0.0,14.0,,,,,0.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,May Tafat,ET010104|may tafat|01,21,10,1,1,0.0,14.0,0.0,0.0,14.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,May Hanse,ET010105|may hanse|01,23,18,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Somali,Afder,Elkari,ET050804,Elakari health center,ET050804|elakari health center|01,39,42,1,1,7.0,10.0,0.0,0.0,3.0,,,,,1.0,0.0
+Somali,Afder,Elkari,ET050804,Shakisa health center,ET050804|shakisa health center|01,29,34,1,1,60.0,20.0,1.0,0.0,-40.0,,,,,0.0,0.0
+Somali,Afder,Elkari,ET050804,Unko health center,ET050804|unko health center|01,35,25,1,1,30.0,60.0,0.0,1.0,30.0,,,,,1.0,0.0
+Somali,Afder,Elkari,ET050804,Adamo health post,ET050804|adamo health post|01,30,36,1,1,45.0,30.0,1.0,0.0,-15.0,,,,,1.0,0.0
+Somali,Afder,Elkari,ET050804,Masle health post,ET050804|masle health post|01,12,8,1,1,60.0,50.0,1.0,1.0,-10.0,,,,,1.0,0.0
+Somali,Afder,Elkari,ET050804,Badaw health post,ET050804|badaw health post|01,40,15,1,1,50.0,60.0,1.0,1.0,10.0,,,,,1.0,0.0
+Somali,Afder,Elkari,ET050804,Galolow health post,ET050804|galolow health post|01,31,25,1,1,30.0,50.0,0.0,1.0,20.0,,,,,0.0,0.0
+Somali,Afder,Hargelle,ET050806,Hargelle Hospital,ET050806|hargelle hospital|01,63,ND,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Afder,Hargelle,ET050806,SOGSOG,ET050806|sogsog|01,15,8,1,1,30.0,90.0,0.0,1.0,60.0,,,,,0.0,0.0
+Somali,Afder,Hargelle,ET050806,Ooman,ET050806|ooman|01,31,12,1,1,45.0,90.0,1.0,1.0,45.0,,,,,0.0,0.0
+Somali,Afder,Hargelle,ET050806,Jimbac,ET050806|jimbac|01,17,41,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Medebay Terer Health Center,ET010104|medebay terer health center|01,28,43,1,1,60.0,120.0,1.0,1.0,60.0,,,,,0.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Medebay Terer Health Post,ET010104|medebay terer health post|01,28,43,1,1,60.0,120.0,1.0,1.0,60.0,,,,,0.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Egub Health Post,ET010104|egub health post|01,39,39,1,1,60.0,90.0,1.0,1.0,30.0,,,,,0.0,0.0
+Tigray,Eastern,Hawzen,ET010305,Koraro Health center,ET010305|koraro health center|01,22,14,1,1,0.0,90.0,0.0,1.0,90.0,,,,,1.0,1.0
+Amhara,South Wollo,Argoba,ET030401,Gobera Hc,ET030401|gobera hc|01,34,18,1,1,0.0,21.0,0.0,0.0,21.0,,,,,0.0,0.0
+Amhara,South Wollo,Argoba,ET030401,Medina HC,ET030401|medina hc|01,66,51,1,1,0.0,14.0,0.0,0.0,14.0,,,,,0.0,0.0
+Amhara,South Wollo,Argoba,ET030401,Loko HP,ET030401|loko hp|01,5,5,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Amhara,South Wollo,Argoba,ET030401,Fetekoma HP,ET030401|fetekoma hp|01,49,16,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Amhara,South Wollo,Argoba,ET030401,Chira HC,ET030401|chira hc|01,22,13,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Amhara,South Wollo,Argoba,ET030401,Kilkilo HP,ET030401|kilkilo hp|01,15,13,1,1,7.0,30.0,0.0,0.0,23.0,,,,,0.0,0.0
+Amhara,South Wollo,Argoba,ET030401,Hassenie HP,ET030401|hassenie hp|01,69,35,1,1,10.0,60.0,0.0,1.0,50.0,,,,,0.0,0.0
+Amhara,South Wollo,Argoba,ET030401,Chomiye HP,ET030401|chomiye hp|01,36,27,1,1,10.0,30.0,0.0,0.0,20.0,,,,,0.0,0.0
+Amhara,South Wollo,Argoba,ET030401,Amoyesertie HP,ET030401|amoyesertie hp|01,34,22,1,1,15.0,30.0,0.0,0.0,15.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Raele,ET010314|raele|01,3,4,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Edega rebue,ET010314|edega rebue|01,26,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Sinkata,ET010314|sinkata|01,24,10,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Tsenkanyet,ET010314|tsenkanyet|01,10,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Guemse,ET010314|guemse|01,11,6,1,1,15.0,30.0,0.0,0.0,15.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Dinglet,ET010314|dinglet|01,19,15,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Agazi HC,ET010314|agazi hc|01,12,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Ageazi HP,ET010314|ageazi hp|01,8,5,1,1,30.0,15.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,Dekera,ET010606|dekera|01,34,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Samree,ET010606,K/Emba,ET010606|k/emba|01,17,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Shebele,Bercano,ET050608,Lab health  center,ET050608|lab health center|01,45,47,1,1,30.0,25.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Maymegelta,ET010314|maymegelta|01,30,24,1,1,30.0,15.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Hangoda,ET010314|hangoda|01,10,4,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Gula abenea,ET010314|gula abenea|01,29,24,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Mariam agamet,ET010314|mariam agamet|01,6,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Berano,ET050608|berano|01,23,40,1,1,90.0,84.0,1.0,1.0,-6.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Dudun,ET050608|dudun|02,8,8,1,1,60.0,60.0,1.0,1.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Homey,ET050608|homey|01,ND,11,1,1,180.0,84.0,1.0,1.0,-96.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Dabaldag,ET050608|dabaldag|01,17,7,1,1,28.0,84.0,0.0,1.0,56.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Bardakorah,ET050608|bardakorah|01,21,11,1,1,42.0,28.0,1.0,0.0,-14.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Hilonagod,ET050608|hilonagod|01,11,3,1,1,28.0,42.0,0.0,1.0,14.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Damerey,ET050608|damerey|01,21,13,1,1,28.0,42.0,0.0,1.0,14.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,Maytekl,ET010606|maytekl|01,34,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,T/saeri,ET010606|t/saeri|01,13,10,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Tigray,South Eastern,Samree,ET010606,A/weyane,ET010606|a/weyane|01,63,144,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Samree,ET010606,Weyn,ET010606|weyn|01,49,60,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Afder,West Imi,ET050805,Bulsho HP,ET050805|bulsho hp|01,28,21,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Sufley Hp,ET050805|sufley hp|01,41,17,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Bula Hp,ET050805|bula hp|01,16,28,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Dawan,ET050805|dawan|01,18,13,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Jik HC,ET050805|jik hc|01,57,43,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Bilow,ET050805|bilow|01,10,16,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Imey Town Health Center,ET050805|imey town health center|01,64,28,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Bardahor,ET050805|bardahor|01,39,36,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Finjawe,ET050805|finjawe|01,25,26,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Abakarow HC,ET050805|abakarow hc|01,25,30,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Golbarwaqo,ET050805|golbarwaqo|01,47,31,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Somali,Afder,West Imi,ET050805,Darusalam,ET050805|darusalam|01,13,16,1,1,15.0,90.0,0.0,1.0,75.0,,,,,0.0,0.0
+Tigray,South Eastern,Seharti,ET010601,Adikeala,ET010601|adikeala|01,53,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Adisalem,ET010601|adisalem|01,49,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Adishishay,ET010601|adishishay|01,47,31,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Mariam Moko,ET010601|mariam moko|01,62,38,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Tashi,ET010601|tashi|01,45,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Maykana,ET010601|maykana|01,42,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Waza,ET010601|waza|01,32,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Gijet,ET010601|gijet|01,66,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Hintsa,ET010601|hintsa|01,92,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Chelli,ET010601|chelli|01,64,23,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Shebele,Bercano,ET050608,Birta dheer,ET050608|birta dheer|01,14,5,1,1,28.0,42.0,0.0,1.0,14.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Dibudajin,ET050608|dibudajin|02,25,21,1,1,28.0,42.0,0.0,1.0,14.0,,,,,0.0,0.0
+Tigray,South Eastern,Seharti,ET010601,Esret,ET010601|esret|01,44,54,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Seharti,ET010601,Bamba,ET010601|bamba|01,24,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Harekiwa Health post,ET010307|harekiwa health post|01,0,1,0,1,,180.0,,1.0,,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Debre Hiwot Health post,ET010305|debre hiwot health post|01,24,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Edaga Selus Health center,ET010305|edaga selus health center|01,5,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Megab Health center,ET010305|megab health center|01,14,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Adi Belew Health post,ET010305|adi belew health post|01,7,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Debre Selam Health post,ET010305|debre selam health post|01,34,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Harahir Health post,ET010305|harahir health post|01,8,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Chilla Health post,ET010305|chilla health post|01,2,0,1,0,0.0,,0.0,,,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Gira Aras Health post,ET010305|gira aras health post|01,11,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Siluh Health post,ET010305|siluh health post|01,17,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Maykado Health post,ET010305|maykado health post|01,18,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Koraro Health Center,ET010305|koraro health center|02,22,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Muzitey health post,ET010305|muzitey health post|01,14,8,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Degamba Health center,ET010305|degamba health center|01,9,9,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Somet Health post,ET010305|somet health post|01,11,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Shelewa Health post,ET010305|shelewa health post|01,6,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Selam Health post,ET010305|selam health post|01,24,28,1,1,0.0,20.0,0.0,0.0,20.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Hayelom Health post,ET010305|hayelom health post|01,11,0,1,0,0.0,,0.0,,,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Teka Health Post,ET010305|teka health post|01,3,1,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Setet Health post,ET010305|setet health post|01,3,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Debre Mizen Health post,ET010305|debre mizen health post|01,7,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Balleda Health post,ET010305|balleda health post|01,7,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Freweini Health post,ET010305|freweini health post|01,29,12,1,1,0.0,14.0,0.0,0.0,14.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Tala Health post,ET010305|tala health post|01,21,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Mygobo Health post,ET010305|mygobo health post|01,19,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Hawzen,ET010305,Hatset Health post,ET010305|hatset health post|01,5,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Shebele,East Imi,ET050601,East Ime health center,ET050601|east ime health center|01,115,254,1,1,37.0,46.0,1.0,1.0,9.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Dhey HC,ET050601|dhey hc|01,22,75,1,1,36.0,22.0,1.0,0.0,-14.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Boranka HC,ET050601|boranka hc|01,33,15,1,1,40.0,22.0,1.0,0.0,-18.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,L/kecherewa,ET010606|l/kecherewa|01,24,31,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,FinarubaHealth center,ET010606|finarubahealth center|01,89,81,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,Metkel limat HP,ET010606|metkel limat hp|01,26,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,Samre Health center,ET010606|samre health center|01,21,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Xidigta,ET050601|xidigta|01,12,39,1,1,36.0,56.0,1.0,1.0,20.0,,,,,0.0,0.0
+Tigray,Eastern,Hawzen,ET010305,Debra Birhan Health post,ET010305|debra birhan health post|01,20,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Shebele,East Imi,ET050601,Jibanbible,ET050601|jibanbible|01,12,25,1,1,46.0,56.0,1.0,1.0,10.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Libaxle,ET050601|libaxle|01,24,87,1,1,20.0,38.0,0.0,1.0,18.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,Lemlem Arena Health post,ET010606|lemlem arena health post|01,21,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Cada dhur,ET050601|cada dhur|01,29,24,1,1,42.0,56.0,1.0,1.0,14.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,Berezba Health post,ET010606|berezba health post|01,9,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Balay,ET050601|balay|01,20,23,1,1,22.0,52.0,0.0,1.0,30.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Gudhis,ET050601|gudhis|01,34,77,1,1,18.0,22.0,0.0,0.0,4.0,,,,,0.0,0.0
+Tigray,South Eastern,Samree,ET010606,Samre primary Hospital,ET010606|samre primary hospital|01,22,31,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Makule,ET050601|makule|01,9,56,1,1,20.0,25.0,0.0,0.0,5.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,birtadher,ET050601|birtadher|01,12,34,1,1,14.0,17.0,0.0,0.0,3.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Sigadhere,ET050601|sigadhere|01,42,76,1,1,11.0,19.0,0.0,0.0,8.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Belken,ET050601|belken|01,1,23,1,1,27.0,28.0,0.0,0.0,1.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Kusgel,ET050601|kusgel|01,15,62,1,1,14.0,18.0,0.0,0.0,4.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,qansaxle,ET050601|qansaxle|01,17,30,1,1,20.0,16.0,0.0,0.0,-4.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Qudhacle,ET050601|qudhacle|01,12,76,1,1,26.0,32.0,0.0,1.0,6.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Bardale,ET050601|bardale|01,12,88,1,1,29.0,27.0,0.0,0.0,-2.0,,,,,0.0,0.0
+Somali,Shebele,East Imi,ET050601,Mukey,ET050601|mukey|01,6,61,1,1,28.0,36.0,0.0,1.0,8.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Qorahda,ET050608|qorahda|01,20,19,1,1,28.0,42.0,0.0,1.0,14.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Sankabar,ET050608|sankabar|02,25,19,1,1,28.0,42.0,0.0,1.0,14.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Biyolow,ET050608|biyolow|02,31,24,1,1,28.0,42.0,0.0,1.0,14.0,,,,,0.0,0.0
+Somali,Shebele,Bercano,ET050608,Libahful,ET050608|libahful|01,16,5,1,1,28.0,42.0,0.0,1.0,14.0,,,,,0.0,0.0
+Tigray,North Western,Shire,ET010101,Alganesh health center,ET010101|alganesh health center|01,69,115,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,North Western,Shire,ET010101,Umer health center,ET010101|umer health center|01,77,76,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,1.0,1.0
+Tigray,North Western,Shire,ET010101,Suhul General hospital,ET010101|suhul general hospital|01,0,0,0,0,,,,,,,,,,,
+South Ethiopia,Ari zone,Jinka town,ET070709,Jinka Millinium Health center,ET070709|jinka millinium health center|01,12,12,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,North Western,Shire,ET010101,Five Angel health center,ET010101|five angel health center|01,76,81,1,1,30.0,20.0,0.0,0.0,-10.0,,,,,1.0,1.0
+Oromia,South West Shoa,Wolisso town,ET041303,Obi,ET041303|obi|01,2,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,South West Shoa,Wolisso town,ET041303,Doyo kora,ET041303|doyo kora|01,5,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,South West Shoa,Wolisso town,ET041303,Dase jabo,ET041303|dase jabo|01,5,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,South West Shoa,Wolisso town,ET041303,Korke,ET041303|korke|01,7,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,South West Shoa,Wolisso town,ET041303,Dilela,ET041303|dilela|01,8,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,North Shewa,Debreberhan town,ET030520,Tebase Heath Center,ET030520|tebase heath center|01,0,6,0,1,,15.0,,0.0,,,,,,0.0,0.0
+South Ethiopia,South Omo,Hamer Woreda,ET070704,Arbore Health Center,ET070704|arbore health center|01,6,8,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+South Ethiopia,Ari zone,South Ari,ET070702,Gazer primary hospital,ET070702|gazer primary hospital|01,0,0,0,0,,,,,,,,,,,
+Somali,Fafan,Harawa,ET050299,Dharwanaje health center,ET050299|dharwanaje health center|01,82,75,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,0.0,0.0
+Amhara,North Shewa,Debreberhan town,ET030520,Ayer Tena Health Center,ET030520|ayer tena health center|01,20,24,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,South West Shoa,Wolisso town,ET041303,chirecha Wemberi,ET041303|chirecha wemberi|01,11,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,North Shewa,Debreberhan town,ET030520,Debre-Berhan Health Center,ET030520|debre-berhan health center|01,20,38,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+South Ethiopia,South Omo,Turmi Town,ET070704,Turmi Health Center,ET070704|turmi health center|01,0,0,0,0,,,,,,,,,,,
+South Ethiopia,South Omo,Hamer Woreda,ET070704,Karadus Health Center,ET070704|karadus health center|01,ND,8,1,1,0.0,35.0,0.0,1.0,35.0,,,,,0.0,0.0
+South Ethiopia,Ari zone,Baka Dawula,ET070710,Bitemal Health center,ET070710|bitemal health center|01,0,0,0,0,,,,,,,,,,,
+Tigray,North Western,Indabaguna,ET010114,Indabaguna primary hospital,ET010114|indabaguna primary hospital|01,32,32,1,1,30.0,15.0,0.0,0.0,-15.0,,,,,1.0,1.0
+Oromia,South West Shoa,Becho,ET041309,Tullu Bollo health center,ET041309|tullu bollo health center|01,33,29,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,South West Shoa,Becho,ET041309,Awash Bune health center,ET041309|awash bune health center|01,38,34,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,South West Shoa,Wolisso town,ET041303,Woliso Health Center Two,ET041303|woliso health center two|01,4,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,South West Shoa,Wolisso town,ET041303,Woliso Health Center One,ET041303|woliso health center one|01,19,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+South Ethiopia,South Omo,Hamer Woreda,ET070704,Shanko Health Center,ET070704|shanko health center|01,5,7,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+South Ethiopia,South Omo,Dimeka Town,ET070704,Dimeka Health Center,ET070704|dimeka health center|01,0,4,0,1,,20.0,,0.0,,,,,,0.0,0.0
+Gambella,Agnuak,Gamella town,ET120206,Gambella Town primary hospital,ET120206|gambella town primary hospital|01,258,245,1,1,7.0,0.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Gambella,Agnuak,Abobo,ET120201,Abobo Catholic Health Center,ET120201|abobo catholic health center|01,14,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Abobo,ET120201,Meneder HC,ET120201|meneder hc|01,18,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Gambella,Agnuak,Abobo,ET120201,Ukuna Health Center,ET120201|ukuna health center|01,5,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gamella town,ET120206,Dozzer olami health center,ET120206|dozzer olami health center|01,25,55,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Gambella,Agnuak,Gambella Zuriya,ET120202,Bonga Health Center,ET120202|bonga health center|01,5,8,1,1,45.0,60.0,1.0,1.0,15.0,,,,,1.0,1.0
+Gambella,Agnuak,Gambella Zuriya,ET120202,Abol Health Center,ET120202|abol health center|01,26,19,1,1,30.0,40.0,0.0,1.0,10.0,,,,,0.0,1.0
+Tigray,Southern,Maichew,ET010409,Maichew 03,ET010409|maichew 03|01,43,27,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Maichew,ET010409,Maichew,ET010409|maichew|01,9,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Maichew,ET010409,Maichew 02,ET010409|maichew 02|01,22,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Kukufto,ET010406|kukufto|01,37,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Worebaye,ET010406|worebaye|01,45,27,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Mezbir HC,ET010202|mezbir hc|01,28,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Betegebeze,ET010202|betegebeze|01,26,16,1,1,1.0,0.0,0.0,0.0,-1.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Kara,ET010406|kara|01,0,0,0,0,,,,,,,,,,,
+Somali,Afder,Hargelle,ET050806,HABALTREY,ET050806|habaltrey|01,15,37,1,1,0.0,15.0,0.0,0.0,15.0,,,,,0.0,1.0
+Tigray,Southern,Raya Azebo,ET010406,Beru HP,ET010406|beru hp|01,8,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Kukufto HC,ET010406|kukufto hc|01,0,0,0,0,,,,,,,,,,,
+Tigray,Southern,Raya Azebo,ET010406,Kara HP,ET010406|kara hp|01,9,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Mechare,ET010406|mechare|01,32,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Horda,ET010406|horda|01,13,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Ebo,ET010406|ebo|01,23,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Adiahferom HC,ET010202|adiahferom hc|01,27,31,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Kudo,ET010202|kudo|01,5,11,1,1,10.0,0.0,0.0,0.0,-10.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Sefo,ET010202|sefo|01,12,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Embaahferom HP,ET010202|embaahferom hp|01,13,13,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Mishig,ET010202|mishig|01,41,23,1,1,21.0,7.0,0.0,0.0,-14.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Mechare HC,ET010406|mechare hc|01,0,0,0,0,,,,,,,,,,,
+Tigray,Southern,Raya Azebo,ET010406,Gerarsa HP,ET010406|gerarsa hp|01,25,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Raya Azebo,ET010406,Hawelti HC,ET010406|hawelti hc|01,31,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Dibdbo,ET010202|dibdbo|01,46,47,1,1,14.0,0.0,0.0,0.0,-14.0,,,,,0.0,0.0
+Tigray,Southern,Mekoni,ET010412,Mekoni,ET010412|mekoni|01,31,5,1,1,0.0,38.0,0.0,1.0,38.0,,,,,0.0,0.0
+Tigray,Southern,Mekoni,ET010412,Hawelti,ET010412|hawelti|01,9,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Mekoni,ET010412,Sengetra,ET010412|sengetra|01,1,1,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Liben,Kersadula,0,Kuracbul hp,0|kuracbul hp|01,11,6,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Somali,Liben,Kersadula,0,Harabutun hp,0|harabutun hp|01,12,6,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Somali,Liben,Kersadula,0,Karsadula hc,0|karsadula hc|01,66,59,1,1,30.0,45.0,0.0,1.0,15.0,,,,,0.0,0.0
+Somali,Liben,Kersadula,0,Sara hp,0|sara hp|01,13,2,1,1,45.0,30.0,1.0,0.0,-15.0,,,,,0.0,0.0
+Somali,Afder,Charati,ET050802,Gerare Hc,ET050802|gerare hc|01,46,37,1,1,30.0,30.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Southern,Mekoni,ET010412,Beadu HP,ET010412|beadu hp|01,1,1,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Southern,Mekoni,ET010412,Marsa HP,ET010412|marsa hp|01,11,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Liben,Kersadula,0,Balad hc,0|balad hc|01,60,30,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Somali,Liben,Dekasuftu,ET050991,Haysufto hc,ET050991|haysufto hc|01,26,27,1,1,0.0,20.0,0.0,0.0,20.0,,,,,0.0,0.0
+Somali,Liben,Dekasuftu,ET050991,Sora hp,ET050991|sora hp|01,13,5,1,1,30.0,45.0,0.0,1.0,15.0,,,,,0.0,0.0
+Somali,Liben,Filtu,ET050901,Qurale Hc,ET050901|qurale hc|01,42,24,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Liben,Filtu,ET050901,Lantuer HP,ET050901|lantuer hp|01,27,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Liben,Kersadula,0,Kalabeyr hp,0|kalabeyr hp|01,4,2,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Somali,Liben,Kersadula,0,Babul hp,0|babul hp|01,14,5,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Somali,Afder,Charati,ET050802,Tawfik,ET050802|tawfik|01,22,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Somali,Afder,Charati,ET050802,Bali,ET050802|bali|01,0,25,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Somali,Afder,Charati,ET050802,Booco,ET050802|booco|01,20,14,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Somali,Afder,Charati,ET050802,Ayanbadan,ET050802|ayanbadan|01,9,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Somali,Afder,Charati,ET050802,Diinto,ET050802|diinto|01,0,63,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Somali,Afder,Charati,ET050802,Darso,ET050802|darso|01,13,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Somali,Afder,Charati,ET050802,Chereti Hc,ET050802|chereti hc|01,116,136,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Afder,Hargelle,ET050806,Bohoaraus,ET050806|bohoaraus|01,21,25,1,1,20.0,30.0,0.0,0.0,10.0,,,,,0.0,0.0
+Somali,Afder,Hargelle,ET050806,Godcusbo hc,ET050806|godcusbo hc|01,60,45,1,1,25.0,30.0,0.0,0.0,5.0,,,,,0.0,0.0
+Somali,Liben,Dekasuftu,ET050991,Kuracbul hp,ET050991|kuracbul hp|01,10,16,1,1,0.0,90.0,0.0,1.0,90.0,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Haro Healtj Center,ET030308|haro healtj center|01,11,26,1,1,0.0,10.0,0.0,0.0,10.0,,,,,0.0,0.0
+Somali,Liben,Dekasuftu,ET050991,Aligaiye hp,ET050991|aligaiye hp|01,8,9,1,1,0.0,90.0,0.0,1.0,90.0,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Dana Health Post,ET030308|dana health post|01,2,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Liben,Dekasuftu,ET050991,Gunway hp,ET050991|gunway hp|01,11,21,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Tsistika HC,ET030801|tsistika hc|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Ziqulla,ET030801,Arshewa Health Center,ET030801|arshewa health center|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Ziqulla,ET030801,Nika Tederaj,ET030801|nika tederaj|01,33,56,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Addisu Fre HP,ET030801|addisu fre hp|01,19,11,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Nestanet Bedirijit,ET030801|nestanet bedirijit|01,40,40,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Debre Abeba,ET030801|debre abeba|01,8,19,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Tstistiak HC,ET030801|tstistiak hc|01,50,38,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Netsanet Melkam HP,ET030801|netsanet melkam hp|01,16,32,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Netsa Work HP,ET030801|netsa work hp|01,36,45,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Ziqulla,ET030801,Debre Tsehay,ET030801|debre tsehay|01,46,182,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Afder,Hargelle,ET050806,Habltirey,ET050806|habltirey|01,11,7,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Afder,Hargelle,ET050806,Sursurkunyo,ET050806|sursurkunyo|01,ND,ND,1,1,90.0,60.0,1.0,1.0,-30.0,,,,,0.0,0.0
+Somali,Liben,Dekasuftu,ET050991,Adey hp,ET050991|adey hp|01,ND,ND,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Tilfie health post,ET030308|tilfie health post|01,1,0,1,0,60.0,,1.0,,,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Kombolti health post,ET030308|kombolti health post|01,6,0,1,0,30.0,,0.0,,,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Dendegora health health post,ET030308|dendegora health health post|01,5,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Kes kebele health post,ET030308|kes kebele health post|01,2,5,1,1,0.0,35.0,0.0,1.0,35.0,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Arerit  Health center,ET030308|arerit health center|01,0,6,0,1,,30.0,,0.0,,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Arerit health post,ET030308|arerit health post|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Wila guba,ET030308|wila guba|01,0,1,0,1,,30.0,,0.0,,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Huchucho health post,ET030308|huchucho health post|01,0,2,0,1,,31.0,,1.0,,,,,,0.0,0.0
+Somali,Liben,Dekasuftu,ET050991,Higli hp,ET050991|higli hp|01,7,11,1,1,0.0,160.0,0.0,1.0,160.0,,,,,0.0,0.0
+Somali,Liben,Dekasuftu,ET050991,Sero hp,ET050991|sero hp|01,10,8,1,1,0.0,120.0,0.0,1.0,120.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Niwraq HC,ET030805|niwraq hc|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Abergelle,ET030805,Marnet HP,ET030805|marnet hp|01,57,43,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Debre Birhan,ET030805|debre birhan|01,15,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Saka,ET030805|saka|02,28,24,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Beltraf,ET030805|beltraf|01,22,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Sazva,ET030805|sazva|01,20,35,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Worka Dibnu,ET030805|worka dibnu|01,63,39,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Abergelle,ET030805,Adizelay HP,ET030805|adizelay hp|01,34,33,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Maisru,ET010202|maisru|01,5,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Sero,ET010202|sero|01,30,19,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Endamariam,ET010202|endamariam|01,4,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Degoz,ET010202|degoz|01,5,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,Maikeyehat,ET010202|maikeyehat|01,7,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahferom,ET010202,TahtayMegaria tsemri,ET010202|tahtaymegaria tsemri|01,11,20,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Fefa Dildiy HC,ET030806|fefa dildiy hc|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Sehala Seyemt,ET030806,Barwa HP,ET030806|barwa hp|01,68,31,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Mendere Cherkose,ET030806|mendere cherkose|01,7,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Atilam HP,ET030806|atilam hp|01,28,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Mesheha HC,ET030806|mesheha hc|01,0,0,0,0,,,,,,,,,,,
+Amhara,Waghimra,Sehala Seyemt,ET030806,Akign HP,ET030806|akign hp|01,26,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Mesheha HP,ET030806|mesheha hp|01,24,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Silazgie HP,ET030806|silazgie hp|01,14,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Giaroch HP,ET030806|giaroch hp|01,13,7,1,1,0.0,2.0,0.0,0.0,2.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Trishman HP,ET030806|trishman hp|01,17,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,Waghimra,Sehala Seyemt,ET030806,Debre Selam HP,ET030806|debre selam hp|01,7,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Bofa heslth post,ET030308|bofa heslth post|01,4,2,1,1,45.0,30.0,1.0,0.0,-15.0,,,,,0.0,0.0
+Amhara,North Wollo,Habru,ET030308,Kejima heslth post,ET030308|kejima heslth post|01,6,5,1,1,45.0,30.0,1.0,0.0,-15.0,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Belago health post,ET030302|belago health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Ayda health podt,ET030302|ayda health podt|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Asmella health post,ET030302|asmella health post|01,19,0,1,0,180.0,,1.0,,,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Kalim health center,ET030302|kalim health center|01,16,17,1,1,180.0,150.0,1.0,1.0,-30.0,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Kalim health post,ET030302|kalim health post|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Mito health post,ET030302|mito health post|01,28,0,1,0,180.0,,1.0,,,,,,,0.0,0.0
+Amhara,North Wollo,Gidan,ET030303,Densa health center,ET030303|densa health center|01,2,9,1,1,90.0,30.0,1.0,0.0,-60.0,,,,,0.0,0.0
+Amhara,North Wollo,Gidan,ET030303,Densa merged health post,ET030303|densa merged health post|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Amhara,North Wollo,Gidan,ET030303,Eyela health,ET030303|eyela health|01,12,2,1,1,180.0,90.0,1.0,1.0,-90.0,,,,,0.0,0.0
+Amhara,North Wollo,Gidan,ET030303,Eyela heslth post,ET030303|eyela heslth post|01,0,5,0,1,,90.0,,1.0,,,,,,0.0,0.0
+Amhara,North Wollo,Gidan,ET030303,Merora health post,ET030303|merora health post|01,0,14,0,1,,90.0,,1.0,,,,,,0.0,0.0
+Amhara,North Wollo,Gidan,ET030303,Gulit health post,ET030303|gulit health post|01,0,2,0,1,,90.0,,1.0,,,,,,0.0,0.0
+Amhara,North Wollo,Gidan,ET030303,Gesta health post,ET030303|gesta health post|01,0,26,0,1,,90.0,,1.0,,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Yaya health post,ET030302|yaya health post|01,0,5,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Workie merged health post,ET030302|workie merged health post|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Workie health center,ET030302|workie health center|01,1,5,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Amhara,North Wollo,Gidan,ET030303,Emetie mesk health post,ET030303|emetie mesk health post|01,25,20,1,1,90.0,21.0,1.0,0.0,-69.0,,,,,0.0,0.0
+Oromia,Borena,El-Woye,ET041295,El-Woye Health Center,ET041295|el-woye health center|01,13,25,1,1,180.0,0.0,1.0,0.0,-180.0,,,,,1.0,1.0
+Oromia,Borena,El-Woye,ET041295,El-Woye Golba,ET041295|el-woye golba|01,9,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Borena,El-Woye,ET041295,Dhedhertu HP,ET041295|dhedhertu hp|01,1,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Borena,El-Woye,ET041295,Ade/Galchet,ET041295|ade/galchet|01,16,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Borena,El-Woye,ET041295,Hidi Ale HP,ET041295|hidi ale hp|01,12,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Borena,El-Woye,ET041295,Saba,ET041295|saba|01,4,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Borena,El-Woye,ET041295,Bule Rasa,ET041295|bule rasa|01,4,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Hintalo,ET010603,Hintalo,ET010603|hintalo|01,32,45,1,1,0.0,2.0,0.0,0.0,2.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Hagereselam,ET010603|hagereselam|01,58,19,1,1,60.0,60.0,1.0,1.0,0.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Araasegeda,ET010603|araasegeda|01,93,93,1,1,60.0,60.0,1.0,1.0,0.0,,,,,0.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Fkrealem,ET010603|fkrealem|01,60,54,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Mesanu,ET010603|mesanu|01,43,55,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Hiwane,ET010603|hiwane|01,36,41,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Muja,ET010603|muja|01,23,8,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Freweyni,ET010603|freweyni|01,35,21,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Waza,ET010603|waza|01,31,26,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Maynebri,ET010603|maynebri|01,31,36,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Betmera,ET010603|betmera|01,23,11,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Tekliwoyane,ET010603|tekliwoyane|01,18,35,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Hareko,ET010603|hareko|01,25,35,1,1,3.0,0.0,0.0,0.0,-3.0,,,,,0.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Debrehayla,ET010603|debrehayla|01,6,19,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Maychbrk,ET010603|maychbrk|01,5,6,1,1,25.0,60.0,0.0,1.0,35.0,,,,,0.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Dongolat,ET010603|dongolat|01,35,24,1,1,15.0,60.0,0.0,1.0,45.0,,,,,1.0,0.0
+Tigray,South Eastern,Hintalo,ET010603,Sihet,ET010603|sihet|01,8,30,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,0.0
+Tigray,South Eastern,Dogua Temben,ET010604,EndaMariam,ET010604|endamariam|01,44,44,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,South Eastern,Dogua Temben,ET010604,Alasa,ET010604|alasa|01,57,55,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,South Eastern,Dogua Temben,ET010604,Daerere,ET010604|daerere|01,52,24,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Hadnet,ET010604|hadnet|01,58,42,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Limat,ET010604|limat|01,10,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Aregen,ET010604|aregen|01,27,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Endaselase,ET010604|endaselase|01,24,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Mikal Abyi,ET010604|mikal abyi|01,41,30,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Mahbereselase,ET010604|mahbereselase|01,12,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Dogole Weyane,ET010604|dogole weyane|01,8,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Meifa,ET010604|meifa|01,13,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,South Eastern,Dogua Temben,ET010604,Selam,ET010604|selam|01,16,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Borena,El-Woye,ET041295,Horbate,ET041295|horbate|01,16,0,1,0,0.0,,0.0,,,,,,,1.0,0.0
+Oromia,Borena,El-Woye,ET041295,Chari Rufay HC,ET041295|chari rufay hc|01,13,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Borena,El-Woye,ET041295,Saba,ET041295|saba|02,42,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Negash Health Center,ET010306|negash health center|01,12,5,1,1,0.0,22.0,0.0,0.0,22.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Tsaeda-naele Health Post,ET010306|tsaeda-naele health post|01,10,13,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Gemad Health Post,ET010306|gemad health post|01,13,8,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Saz Health Post,ET010306|saz health post|01,15,23,1,1,0.0,71.0,0.0,1.0,71.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Adi-ekli Health Post,ET010306|adi-ekli health post|01,15,13,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Laelay-adiksanded Health Post,ET010306|laelay-adiksanded health post|01,7,5,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Tahtay-adiksanded Health Post,ET010306|tahtay-adiksanded health post|01,21,15,1,1,0.0,42.0,0.0,1.0,42.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Abrha-weatsbeha Health Center,ET010306|abrha-weatsbeha health center|01,10,4,1,1,0.0,87.0,0.0,1.0,87.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Genfel Health Post,ET010306|genfel health post|01,20,1,1,1,0.0,81.0,0.0,1.0,81.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Aynalem Health Post,ET010306|aynalem health post|01,37,11,1,1,0.0,90.0,0.0,1.0,90.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Hayelom Health Post,ET010306|hayelom health post|01,31,8,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Gule Health Post,ET010306|gule health post|01,11,2,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Debretsion Health Post,ET010306|debretsion health post|01,19,20,1,1,0.0,40.0,0.0,1.0,40.0,,,,,1.0,1.0
+Tigray,Eastern,Kilte-awlaelo,ET010306,Digum Health Post,ET010306|digum health post|01,9,5,1,1,0.0,46.0,0.0,1.0,46.0,,,,,1.0,1.0
+Oromia,West Guji,Abaya,ET041513,Bukisa Health Center,ET041513|bukisa health center|01,0,0,0,0,,,,,,,,,,,
+Oromia,West Guji,Abaya,ET041513,Bukisa Health Post,ET041513|bukisa health post|01,103,33,1,1,21.0,14.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Doko Chere Health Post,ET041513|doko chere health post|01,59,36,1,1,30.0,21.0,0.0,0.0,-9.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Guangua Badiya,ET041513|guangua badiya|01,23,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Hasegola HP,ET041513|hasegola hp|01,25,17,1,1,7.0,0.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Bunata,ET041513|bunata|01,40,41,1,1,21.0,21.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Odomike Badiya,ET041513|odomike badiya|01,22,12,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Gelo Health Center,ET041513|gelo health center|01,0,0,0,0,,,,,,,,,,,
+Oromia,West Guji,Abaya,ET041513,Biyo Health Center,ET041513|biyo health center|01,16,16,1,1,14.0,21.0,0.0,0.0,7.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Wotenba Health Post,ET041513|wotenba health post|01,93,41,1,1,14.0,21.0,0.0,0.0,7.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Lado Health Post,ET041513|lado health post|01,25,27,1,1,21.0,30.0,0.0,0.0,9.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Gelo Health Post,ET041513|gelo health post|01,30,25,1,1,21.0,21.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Kalaltu Health Post,ET041513|kalaltu health post|01,67,65,1,1,28.0,14.0,0.0,0.0,-14.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Samaro Health Post,ET041513|samaro health post|01,5,20,1,1,0.0,14.0,0.0,0.0,14.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Odomike Magala Health Post,ET041513|odomike magala health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Boye Chere Health Post,ET041513|boye chere health post|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Guangua Health Center,ET041513|guangua health center|01,0,0,0,0,,,,,,,,,,,
+Oromia,West Guji,Abaya,ET041513,Biyo Health Post,ET041513|biyo health post|01,27,26,1,1,14.0,28.0,0.0,0.0,14.0,,,,,0.0,0.0
+Oromia,West Guji,Abaya,ET041513,Guangua Magala,ET041513|guangua magala|01,40,68,1,1,7.0,14.0,0.0,0.0,7.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Harshin HC,ET050207|harshin hc|01,16,12,1,1,18.0,45.0,0.0,1.0,27.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Mii miiri,ET050207|mii miiri|01,17,0,1,0,18.0,,0.0,,,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Madwyn,ET050207|madwyn|01,12,7,1,1,12.0,38.0,0.0,1.0,26.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,gara bidhan,ET050207|gara bidhan|01,8,3,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Qudhac ramale,ET050207|qudhac ramale|01,7,10,1,1,15.0,60.0,0.0,1.0,45.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Maglo Xali,ET050207|maglo xali|01,14,10,1,1,35.0,0.0,1.0,0.0,-35.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Farax liban,ET050207|farax liban|01,14,11,1,1,19.0,22.0,0.0,0.0,3.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Kurtumaly,ET050207|kurtumaly|01,12,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Cadadle,ET050207|cadadle|01,12,12,1,1,15.0,30.0,0.0,0.0,15.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Lafo islamod,ET050207|lafo islamod|01,16,11,1,1,12.0,34.0,0.0,1.0,22.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Dabyil wayine,ET050207|dabyil wayine|01,11,15,1,1,18.0,30.0,0.0,0.0,12.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Kaboqoray,ET050207|kaboqoray|01,4,11,1,1,34.0,38.0,1.0,1.0,4.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Xabrir,ET050207|xabrir|01,12,15,1,1,15.0,45.0,0.0,1.0,30.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Darbiga,ET050207|darbiga|01,12,15,1,1,14.0,40.0,0.0,1.0,26.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Bali case,ET050207|bali case|01,14,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Gaboble,ET050207|gaboble|01,14,9,1,1,15.0,42.0,0.0,1.0,27.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Cilmi xir,ET050207|cilmi xir|01,13,17,1,1,14.0,46.0,0.0,1.0,32.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Dhan cade,ET050207|dhan cade|01,7,10,1,1,15.0,30.0,0.0,0.0,15.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Masjidka,ET050207|masjidka|01,17,12,1,1,18.0,41.0,0.0,1.0,23.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Carare,ET050207|carare|01,18,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Lankayir,ET050207|lankayir|01,33,29,1,1,12.0,35.0,0.0,1.0,23.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Candhodhaxe,ET050207|candhodhaxe|01,5,4,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Masle,ET050207|masle|01,5,14,1,1,14.0,45.0,0.0,1.0,31.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Cafufely,ET050207|cafufely|01,7,10,1,1,17.0,40.0,0.0,1.0,23.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Kam hashin,ET050207|kam hashin|01,21,16,1,1,12.0,38.0,0.0,1.0,26.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Abuker ahmed,ET050207|abuker ahmed|01,20,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Bali Gubadle,ET050207|bali gubadle|01,1,3,1,1,17.0,40.0,0.0,1.0,23.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Bali aman,ET050207|bali aman|01,20,15,1,1,0.0,40.0,0.0,1.0,40.0,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Danaba,ET050206|danaba|01,35,12,1,1,10.0,15.0,0.0,0.0,5.0,,,,,1.0,0.0
+Somali,Fafan,Harshin,ET050207,Barwaqo,ET050207|barwaqo|01,4,13,1,1,12.0,49.0,0.0,1.0,37.0,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Hunbuq,ET050206|hunbuq|01,14,9,1,1,0.0,7.0,0.0,0.0,7.0,,,,,1.0,0.0
+Somali,Fafan,Harshin,ET050207,Dawacley,ET050207|dawacley|01,8,6,1,1,15.0,50.0,0.0,1.0,35.0,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Qaydar,ET050207|qaydar|01,3,5,1,1,12.0,38.0,0.0,1.0,26.0,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,gila,ET050206|gila|01,22,20,1,1,15.0,29.0,0.0,0.0,14.0,,,,,1.0,0.0
+Somali,Fafan,Harshin,ET050207,Qunyar daga,ET050207|qunyar daga|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Somali,Fafan,Harshin,ET050207,Cumer,ET050207|cumer|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,garbahare,ET050206|garbahare|01,18,8,1,1,7.0,45.0,0.0,1.0,38.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,guyow,ET050206|guyow|01,47,42,1,1,7.0,45.0,0.0,1.0,38.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,gumar,ET050206|gumar|01,22,18,1,1,7.0,30.0,0.0,0.0,23.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,risle,ET050206|risle|01,30,0,1,0,7.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Quudlay,ET050206|quudlay|01,21,6,1,1,14.0,45.0,0.0,1.0,31.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Garbi,ET050206|garbi|01,8,7,1,1,7.0,45.0,0.0,1.0,38.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,hare,ET050206|hare|01,0,15,0,1,,7.0,,0.0,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Saliidle,ET050206|saliidle|01,0,17,0,1,,15.0,,0.0,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,garbile,ET050206|garbile|01,0,18,0,1,,15.0,,0.0,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,gobyarta,ET050206|gobyarta|01,16,20,1,1,22.0,20.0,0.0,0.0,-2.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Carancarka,ET050206|carancarka|01,20,12,1,1,0.0,15.0,0.0,0.0,15.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Siyaarada,ET050206|siyaarada|01,19,12,1,1,18.0,10.0,0.0,0.0,-8.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Dulcad,ET050206|dulcad|01,21,10,1,1,7.0,15.0,0.0,0.0,8.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,bushale,ET050206|bushale|01,10,4,1,1,7.0,7.0,0.0,0.0,0.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Wadabo,ET050206|wadabo|01,0,13,0,1,,7.0,,0.0,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,goljano,ET050206|goljano|01,10,0,1,0,0.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,dibile,ET050206|dibile|01,12,0,1,0,15.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,adadi,ET050206|adadi|01,16,0,1,0,12.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Bancade,ET050206|bancade|01,16,0,1,0,0.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Fadayga,ET050206|fadayga|01,10,8,1,1,6.0,45.0,0.0,1.0,39.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,diniqa,ET050206|diniqa|01,0,13,0,1,,30.0,,0.0,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,egato,ET050206|egato|01,13,8,1,1,0.0,40.0,0.0,1.0,40.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,bariisle,ET050206|bariisle|01,15,6,1,1,14.0,14.0,0.0,0.0,0.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,qotoroble,ET050206|qotoroble|01,20,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Qaaxa,ET050206|qaaxa|01,22,10,1,1,0.0,10.0,0.0,0.0,10.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Farda HC,ET050206|farda hc|01,50,20,1,1,0.0,45.0,0.0,1.0,45.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Wadoabaared,ET050206|wadoabaared|01,30,19,1,1,10.0,7.0,0.0,0.0,-3.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Dhurwale,ET050206|dhurwale|01,55,34,1,1,7.0,30.0,0.0,0.0,23.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Harta shekh,ET050206|harta shekh|01,60,40,1,1,7.0,25.0,0.0,0.0,18.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Warabajiro,ET050206|warabajiro|01,39,21,1,1,7.0,60.0,0.0,1.0,53.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Labashag,ET050206|labashag|01,26,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Maragajo,ET050206|maragajo|01,17,5,1,1,14.0,90.0,0.0,1.0,76.0,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Allaybaday,ET050206|allaybaday|01,13,0,1,0,10.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Madhedhlay,ET050206|madhedhlay|01,17,0,1,0,20.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Dhalandhiga,ET050206|dhalandhiga|01,9,0,1,0,15.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Duriya,ET050206|duriya|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Qabri anteno,ET050206|qabri anteno|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Gorgoorka,ET050206|gorgoorka|01,0,0,0,0,,,,,,,,,,0.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Dacawalay,ET050206|dacawalay|01,10,0,1,0,27.0,,0.0,,,,,,,1.0,0.0
+Somali,Fafan,Kabribayah,ET050206,Dhidin,ET050206|dhidin|01,13,0,1,0,21.0,,0.0,,,,,,,1.0,0.0
+Oromia,West Hararghe,Mieso,ET040901,Mieso,ET040901|mieso|01,0,0,0,0,,,,,,,,,,,
+Oromia,West Hararghe,Mieso,ET040901,Fayo,ET040901|fayo|01,15,22,1,1,25.0,30.0,0.0,0.0,5.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Mieso,ET040901|mieso|02,31,41,1,1,14.0,21.0,0.0,0.0,7.0,,,,,0.0,1.0
+Somali,Afder,Charati,ET050802,Hararbo,ET050802|hararbo|01,27,16,1,1,60.0,30.0,1.0,0.0,-30.0,,,,,0.0,1.0
+Somali,Afder,Dolo-Bay,ET050808,Ededmi  health center,ET050808|ededmi health center|01,32,29,1,1,2.0,3.0,0.0,0.0,1.0,,,,,1.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Adigdad,ET010104|adigdad|01,19,17,1,1,0.0,87.0,0.0,1.0,87.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Asebot,ET040901|asebot|01,0,0,0,0,,,,,,,,,,,
+Oromia,West Hararghe,Mieso,ET040901,Asebot,ET040901|asebot|02,0,0,0,0,,,,,,,,,,,
+Somali,Afder,Hargelle,ET050806,Drindir HC,ET050806|drindir hc|01,25,43,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Afder,Charati,ET050802,Yahanbar,ET050802|yahanbar|01,28,17,1,1,23.0,20.0,0.0,0.0,-3.0,,,,,0.0,1.0
+Somali,Afder,Dolo-Bay,ET050808,Dollo bay health center,ET050808|dollo bay health center|01,61,67,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,North Western,Adidaero,ET010111,My besa,ET010111|my besa|01,9,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Beles,ET010104|beles|01,3,4,1,1,0.0,87.0,0.0,1.0,87.0,,,,,1.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Mayadrasha,ET010104|mayadrasha|01,5,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Kelakl,ET010104|kelakl|01,18,13,1,1,20.0,14.0,0.0,0.0,-6.0,,,,,1.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Waltane,ET040901|waltane|01,0,0,0,0,,,,,,,,,,,
+Oromia,West Hararghe,Mieso,ET040901,Orfo,ET040901|orfo|01,12,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Gulufa,ET040901|gulufa|01,16,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Tokuma,ET040901|tokuma|01,11,9,1,1,30.0,21.0,0.0,0.0,-9.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Huse Mandera,ET040901|huse mandera|01,17,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Somali,Afder,Dolo-Bay,ET050808,Hundudu health center,ET050808|hundudu health center|01,14,17,1,1,40.0,60.0,1.0,1.0,20.0,,,,,0.0,0.0
+Somali,Afder,Bare,ET050807,Bare,ET050807|bare|01,77,35,1,1,60.0,180.0,1.0,1.0,120.0,,,,,0.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Selekleka Health Center,ET010104|selekleka health center|01,14,6,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,S.koyetsa,ET010104|s.koyetsa|01,9,21,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Liguda,ET010315|liguda|01,6,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Subhasaesie,ET010303,Gablen HP,ET010303|gablen hp|01,10,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Eastern,Subhasaesie,ET010303,Adikelebess HC,ET010303|adikelebess hc|01,14,8,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Tigray,Eastern,Subhasaesie,ET010303,Kuma sewha,ET010303|kuma sewha|01,8,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Hararghe,Mieso,ET040901,Buri Mulu,ET040901|buri mulu|01,18,10,1,1,20.0,0.0,0.0,0.0,-20.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Watane,ET040901|watane|01,15,17,1,1,0.0,14.0,0.0,0.0,14.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Kikiliftu,ET040901|kikiliftu|01,11,31,1,1,0.0,14.0,0.0,0.0,14.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Dirba,ET040901|dirba|01,17,20,1,1,35.0,14.0,1.0,0.0,-21.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Dire Beloo,ET040901|dire beloo|01,12,27,1,1,20.0,30.0,0.0,0.0,10.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Sodoma Goro Misira,ET040901|sodoma goro misira|01,13,15,1,1,5.0,0.0,0.0,0.0,-5.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Gorbo,ET040901|gorbo|01,9,15,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Bililo,ET040901|bililo|01,31,23,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Adikokob,ET010104|adikokob|01,7,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Adidaero,ET010111,Tsahayo,ET010111|tsahayo|01,22,33,1,1,0.0,1.0,0.0,0.0,1.0,,,,,1.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Wuhdet,ET010104|wuhdet|01,2,10,1,1,0.0,14.0,0.0,0.0,14.0,,,,,1.0,1.0
+Tigray,Eastern,Subhasaesie,ET010303,Sinkata,ET010303|sinkata|01,23,8,1,1,14.0,0.0,0.0,0.0,-14.0,,,,,0.0,0.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Tsankanet,ET010314|tsankanet|01,10,25,1,1,27.0,0.0,0.0,0.0,-27.0,,,,,0.0,0.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Tsabat,ET010315|tsabat|01,20,10,1,1,0.0,150.0,0.0,1.0,150.0,,,,,1.0,1.0
+Tigray,Eastern,Tsaeda Emba,ET010314,Guemse,ET010314|guemse|02,11,6,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Era,ET010315|era|01,31,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Kihen,ET010315|kihen|01,19,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Maytimket,ET010104|maytimket|01,9,7,1,1,0.0,55.0,0.0,1.0,55.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Agulae,ET010315|agulae|01,77,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Oda Keneni,ET040901|oda keneni|01,14,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,North Western,Tsimbla,ET010113,Lemlem,ET010113|lemlem|01,22,23,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Tsimbla,ET010113,Debremariam,ET010113|debremariam|01,32,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Tsimbla,ET010113,Debre abay,ET010113|debre abay|01,38,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Afder,Hargelle,ET050806,Af-ade health center,ET050806|af-ade health center|01,63,38,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Semema,ET010104|semema|01,8,4,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,North Western,Tsimbla,ET010113,Hintset,ET010113|hintset|01,23,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Tsimbla,ET010113,Miebale,ET010113|miebale|01,31,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Mayweini,ET010315|mayweini|01,35,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Debre Birhan,ET010315|debre birhan|01,31,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Asgede,ET010105,Zelazle health post,ET010105|zelazle health post|01,26,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Fudus,ET010315|fudus|01,18,8,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Tigray,Eastern,Subhasaesie,ET010303,Sewne,ET010303|sewne|01,34,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Adikemalek,ET010104|adikemalek|01,17,24,1,1,14.0,0.0,0.0,0.0,-14.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,Hitsats health postp,ET010105|hitsats health postp|01,50,39,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Asebot,ET040901|asebot|03,30,28,1,1,25.0,39.0,0.0,1.0,14.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Kurfa Sawa,ET040901|kurfa sawa|01,28,31,1,1,15.0,30.0,0.0,0.0,15.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Dennebe Hunde Nisoma,ET040901|dennebe hunde nisoma|01,25,27,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Cacole,ET040901|cacole|01,12,18,1,1,25.0,14.0,0.0,0.0,-11.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Cobi,ET040901|cobi|01,19,9,1,1,25.0,41.0,0.0,1.0,16.0,,,,,0.0,1.0
+Tigray,North Western,Adidaero,ET010111,A bladay,ET010111|a bladay|01,78,68,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Subhasaesie,ET010303,Tahtay zban,ET010303|tahtay zban|01,9,3,1,1,21.0,15.0,0.0,0.0,-6.0,,,,,0.0,0.0
+Tigray,North Western,Adidaero,ET010111,Hadegti,ET010111|hadegti|01,5,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Hakfen,ET010104|hakfen|01,4,6,1,1,30.0,21.0,0.0,0.0,-9.0,,,,,0.0,0.0
+Tigray,Eastern,Subhasaesie,ET010303,Kuhale,ET010303|kuhale|01,22,13,1,1,30.0,14.0,0.0,0.0,-16.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,Mayferes health post,ET010105|mayferes health post|01,6,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Tsimbla,ET010113,Zenakude,ET010113|zenakude|01,25,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Hararghe,Mieso,ET040901,Hamaresa,ET040901|hamaresa|01,17,23,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Haromaro Deyima,ET040901|haromaro deyima|01,13,15,1,1,23.0,0.0,0.0,0.0,-23.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Dire Kora,ET040901|dire kora|01,12,31,1,1,12.0,40.0,0.0,1.0,28.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Harkoncha,ET040901|harkoncha|01,27,33,1,1,0.0,40.0,0.0,1.0,40.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Oda Roba,ET040901|oda roba|01,13,8,1,1,24.0,0.0,0.0,0.0,-24.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Hunde Misoma,ET040901|hunde misoma|01,25,24,1,1,18.0,30.0,0.0,0.0,12.0,,,,,0.0,1.0
+Tigray,North Western,Asgede,ET010105,Maysye health post,ET010105|maysye health post|01,13,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Asgede,ET010105,Ksadgaba health center,ET010105|ksadgaba health center|01,13,13,1,1,0.0,7.0,0.0,0.0,7.0,,,,,1.0,1.0
+Tigray,Eastern,Subhasaesie,ET010303,Hadush addi,ET010303|hadush addi|01,23,16,1,1,14.0,15.0,0.0,0.0,1.0,,,,,0.0,0.0
+Tigray,Eastern,Subhasaesie,ET010303,Beleso,ET010303|beleso|01,16,12,1,1,14.0,40.0,0.0,1.0,26.0,,,,,0.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Adigieshti,ET010104|adigieshti|01,10,8,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Eastern,Subhasaesie,ET010303,Hadush Hiwet,ET010303|hadush hiwet|01,45,26,1,1,30.0,21.0,0.0,0.0,-9.0,,,,,0.0,0.0
+Tigray,Eastern,Subhasaesie,ET010303,Asmena,ET010303|asmena|01,30,6,1,1,45.0,14.0,1.0,0.0,-31.0,,,,,0.0,0.0
+Tigray,North Western,Adidaero,ET010111,Selam,ET010111|selam|01,22,ND,1,1,0.0,180.0,0.0,1.0,180.0,,,,,1.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,A.menabr,ET010104|a.menabr|01,11,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Asgede,ET010105,Smret health post,ET010105|smret health post|01,3,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Agamsa Chale,ET040901|agamsa chale|01,23,36,1,1,15.0,50.0,0.0,1.0,35.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Itisa Roro,ET040901|itisa roro|01,6,8,1,1,10.0,40.0,0.0,1.0,30.0,,,,,0.0,1.0
+Tigray,North Western,Asgede,ET010105,Laelay Adi Gebaro,ET010105|laelay adi gebaro|01,4,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,Myshek,ET010105|myshek|01,4,14,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,Edaga Hibret,ET010105|edaga hibret|01,25,14,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,T/Adigebaro,ET010105|t/adigebaro|01,7,13,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Tigray,North Western,Adidaero,ET010111,Adi dearo,ET010111|adi dearo|01,23,50,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Subhasaesie,ET010303,Welwalo,ET010303|welwalo|01,22,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Tigray,Eastern,Subhasaesie,ET010303,Mezewle,ET010303|mezewle|01,6,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Eastern,Subhasaesie,ET010303,Welwalo,ET010303|welwalo|02,6,5,1,1,14.0,0.0,0.0,0.0,-14.0,,,,,0.0,0.0
+Tigray,North Western,Adidaero,ET010111,A/abagie,ET010111|a/abagie|01,44,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Subhasaesie,ET010303,Sewne,ET010303|sewne|02,ND,10,1,1,14.0,21.0,0.0,0.0,7.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,Dedebit health post,ET010105|dedebit health post|01,40,43,1,1,15.0,15.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Laelay Koraro,ET010104,Limeat HP,ET010104|limeat hp|01,10,9,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Tsimbla,ET010113,Mizan,ET010113|mizan|01,44,29,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Tsimbla,ET010113,Birhan,ET010113|birhan|01,21,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Tsimbla,ET010113,Bonaqo,ET010113|bonaqo|01,21,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Selekleka primary Hospital,ET010104|selekleka primary hospital|01,5,10,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,Mayberbere health post,ET010105|mayberbere health post|01,8,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Asgede,ET010105,Limat,ET010105|limat|01,47,14,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,M/Hanse,ET010105|m/hanse|01,23,18,1,1,30.0,30.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Asgede,ET010105,Amehameday,ET010105|amehameday|01,50,61,1,1,0.0,20.0,0.0,0.0,20.0,,,,,0.0,0.0
+Tigray,North Western,Asgede,ET010105,Rahwa,ET010105|rahwa|01,16,10,1,1,60.0,60.0,1.0,1.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Tahtay Koraro,ET010104,Selam,ET010104|selam|01,9,13,1,1,0.0,60.0,0.0,1.0,60.0,,,,,1.0,1.0
+Tigray,North Western,Tahtay Koraro,ET010104,Haftom,ET010104|haftom|01,41,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,North Western,Laelay Koraro,ET010104,Adinigsti health post,ET010104|adinigsti health post|01,26,6,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,West Hararghe,Mieso,ET040901,Hameti Deyima,ET040901|hameti deyima|01,12,17,1,1,20.0,60.0,0.0,1.0,40.0,,,,,0.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Buraysa Tuka,ET040901|buraysa tuka|01,16,21,1,1,10.0,50.0,0.0,1.0,40.0,,,,,0.0,1.0
+Tigray,North Western,Adidaero,ET010111,Hibret,ET010111|hibret|01,11,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,West Hararghe,Mieso,ET040901,Huse Adami,ET040901|huse adami|01,9,12,1,1,10.0,50.0,0.0,1.0,40.0,,,,,0.0,1.0
+Tigray,North Western,Laelay Koraro,ET010104,Meshil,ET010104|meshil|01,20,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Adibearej,ET010104|adibearej|01,9,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Tsimbla,ET010113,Alogen,ET010113|alogen|01,ND,ND,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Nefasit,ET010104|nefasit|01,30,30,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Kuluferha,ET010104|kuluferha|01,9,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Laelay Koraro,ET010104,Kuluferha Health center,ET010104|kuluferha health center|01,10,9,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,0.0,0.0
+Tigray,North Western,Tsimbla,ET010113,Zengorako,ET010113|zengorako|01,32,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,North Western,Adidaero,ET010111,A/ngsti,ET010111|a/ngsti|01,5,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Haresaw,ET010307|haresaw|01,35,15,1,1,30.0,0.0,0.0,0.0,-30.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Felegeweyni,ET010307|felegeweyni|01,17,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Habes,ET010307|habes|01,28,10,1,1,15.0,0.0,0.0,0.0,-15.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Golgolanele,ET010307|golgolanele|01,27,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Mikael Emba,ET010315|mikael emba|01,22,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Hayki meshal,ET010315|hayki meshal|01,44,27,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Mesanu,ET010315|mesanu|01,22,26,1,1,60.0,120.0,1.0,1.0,60.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Dibab Akorein,ET010307|dibab akorein|01,17,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Kelisha,ET010315|kelisha|01,40,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Hayelom,ET010315|hayelom|01,17,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Tsirae Wemberta,ET010315,Barka,ET010315|barka|01,13,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Gebrekidan,ET010307|gebrekidan|01,17,16,1,1,30.0,30.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Hadnet,ET010307|hadnet|01,27,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Haresaw,ET010307|haresaw|02,34,15,1,1,0.0,15.0,0.0,0.0,15.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Rubafeleg,ET010307|rubafeleg|01,18,13,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Zarema,ET010307|zarema|01,24,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Kalamin,ET010307|kalamin|01,42,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Dera HC,ET010307|dera hc|01,14,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Adimesanu,ET010307|adimesanu|01,27,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Eastern,Atsibi,ET010307,Habes,ET010307|habes|02,23,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,North Wollo,Raya Kobo,ET030302,Gobiye health center,ET030302|gobiye health center|01,54,51,1,1,25.0,15.0,0.0,0.0,-10.0,,,,,0.0,0.0
+Amhara,North Wollo,Raya Kobo,ET030302,Robit,ET030302|robit|01,70,216,1,1,99.0,99.0,1.0,1.0,0.0,,,,,0.0,0.0
+Amhara,North Wollo,Gubalafto,ET030307,Hara,ET030307|hara|01,49,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Amhara,North Wollo,Gubalafto,ET030307,Jarsa,ET030307|jarsa|01,ND,ND,1,1,99.0,99.0,1.0,1.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Abaala,ET020203,Abala primary Hospital,ET020203|abala primary hospital|01,84,56,1,1,7.0,7.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Abaala,ET020203,Gelaeso Health center,ET020203|gelaeso health center|01,27,43,1,1,45.0,45.0,1.0,1.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Abaala,ET020203,Abala Health center,ET020203|abala health center|01,64,77,1,1,50.0,60.0,1.0,1.0,10.0,,,,,0.0,0.0
+Afar,Zone 2,Abaala,ET020203,Gorara Health post,ET020203|gorara health post|01,6,12,1,1,60.0,60.0,1.0,1.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Berihale,ET020205,Ada hc,ET020205|ada hc|01,38,42,1,1,120.0,23.0,1.0,0.0,-97.0,,,,,1.0,1.0
+Afar,Zone 2,Abaala,ET020203,Meraile Health post,ET020203|meraile health post|01,22,12,1,1,60.0,60.0,1.0,1.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Abaala,ET020203,Simbilale health center,ET020203|simbilale health center|01,38,45,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Dalol,ET020206,Gerset Health post,ET020206|gerset health post|01,18,24,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Dalol,ET020206,Elphen Health post,ET020206|elphen health post|01,51,65,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Dalol,ET020206,Beheta Health post,ET020206|beheta health post|01,11,15,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Dalol,ET020206,Leasgedi Health post,ET020206|leasgedi health post|01,30,27,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Dalol,ET020206,Ayshit Health post,ET020206|ayshit health post|01,17,18,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Dalol,ET020206,Adquwa Health center,ET020206|adquwa health center|01,67,85,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Dalol,ET020206,Sabiba Health post,ET020206|sabiba health post|01,15,22,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Abaala,ET020203,Haridan health center,ET020203|haridan health center|01,46,20,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Afar,Zone 2,Abaala,ET020203,Mudad Health post,ET020203|mudad health post|01,15,17,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Metekel,Dangur,ET060201,Manbuk Health Center,ET060201|manbuk health center|01,0,0,0,0,,,,,,,,,,,
+Benishangul Gumuz,Metekel,Dibatie,ET060205,Angtok Health Post,ET060205|angtok health post|01,4,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Benishangul Gumuz,Metekel,Dibatie,ET060205,Yamp Health Post,ET060205|yamp health post|01,6,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Metekel,Dibatie,ET060205,Debati Health Center,ET060205|debati health center|01,15,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Metekel,Dangur,ET060201,Azarti health post,ET060201|azarti health post|01,21,14,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Benishangul Gumuz,Metekel,Dangur,ET060201,Ayapapo,ET060201|ayapapo|01,42,36,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Benishangul Gumuz,Metekel,Dangur,ET060201,Manbuk Kebele 02 Health Post,ET060201|manbuk kebele 02 health post|01,24,30,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Benishangul Gumuz,Metekel,Dangur,ET060201,Beles Kuter 2 Health Post,ET060201|beles kuter 2 health post|01,14,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Embaseneyti,ET010219,Nebelet,ET010219|nebelet|01,22,15,1,1,5.0,5.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,East Wollega,Guto Gida,ET040213,Loko,ET040213|loko|01,19,4,1,1,14.0,7.0,0.0,0.0,-7.0,,,,,0.0,1.0
+Oromia,East Wollega,Sasiga,ET040211,Tsige HC,ET040211|tsige hc|01,9,14,1,1,0.0,29.0,0.0,0.0,29.0,,,,,1.0,1.0
+Oromia,East Wollega,Sasiga,ET040211,Tokkuma,ET040211|tokkuma|01,7,11,1,1,0.0,37.0,0.0,1.0,37.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Atsgeba,ET010215|atsgeba|01,14,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Abnet,ET010215|abnet|01,5,7,1,1,0.0,16.0,0.0,0.0,16.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Aregawi,ET010215|aregawi|01,5,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Bale,Lega Hidha,ET042102,Hidha Hunda Health Post,ET042102|hidha hunda health post|01,13,15,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Rama,ET010214,Hadush Adi Health Post,ET010214|hadush adi health post|01,13,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Rama,ET010214,Mayweyni Health  post,ET010214|mayweyni health post|01,5,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Rama,ET010214,Halelo Health Center,ET010214|halelo health center|01,41,38,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,Central,Rama,ET010214,Mihquan Health post,ET010214|mihquan health post|01,36,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,Central,Rama,ET010214,Birshiwa primary Hospital,ET010214|birshiwa primary hospital|01,33,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,East Bale,Lega Hidha,ET042102,Beltu Health Center,ET042102|beltu health center|01,13,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Rama,ET010214,Medhin Health post,ET010214|medhin health post|01,17,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Rama,ET010214,Abak Health post,ET010214|abak health post|01,16,25,1,1,21.0,0.0,0.0,0.0,-21.0,,,,,0.0,1.0
+Tigray,Central,Axum Town,ET010213,Axum Health center,ET010213|axum health center|01,65,57,1,1,0.0,69.0,0.0,1.0,69.0,,,,,0.0,0.0
+Tigray,Central,Axum Town,ET010213,Millenium,ET010213|millenium|01,45,29,1,1,21.0,75.0,0.0,1.0,54.0,,,,,0.0,0.0
+Tigray,Central,Rama,ET010214,Dafa,ET010214|dafa|01,14,4,1,1,5.0,6.0,0.0,0.0,1.0,,,,,1.0,0.0
+Tigray,Central,Rama,ET010214,Simret,ET010214|simret|01,18,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,0.0
+Tigray,Central,Ahsea,ET010215,Haftom,ET010215|haftom|01,8,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Adi Fitaw,ET010215|adi fitaw|01,20,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Haftemaryam Health Post,ET010215|haftemaryam health post|01,17,26,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Ahsea health center,ET010215|ahsea health center|01,6,1,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Suhul health post,ET010215|suhul health post|01,8,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Merih senay health post,ET010215|merih senay health post|01,6,1,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Ahsea,ET010215,Debreharmaz,ET010215|debreharmaz|01,25,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Gura Dhamole,ET041115,Yadi,ET041115|yadi|01,19,14,1,1,0.0,60.0,0.0,1.0,60.0,,,,,0.0,0.0
+Tigray,Central,Hahayle,ET010217,Adizata Health post,ET010217|adizata health post|01,19,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Guto Gida,ET040213,Lugo,ET040213|lugo|01,12,49,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,1.0
+Tigray,Central,Hahayle,ET010217,Feresmay Health center,ET010217|feresmay health center|01,21,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Bale,Lega Hidha,ET042102,Yabalo,ET042102|yabalo|01,35,28,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,East Bale,Lega Hidha,ET042102,Goni,ET042102|goni|01,21,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Hahayle,ET010217,Mykuhli Health post,ET010217|mykuhli health post|01,6,15,1,1,7.0,21.0,0.0,0.0,14.0,,,,,0.0,0.0
+Oromia,Bale,Barbare,ET041114,Hambala,ET041114|hambala|01,0,0,0,0,,,,,,,,,,,
+Tigray,Central,Embaseneyti,ET010219,Tseftsef,ET010219|tseftsef|01,0,6,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Tigray,Central,Hahayle,ET010217,Adiykoro Health Post,ET010217|adiykoro health post|01,4,11,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Tigray,Central,Embaseneyti,ET010219,Mereto health post,ET010219|mereto health post|01,0,9,0,1,,0.0,,0.0,,,,,,0.0,0.0
+Tigray,Central,Embaseneyti,ET010219,Seguh,ET010219|seguh|01,7,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Embaseneyti,ET010219,Adi-ergeyto HP,ET010219|adi-ergeyto hp|01,4,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Embaseneyti,ET010219,Adi-hedem Health Center,ET010219|adi-hedem health center|01,11,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Embaseneyti,ET010219,Azmera Health Post,ET010219|azmera health post|01,5,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Gura Dhamole,ET041115,Rayitu Anole HC,ET041115|rayitu anole hc|01,0,0,0,0,,,,,,,,,,,
+Tigray,Central,Embaseneyti,ET010219,Nebelet,ET010219|nebelet|02,16,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Embaseneyti,ET010219,Mesema,ET010219|mesema|01,18,11,1,1,0.0,53.0,0.0,1.0,53.0,,,,,0.0,0.0
+Tigray,Central,Embaseneyti,ET010219,May-nebri,ET010219|may-nebri|01,5,7,1,1,10.0,8.0,0.0,0.0,-2.0,,,,,0.0,0.0
+Oromia,East Wollega,Guto Gida,ET040213,Uke Health center,ET040213|uke health center|01,29,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,East Bale,Lega Hidha,ET042102,Bare,ET042102|bare|01,9,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,East Bale,Lega Hidha,ET042102,Wadesa,ET042102|wadesa|01,59,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Hahayle,ET010217,Lalayhahayle,ET010217|lalayhahayle|01,3,8,1,1,0.0,6.0,0.0,0.0,6.0,,,,,0.0,0.0
+Somali,Shebele,Kelafo,ET050605,Hilo-bacad Health,ET050605|hilo-bacad health|01,103,71,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Shebele,Kelafo,ET050605,Kalafo Health,ET050605|kalafo health|01,38,69,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Shebele,Kelafo,ET050605,Adis-ketema,ET050605|adis-ketema|01,79,49,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Hahayle,ET010217,Kolageble health post,ET010217|kolageble health post|01,8,5,1,1,0.0,21.0,0.0,0.0,21.0,,,,,0.0,0.0
+Tigray,Central,Embaseneyti,ET010219,Mytuem healrh post,ET010219|mytuem healrh post|01,5,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Gura Dhamole,ET041115,Shabo health center,ET041115|shabo health center|01,0,0,0,0,,,,,,,,,,,
+Tigray,Central,Hahayle,ET010217,Hadushadi Health Post,ET010217|hadushadi health post|01,12,7,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,Bale,Barbare,ET041114,Hambala,ET041114|hambala|02,149,107,1,1,0.0,21.0,0.0,0.0,21.0,,,,,0.0,0.0
+Tigray,Central,Hahayle,ET010217,Daroanbesa,ET010217|daroanbesa|01,7,33,1,1,0.0,34.0,0.0,1.0,34.0,,,,,0.0,0.0
+Tigray,Central,Hahayle,ET010217,Tahtaydareka Health Post,ET010217|tahtaydareka health post|01,7,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Hahayle,ET010217,Endalashin Health Post,ET010217|endalashin health post|01,4,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Hahayle,ET010217,Edagahamus Health Post,ET010217|edagahamus health post|01,14,12,1,1,0.0,20.0,0.0,0.0,20.0,,,,,0.0,0.0
+Oromia,Bale,Gura Dhamole,ET041115,Jibri health center,ET041115|jibri health center|01,0,0,0,0,,,,,,,,,,,
+Oromia,Bale,Goro,ET041116,Goro  Health center,ET041116|goro health center|01,35,23,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Hawesta Health post,ET010205|hawesta health post|01,11,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,Central,Adet,ET010207,Adreb Health Post,ET010207|adreb health post|01,ND,12,1,1,180.0,0.0,1.0,0.0,-180.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Adi Serawat,ET010209|adi serawat|01,25,27,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Meriena Health post,ET010205|meriena health post|01,15,19,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Lailay Maichew,ET010205,Debrebrhan Health center,ET010205|debrebrhan health center|01,13,7,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,East Bale,Lega Hidha,ET042102,Bahima,ET042102|bahima|01,16,29,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Lailay Maichew,ET010205,Dura Health Post,ET010205|dura health post|01,16,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,Central,Naeder,ET010209,Mahberedego health center,ET010209|mahberedego health center|01,29,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Mahbereselam health post,ET010209|mahbereselam health post|01,13,12,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Awleo health post,ET010209|awleo health post|01,12,4,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Aditsehafi Health  Post,ET010205|aditsehafi health post|01,4,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Wolel Health Post,ET010205|wolel health post|01,12,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Wolel Health Center,ET010205|wolel health center|01,7,9,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Medego Health post,ET010205|medego health post|01,24,24,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,Bale,Barbare,ET041114,Cheketa,ET041114|cheketa|01,0,0,0,0,,,,,,,,,,,
+Somali,Shebele,Kelafo,ET050605,Burgabo Health,ET050605|burgabo health|01,13,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Oromia,Bale,Goro,ET041116,Meleyu Health center,ET041116|meleyu health center|01,5,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Kelafo,ET050605,Cashatag Health,ET050605|cashatag health|01,16,4,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Somali,Shebele,Kelafo,ET050605,Lukdhere Health,ET050605|lukdhere health|01,53,16,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Tigray,Central,Lailay Maichew,ET010205,Edagarabi Health Post,ET010205|edagarabi health post|01,28,14,1,1,8.0,0.0,0.0,0.0,-8.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Hastebo Health Post,ET010205|hastebo health post|01,27,24,1,1,28.0,30.0,0.0,0.0,2.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Lesalso Health Post,ET010205|lesalso health post|01,ND,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Metakilo,ET010209|metakilo|01,12,26,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Abeba Yohans,ET010209|abeba yohans|01,9,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Daero hafash,ET010209|daero hafash|01,18,38,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Debrekal Health Center,ET010205|debrekal health center|01,43,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Lailay Maichew,ET010205,Natka blae Health Post,ET010205|natka blae health post|01,3,3,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Naeder,ET010209,Teregey Health Post,ET010209|teregey health post|01,8,2,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Teregey,ET010209|teregey|01,10,2,1,1,12.0,7.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Dagina,ET010209|dagina|01,24,25,1,1,6.0,0.0,0.0,0.0,-6.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Elela Health Post,ET010209|elela health post|01,12,23,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Adilakien Healrh post,ET010209|adilakien healrh post|01,15,27,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Harana Buluk,ET041111,Hawo,ET041111|hawo|01,58,31,1,1,42.0,30.0,1.0,0.0,-12.0,,,,,0.0,0.0
+Oromia,Bale,Harana Buluk,ET041111,Adeyi,ET041111|adeyi|01,37,21,1,1,40.0,30.0,1.0,0.0,-10.0,,,,,0.0,0.0
+Oromia,Bale,Harana Buluk,ET041111,Shawe,ET041111|shawe|01,32,20,1,1,30.0,15.0,0.0,0.0,-15.0,,,,,0.0,0.0
+Oromia,Bale,Harana Buluk,ET041111,Mekana,ET041111|mekana|01,59,91,1,1,60.0,45.0,1.0,1.0,-15.0,,,,,0.0,0.0
+Oromia,Bale,Harana Buluk,ET041111,Gerbi Galo,ET041111|gerbi galo|01,15,26,1,1,20.0,15.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Oromia,Bale,Harana Buluk,ET041111,Sodu Tatesa,ET041111|sodu tatesa|01,28,7,1,1,30.0,40.0,0.0,1.0,10.0,,,,,0.0,0.0
+Tigray,Central,Naeder,ET010209,Serihka Blae Health Post,ET010209|serihka blae health post|01,9,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Mayweyni HC,ET010205|mayweyni hc|01,18,3,1,1,14.0,0.0,0.0,0.0,-14.0,,,,,0.0,1.0
+Tigray,Central,Lailay Maichew,ET010205,Miha,ET010205|miha|01,20,10,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Tigray,Central,Naeder,ET010209,Golgol Chemo,ET010209|golgol chemo|01,13,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Gura Dhamole,ET041115,Wodessa health post,ET041115|wodessa health post|01,ND,ND,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Gitto health post,ET010207|gitto health post|01,1,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Bale,Rayitu,ET042104,Dhadacha Baldha Health Center,ET042104|dhadacha baldha health center|01,55,48,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,1.0
+Oromia,East Bale,Rayitu,ET042104,Halo Choma,ET042104|halo choma|01,24,44,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Bale,Rayitu,ET042104,Adala Health Center,ET042104|adala health center|01,18,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Bale,Rayitu,ET042104,Kare Tule,ET042104|kare tule|01,30,22,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Bale,Rayitu,ET042104,Bara Dimtu Health Center,ET042104|bara dimtu health center|01,3,0,1,0,0.0,,0.0,,,,,,,0.0,0.0
+Oromia,East Bale,Rayitu,ET042104,Bokol Health Post,ET042104|bokol health post|01,8,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Lalisa Bareda,ET040211|lalisa bareda|01,13,14,1,1,90.0,30.0,1.0,0.0,-60.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,D/shewit Health post,ET010206|d/shewit health post|01,4,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Kewanit Health Post,ET010206|kewanit health post|01,14,39,1,1,0.0,13.0,0.0,0.0,13.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Milki Gudina,ET040211|milki gudina|01,ND,14,1,1,180.0,0.0,1.0,0.0,-180.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Ballo Health center,ET040211|ballo health center|01,86,ND,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Maybrazio Health post,ET010206|maybrazio health post|01,16,33,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Wukromaray primary Hospital,ET010206|wukromaray primary hospital|01,ND,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Lailay Maichew,ET010205,Seglamen health post,ET010205|seglamen health post|01,19,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Kelafo,ET050605,Dorale Health Post,ET050605|dorale health post|01,19,58,1,1,120.0,90.0,1.0,1.0,-30.0,,,,,1.0,1.0
+Somali,Shebele,Kelafo,ET050605,Niri Health Post,ET050605|niri health post|01,44,91,1,1,120.0,120.0,1.0,1.0,0.0,,,,,1.0,1.0
+Tigray,Central,Adet,ET010207,Betesemati health post,ET010207|betesemati health post|01,5,8,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,K/awhi Health Post,ET010207|k/awhi health post|01,7,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Seka Health Post,ET010207|seka health post|01,1,13,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Semema Primary hospital,ET010207|semema primary hospital|01,25,32,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Gundi,ET010207|gundi|01,9,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Adiselam health post,ET010207|adiselam health post|01,17,18,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Bale,Lega Hidha,ET042102,Harkiso,ET042102|harkiso|01,14,20,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Adet,ET010207,Rubay,ET010207|rubay|01,26,11,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,E/berhe health center,ET010207|e/berhe health center|01,40,53,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Bale,Lega Hidha,ET042102,Doya Abu,ET042102|doya abu|01,44,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Adet,ET010207,Saberuba Health Post,ET010207|saberuba health post|01,15,32,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Tisha Health Post,ET010206|tisha health post|01,12,16,1,1,7.0,0.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Oromia,East Bale,Lega Hidha,ET042102,Adele,ET042102|adele|01,33,58,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Tigray,Central,Tahtay Maychew,ET010206,Hadush Adi Health  Post,ET010206|hadush adi health post|01,11,26,1,1,7.0,0.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Dimbaza Health  center,ET010206|dimbaza health center|01,8,14,1,1,7.0,0.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Adikebekli Health Center,ET010207|adikebekli health center|01,29,46,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Kelafo,ET050605,Afdub Health,ET050605|afdub health|01,161,99,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,1.0,1.0
+Oromia,Bale,Gura Dhamole,ET041115,Jibo samo health post,ET041115|jibo samo health post|01,14,7,1,1,90.0,20.0,1.0,0.0,-70.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Maysiyea,ET010206|maysiyea|01,19,17,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Aqabiseat,ET010206|aqabiseat|01,43,36,1,1,12.0,5.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Shinako,ET010207|shinako|01,38,16,1,1,5.0,7.0,0.0,0.0,2.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Mayatsmi Health Center,ET010206|mayatsmi health center|01,25,32,1,1,21.0,12.0,0.0,0.0,-9.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Adigura Health Post,ET010206|adigura health post|01,18,34,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Ferima Health Centet,ET010206|ferima health centet|01,8,6,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Tahtay Maychew,ET010206,Ferima Health Post,ET010206|ferima health post|01,20,21,1,1,7.0,0.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Jira,ET010207|jira|01,27,26,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Maydaniya,ET010207|maydaniya|01,9,19,1,1,0.0,10.0,0.0,0.0,10.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,D/genet,ET010207|d/genet|01,27,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Tigray,Central,Adet,ET010207,Humor Health post,ET010207|humor health post|01,31,35,1,1,68.0,65.0,1.0,1.0,-3.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Wayu Hora,ET041116|wayu hora|01,10,3,1,1,30.0,7.0,0.0,0.0,-23.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Waltai saida,ET041116|waltai saida|01,8,11,1,1,0.0,7.0,0.0,0.0,7.0,,,,,0.0,0.0
+Oromia,Bale,Harana Buluk,ET041111,Angetu,ET041111|angetu|01,86,82,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Guto Gida,ET040213,Kajjela health post,ET040213|kajjela health post|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Guto Gida,ET040213,Eba HC,ET040213|eba hc|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Bareda HC,ET040211|bareda hc|01,40,103,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Kelafo,ET050605,Raydab Health,ET050605|raydab health|01,15,25,1,1,90.0,30.0,1.0,0.0,-60.0,,,,,1.0,1.0
+Somali,Shebele,Kelafo,ET050605,Jaqdhor Health,ET050605|jaqdhor health|01,19,14,1,1,60.0,0.0,1.0,0.0,-60.0,,,,,1.0,1.0
+Somali,Shebele,Kelafo,ET050605,Bohol-aways,ET050605|bohol-aways|01,31,23,1,1,0.0,30.0,0.0,0.0,30.0,,,,,1.0,1.0
+Oromia,Bale,Harana Buluk,ET041111,Buluk,ET041111|buluk|01,46,53,1,1,40.0,30.0,1.0,0.0,-10.0,,,,,0.0,0.0
+Oromia,Bale,Harana Buluk,ET041111,Hero,ET041111|hero|01,16,15,1,1,40.0,40.0,1.0,1.0,0.0,,,,,0.0,0.0
+Somali,Shebele,Kelafo,ET050605,Kalaman Health,ET050605|kalaman health|01,34,55,1,1,60.0,60.0,1.0,1.0,0.0,,,,,1.0,1.0
+Somali,Shebele,Kelafo,ET050605,Alow-igarsi Health,ET050605|alow-igarsi health|01,59,73,1,1,30.0,60.0,0.0,1.0,30.0,,,,,1.0,1.0
+Somali,Shebele,Kelafo,ET050605,Musodon Health,ET050605|musodon health|01,33,61,1,1,0.0,0.0,0.0,0.0,0.0,,,,,1.0,1.0
+Somali,Liben,Dolo-Ado,ET050902,Suftu health center,ET050902|suftu health center|01,32,49,1,1,20.0,15.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Somali,Liben,Dolo-Ado,ET050902,Boriyale health post,ET050902|boriyale health post|01,20,24,1,1,21.0,25.0,0.0,0.0,4.0,,,,,0.0,0.0
+Somali,Liben,Dolo-Ado,ET050902,Dhaytuli health post,ET050902|dhaytuli health post|01,15,18,1,1,15.0,21.0,0.0,0.0,6.0,,,,,0.0,0.0
+Somali,Liben,Dolo-Ado,ET050902,Wadluhube health center,ET050902|wadluhube health center|01,31,24,1,1,18.0,25.0,0.0,0.0,7.0,,,,,0.0,0.0
+Somali,Liben,Dolo-Ado,ET050902,Rama health center,ET050902|rama health center|01,37,38,1,1,20.0,27.0,0.0,0.0,7.0,,,,,0.0,0.0
+Somali,Liben,Dolo-Ado,ET050902,Qurarey health post,ET050902|qurarey health post|01,20,23,1,1,19.0,21.0,0.0,0.0,2.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Erer Health Center,ET050104|erer health center|01,40,92,1,1,60.0,35.0,1.0,1.0,-25.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Kendaras Health post,ET050104|kendaras health post|01,33,24,1,1,65.0,67.0,1.0,1.0,2.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Bila Health Post,ET050104|bila health post|01,44,19,1,1,65.0,47.0,1.0,1.0,-18.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Hurso Health Center,ET050104|hurso health center|01,39,31,1,1,30.0,60.0,0.0,1.0,30.0,,,,,0.0,0.0
+Somali,Liben,Dolo-Ado,ET050902,Bur-amino health post,ET050902|bur-amino health post|01,18,22,1,1,25.0,30.0,0.0,0.0,5.0,,,,,0.0,0.0
+Somali,Liben,Dolo-Ado,ET050902,Kole health center,ET050902|kole health center|01,31,35,1,1,25.0,30.0,0.0,0.0,5.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Galo HC,ET040211|galo hc|01,5,14,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Oda HP,ET040211|oda hp|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Mada Jalala,ET040211|mada jalala|01,ND,ND,1,1,180.0,180.0,1.0,1.0,0.0,,,,,0.0,1.0
+Somali,Afder,Dolo-Bay,ET050808,Edhadhami health center,ET050808|edhadhami health center|01,42,29,1,1,50.0,30.0,1.0,0.0,-20.0,,,,,0.0,0.0
+Somali,Afder,Dolo-Bay,ET050808,Gubadley,ET050808|gubadley|01,20,31,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Afder,Dolo-Bay,ET050808,Helobuli,ET050808|helobuli|01,19,15,1,1,30.0,25.0,0.0,0.0,-5.0,,,,,0.0,0.0
+Somali,Afder,Dolo-Bay,ET050808,Heloquran Health center,ET050808|heloquran health center|01,22,19,1,1,0.0,26.0,0.0,0.0,26.0,,,,,0.0,0.0
+Somali,Afder,Dolo-Bay,ET050808,Dolo bay Health center,ET050808|dolo bay health center|01,110,81,1,1,15.0,60.0,0.0,1.0,45.0,,,,,0.0,0.0
+Somali,Afder,Dolo-Bay,ET050808,Madhar,ET050808|madhar|01,32,65,1,1,28.0,0.0,0.0,0.0,-28.0,,,,,0.0,0.0
+Somali,Afder,Dolo-Bay,ET050808,Hantadu health center,ET050808|hantadu health center|01,22,16,1,1,90.0,60.0,1.0,1.0,-30.0,,,,,0.0,0.0
+Somali,Afder,Dolo-Bay,ET050808,Qorahey Health post,ET050808|qorahey health post|01,25,31,1,1,140.0,180.0,1.0,1.0,40.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Jimata HC,ET040211|jimata hc|01,58,54,1,1,30.0,30.0,0.0,0.0,0.0,,,,,0.0,1.0
+Somali,Liben,Dolo-Ado,ET050902,Bardaley health post,ET050902|bardaley health post|01,18,22,1,1,30.0,23.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Aydora Health center,ET050104|aydora health center|01,33,24,1,1,50.0,30.0,1.0,0.0,-20.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Megala ad Health post,ET050104|megala ad health post|01,2,10,1,1,90.0,65.0,1.0,1.0,-25.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Halsho Health Post,ET050104|halsho health post|01,ND,5,1,1,5.0,180.0,0.0,1.0,175.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Tabci Health Post,ET050104|tabci health post|01,ND,5,1,1,60.0,180.0,1.0,1.0,120.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Anger HC,ET040211|anger hc|01,162,34,1,1,21.0,21.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Sasiga,ET040211,Haro Gudina HP,ET040211|haro gudina hp|01,ND,ND,1,1,180.0,90.0,1.0,1.0,-90.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Gare,ET041116|gare|01,52,25,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Liben,Dolo-Ado,ET050902,Dollo Ado primary hospital,ET050902|dollo ado primary hospital|01,125,110,1,1,8.0,7.0,0.0,0.0,-1.0,,,,,1.0,1.0
+Somali,Sitti,Afdam,ET050105,Afdam Health Center,ET050105|afdam health center|01,138,51,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Sitti,Afdam,ET050105,Sisalow Health Post,ET050105|sisalow health post|01,19,34,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Bale Dorani,ET041116|bale dorani|01,55,27,1,1,0.0,15.0,0.0,0.0,15.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Goro health center,ET041116|goro health center|02,35,23,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Melka Buta,ET041116|melka buta|01,0,0,0,0,,,,,,,,,,,
+Somali,Korahe,Shilabo,ET050503,Karsooni Health Post,ET050503|karsooni health post|01,32,50,1,1,138.0,156.0,1.0,1.0,18.0,,,,,0.0,1.0
+Somali,Korahe,Shilabo,ET050503,Lasoole Health Post,ET050503|lasoole health post|01,41,27,1,1,12.0,25.0,0.0,0.0,13.0,,,,,1.0,1.0
+Somali,Korahe,Shilabo,ET050503,Mirkaynan Health Post,ET050503|mirkaynan health post|01,27,32,1,1,12.0,11.0,0.0,0.0,-1.0,,,,,1.0,1.0
+Somali,Korahe,Shilabo,ET050503,Danbacad Health Post,ET050503|danbacad health post|01,29,27,1,1,19.0,15.0,0.0,0.0,-4.0,,,,,1.0,1.0
+Somali,Korahe,Shilabo,ET050503,Shilabo Health Center,ET050503|shilabo health center|01,61,64,1,1,13.0,19.0,0.0,0.0,6.0,,,,,1.0,1.0
+Somali,Korahe,Shilabo,ET050503,Cirgudban Health Center,ET050503|cirgudban health center|01,61,38,1,1,11.0,13.0,0.0,0.0,2.0,,,,,1.0,1.0
+Oromia,Bale,Goro,ET041116,Alemkarm,ET041116|alemkarm|01,18,21,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Asbuli Health center,ET050104|asbuli health center|01,26,52,1,1,30.0,35.0,0.0,1.0,5.0,,,,,0.0,0.0
+Oromia,Bale,Barbare,ET041114,Gadula,ET041114|gadula|01,22,5,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Urdala Health Post,ET050104|urdala health post|01,5,9,1,1,45.0,120.0,1.0,1.0,75.0,,,,,0.0,0.0
+Somali,Sitti,Afdam,ET050105,Elder Health Post,ET050105|elder health post|01,31,16,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Barbare,ET041114,Meti,ET041114|meti|01,0,0,0,0,,,,,,,,,,,
+Oromia,Bale,Barbare,ET041114,Harawa,ET041114|harawa|01,0,0,0,0,,,,,,,,,,,
+Oromia,East Wollega,Guto Gida,ET040213,Horo Alaltu,ET040213|horo alaltu|01,48,72,1,1,120.0,120.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,East Wollega,Guto Gida,ET040213,Gadisa Oda,ET040213|gadisa oda|01,62,62,1,1,120.0,120.0,1.0,1.0,0.0,,,,,0.0,0.0
+Oromia,Bale,Barbare,ET041114,Haro Dumal,ET041114|haro dumal|01,52,20,1,1,0.0,21.0,0.0,0.0,21.0,,,,,0.0,0.0
+Oromia,Bale,Barbare,ET041114,Gora Hido,ET041114|gora hido|01,79,49,1,1,0.0,15.0,0.0,0.0,15.0,,,,,0.0,0.0
+Somali,Sitti,Erar,ET050104,Gadwayn Health post,ET050104|gadwayn health post|01,9,8,1,1,120.0,90.0,1.0,1.0,-30.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Tayitu Tulu,ET041116|tayitu tulu|01,1,7,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Melka Beldo,ET041116|melka beldo|01,35,28,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,Bale,Barbare,ET041114,Walta'i Deresa,ET041114|walta'i deresa|01,132,70,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Dadimos Bidik,ET041116|dadimos bidik|01,2,5,1,1,20.0,0.0,0.0,0.0,-20.0,,,,,0.0,0.0
+Oromia,Bale,Barbare,ET041114,Burkitu,ET041114|burkitu|01,36,7,1,1,0.0,30.0,0.0,0.0,30.0,,,,,0.0,0.0
+Oromia,Bale,Goro,ET041116,Gilinco,ET041116|gilinco|01,ND,ND,1,1,90.0,90.0,1.0,1.0,0.0,,,,,0.0,0.0
+Afar,Zone 1,Assaita,ET020103,Barga HP,ET020103|barga hp|01,34,34,1,1,40.0,40.0,1.0,1.0,0.0,,,,,0.0,0.0
+Afar,Zone 1,Assaita,ET020103,Barga Health Center,ET020103|barga health center|01,71,17,1,1,90.0,60.0,1.0,1.0,-30.0,,,,,0.0,0.0
+Afar,Zone 1,Assaita,ET020103,Assa'ita Primary Hoaspital,ET020103|assa'ita primary hoaspital|01,176,160,1,1,14.0,7.0,0.0,0.0,-7.0,,,,,0.0,0.0
+Afar,Zone 1,Assaita,ET020103,Wanis Health Post,ET020103|wanis health post|01,ND,ND,1,1,0.0,0.0,0.0,0.0,0.0,,,,,0.0,0.0
