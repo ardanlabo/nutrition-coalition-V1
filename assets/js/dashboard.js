@@ -1,9 +1,4 @@
 // assets/js/dashboard.js
-// ✅ FIXES:
-// 1) Exclude facilities with no OTP active in T2 (otp_active_t2 != 1)
-// 2) Replace numeric "T2 critical" display by a TEXT status based on lmri_t2_days:
-//    Faible pression / Modéré / Élevé / Extrême
-// 3) Keep all existing features (filters, KPIs, HR block, table, debounce search)
 
 function parseCSV(text) {
   const rows = [];
