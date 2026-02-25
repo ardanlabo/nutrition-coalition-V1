@@ -1,0 +1,1135 @@
+adm3_pcode,Region,Zone,Woreda,NGO,activity_code,activity_raw,funding_status,ngo_type,start_date,end_date
+ET120203,Gambela,Agnewak,Gog,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-09-19,2025-09-18
+ET120407,Gambela,Itang Special woreda,Itang,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-09-19,2025-09-18
+ET120202,Gambela,Agnewak,Gambela Zuria,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-09-19,2025-09-18
+ET120407,Gambela,Itang Special woreda,Itang,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-09-19,2025-09-18
+ET120203,Gambela,Agnewak,Gog,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-09-19,2025-09-18
+ET120202,Gambela,Agnewak,Gambela Zuria,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-09-19,2025-09-18
+ET120203,Gambela,Agnewak,Gog,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-09-19,2025-09-18
+ET120407,Gambela,Itang Special woreda,Itang,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-09-19,2025-09-18
+ET120202,Gambela,Agnewak,Gambela Zuria,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-09-19,2025-09-18
+ET050608,Somali,Shabelle,Berocano,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-01,2025-04-30
+ET050608,Somali,Shabelle,Berocano,Concern Worldwide,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-01,2025-04-30
+ET050601,Somali,Shabelle,East Imi,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-01,2025-04-30
+ET030808,Amhara,Wag Hamra,Tsagbeji,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-01-31
+ET030803,Amhara,Wag Hamra,Dehana,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-01-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2025-01-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2025-01-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-01-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-01-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2025-01-31
+ET030803,Amhara,Wag Hamra,Dehana,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-08-20,2025-04-19
+ET040103,Oromia,West Wellega,Gimbi,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-05-31
+ET040103,Oromia,West Wellega,Gimbi,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-05-31
+ET030803,Amhara,Wag Hamra,Dehana,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-31,2025-01-31
+ET030803,Amhara,Wag Hamra,Dehana,Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-08-20,2025-04-19
+ET030803,Amhara,Wag Hamra,Dehana,Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-08-20,2025-04-19
+ET020203,Afar,Kilbati /Zone2,Abaala,Premiere Urgence Internationale,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020203,Afar,Kilbati /Zone2,Abaala,Premiere Urgence Internationale,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020203,Afar,Kilbati /Zone2,Abaala,Premiere Urgence Internationale,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020203,Afar,Kilbati /Zone2,Abaala,Premiere Urgence Internationale,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020203,Afar,Kilbati /Zone2,Abaala,Premiere Urgence Internationale,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020209,Afar,Kilbati /Zone2,Abaala town,Premiere Urgence Internationale,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020209,Afar,Kilbati /Zone2,Abaala town,Premiere Urgence Internationale,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020209,Afar,Kilbati /Zone2,Abaala town,Premiere Urgence Internationale,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020209,Afar,Kilbati /Zone2,Abaala town,Premiere Urgence Internationale,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020209,Afar,Kilbati /Zone2,Abaala town,Premiere Urgence Internationale,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020205,Afar,Kilbati /Zone2,Berahile,Premiere Urgence Internationale,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020205,Afar,Kilbati /Zone2,Berahile,Premiere Urgence Internationale,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020205,Afar,Kilbati /Zone2,Berahile,Premiere Urgence Internationale,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020205,Afar,Kilbati /Zone2,Berahile,Premiere Urgence Internationale,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020205,Afar,Kilbati /Zone2,Berahile,Premiere Urgence Internationale,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020206,Afar,Kilbati /Zone2,Dalol,Premiere Urgence Internationale,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020206,Afar,Kilbati /Zone2,Dalol,Premiere Urgence Internationale,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020206,Afar,Kilbati /Zone2,Dalol,Premiere Urgence Internationale,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020206,Afar,Kilbati /Zone2,Dalol,Premiere Urgence Internationale,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020206,Afar,Kilbati /Zone2,Dalol,Premiere Urgence Internationale,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-04-30
+ET010222,Tigray,Central,Tanqua Melashe,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2023-07-01,2025-02-28
+ET010222,Tigray,Central,Tanqua Melashe,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2023-07-01,2025-02-28
+ET041211,Oromia,Borena,Dire,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041211,Oromia,Borena,Dire,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041211,Oromia,Borena,Dire,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041210,Oromia,Borena,Moyale (OR),Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041210,Oromia,Borena,Moyale (OR),Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041210,Oromia,Borena,Moyale (OR),Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041007,Oromia,East Hararge,Kurfa Chele,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-08-19,2025-03-18
+ET041007,Oromia,East Hararge,Kurfa Chele,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-08-19,2025-03-18
+ET041007,Oromia,East Hararge,Kurfa Chele,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-08-19,2025-03-18
+ET041007,Oromia,East Hararge,Kurfa Chele,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-08-19,2025-03-18
+ET041007,Oromia,East Hararge,Kurfa Chele,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-08-19,2025-03-18
+ET041007,Oromia,East Hararge,Kurfa Chele,Cooperative for Assistance and Relief Everywhere,CAPACITY,Capacity Building,Fully funded,International NGO,2024-08-19,2025-03-18
+ET041007,Oromia,East Hararge,Kurfa Chele,Cooperative for Assistance and Relief Everywhere,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,International NGO,2024-08-19,2025-03-18
+ET020102,Afar,Awsi /Zone 1,Elidar,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-07-01,2025-05-31
+ET020102,Afar,Awsi /Zone 1,Elidar,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-07-01,2025-05-31
+ET010302,Tigray,Eastern,Erob,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-12-31
+ET041013,Oromia,East Hararge,Bedeno,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041013,Oromia,East Hararge,Bedeno,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041013,Oromia,East Hararge,Bedeno,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041013,Oromia,East Hararge,Bedeno,Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041013,Oromia,East Hararge,Bedeno,Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041013,Oromia,East Hararge,Bedeno,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-09-30
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-01,2025-05-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2025-05-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2025-05-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-06-01,2025-05-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2025-05-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2025-05-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2025-05-31
+ET041016,Oromia,East Hararge,Girawa,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041016,Oromia,East Hararge,Girawa,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041016,Oromia,East Hararge,Girawa,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041016,Oromia,East Hararge,Girawa,Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041016,Oromia,East Hararge,Girawa,Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041016,Oromia,East Hararge,Girawa,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-09-30
+ET010222,Tigray,Central,Tanqua Melashe,Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2023-07-01,2025-02-28
+ET041017,Oromia,East Hararge,Golo Oda,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041017,Oromia,East Hararge,Golo Oda,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041017,Oromia,East Hararge,Golo Oda,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041017,Oromia,East Hararge,Golo Oda,Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041017,Oromia,East Hararge,Golo Oda,Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-09-30
+ET041017,Oromia,East Hararge,Golo Oda,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-09-30
+ET010222,Tigray,Central,Tanqua Melashe,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2023-07-01,2025-02-28
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2025-05-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-01,2025-05-31
+ET010308,Tigray,Eastern,Adigrat town,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010308,Tigray,Eastern,Adigrat town,International Organization for Migration,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010308,Tigray,Eastern,Adigrat town,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010308,Tigray,Eastern,Adigrat town,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010308,Tigray,Eastern,Adigrat town,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010212,Tigray,Central,Adwa town,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010212,Tigray,Central,Adwa town,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010212,Tigray,Central,Adwa town,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010212,Tigray,Central,Adwa town,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010114,Tigray,North Western,Endabaguna town,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET050902,Somali,Liban,Dolo Ado,Save the Children,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2025-10-30
+ET010114,Tigray,North Western,Endabaguna town,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010114,Tigray,North Western,Endabaguna town,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010114,Tigray,North Western,Endabaguna town,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010104,Tigray,North Western,Tahtay Koraro,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010104,Tigray,North Western,Tahtay Koraro,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010104,Tigray,North Western,Tahtay Koraro,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010104,Tigray,North Western,Tahtay Koraro,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010204,Tigray,Central,Adwa,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010204,Tigray,Central,Adwa,Tigray Development Association,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010204,Tigray,Central,Adwa,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010107,Tigray,North Western,Sheraro town,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010107,Tigray,North Western,Sheraro town,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010107,Tigray,North Western,Sheraro town,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010107,Tigray,North Western,Sheraro town,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET030405,Amhara,South Wello,Thehulederie,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2024-09-01,2025-09-30
+ET030405,Amhara,South Wello,Thehulederie,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2024-09-01,2025-09-30
+ET030405,Amhara,South Wello,Thehulederie,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2024-09-01,2025-09-30
+ET030405,Amhara,South Wello,Thehulederie,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2024-09-01,2025-09-30
+ET040405,Oromia,Jimma,Kersa (Jimma),International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2024-07-01,2025-07-31
+ET040405,Oromia,Jimma,Kersa (Jimma),International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2024-07-01,2025-07-31
+ET040405,Oromia,Jimma,Kersa (Jimma),International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2024-07-01,2025-07-31
+ET040405,Oromia,Jimma,Kersa (Jimma),International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2024-07-01,2025-07-31
+ET040406,Oromia,Jimma,Mena (Jimma),International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2024-07-01,2025-07-31
+ET040406,Oromia,Jimma,Mena (Jimma),International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2024-07-01,2025-07-31
+ET040406,Oromia,Jimma,Mena (Jimma),International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2024-07-01,2025-07-31
+ET040406,Oromia,Jimma,Mena (Jimma),International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2024-07-01,2025-07-31
+ET031118,Amhara,Central Gondar,Gondar town,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET031118,Amhara,Central Gondar,Gondar town,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET031118,Amhara,Central Gondar,Gondar town,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET031118,Amhara,Central Gondar,Gondar town,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET031213,Amhara,West Gondar,Metema,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET031213,Amhara,West Gondar,Metema,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET031213,Amhara,West Gondar,Metema,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET031213,Amhara,West Gondar,Metema,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010405,Tigray,Southern,Endamehoni,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010405,Tigray,Southern,Endamehoni,Tigray Development Association,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010405,Tigray,Southern,Endamehoni,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010405,Tigray,Southern,Endamehoni,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010409,Tigray,Southern,Maichew town,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010409,Tigray,Southern,Maichew town,Tigray Development Association,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010409,Tigray,Southern,Maichew town,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010409,Tigray,Southern,Maichew town,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010403,Tigray,Southern,Neqsege,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010403,Tigray,Southern,Neqsege,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010213,Tigray,Central,Axum town,Save the Children,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010213,Tigray,Central,Axum town,Save the Children,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010304,Tigray,Eastern,Ganta Afeshum,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010304,Tigray,Eastern,Ganta Afeshum,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010304,Tigray,Eastern,Ganta Afeshum,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010307,Tigray,Eastern,Atsbi,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010307,Tigray,Eastern,Atsbi,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010204,Tigray,Central,Adwa,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010221,Tigray,Central,Keyhe tekli,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-01,2025-04-30
+ET010221,Tigray,Central,Keyhe tekli,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2025-04-30
+ET010221,Tigray,Central,Keyhe tekli,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2025-04-30
+ET010221,Tigray,Central,Keyhe tekli,Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-06-01,2025-04-30
+ET010221,Tigray,Central,Keyhe tekli,Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2025-04-30
+ET041216,Oromia,Borena,Miyo,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041216,Oromia,Borena,Miyo,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041216,Oromia,Borena,Miyo,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041212,Oromia,Borena,Teltale,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041212,Oromia,Borena,Teltale,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-26,2026-12-31
+ET041212,Oromia,Borena,Teltale,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-26,2026-12-31
+ET010209,Tigray,Central,Naeder,Save the Children,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010209,Tigray,Central,Naeder,Save the Children,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010213,Tigray,Central,Axum town,Save the Children,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010219,Tigray,Central,Emba Sieneti,Save the Children,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010219,Tigray,Central,Emba Sieneti,Save the Children,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041008,Oromia,East Hararge,Kersa (East Hararge),World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-07-01,2025-06-30
+ET041008,Oromia,East Hararge,Kersa (East Hararge),World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-07-01,2025-06-30
+ET041008,Oromia,East Hararge,Kersa (East Hararge),World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-07-01,2025-06-30
+ET010217,Tigray,Central,Hahayle,Save the Children,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010217,Tigray,Central,Hahayle,Save the Children,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030304,Amhara,North Wello,Meket,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-07-01,2025-06-30
+ET030304,Amhara,North Wello,Meket,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-07-01,2025-06-30
+ET030304,Amhara,North Wello,Meket,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-07-01,2025-06-30
+ET030304,Amhara,North Wello,Meket,World vision international,CAPACITY,Capacity Building,Fully funded,International NGO,2024-07-01,2025-06-30
+ET010215,Tigray,Central,Ahsea,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-02-15,2025-02-15
+ET010215,Tigray,Central,Ahsea,Tigray Development Association,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-02-15,2025-02-15
+ET010215,Tigray,Central,Ahsea,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2025-02-15,2025-02-15
+ET010215,Tigray,Central,Ahsea,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-02-15,2025-02-15
+ET041806,Oromia,Kelem Wellega,Denbi Dollo town,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-05-01,2026-04-30
+ET010209,Tigray,Central,Naeder,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010209,Tigray,Central,Naeder,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010209,Tigray,Central,Naeder,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010113,Tigray,North Western,Tsimbla,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010113,Tigray,North Western,Tsimbla,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010113,Tigray,North Western,Tsimbla,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010606,Tigray,South Eastern,Samre,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010606,Tigray,South Eastern,Samre,Tigray Development Association,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010606,Tigray,South Eastern,Samre,Tigray Development Association,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010606,Tigray,South Eastern,Samre,Tigray Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010213,Tigray,Central,Axum town,Save the Children,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010209,Tigray,Central,Naeder,Save the Children,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010103,Tigray,North Western,Zana,International Medical Corps,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-03-31
+ET041210,Oromia,Borena,Moyale (OR),International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041210,Oromia,Borena,Moyale (OR),International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010103,Tigray,North Western,Zana,International Medical Corps,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-03-31
+ET041210,Oromia,Borena,Moyale (OR),International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041210,Oromia,Borena,Moyale (OR),International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041290,Oromia,Borena,Guchi,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010103,Tigray,North Western,Zana,International Medical Corps,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-03-31
+ET010213,Tigray,Central,Axum town,Save the Children,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041290,Oromia,Borena,Guchi,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010219,Tigray,Central,Emba Sieneti,Save the Children,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041290,Oromia,Borena,Guchi,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041290,Oromia,Borena,Guchi,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010217,Tigray,Central,Hahayle,Save the Children,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041291,Oromia,Borena,Dubluk,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010209,Tigray,Central,Naeder,Save the Children,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041291,Oromia,Borena,Dubluk,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041291,Oromia,Borena,Dubluk,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041291,Oromia,Borena,Dubluk,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010114,Tigray,North Western,Endabaguna town,International Rescue Committee,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041008,Oromia,East Hararge,Kersa (East Hararge),International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010113,Tigray,North Western,Tsimbla,International Rescue Committee,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041008,Oromia,East Hararge,Kersa (East Hararge),International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041008,Oromia,East Hararge,Kersa (East Hararge),International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041008,Oromia,East Hararge,Kersa (East Hararge),International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010111,Tigray,North Western,Adi Daero,International Rescue Committee,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010219,Tigray,Central,Emba Sieneti,Save the Children,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041009,Oromia,East Hararge,Meta,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010104,Tigray,North Western,Tahtay Koraro,International Rescue Committee,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041009,Oromia,East Hararge,Meta,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010105,Tigray,North Western,Asgede,International Rescue Committee,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041009,Oromia,East Hararge,Meta,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041009,Oromia,East Hararge,Meta,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010114,Tigray,North Western,Endabaguna town,International Rescue Committee,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010113,Tigray,North Western,Tsimbla,International Rescue Committee,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010111,Tigray,North Western,Adi Daero,International Rescue Committee,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010104,Tigray,North Western,Tahtay Koraro,International Rescue Committee,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050999,Somali,Liban,Bokolmayo,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050999,Somali,Liban,Bokolmayo,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010105,Tigray,North Western,Asgede,International Rescue Committee,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET020207,Afar,Kilbati /Zone2,Afdera,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET020207,Afar,Kilbati /Zone2,Afdera,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030520,Amhara,North Shewa (AM),Debre Berhan town,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET020208,Afar,Kilbati /Zone2,Bidu,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET020208,Afar,Kilbati /Zone2,Bidu,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041003,Oromia,East Hararge,Gursum (OR),Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041003,Oromia,East Hararge,Gursum (OR),Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET031109,Amhara,Central Gondar,Wegera,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET031109,Amhara,Central Gondar,Wegera,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET041295,Oromia,Borena,Elwaya,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041295,Oromia,Borena,Elwaya,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041207,Oromia,Borena,Yabelo,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041207,Oromia,Borena,Yabelo,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-03-31
+ET030312,Amhara,North Wello,Gazo,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET041291,Oromia,Borena,Dubluk,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET041291,Oromia,Borena,Dubluk,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-03-31
+ET030312,Amhara,North Wello,Gazo,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET030312,Amhara,North Wello,Gazo,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET030312,Amhara,North Wello,Gazo,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-03-31
+ET030313,Amhara,North Wello,Angot,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-03-31
+ET030313,Amhara,North Wello,Angot,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-03-31
+ET030313,Amhara,North Wello,Angot,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET030313,Amhara,North Wello,Angot,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET030304,Amhara,North Wello,Meket,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-15,2025-05-14
+ET030304,Amhara,North Wello,Meket,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-15,2025-05-14
+ET010107,Tigray,North Western,Sheraro town,International Medical Corps,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-06-30
+ET010107,Tigray,North Western,Sheraro town,International Medical Corps,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-06-30
+ET010107,Tigray,North Western,Sheraro town,International Medical Corps,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-06-30
+ET010209,Tigray,Central,Naeder,Save the Children,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010107,Tigray,North Western,Sheraro town,International Medical Corps,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-03-01,2025-06-30
+ET041010,Oromia,East Hararge,Goro Gutu,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041010,Oromia,East Hararge,Goro Gutu,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041010,Oromia,East Hararge,Goro Gutu,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010110,Tigray,North Western,Seyemti Adyabo,International Medical Corps,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-02-01,2025-06-30
+ET041010,Oromia,East Hararge,Goro Gutu,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041015,Oromia,East Hararge,Chinaksen,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010110,Tigray,North Western,Seyemti Adyabo,International Medical Corps,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-02-01,2025-06-30
+ET041015,Oromia,East Hararge,Chinaksen,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET041015,Oromia,East Hararge,Chinaksen,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010114,Tigray,North Western,Endabaguna town,International Medical Corps,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-10-01,2025-06-30
+ET041015,Oromia,East Hararge,Chinaksen,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET040908,Oromia,West Hararge,Habro,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET010114,Tigray,North Western,Endabaguna town,International Medical Corps,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-10-01,2025-06-30
+ET040908,Oromia,West Hararge,Habro,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET040908,Oromia,West Hararge,Habro,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET040908,Oromia,West Hararge,Habro,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET040903,Oromia,West Hararge,Tulo (OR),International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET040903,Oromia,West Hararge,Tulo (OR),International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET020102,Afar,Awsi /Zone 1,Elidar,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-07-01,2025-06-30
+ET020102,Afar,Awsi /Zone 1,Elidar,Cooperative for Assistance and Relief Everywhere,CAPACITY,Capacity Building,Fully funded,International NGO,2024-07-01,2025-06-30
+ET020102,Afar,Awsi /Zone 1,Elidar,Cooperative for Assistance and Relief Everywhere,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,International NGO,2024-07-01,2025-06-30
+ET020102,Afar,Awsi /Zone 1,Elidar,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-07-01,2025-06-30
+ET020102,Afar,Awsi /Zone 1,Elidar,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-07-01,2025-06-30
+ET040903,Oromia,West Hararge,Tulo (OR),International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET040903,Oromia,West Hararge,Tulo (OR),International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET020207,Afar,Kilbati /Zone2,Afdera,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-07-01,2025-06-30
+ET020207,Afar,Kilbati /Zone2,Afdera,Cooperative for Assistance and Relief Everywhere,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,International NGO,2024-07-01,2025-06-30
+ET020207,Afar,Kilbati /Zone2,Afdera,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-07-01,2025-06-30
+ET020207,Afar,Kilbati /Zone2,Afdera,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-07-01,2025-06-30
+ET050203,Somali,Fafan,Babile (SM),International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET050203,Somali,Fafan,Babile (SM),International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET050203,Somali,Fafan,Babile (SM),International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET050203,Somali,Fafan,Babile (SM),International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET051103,Somali,Daawa,Moyale (SM),International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET051103,Somali,Daawa,Moyale (SM),International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET051103,Somali,Daawa,Moyale (SM),International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET051103,Somali,Daawa,Moyale (SM),International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2023-06-01,2025-02-28
+ET050902,Somali,Liban,Dolo Ado,Save the Children,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-10-30
+ET050902,Somali,Liban,Dolo Ado,Save the Children,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2025-10-30
+ET050808,Somali,Afder,Dolobay,Save the Children,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-31,2025-10-31
+ET050808,Somali,Afder,Dolobay,Save the Children,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-31,2025-10-31
+ET050902,Somali,Liban,Dolo Ado,Save the Children,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-10-30
+ET040902,Oromia,West Hararge,Doba,Islamic Relief,CAPACITY,Capacity Building,Fully funded,International NGO,2024-06-15,2025-09-15
+ET040902,Oromia,West Hararge,Doba,Islamic Relief,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-15,2025-09-15
+ET040902,Oromia,West Hararge,Doba,Islamic Relief,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-15,2025-09-15
+ET041211,Oromia,Borena,Dire,Islamic Relief,CAPACITY,Capacity Building,Fully funded,International NGO,2024-01-01,2026-12-31
+ET010603,Tigray,South Eastern,Hintalo,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010603,Tigray,South Eastern,Hintalo,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010603,Tigray,South Eastern,Hintalo,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010603,Tigray,South Eastern,Hintalo,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2024-05-20,2025-05-19
+ET050105,Somali,Siti,Afdem,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-05-15,2025-05-14
+ET010604,Tigray,South Eastern,Degua Temben,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010604,Tigray,South Eastern,Degua Temben,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010604,Tigray,South Eastern,Degua Temben,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010604,Tigray,South Eastern,Degua Temben,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-20,2025-05-19
+ET041115,Oromia,Bale,Gura Damole,Save the Children,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-07-08,2025-07-07
+ET042104,Oromia,East Bale,Rayitu,Save the Children,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-07-08,2025-07-07
+ET042102,Oromia,East Bale,Lege Hida,Save the Children,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-07-08,2025-07-07
+ET050105,Somali,Siti,Afdem,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-05-15,2025-05-14
+ET050105,Somali,Siti,Afdem,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-05-15,2025-05-14
+ET030802,Amhara,Wag Hamra,Sekota,Nexus Ethiopia,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2024-09-01,2025-06-30
+ET041701,Oromia,West Arsi,Siraro,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,National NGO,2024-05-15,2025-05-14
+ET041701,Oromia,West Arsi,Siraro,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Partially funded,National NGO,2024-05-15,2025-05-14
+ET041701,Oromia,West Arsi,Siraro,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2024-05-15,2025-05-14
+ET030105,Amhara,North Gondar,Dabat,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030105,Amhara,North Gondar,Dabat,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030105,Amhara,North Gondar,Dabat,Medical Teams International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030105,Amhara,North Gondar,Dabat,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET020307,Afar,Gabi /Zone 3,Hanruka,Nexus Ethiopia,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2024-05-15,2025-05-14
+ET031213,Amhara,West Gondar,Metema,Medical Teams International,BSFP,BSFP _ Feeding,Partially funded,International NGO,2025-01-01,2025-06-30
+ET031213,Amhara,West Gondar,Metema,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET031213,Amhara,West Gondar,Metema,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET031213,Amhara,West Gondar,Metema,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,International NGO,2025-01-01,2025-06-30
+ET031213,Amhara,West Gondar,Metema,Medical Teams International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030101,Amhara,North Gondar,Addi Arekay,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030101,Amhara,North Gondar,Addi Arekay,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030101,Amhara,North Gondar,Addi Arekay,Medical Teams International,CAPACITY,Capacity Building,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030102,Amhara,North Gondar,Beyeda,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030102,Amhara,North Gondar,Beyeda,Medical Teams International,SC,SAM (SC) Stabilization Centre,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030102,Amhara,North Gondar,Beyeda,Medical Teams International,NUTRITION,Nutrition Supplement/medicine,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030119,Amhara,North Gondar,Telemt,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030119,Amhara,North Gondar,Telemt,Medical Teams International,SC,SAM (SC) Stabilization Centre,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030119,Amhara,North Gondar,Telemt,Medical Teams International,NUTRITION,Nutrition Supplement/medicine,Partially funded,International NGO,2025-01-01,2025-06-30
+ET050104,Somali,Siti,Erer (SM),Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050198,Somali,Siti,Gota-Biki,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050104,Somali,Siti,Erer (SM),Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050198,Somali,Siti,Gota-Biki,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030119,Amhara,North Gondar,Telemt,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,National NGO,2024-04-06,2025-06-04
+ET030119,Amhara,North Gondar,Telemt,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Partially funded,National NGO,2024-06-03,2025-06-04
+ET030119,Amhara,North Gondar,Telemt,Action for Social Development and Environmental Protection Organization,MAM,MAM Moderate Acute Malnutrition,Partially funded,National NGO,2024-06-03,2025-06-04
+ET030119,Amhara,North Gondar,Telemt,Action for Social Development and Environmental Protection Organization,AM,PLW_ (AM) Acute Malnutrition,Partially funded,National NGO,2024-06-03,2025-06-04
+ET030119,Amhara,North Gondar,Telemt,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2024-06-03,2025-06-04
+ET020307,Afar,Gabi /Zone 3,Hanruka,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-05-15,2025-05-14
+ET020307,Afar,Gabi /Zone 3,Hanruka,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-05-15,2025-05-14
+ET020307,Afar,Gabi /Zone 3,Hanruka,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-05-15,2025-05-14
+ET020203,Afar,Kilbati /Zone2,Abaala,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET020203,Afar,Kilbati /Zone2,Abaala,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET020401,Afar,Fanti /Zone 4,Awra (AF),GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET020401,Afar,Fanti /Zone 4,Awra (AF),GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET020405,Afar,Fanti /Zone 4,Gulina,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET020405,Afar,Fanti /Zone 4,Gulina,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET020402,Afar,Fanti /Zone 4,Euwa,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-15,2025-05-14
+ET020402,Afar,Fanti /Zone 4,Euwa,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-15,2025-05-14
+ET020205,Afar,Kilbati /Zone2,Berahile,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-12-09,2025-02-28
+ET020205,Afar,Kilbati /Zone2,Berahile,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-12-09,2025-02-28
+ET030304,Amhara,North Wello,Meket,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,National NGO,2024-06-03,2025-06-04
+ET030304,Amhara,North Wello,Meket,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Partially funded,National NGO,2024-06-03,2025-06-04
+ET030304,Amhara,North Wello,Meket,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2024-06-03,2025-06-04
+ET030311,Amhara,North Wello,Dawunt,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-08-20,2025-06-19
+ET030311,Amhara,North Wello,Dawunt,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-08-20,2025-06-19
+ET040601,Oromia,North Shewa (OR),Wara Jarso,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,National NGO,2024-08-09,2025-06-08
+ET040601,Oromia,North Shewa (OR),Wara Jarso,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2024-08-09,2025-06-08
+ET040601,Oromia,North Shewa (OR),Wara Jarso,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Partially funded,National NGO,2024-08-09,2025-06-08
+ET040116,Oromia,West Wellega,Begi,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,National NGO,2024-05-01,2025-03-31
+ET040116,Oromia,West Wellega,Begi,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Partially funded,National NGO,2024-05-01,2025-03-31
+ET040116,Oromia,West Wellega,Begi,Action for Social Development and Environmental Protection Organization,MAM,MAM Moderate Acute Malnutrition,Partially funded,National NGO,2024-05-01,2025-03-31
+ET040116,Oromia,West Wellega,Begi,Action for Social Development and Environmental Protection Organization,AM,PLW_ (AM) Acute Malnutrition,Partially funded,National NGO,2024-05-01,2025-03-31
+ET040116,Oromia,West Wellega,Begi,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2024-05-01,2025-03-31
+ET050105,Somali,Siti,Afdem,Nexus Ethiopia,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2024-05-15,2025-03-15
+ET030301,Amhara,North Wello,Bugna,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-05-15,2025-05-14
+ET041701,Oromia,West Arsi,Siraro,Nexus Ethiopia,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2024-05-15,2025-05-14
+ET030301,Amhara,North Wello,Bugna,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-05-15,2025-05-14
+ET030311,Amhara,North Wello,Dawunt,Nexus Ethiopia,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2024-08-20,2025-06-25
+ET030301,Amhara,North Wello,Bugna,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-05-15,2025-05-14
+ET050604,Somali,Shabelle,Gode,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050604,Somali,Shabelle,Gode,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050604,Somali,Shabelle,Gode,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050604,Somali,Shabelle,Gode,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050602,Somali,Shabelle,Adadle,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050602,Somali,Shabelle,Adadle,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050602,Somali,Shabelle,Adadle,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050602,Somali,Shabelle,Adadle,Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050602,Somali,Shabelle,Adadle,Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050602,Somali,Shabelle,Adadle,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050698,Somali,Shabelle,Elale,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050698,Somali,Shabelle,Elale,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050698,Somali,Shabelle,Elale,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050698,Somali,Shabelle,Elale,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-03-31
+ET050608,Somali,Shabelle,Berocano,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-25,2025-12-25
+ET050608,Somali,Shabelle,Berocano,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-25,2025-12-25
+ET050608,Somali,Shabelle,Berocano,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-25,2025-12-25
+ET050608,Somali,Shabelle,Berocano,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-06-25,2025-12-25
+ET030407,Amhara,South Wello,Kalu,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030402,Amhara,South Wello,Tenta,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030402,Amhara,South Wello,Tenta,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030407,Amhara,South Wello,Kalu,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET031122,Amhara,Central Gondar,Kinfaz Begela,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET031122,Amhara,Central Gondar,Kinfaz Begela,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030102,Amhara,North Gondar,Beyeda,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030102,Amhara,North Gondar,Beyeda,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050809,Somali,Afder,Raso,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-11-01,2025-04-30
+ET050809,Somali,Afder,Raso,Concern Worldwide,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-11-01,2025-04-30
+ET050809,Somali,Afder,Raso,Concern Worldwide,CAPACITY,Capacity Building,Fully funded,International NGO,2024-11-01,2025-04-30
+ET050809,Somali,Afder,Raso,Concern Worldwide,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-11-01,2025-04-30
+ET010307,Tigray,Eastern,Atsbi,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-04-30
+ET010307,Tigray,Eastern,Atsbi,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010307,Tigray,Eastern,Atsbi,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010316,Tigray,Eastern,Agulae,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010316,Tigray,Eastern,Agulae,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010316,Tigray,Eastern,Agulae,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010316,Tigray,Eastern,Agulae,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010601,Tigray,South Eastern,Saharti,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010601,Tigray,South Eastern,Saharti,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-04-30
+ET010601,Tigray,South Eastern,Saharti,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-04-30
+ET010601,Tigray,South Eastern,Saharti,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010608,Tigray,South Eastern,Wajirat,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010608,Tigray,South Eastern,Wajirat,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010608,Tigray,South Eastern,Wajirat,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010608,Tigray,South Eastern,Wajirat,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010315,Tigray,Eastern,Atsbi town,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010315,Tigray,Eastern,Atsbi town,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010315,Tigray,Eastern,Atsbi town,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010315,Tigray,Eastern,Atsbi town,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010607,Tigray,South Eastern,Adigudom,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010607,Tigray,South Eastern,Adigudom,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010607,Tigray,South Eastern,Adigudom,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010607,Tigray,South Eastern,Adigudom,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010305,Tigray,Eastern,Hawzen,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010305,Tigray,Eastern,Hawzen,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010305,Tigray,Eastern,Hawzen,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010305,Tigray,Eastern,Hawzen,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010404,Tigray,Southern,Emba Alaje,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010404,Tigray,Southern,Emba Alaje,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010404,Tigray,Southern,Emba Alaje,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010404,Tigray,Southern,Emba Alaje,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010312,Tigray,Eastern,Hawzen town,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010312,Tigray,Eastern,Hawzen town,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010312,Tigray,Eastern,Hawzen town,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010312,Tigray,Eastern,Hawzen town,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010310,Tigray,Eastern,Bizet,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2025-09-30
+ET010310,Tigray,Eastern,Bizet,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010310,Tigray,Eastern,Bizet,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010310,Tigray,Eastern,Bizet,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010218,Tigray,Central,Endafelasi,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010218,Tigray,Central,Endafelasi,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010218,Tigray,Central,Endafelasi,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010218,Tigray,Central,Endafelasi,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010220,Tigray,Central,Enticho town,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010220,Tigray,Central,Enticho town,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010220,Tigray,Central,Enticho town,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010216,Tigray,Central,Egela,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010216,Tigray,Central,Egela,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010216,Tigray,Central,Egela,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010216,Tigray,Central,Egela,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010309,Tigray,Eastern,Wukro town,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010309,Tigray,Eastern,Wukro town,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010309,Tigray,Eastern,Wukro town,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010309,Tigray,Eastern,Wukro town,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010604,Tigray,South Eastern,Degua Temben,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010604,Tigray,South Eastern,Degua Temben,GOAL Ethiopia,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010217,Tigray,Central,Hahayle,Save the Children,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-06-30
+ET030302,Amhara,North Wello,Raya Kobo,Plan International,CAPACITY,Capacity Building,Fully funded,International NGO,2024-09-01,2025-07-31
+ET030302,Amhara,North Wello,Raya Kobo,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-09-01,2025-07-31
+ET030302,Amhara,North Wello,Raya Kobo,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-09-01,2025-07-31
+ET030302,Amhara,North Wello,Raya Kobo,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-09-01,2025-07-31
+ET030302,Amhara,North Wello,Raya Kobo,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-09-01,2025-07-31
+ET030302,Amhara,North Wello,Raya Kobo,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-09-01,2025-07-31
+ET030302,Amhara,North Wello,Raya Kobo,Plan International,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2024-09-01,2025-07-31
+ET010113,Tigray,North Western,Tsimbla,Tigray Development Association,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010209,Tigray,Central,Naeder,Tigray Development Association,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010307,Tigray,Eastern,Atsbi,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010304,Tigray,Eastern,Ganta Afeshum,Tigray Development Association,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-09-08,2025-06-30
+ET040101,Oromia,West Wellega,Mana Sibu,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-01,2026-04-30
+ET040101,Oromia,West Wellega,Mana Sibu,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-01,2026-04-30
+ET040101,Oromia,West Wellega,Mana Sibu,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-01,2026-04-30
+ET040101,Oromia,West Wellega,Mana Sibu,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-05-01,2026-04-30
+ET050107,Somali,Siti,Miesso,Relief and Development for Vulnerable,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-05-15,2025-05-14
+ET020206,Afar,Kilbati /Zone2,Dalol,Premiere Urgence Internationale,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-04-30
+ET010210,Tigray,Central,Abergele (TG),Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2026-04-30
+ET010210,Tigray,Central,Abergele (TG),Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-06-01,2026-04-30
+ET010210,Tigray,Central,Abergele (TG),Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2026-04-30
+ET010210,Tigray,Central,Abergele (TG),Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2026-04-30
+ET010210,Tigray,Central,Abergele (TG),Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-01,2026-04-30
+ET030119,Amhara,North Gondar,Telemt,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-12-01,2025-11-30
+ET030805,Amhara,Wag Hamra,Abergele (AM),Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-01,2026-04-30
+ET030805,Amhara,Wag Hamra,Abergele (AM),Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-01,2026-04-30
+ET030805,Amhara,Wag Hamra,Abergele (AM),Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-01,2026-04-30
+ET030805,Amhara,Wag Hamra,Abergele (AM),Action Against Hunger,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-05-01,2026-04-30
+ET030805,Amhara,Wag Hamra,Abergele (AM),Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-05-01,2026-04-30
+ET041701,Oromia,West Arsi,Siraro,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-05-15,2025-05-14
+ET020404,Afar,Fanti /Zone 4,Yalo,Empowerment For Development,COMMUNITY,Community led originated nutrition response,Fully funded,National NGO,2024-12-10,2024-12-10
+ET040103,Oromia,West Wellega,Gimbi,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-01,2026-04-30
+ET041806,Oromia,Kelem Wellega,Denbi Dollo town,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2025-03-31
+ET040208,Oromia,East Wellega,Gobu Seyo,Fayyaa Integrated Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-06-01,2025-05-31
+ET040208,Oromia,East Wellega,Gobu Seyo,Fayyaa Integrated Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-06-01,2025-05-31
+ET030311,Amhara,North Wello,Dawunt,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-08-20,2025-08-19
+ET041017,Oromia,East Hararge,Golo Oda,Fayyaa Integrated Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041017,Oromia,East Hararge,Golo Oda,Fayyaa Integrated Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041017,Oromia,East Hararge,Golo Oda,Fayyaa Integrated Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041018,Oromia,East Hararge,Meyu Muleke,Fayyaa Integrated Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041018,Oromia,East Hararge,Meyu Muleke,Fayyaa Integrated Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041018,Oromia,East Hararge,Meyu Muleke,Fayyaa Integrated Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041098,Oromia,East Hararge,Kumbi,Fayyaa Integrated Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041098,Oromia,East Hararge,Kumbi,Fayyaa Integrated Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041098,Oromia,East Hararge,Kumbi,Fayyaa Integrated Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-10-20,2025-04-19
+ET041018,Oromia,East Hararge,Meyu Muleke,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-12-31
+ET010205,Tigray,Central,Laelay Maychew,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-12-31
+ET040605,Oromia,North Shewa (OR),Degem,Fayyaa Integrated Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-08-15,2025-05-15
+ET040605,Oromia,North Shewa (OR),Degem,Fayyaa Integrated Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-08-15,2025-05-15
+ET040605,Oromia,North Shewa (OR),Degem,Fayyaa Integrated Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-08-15,2025-05-15
+ET041219,Oromia,Borena,Dilo,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-10-28,2025-04-27
+ET041219,Oromia,Borena,Dilo,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-10-28,2025-04-27
+ET041295,Oromia,Borena,Elwaya,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-10-28,2025-04-27
+ET041295,Oromia,Borena,Elwaya,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-10-28,2025-04-27
+ET041295,Oromia,Borena,Elwaya,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-10-28,2025-04-27
+ET041223,Oromia,Borena,Gomole,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-10-28,2025-04-27
+ET041223,Oromia,Borena,Gomole,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-10-28,2025-04-27
+ET041223,Oromia,Borena,Gomole,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-10-28,2025-04-27
+ET050805,Somali,Afder,West Imi,Concern Worldwide,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-31,2025-12-31
+ET050805,Somali,Afder,West Imi,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-12-31
+ET050805,Somali,Afder,West Imi,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-12-31
+ET050808,Somali,Afder,Dolobay,Save the Children,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-10-31
+ET050808,Somali,Afder,Dolobay,Save the Children,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-31,2025-10-31
+ET030401,Amhara,South Wello,Argoba,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET041806,Oromia,Kelem Wellega,Denbi Dollo town,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-01,2026-04-30
+ET041806,Oromia,Kelem Wellega,Denbi Dollo town,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-01,2026-04-30
+ET041801,Oromia,Kelem Wellega,Hawa Galan,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-01,2026-04-30
+ET041801,Oromia,Kelem Wellega,Hawa Galan,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-01,2026-04-30
+ET041801,Oromia,Kelem Wellega,Hawa Galan,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-01,2026-04-30
+ET040197,Oromia,West Wellega,Leta Sibu,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-05-31
+ET040197,Oromia,West Wellega,Leta Sibu,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-05-31
+ET040197,Oromia,West Wellega,Leta Sibu,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-05-31
+ET030807,Amhara,Wag Hamra,Sekota town,Imagine 1 Day,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-09-01,2025-06-30
+ET030807,Amhara,Wag Hamra,Sekota town,Imagine 1 Day,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-09-01,2025-06-30
+ET030807,Amhara,Wag Hamra,Sekota town,Imagine 1 Day,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,International NGO,2024-09-01,2025-06-30
+ET030807,Amhara,Wag Hamra,Sekota town,Imagine 1 Day,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-09-01,2025-06-30
+ET040197,Oromia,West Wellega,Leta Sibu,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-05-31
+ET010213,Tigray,Central,Axum town,SOS Children's Villages,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-10-01,2026-09-30
+ET120407,Gambela,Itang Special woreda,Itang,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-08-04,2025-12-31
+ET120407,Gambela,Itang Special woreda,Itang,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-08-04,2025-12-31
+ET120407,Gambela,Itang Special woreda,Itang,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-08-04,2025-12-31
+ET010406,Tigray,Southern,Raya Azebo,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010406,Tigray,Southern,Raya Azebo,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010405,Tigray,Southern,Endamehoni,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010405,Tigray,Southern,Endamehoni,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010606,Tigray,South Eastern,Samre,SOS Children's Villages,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010606,Tigray,South Eastern,Samre,SOS Children's Villages,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010213,Tigray,Central,Axum town,SOS Children's Villages,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010217,Tigray,Central,Hahayle,Save the Children,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050808,Somali,Afder,Dolobay,Doctors with Africa CUAMM,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-10-28,2025-04-27
+ET050808,Somali,Afder,Dolobay,Doctors with Africa CUAMM,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-10-28,2025-04-27
+ET050808,Somali,Afder,Dolobay,Doctors with Africa CUAMM,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-10-28,2025-04-27
+ET050902,Somali,Liban,Dolo Ado,Doctors with Africa CUAMM,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-10-28,2025-04-27
+ET050902,Somali,Liban,Dolo Ado,Doctors with Africa CUAMM,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-10-28,2025-04-27
+ET050902,Somali,Liban,Dolo Ado,Doctors with Africa CUAMM,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-10-28,2025-04-27
+ET010220,Tigray,Central,Enticho town,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-03-01,2025-09-30
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-03-01,2025-11-30
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-03-01,2025-11-30
+ET041702,Oromia,West Arsi,Shala,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-01-09,2025-06-30
+ET041702,Oromia,West Arsi,Shala,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-01-09,2025-06-30
+ET041702,Oromia,West Arsi,Shala,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-01-09,2025-06-30
+ET041702,Oromia,West Arsi,Shala,World vision international,CAPACITY,Capacity Building,Fully funded,International NGO,2024-01-09,2025-06-30
+ET050805,Somali,Afder,West Imi,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-12-31
+ET050805,Somali,Afder,West Imi,Concern Worldwide,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-31,2025-12-31
+ET041805,Oromia,Kelem Wellega,Sayo,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-04-01,2025-05-31
+ET041805,Oromia,Kelem Wellega,Sayo,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-04-01,2025-05-31
+ET041805,Oromia,Kelem Wellega,Sayo,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-04-01,2025-05-31
+ET041805,Oromia,Kelem Wellega,Sayo,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-05-31
+ET041801,Oromia,Kelem Wellega,Hawa Galan,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-05-31
+ET010309,Tigray,Eastern,Wukro town,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010309,Tigray,Eastern,Wukro town,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010317,Tigray,Eastern,Geraleta,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010314,Tigray,Eastern,Tsaeda Emba,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET040103,Oromia,West Wellega,Gimbi,Action Against Hunger,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-05-01,2026-04-30
+ET010606,Tigray,South Eastern,Samre,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET050601,Somali,Shabelle,East Imi,Concern Worldwide,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-30,2025-04-30
+ET041207,Oromia,Borena,Yabelo,SOS Children’s Village,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-01,2025-06-30
+ET041296,Oromia,Borena,Yabelo town,SOS Children’s Village,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2023-06-01,2025-06-30
+ET042102,Oromia,East Bale,Lege Hida,World vision international,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-03-01,2025-03-31
+ET042102,Oromia,East Bale,Lege Hida,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2025-03-31
+ET042102,Oromia,East Bale,Lege Hida,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-01,2025-03-31
+ET020404,Afar,Fanti /Zone 4,Yalo,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-20,2025-09-30
+ET020404,Afar,Fanti /Zone 4,Yalo,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-20,2025-09-30
+ET030807,Amhara,Wag Hamra,Sekota town,Imagine 1 Day,BSFP,BSFP _ Feeding,Fully funded,International NGO,2024-09-01,2025-06-30
+ET042102,Oromia,East Bale,Lege Hida,World vision international,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010402,Tigray,Southern,Bora (TG),World vision international,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-03-01,2025-04-30
+ET010402,Tigray,Southern,Bora (TG),World vision international,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010402,Tigray,Southern,Bora (TG),World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010402,Tigray,Southern,Bora (TG),World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010401,Tigray,Southern,Selewa,World vision international,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010401,Tigray,Southern,Selewa,World vision international,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010401,Tigray,Southern,Selewa,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010216,Tigray,Central,Egela,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010401,Tigray,Southern,Selewa,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010403,Tigray,Southern,Neqsege,World vision international,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010403,Tigray,Southern,Neqsege,World vision international,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010403,Tigray,Southern,Neqsege,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010403,Tigray,Southern,Neqsege,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-01,2025-03-31
+ET010309,Tigray,Eastern,Wukro town,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010302,Tigray,Eastern,Erob,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-06-01,2027-05-31
+ET010302,Tigray,Eastern,Erob,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2027-05-31
+ET010302,Tigray,Eastern,Erob,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2027-05-31
+ET010305,Tigray,Eastern,Hawzen,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010312,Tigray,Eastern,Hawzen town,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010302,Tigray,Eastern,Erob,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2027-05-31
+ET040701,Oromia,East Shewa,Fentale,Fayyaa Integrated Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-02-06,2025-05-05
+ET010220,Tigray,Central,Enticho town,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010218,Tigray,Central,Endafelasi,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010310,Tigray,Eastern,Bizet,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010316,Tigray,Eastern,Agulae,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010607,Tigray,South Eastern,Adigudom,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010608,Tigray,South Eastern,Wajirat,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010404,Tigray,Southern,Emba Alaje,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010601,Tigray,South Eastern,Saharti,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010315,Tigray,Eastern,Atsbi town,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET041515,Oromia,West Guji,Dugda Dawa,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET010307,Tigray,Eastern,Atsbi,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-03-01,2025-09-30
+ET010205,Tigray,Central,Laelay Maychew,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2027-05-31
+ET010205,Tigray,Central,Laelay Maychew,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2027-05-31
+ET010205,Tigray,Central,Laelay Maychew,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-06-01,2027-05-31
+ET010205,Tigray,Central,Laelay Maychew,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2027-05-31
+ET041018,Oromia,East Hararge,Meyu Muleke,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2027-05-31
+ET041018,Oromia,East Hararge,Meyu Muleke,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2027-05-31
+ET041018,Oromia,East Hararge,Meyu Muleke,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-06-01,2027-05-31
+ET041018,Oromia,East Hararge,Meyu Muleke,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2027-05-31
+ET020209,Afar,Kilbati /Zone2,Abaala town,Premiere Urgence Internationale,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020203,Afar,Kilbati /Zone2,Abaala,Premiere Urgence Internationale,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-04-30
+ET020205,Afar,Kilbati /Zone2,Berahile,Premiere Urgence Internationale,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-04-01,2025-04-30
+ET040991,Oromia,West Hararge,Gumbi Bordede,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,National NGO,2024-08-01,2025-05-25
+ET040991,Oromia,West Hararge,Gumbi Bordede,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Partially funded,National NGO,2024-08-01,2025-05-25
+ET040991,Oromia,West Hararge,Gumbi Bordede,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2024-08-01,2025-05-25
+ET040991,Oromia,West Hararge,Gumbi Bordede,Mothers and Children Multisectoral Development Organization,MAM,MAM Moderate Acute Malnutrition,Partially funded,National NGO,2024-08-01,2025-05-25
+ET040991,Oromia,West Hararge,Gumbi Bordede,Mothers and Children Multisectoral Development Organization,AM,PLW_ (AM) Acute Malnutrition,Partially funded,National NGO,2024-08-01,2025-05-25
+ET040991,Oromia,West Hararge,Gumbi Bordede,Mothers and Children Multisectoral Development Organization,CAPACITY,Capacity Building,Partially funded,National NGO,2024-08-01,2025-05-25
+ET040217,Oromia,East Wellega,Kiremu,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-01-09,2025-06-30
+ET040217,Oromia,East Wellega,Kiremu,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-01-09,2025-06-30
+ET040217,Oromia,East Wellega,Kiremu,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-01-09,2025-06-30
+ET020208,Afar,Kilbati /Zone2,Bidu,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-01,2025-05-30
+ET020208,Afar,Kilbati /Zone2,Bidu,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-01,2025-05-30
+ET020208,Afar,Kilbati /Zone2,Bidu,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2025-05-30
+ET030605,Amhara,East Gojam,Enarj Enawga,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET030605,Amhara,East Gojam,Enarj Enawga,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020403,Afar,Fanti /Zone 4,Teru,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020403,Afar,Fanti /Zone 4,Teru,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020403,Afar,Fanti /Zone 4,Teru,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020402,Afar,Fanti /Zone 4,Euwa,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020402,Afar,Fanti /Zone 4,Euwa,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020402,Afar,Fanti /Zone 4,Euwa,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020206,Afar,Kilbati /Zone2,Dalol,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020206,Afar,Kilbati /Zone2,Dalol,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET020206,Afar,Kilbati /Zone2,Dalol,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2025-12-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030808,Amhara,Wag Hamra,Tsagbeji,Plan International,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030808,Amhara,Wag Hamra,Tsagbeji,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030808,Amhara,Wag Hamra,Tsagbeji,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET041291,Oromia,Borena,Dubluk,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-07-01,2025-06-30
+ET041291,Oromia,Borena,Dubluk,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-07-01,2025-06-30
+ET041291,Oromia,Borena,Dubluk,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-07-01,2025-06-30
+ET040907,Oromia,West Hararge,Goba Koricha,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-09-01,2025-07-31
+ET040907,Oromia,West Hararge,Goba Koricha,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-09-01,2025-07-31
+ET040907,Oromia,West Hararge,Goba Koricha,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-09-01,2025-07-31
+ET040907,Oromia,West Hararge,Goba Koricha,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-09-01,2025-07-31
+ET040907,Oromia,West Hararge,Goba Koricha,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-09-01,2025-07-31
+ET041223,Oromia,Borena,Gomole,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET041515,Oromia,West Guji,Dugda Dawa,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET030301,Amhara,North Wello,Bugna,Afro Ethiopia Integrated Development,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-06-01,2025-05-31
+ET030301,Amhara,North Wello,Bugna,Afro Ethiopia Integrated Development,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-06-01,2025-05-31
+ET010308,Tigray,Eastern,Adigrat town,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET010308,Tigray,Eastern,Adigrat town,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET030806,Amhara,Wag Hamra,Sahila,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030806,Amhara,Wag Hamra,Sahila,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030806,Amhara,Wag Hamra,Sahila,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030101,Amhara,North Gondar,Addi Arekay,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030101,Amhara,North Gondar,Addi Arekay,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030101,Amhara,North Gondar,Addi Arekay,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-20,2025-05-19
+ET031004,Amhara,Oromia,Artuma Fursi,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET031004,Amhara,Oromia,Artuma Fursi,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET031005,Amhara,Oromia,Dewa Harewa,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET031005,Amhara,Oromia,Dewa Harewa,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET041223,Oromia,Borena,Gomole,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET030310,Amhara,North Wello,Lasta,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-15,2025-05-14
+ET030310,Amhara,North Wello,Lasta,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-15,2025-05-14
+ET030310,Amhara,North Wello,Lasta,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-05-15,2025-05-14
+ET030310,Amhara,North Wello,Lasta,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-05-15,2025-05-14
+ET030310,Amhara,North Wello,Lasta,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-15,2025-05-14
+ET010304,Tigray,Eastern,Ganta Afeshum,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET010304,Tigray,Eastern,Ganta Afeshum,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET010301,Tigray,Eastern,Gulo Mekeda,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET010301,Tigray,Eastern,Gulo Mekeda,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET010308,Tigray,Eastern,Adigrat town,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-24,2025-12-23
+ET010308,Tigray,Eastern,Adigrat town,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-24,2025-12-23
+ET010304,Tigray,Eastern,Ganta Afeshum,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-24,2025-12-23
+ET010304,Tigray,Eastern,Ganta Afeshum,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-24,2025-12-23
+ET010304,Tigray,Eastern,Ganta Afeshum,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-24,2025-12-23
+ET010301,Tigray,Eastern,Gulo Mekeda,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-24,2025-12-23
+ET010301,Tigray,Eastern,Gulo Mekeda,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-24,2025-12-23
+ET010308,Tigray,Eastern,Adigrat town,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-24,2025-12-23
+ET010602,Tigray,South Eastern,Enderta,Action for Social Development and Environmental Protection Organization,COMMUNITY,Community led originated nutrition response,Fully funded,National NGO,2025-01-01,2025-12-31
+ET030803,Amhara,Wag Hamra,Dehana,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030805,Amhara,Wag Hamra,Abergele (AM),Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030803,Amhara,Wag Hamra,Dehana,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030805,Amhara,Wag Hamra,Abergele (AM),Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030803,Amhara,Wag Hamra,Dehana,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-06-01,2026-05-31
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-06-01,2026-05-31
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-06-01,2026-05-31
+ET050999,Somali,Liban,Bokolmayo,Partnership for Pastoralist Development Association,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-01-01,2027-12-31
+ET030801,Amhara,Wag Hamra,Zequala,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020202,Afar,Kilbati /Zone2,Kunneba,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020103,Afar,Awsi /Zone 1,Asayita,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020504,Afar,Hari /Zone 5,Dalefage,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-05-15,2026-02-14
+ET030301,Amhara,North Wello,Bugna,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-02-01,2025-04-15
+ET030301,Amhara,North Wello,Bugna,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-02-01,2025-04-15
+ET030301,Amhara,North Wello,Bugna,World vision international,BSFP,BSFP _ Feeding,Fully funded,International NGO,2025-02-01,2025-04-15
+ET030101,Amhara,North Gondar,Addi Arekay,Plan International,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-05-20,2025-05-19
+ET020301,Afar,Gabi /Zone 3,Amibara,Premiere Urgence Internationale,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-05-05,2025-09-04
+ET020301,Afar,Gabi /Zone 3,Amibara,Premiere Urgence Internationale,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-05-05,2025-09-04
+ET020304,Afar,Gabi /Zone 3,Dulecha,Premiere Urgence Internationale,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-05-05,2025-09-04
+ET020304,Afar,Gabi /Zone 3,Dulecha,Premiere Urgence Internationale,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-05-05,2025-09-04
+ET010412,Tigray,Southern,Mekhoni town,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET010403,Tigray,Southern,Neqsege,Tigray Development Association,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-08,2025-06-30
+ET030307,Amhara,North Wello,Guba Lafto,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-15,2026-04-14
+ET030307,Amhara,North Wello,Guba Lafto,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-15,2026-04-14
+ET030302,Amhara,North Wello,Raya Kobo,GOAL Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-15,2026-04-14
+ET030302,Amhara,North Wello,Raya Kobo,GOAL Ethiopia,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-15,2026-04-14
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,MAM,MAM Moderate Acute Malnutrition,Partially funded,International NGO,2023-06-01,2026-06-30
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,AM,PLW_ (AM) Acute Malnutrition,Partially funded,International NGO,2023-06-01,2026-06-30
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,International NGO,2023-06-01,2026-06-30
+ET010101,Tigray,North Western,Tahtay Adiyabo,International Medical Corps,NUTRITION,Nutrition Supplement/medicine,Partially funded,International NGO,2024-03-01,2025-05-22
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Positive Action for Development,COMMUNITY,Community led originated nutrition response,Fully funded,National NGO,2025-05-15,2026-02-14
+ET030805,Amhara,Wag Hamra,Abergele (AM),Positive Action for Development,COMMUNITY,Community led originated nutrition response,Fully funded,National NGO,2025-05-15,2026-02-14
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Positive Action for Development,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-05-15,2026-02-14
+ET030805,Amhara,Wag Hamra,Abergele (AM),Positive Action for Development,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-05-15,2026-02-14
+ET030806,Amhara,Wag Hamra,Sahila,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030806,Amhara,Wag Hamra,Sahila,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030806,Amhara,Wag Hamra,Sahila,Plan International,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030101,Amhara,North Gondar,Addi Arekay,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030101,Amhara,North Gondar,Addi Arekay,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030808,Amhara,Wag Hamra,Tsagbeji,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030808,Amhara,Wag Hamra,Tsagbeji,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010305,Tigray,Eastern,Hawzen,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-31,2025-08-31
+ET010314,Tigray,Eastern,Tsaeda Emba,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010317,Tigray,Eastern,Geraleta,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010606,Tigray,South Eastern,Samre,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010602,Tigray,South Eastern,Enderta,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010602,Tigray,South Eastern,Enderta,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010603,Tigray,South Eastern,Hintalo,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET010603,Tigray,South Eastern,Hintalo,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-31,2025-06-30
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-11,2025-07-31
+ET030803,Amhara,Wag Hamra,Dehana,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-11,2025-07-31
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-11,2025-07-31
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-11,2025-07-31
+ET030805,Amhara,Wag Hamra,Abergele (AM),Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-11,2025-07-31
+ET030805,Amhara,Wag Hamra,Abergele (AM),Cooperative for Assistance and Relief Everywhere,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-11,2025-07-31
+ET020106,Afar,Awsi /Zone 1,Chifra,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2025-04-01,2025-06-30
+ET020303,Afar,Gabi /Zone 3,Gewane,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2025-04-01,2025-06-30
+ET020105,Afar,Awsi /Zone 1,Mile,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2025-04-01,2025-06-30
+ET041004,Oromia,East Hararge,Babile (OR),Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2025-04-01,2025-06-30
+ET041015,Oromia,East Hararge,Chinaksen,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2025-04-01,2025-06-30
+ET041216,Oromia,Borena,Miyo,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2025-04-01,2025-06-30
+ET041207,Oromia,Borena,Yabelo,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2025-04-01,2025-06-30
+ET041211,Oromia,Borena,Dire,Islamic Relief,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,International NGO,2024-01-01,2026-12-31
+ET041211,Oromia,Borena,Dire,Islamic Relief,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-01-01,2026-12-31
+ET020304,Afar,Gabi /Zone 3,Dulecha,Premiere Urgence Internationale,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-05-05,2025-09-04
+ET040906,Oromia,West Hararge,Anchar,Islamic Relief,CAPACITY,Capacity Building,Fully funded,International NGO,2024-01-01,2026-12-31
+ET040604,Oromia,North Shewa (OR),Kuyu,Action for the Needy in Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-09-01,2025-04-30
+ET050806,Somali,Afder,Hargele,International Rescue Committee,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050802,Somali,Afder,Charati,International Rescue Committee,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET150208,Dire Dawa,Dire Dawa rural,Biyoawale,International Organization for Migration,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,UN Agency,2025-05-01,2025-09-30
+ET150208,Dire Dawa,Dire Dawa rural,Biyoawale,International Organization for Migration,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,UN Agency,2025-05-01,2025-09-30
+ET150208,Dire Dawa,Dire Dawa rural,Biyoawale,International Organization for Migration,MAM,MAM Moderate Acute Malnutrition,Fully funded,UN Agency,2025-05-01,2025-09-30
+ET150208,Dire Dawa,Dire Dawa rural,Biyoawale,International Organization for Migration,AM,PLW_ (AM) Acute Malnutrition,Fully funded,UN Agency,2025-05-01,2025-09-30
+ET040901,Oromia,West Hararge,Mieso,Positive Action for Development,COMMUNITY,Community led originated nutrition response,Fully funded,National NGO,2025-06-01,2027-05-31
+ET040901,Oromia,West Hararge,Mieso,Positive Action for Development,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-01,2027-05-31
+ET040901,Oromia,West Hararge,Mieso,Positive Action for Development,CAPACITY,Capacity Building,Fully funded,National NGO,2025-06-01,2027-05-31
+ET050601,Somali,Shabelle,East Imi,Concern Worldwide,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET020301,Afar,Gabi /Zone 3,Amibara,Premiere Urgence Internationale,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-05-05,2025-09-04
+ET020301,Afar,Gabi /Zone 3,Amibara,Premiere Urgence Internationale,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-05-05,2025-09-04
+ET020304,Afar,Gabi /Zone 3,Dulecha,Premiere Urgence Internationale,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-05-05,2025-09-04
+ET010210,Tigray,Central,Abergele (TG),Save Your Holy Land Association,COMMUNITY,Community led originated nutrition response,Fully funded,National NGO,2024-10-18,2026-04-17
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-09-20,2025-06-30
+ET020104,Afar,Awsi /Zone 1,Afambo,Save the Children,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010314,Tigray,Eastern,Tsaeda Emba,Concern Worldwide,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010305,Tigray,Eastern,Hawzen,Concern Worldwide,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010606,Tigray,South Eastern,Samre,Concern Worldwide,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010601,Tigray,South Eastern,Saharti,Concern Worldwide,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-01,2025-08-31
+ET030801,Amhara,Wag Hamra,Zequala,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020202,Afar,Kilbati /Zone2,Kunneba,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020103,Afar,Awsi /Zone 1,Asayita,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020504,Afar,Hari /Zone 5,Dalefage,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020103,Afar,Awsi /Zone 1,Asayita,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-05-15,2026-02-14
+ET030801,Amhara,Wag Hamra,Zequala,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020202,Afar,Kilbati /Zone2,Kunneba,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020504,Afar,Hari /Zone 5,Dalefage,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-05-15,2026-02-14
+ET030801,Amhara,Wag Hamra,Zequala,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-05-15,2026-02-14
+ET030801,Amhara,Wag Hamra,Zequala,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020202,Afar,Kilbati /Zone2,Kunneba,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020202,Afar,Kilbati /Zone2,Kunneba,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020504,Afar,Hari /Zone 5,Dalefage,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020504,Afar,Hari /Zone 5,Dalefage,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-05-15,2026-02-14
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030803,Amhara,Wag Hamra,Dehana,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-01,2025-06-30
+ET030805,Amhara,Wag Hamra,Abergele (AM),Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-04-01,2025-06-30
+ET020106,Afar,Awsi /Zone 1,Chifra,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2024-02-01,2026-01-01
+ET020106,Afar,Awsi /Zone 1,Chifra,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2024-02-01,2026-01-01
+ET020106,Afar,Awsi /Zone 1,Chifra,Mothers and Children Multisectoral Development Organization,MAM,MAM Moderate Acute Malnutrition,Fully funded,National NGO,2024-02-01,2026-01-01
+ET020106,Afar,Awsi /Zone 1,Chifra,Mothers and Children Multisectoral Development Organization,AM,PLW_ (AM) Acute Malnutrition,Fully funded,National NGO,2024-02-01,2026-01-01
+ET020106,Afar,Awsi /Zone 1,Chifra,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2024-02-01,2026-01-01
+ET041515,Oromia,West Guji,Dugda Dawa,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041515,Oromia,West Guji,Dugda Dawa,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041515,Oromia,West Guji,Dugda Dawa,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041515,Oromia,West Guji,Dugda Dawa,Mothers and Children Multisectoral Development Organization,MAM,MAM Moderate Acute Malnutrition,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041515,Oromia,West Guji,Dugda Dawa,Mothers and Children Multisectoral Development Organization,AM,PLW_ (AM) Acute Malnutrition,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041501,Oromia,West Guji,Bule Hora,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041501,Oromia,West Guji,Bule Hora,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041501,Oromia,West Guji,Bule Hora,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041501,Oromia,West Guji,Bule Hora,Mothers and Children Multisectoral Development Organization,MAM,MAM Moderate Acute Malnutrition,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041501,Oromia,West Guji,Bule Hora,Mothers and Children Multisectoral Development Organization,AM,PLW_ (AM) Acute Malnutrition,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041513,Oromia,West Guji,Abaya,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041513,Oromia,West Guji,Abaya,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041513,Oromia,West Guji,Abaya,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041513,Oromia,West Guji,Abaya,Mothers and Children Multisectoral Development Organization,MAM,MAM Moderate Acute Malnutrition,Fully funded,National NGO,2025-06-01,2025-11-30
+ET041513,Oromia,West Guji,Abaya,Mothers and Children Multisectoral Development Organization,AM,PLW_ (AM) Acute Malnutrition,Fully funded,National NGO,2025-06-01,2025-11-30
+ET050806,Somali,Afder,Hargele,Alliance for Medical Action,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-01,2026-02-28
+ET050806,Somali,Afder,Hargele,Alliance for Medical Action,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2026-02-28
+ET050804,Somali,Afder,Elkare /Serer,Alliance for Medical Action,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2026-02-28
+ET030307,Amhara,North Wello,Guba Lafto,Medecins Du Monde- France,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-15,2026-04-14
+ET030307,Amhara,North Wello,Guba Lafto,Medecins Du Monde- France,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-04-15,2026-04-14
+ET030302,Amhara,North Wello,Raya Kobo,Medecins Du Monde- France,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-15,2026-04-14
+ET030302,Amhara,North Wello,Raya Kobo,Medecins Du Monde- France,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-04-15,2026-04-14
+ET030310,Amhara,North Wello,Lasta,Plan International,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020209,Afar,Kilbati /Zone2,Abaala town,Save Your Holy Land Association,COMMUNITY,Community led originated nutrition response,Fully funded,National NGO,2024-10-18,2026-04-09
+ET050204,Somali,Fafan,Shabeeley,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010305,Tigray,Eastern,Hawzen,Concern Worldwide,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010314,Tigray,Eastern,Tsaeda Emba,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010314,Tigray,Eastern,Tsaeda Emba,Concern Worldwide,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010606,Tigray,South Eastern,Samre,Concern Worldwide,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010606,Tigray,South Eastern,Samre,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010601,Tigray,South Eastern,Saharti,Concern Worldwide,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010601,Tigray,South Eastern,Saharti,Concern Worldwide,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-01,2025-08-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-08-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-04-01,2025-08-31
+ET010213,Tigray,Central,Axum town,SOS Children's Villages,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010213,Tigray,Central,Axum town,SOS Children's Villages,CAPACITY,Capacity Building,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010204,Tigray,Central,Adwa,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010204,Tigray,Central,Adwa,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010204,Tigray,Central,Adwa,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010202,Tigray,Central,Aheferom,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010202,Tigray,Central,Aheferom,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010202,Tigray,Central,Aheferom,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010201,Tigray,Central,Chila,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010201,Tigray,Central,Chila,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010201,Tigray,Central,Chila,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-30,2026-03-29
+ET030102,Amhara,North Gondar,Beyeda,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-20,2025-09-30
+ET030102,Amhara,North Gondar,Beyeda,Medical Teams International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-20,2025-09-30
+ET030308,Amhara,North Wello,Habru,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-07-21,2026-07-20
+ET030308,Amhara,North Wello,Habru,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-07-21,2026-07-20
+ET030308,Amhara,North Wello,Habru,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-07-21,2026-07-20
+ET030102,Amhara,North Gondar,Beyeda,Medical Teams International,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-06-20,2025-09-30
+ET031213,Amhara,West Gondar,Metema,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-07-01,2026-03-31
+ET031213,Amhara,West Gondar,Metema,Medical Teams International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-07-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-20,2025-09-30
+ET031213,Amhara,West Gondar,Metema,Medical Teams International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-07-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Medical Teams International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-20,2025-09-30
+ET030119,Amhara,North Gondar,Telemt,Medical Teams International,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-06-20,2025-09-30
+ET040203,Oromia,East Wellega,Gida Ayana,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Partially funded,National NGO,2025-08-01,2026-07-31
+ET040203,Oromia,East Wellega,Gida Ayana,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Partially funded,National NGO,2025-08-01,2026-07-31
+ET040203,Oromia,East Wellega,Gida Ayana,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Partially funded,National NGO,2025-08-01,2026-07-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Everywhere,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-07-01,2025-12-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-07-01,2025-12-31
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Positive Action for Development,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-05-15,2026-02-14
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Positive Action for Development,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-05-15,2026-02-14
+ET010311,Tigray,Eastern,Edaga Hamus town,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010311,Tigray,Eastern,Edaga Hamus town,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010311,Tigray,Eastern,Edaga Hamus town,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010313,Tigray,Eastern,Freweyni town,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010313,Tigray,Eastern,Freweyni town,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010313,Tigray,Eastern,Freweyni town,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010307,Tigray,Eastern,Atsbi,GOAL Ethiopia,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010219,Tigray,Central,Emba Sieneti,GOAL Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010305,Tigray,Eastern,Hawzen,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010312,Tigray,Eastern,Hawzen town,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010220,Tigray,Central,Enticho town,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010310,Tigray,Eastern,Bizet,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010218,Tigray,Central,Endafelasi,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010216,Tigray,Central,Egela,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010309,Tigray,Eastern,Wukro town,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010607,Tigray,South Eastern,Adigudom,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010601,Tigray,South Eastern,Saharti,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010608,Tigray,South Eastern,Wajirat,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010404,Tigray,Southern,Emba Alaje,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010316,Tigray,Eastern,Agulae,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010307,Tigray,Eastern,Atsbi,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET010315,Tigray,Eastern,Atsbi town,GOAL Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-09,2026-02-28
+ET041290,Oromia,Borena,Guchi,Action Against Hunger,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2025-12-31
+ET041290,Oromia,Borena,Guchi,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-12-31
+ET041290,Oromia,Borena,Guchi,Action Against Hunger,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2025-12-31
+ET030119,Amhara,North Gondar,Telemt,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030119,Amhara,North Gondar,Telemt,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030102,Amhara,North Gondar,Beyeda,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET030102,Amhara,North Gondar,Beyeda,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Partially funded,International NGO,2025-01-01,2025-06-30
+ET040213,Oromia,East Wellega,Guto Gida,Action for the Needy in Ethiopia,CAPACITY,Capacity Building,Fully funded,National NGO,2025-08-01,2026-07-31
+ET040213,Oromia,East Wellega,Guto Gida,Action for the Needy in Ethiopia,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-08-01,2026-07-31
+ET050107,Somali,Siti,Miesso,Medical Teams International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET050107,Somali,Siti,Miesso,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-06-30
+ET010606,Tigray,South Eastern,Samre,SOS Ethiopia,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010606,Tigray,South Eastern,Samre,SOS Children’s Village,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010105,Tigray,North Western,Asgede,Alliance for Medical Action,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2026-02-28
+ET010104,Tigray,North Western,Tahtay Koraro,Alliance for Medical Action,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-03-01,2026-02-28
+ET010110,Tigray,North Western,Seyemti Adyabo,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-04-01,2026-03-30
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,CAPACITY,Capacity Building,Fully funded,International NGO,2025-06-01,2026-05-31
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-06-01,2026-05-31
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-06-01,2026-05-31
+ET030802,Amhara,Wag Hamra,Sekota,Cooperative for Assistance and Relief Everywhere,ISC,ISC package of key interventions,Fully funded,International NGO,2025-06-01,2026-05-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Everywhere,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-07-01,2025-12-31
+ET041008,Oromia,East Hararge,Kersa (East Hararge),World vision international,CAPACITY,Capacity Building,Fully funded,International NGO,2025-07-01,2025-12-31
+ET041010,Oromia,East Hararge,Goro Gutu,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-07-01,2025-12-31
+ET041010,Oromia,East Hararge,Goro Gutu,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-07-01,2025-12-31
+ET041010,Oromia,East Hararge,Goro Gutu,World vision international,CAPACITY,Capacity Building,Fully funded,International NGO,2025-07-01,2025-12-31
+ET041010,Oromia,East Hararge,Goro Gutu,World vision international,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-07-01,2025-12-31
+ET030422,Amhara,South Wello,Worebabu,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-07-01,2025-12-31
+ET030422,Amhara,South Wello,Worebabu,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-07-01,2025-12-31
+ET030422,Amhara,South Wello,Worebabu,World vision international,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010405,Tigray,Southern,Endamehoni,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010405,Tigray,Southern,Endamehoni,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010405,Tigray,Southern,Endamehoni,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010405,Tigray,Southern,Endamehoni,World vision international,CAPACITY,Capacity Building,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010221,Tigray,Central,Keyhe tekli,World vision international,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010221,Tigray,Central,Keyhe tekli,World vision international,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010221,Tigray,Central,Keyhe tekli,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010221,Tigray,Central,Keyhe tekli,World vision international,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-07-01,2025-12-31
+ET010221,Tigray,Central,Keyhe tekli,World vision international,CAPACITY,Capacity Building,Fully funded,International NGO,2025-07-01,2025-12-31
+ET041223,Oromia,Borena,Gomole,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-08-04,2025-12-31
+ET041515,Oromia,West Guji,Dugda Dawa,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-08-04,2025-12-31
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Action Against Hunger,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2025-12-31
+ET040210,Oromia,East Wellega,Diga,Fayyaa Integrated Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-08-01,2026-07-31
+ET040210,Oromia,East Wellega,Diga,Fayyaa Integrated Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-08-01,2026-07-31
+ET040210,Oromia,East Wellega,Diga,Fayyaa Integrated Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-08-01,2026-07-31
+ET010318,Tigray,Eastern,Zala Anbesa town,Action for Social Development and Environmental Protection Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010318,Tigray,Eastern,Zala Anbesa town,Action for Social Development and Environmental Protection Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-30,2026-03-29
+ET010318,Tigray,Eastern,Zala Anbesa town,Action for Social Development and Environmental Protection Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-30,2026-03-29
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Positive Action for Development,AM,PLW_ (AM) Acute Malnutrition,Fully funded,National NGO,2025-05-15,2026-02-14
+ET010209,Tigray,Central,Naeder,Save the Children,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-07-01,2025-12-31
+ET040213,Oromia,East Wellega,Guto Gida,Action for the Needy in Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-08-01,2026-07-31
+ET050702,Somali,Doolo,Bokh,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050703,Somali,Doolo,Galadi,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050798,Somali,Doolo,Lehel-Yucub,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050701,Somali,Doolo,Danod,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050788,Somali,Doolo,Daratole,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050902,Somali,Liban,Dolo Ado,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050999,Somali,Liban,Bokolmayo,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050903,Somali,Liban,Goro Baqaqsa,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050904,Somali,Liban,Guradamole,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050991,Somali,Liban,Deka Suftu,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET010222,Tigray,Central,Tanqua Melashe,Action Against Hunger,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET050807,Somali,Afder,Barey,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050898,Somali,Afder,Kohle /Qoxle,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050806,Somali,Afder,Hargele,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050802,Somali,Afder,Charati,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050804,Somali,Afder,Elkare /Serer,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050809,Somali,Afder,Raso,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050805,Somali,Afder,West Imi,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET050808,Somali,Afder,Dolobay,Partnership for Pastoralist Development Association,NUTRITION,"Nutrition assessment (rapid assessments, surveys….)",Fully funded,National NGO,2025-01-01,2026-06-30
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,ISC,ISC package of key interventions,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030119,Amhara,North Gondar,Telemt,Cooperative for Assistance and Relief Every where,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,ISC,ISC package of key interventions,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030103,Amhara,North Gondar,Janamora,Cooperative for Assistance and Relief Every where,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Every where,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Every where,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Every where,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Every where,ISC,ISC package of key interventions,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050991,Somali,Liban,Deka Suftu,Cooperative for Assistance and Relief Every where,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,ISC,ISC package of key interventions,Fully funded,International NGO,2025-01-01,2026-03-31
+ET050901,Somali,Liban,Filtu,Cooperative for Assistance and Relief Every where,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2026-03-31
+ET010213,Tigray,Central,Axum town,SOS Children’s Village,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010213,Tigray,Central,Axum town,SOS Children’s Village,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010213,Tigray,Central,Axum town,SOS Children’s Village,CAPACITY,Capacity Building,Fully funded,International NGO,2024-10-01,2026-09-30
+ET010105,Tigray,North Western,Asgede,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010105,Tigray,North Western,Asgede,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010105,Tigray,North Western,Asgede,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010101,Tigray,North Western,Tahtay Adiyabo,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010207,Tigray,Central,Adet,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010207,Tigray,Central,Adet,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010207,Tigray,Central,Adet,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010103,Tigray,North Western,Zana,Mothers and Children Multisectoral Development Organization,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010103,Tigray,North Western,Zana,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010103,Tigray,North Western,Zana,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-20,2025-12-19
+ET050806,Somali,Afder,Hargele,International Rescue Committee,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET050802,Somali,Afder,Charati,International Rescue Committee,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2025-12-31
+ET050804,Somali,Afder,Elkare /Serer,Alliance for Medical Action,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-03-01,2026-02-28
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,ISC,ISC package of key interventions,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041211,Oromia,Borena,Dire,Cooperative for Assistance and Relief Every where,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020201,Afar,Kilbati /Zone2,Erebti,Mercy Corps,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-06-01,2025-11-30
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,ISC,ISC package of key interventions,Fully funded,International NGO,2025-01-01,2026-03-31
+ET041212,Oromia,Borena,Teltale,Cooperative for Assistance and Relief Every where,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,ISC,ISC package of key interventions,Fully funded,International NGO,2025-01-01,2026-03-31
+ET030808,Amhara,Wag Hamra,Tsagbeji,Cooperative for Assistance and Relief Every where,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,CAPACITY,Capacity Building,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,ISC,ISC package of key interventions,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020203,Afar,Kilbati /Zone2,Abaala,Cooperative for Assistance and Relief Every where,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2025-01-01,2026-03-31
+ET020103,Afar,Awsi /Zone 1,Asayita,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2025-05-15,2026-02-14
+ET020103,Afar,Awsi /Zone 1,Asayita,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-05-15,2026-02-14
+ET050601,Somali,Shabelle,East Imi,Concern Worldwide,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2025-07-01,2025-12-31
+ET030801,Amhara,Wag Hamra,Zequala,Plan International,COMMUNITY,Community led originated nutrition response,Fully funded,International NGO,2025-05-15,2026-02-14
+ET010111,Tigray,North Western,Adi Daero,Mothers and Children Multisectoral Development Organization,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010111,Tigray,North Western,Adi Daero,Mothers and Children Multisectoral Development Organization,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-06-20,2025-12-19
+ET010205,Tigray,Central,Laelay Maychew,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2027-05-31
+ET010205,Tigray,Central,Laelay Maychew,Cooperative for Assistance and Relief Everywhere,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-01,2027-05-31
+ET030602,Amhara,East Gojam,Hulet Ej Enese,Premiere Urgence Internationale,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-07-01,2026-06-30
+ET030602,Amhara,East Gojam,Hulet Ej Enese,Premiere Urgence Internationale,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2025-07-01,2026-06-30
+ET030602,Amhara,East Gojam,Hulet Ej Enese,Premiere Urgence Internationale,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2025-07-01,2026-06-30
+ET010302,Tigray,Eastern,Erob,Cooperative for Assistance and Relief Everywhere,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-06-01,2027-05-31
+ET010101,Tigray,North Western,Tahtay Adiyabo,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010101,Tigray,North Western,Tahtay Adiyabo,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010101,Tigray,North Western,Tahtay Adiyabo,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010101,Tigray,North Western,Tahtay Adiyabo,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010101,Tigray,North Western,Tahtay Adiyabo,Plan International,CAPACITY,Capacity Building,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010101,Tigray,North Western,Tahtay Adiyabo,Plan International,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010111,Tigray,North Western,Adi Daero,Plan International,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010111,Tigray,North Western,Adi Daero,Plan International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010111,Tigray,North Western,Adi Daero,Plan International,SC,SAM (SC) Stabilization Centre,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010111,Tigray,North Western,Adi Daero,Plan International,MAM,MAM Moderate Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010111,Tigray,North Western,Adi Daero,Plan International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010111,Tigray,North Western,Adi Daero,Plan International,CAPACITY,Capacity Building,Fully funded,International NGO,2024-05-20,2025-05-19
+ET010111,Tigray,North Western,Adi Daero,Plan International,NUTRITION,Nutrition Supplement/medicine,Fully funded,International NGO,2024-05-20,2025-05-19
+ET030301,Amhara,North Wello,Bugna,Organization for Rehabilitation and Development in Amhara,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-08-06,2025-12-31
+ET030301,Amhara,North Wello,Bugna,Organization for Rehabilitation and Development in Amhara,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-08-06,2025-12-31
+ET030301,Amhara,North Wello,Bugna,Organization for Rehabilitation and Development in Amhara,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-08-06,2025-12-31
+ET030301,Amhara,North Wello,Bugna,Organization for Rehabilitation and Development in Amhara,CAPACITY,Capacity Building,Fully funded,National NGO,2025-08-06,2025-12-31
+ET030301,Amhara,North Wello,Bugna,Organization for Rehabilitation and Development in Amhara,MAM,MAM Moderate Acute Malnutrition,Fully funded,National NGO,2025-08-06,2025-12-31
+ET030301,Amhara,North Wello,Bugna,Organization for Rehabilitation and Development in Amhara,AM,PLW_ (AM) Acute Malnutrition,Fully funded,National NGO,2025-08-06,2025-12-31
+ET030301,Amhara,North Wello,Bugna,Organization for Rehabilitation and Development in Amhara,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2025-08-06,2025-12-31
+ET010308,Tigray,Eastern,Adigrat town,Ethiopia Catholic Church-Social and Development Coordinating office,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-11-12,2026-07-31
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Positive Action for Development,NUTRITION,Nutrition Supplement/medicine,Fully funded,National NGO,2025-05-15,2026-02-14
+ET040203,Oromia,East Wellega,Gida Ayana,Positive Action for Development,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,National NGO,2025-08-01,2026-07-31
+ET030803,Amhara,Wag Hamra,Dehana,Organization for Rehabilitation and Development in Amhara,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-12-01,2026-01-31
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Organization for Rehabilitation and Development in Amhara,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,National NGO,2025-12-01,2026-01-31
+ET030803,Amhara,Wag Hamra,Dehana,Organization for Rehabilitation and Development in Amhara,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-12-01,2026-01-31
+ET030804,Amhara,Wag Hamra,Gaz Gibla,Organization for Rehabilitation and Development in Amhara,SC,SAM (SC) Stabilization Centre,Fully funded,National NGO,2025-12-01,2026-01-31
+ET030301,Amhara,North Wello,Bugna,Organization for Rehabilitation and Development in Amhara,COMMUNITY,Community led originated nutrition response,Fully funded,National NGO,2025-08-06,2025-12-31
+ET041211,Oromia,Borena,Dire,Islamic Relief Ethiopia,CAPACITY,Capacity Building,Fully funded,International NGO,2024-01-01,2026-12-31
+ET041211,Oromia,Borena,Dire,Islamic Relief Ethiopia,IYCF,IYCF -E Infant and Young Child Feeding in Emergencies,Fully funded,International NGO,2024-01-01,2026-12-31
+ET020205,Afar,Kilbati /Zone2,Berahile,Medical Teams International,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2024-06-20,2025-09-30
+ET020205,Afar,Kilbati /Zone2,Berahile,Medical Teams International,AM,PLW_ (AM) Acute Malnutrition,Fully funded,International NGO,2024-06-20,2025-09-30
+ET030212,Amhara,South Gondar,Guna Begemider,Save Your Holy Land Association,MAM,MAM Moderate Acute Malnutrition,Fully funded,National NGO,2025-11-01,2025-12-31
+ET020202,Afar,Kilbati /Zone2,Kunneba,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-12-01,2025-12-31
+ET010602,Tigray,South Eastern,Enderta,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-12-01,2025-12-31
+ET010406,Tigray,Southern,Raya Azebo,World vision international,OTP,SAM (OTP) Outpatient therapeutic programme,Fully funded,International NGO,2025-12-31,2025-12-31
