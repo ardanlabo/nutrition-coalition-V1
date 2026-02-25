@@ -1,7 +1,20 @@
-/* js/map_4w.js
-   4W woreda-level minimap (full page) — static GitHub Pages
-   Data: data/4w_woreda_agg_pcode.csv
-   Join key: adm3_pcode vs adm3_ethiopia.geojson properties.ADM3_PCODE (or adm3_pcode)
+/* assets/js/map_4w.js
+   4W woreda-level map — static GitHub Pages
+   Data:
+     - data/4w_woreda_agg_pcode.csv
+     - data/adm1_ethiopia.geojson
+     - data/adm2_ethiopia.geojson
+     - data/adm3_ethiopia.geojson
+
+   Features:
+   - Region -> Zone dependent filters
+   - NGO filter (based on ngo_list)
+   - Choropleth by ngo_count (0 / 1 / 2 / 3-4 / 5-7 / 8+)
+   - Drilldown click (fitBounds)
+   - ADM1 halo + red outline, ADM2 grey
+   - KPIs dynamic
+   - Left-side details panel for selected woreda
+   - Best-effort NGO->activities extraction (only if activity_list contains identifiable mapping)
 */
 
 (function () {
@@ -16,15 +29,28 @@
   const DOM = {
     regionSelect: document.getElementById("regionSelect"),
     zoneSelect: document.getElementById("zoneSelect"),
+    ngoSelect: document.getElementById("ngoSelect"),
     resetBtn: document.getElementById("resetBtn"),
+
     kpiWoredas: document.getElementById("kpiWoredas"),
     kpiNgos: document.getElementById("kpiNgos"),
     kpiActivities: document.getElementById("kpiActivities"),
     kpiRecords: document.getElementById("kpiRecords"),
-    legendBox: document.getElementById("legendBox")
+
+    legendBox: document.getElementById("legendBox"),
+
+    detailsHint: document.getElementById("detailsHint"),
+    detailsBody: document.getElementById("detailsBody"),
+    detailsTitle: document.getElementById("detailsTitle"),
+    detailsMeta: document.getElementById("detailsMeta"),
+    detailsNgos: document.getElementById("detailsNgos"),
+    detailsActivities: document.getElementById("detailsActivities"),
+    detailsFunding: document.getElementById("detailsFunding"),
+    detailsNgoFocusWrap: document.getElementById("detailsNgoFocusWrap"),
+    detailsNgoFocus: document.getElementById("detailsNgoFocus")
   };
 
-  // NGO count classes: 0 / 1 / 2 / 3-4 / 5-7 / 8+
+  // NGO count classes
   const NGO_CLASSES = [
     { key: "c0", label: "0", min: 0, max: 0 },
     { key: "c1", label: "1", min: 1, max: 1 },
@@ -34,23 +60,24 @@
     { key: "c5", label: "8+", min: 8, max: Infinity }
   ];
 
-  // Stable palette (light -> dark). Keep it constant for meeting readability.
+  // High-contrast palette (meeting-friendly)
+  // Dark theme: keep c0 very dark, others clearly distinct
   const COLORS = {
-  c0: "#111827",  // 0 NGOs (quasi noir/bleu)
-  c1: "#1d4ed8",  // 1 (bleu franc)
-  c2: "#2563eb",  // 2
-  c3: "#3b82f6",  // 3–4
-  c4: "#60a5fa",  // 5–7
-  c5: "#93c5fd"   // 8+
-};
+    c0: "#0b1220",
+    c1: "#1d4ed8",
+    c2: "#2563eb",
+    c3: "#3b82f6",
+    c4: "#60a5fa",
+    c5: "#93c5fd"
+  };
 
-  // ---------- Leaflet map ----------
+  // ---------- Leaflet ----------
   const map = L.map("map", {
     zoomControl: true,
     scrollWheelZoom: false
   });
 
-  // Panes for z-order control
+  // Panes (z-order)
   map.createPane("basemap");
   map.createPane("adm2");
   map.createPane("adm1halo");
@@ -72,12 +99,12 @@
   }).addTo(map);
 
   // ---------- State ----------
-  let adm1Layer = null;
-  let adm1HaloLayer = null;
   let adm2Layer = null;
+  let adm1HaloLayer = null;
+  let adm1Layer = null;
 
-  let adm3AllLayer = null;   // background (all woredas, low emphasis)
-  let adm3FocusLayer = null; // focus (filtered by region/zone, colored)
+  let adm3AllLayer = null;
+  let adm3FocusLayer = null;
   let adm3Geo = null;
 
   let csvRows = [];
@@ -85,41 +112,47 @@
 
   let currentRegion = "";
   let currentZone = "";
+  let currentNgo = "";
 
-  const ETHIOPIA_FALLBACK_VIEW = { center: [9.03, 38.74], zoom: 6 };
+  let lastSelectedPcode = "";
+
+  const ETH_FALLBACK = { center: [9.03, 38.74], zoom: 6 };
 
   // ---------- Helpers ----------
+  function normStr(v) {
+    return (v ?? "").toString().trim();
+  }
+
   function safeNum(v) {
     if (v === null || v === undefined) return 0;
     const n = Number(String(v).trim());
     return Number.isFinite(n) ? n : 0;
   }
 
-  function normStr(v) {
-    return (v ?? "").toString().trim();
+  function uniqueSorted(arr) {
+    return Array.from(new Set(arr.filter(Boolean))).sort((a, b) => a.localeCompare(b));
   }
 
-  function getAdm3PcodeFromFeature(feature) {
-    const p = feature?.properties || {};
-    // common variants
-    return (
-      p.ADM3_PCODE ||
-      p.adm3_pcode ||
-      p.ADM3PCODE ||
-      p.ADM3_CODE ||
-      ""
-    ).toString().trim();
+  function splitList(raw) {
+    const t = normStr(raw);
+    if (!t) return [];
+    return t
+      .split(/[,;|\n]+/g)
+      .map(x => x.trim())
+      .filter(Boolean);
   }
 
-  function getRegionFromFeature(feature) {
-    const p = feature?.properties || {};
-    return (p.ADM1_EN || p.ADM1_NAME || p.region || "").toString().trim();
+  function ngoInRow(row, ngoName) {
+    if (!ngoName) return true;
+    const list = splitList(row?.ngo_list).map(x => x.toLowerCase());
+    return list.includes(ngoName.toLowerCase());
   }
 
-  function getZoneFromFeature(feature) {
-    const p = feature?.properties || {};
-    // zones often in ADM2 or custom property; we’ll use CSV for zones anyway
-    return (p.ADM2_EN || p.ADM2_NAME || p.zone || "").toString().trim();
+  function truncateText(s, maxChars) {
+    const t = normStr(s);
+    if (!t) return "—";
+    if (t.length <= maxChars) return t;
+    return t.slice(0, maxChars - 1) + "…";
   }
 
   function classifyNgoCount(n) {
@@ -134,27 +167,50 @@
     return COLORS[key] || COLORS.c0;
   }
 
-  function truncateList(s, maxChars) {
-    const t = normStr(s);
-    if (!t) return "—";
-    if (t.length <= maxChars) return t;
-    return t.slice(0, maxChars - 1) + "…";
+  function getAdm3PcodeFromFeature(feature) {
+    const p = feature?.properties || {};
+    return (
+      p.ADM3_PCODE ||
+      p.adm3_pcode ||
+      p.ADM3PCODE ||
+      p.ADM3_CODE ||
+      ""
+    ).toString().trim();
   }
 
   function setLegendSwatches() {
     if (!DOM.legendBox) return;
     DOM.legendBox.querySelectorAll("[data-swatch]").forEach(el => {
       const key = el.getAttribute("data-swatch");
-      el.style.background = COLORS[key] || "#eee";
+      el.style.background = COLORS[key] || "#111827";
     });
   }
 
-  function uniqueSorted(arr) {
-    return Array.from(new Set(arr.filter(Boolean))).sort((a, b) => a.localeCompare(b));
+  // Best-effort extraction if activity_list contains patterns like:
+  // "NGO: activity1, activity2; NGO2: activity..."
+  function extractNgoActivities(activityListRaw, ngoName) {
+    const ngo = normStr(ngoName);
+    const txt = normStr(activityListRaw);
+    if (!ngo || !txt) return "";
+
+    const parts = txt.split(/[;|\n]+/g).map(x => x.trim()).filter(Boolean);
+    const hits = parts.filter(p => p.toLowerCase().includes(ngo.toLowerCase()));
+    if (!hits.length) return "";
+
+    const cleaned = hits.map(h => {
+      const idx = h.indexOf(":");
+      if (idx !== -1) return h.slice(idx + 1).trim();
+      return h;
+    });
+
+    return cleaned.join("\n");
   }
 
+  // ---------- UI ----------
   function updateZoneOptions() {
     const zoneSel = DOM.zoneSelect;
+    if (!zoneSel) return;
+
     zoneSel.innerHTML = `<option value="">All zones</option>`;
 
     if (!currentRegion) {
@@ -178,6 +234,36 @@
     zoneSel.disabled = false;
   }
 
+  function buildRegionOptions() {
+    if (!DOM.regionSelect) return;
+    const regions = uniqueSorted(csvRows.map(r => normStr(r.Region)));
+    for (const r of regions) {
+      const opt = document.createElement("option");
+      opt.value = r;
+      opt.textContent = r;
+      DOM.regionSelect.appendChild(opt);
+    }
+  }
+
+  function buildNgoOptions() {
+    if (!DOM.ngoSelect) return;
+
+    const all = [];
+    for (const r of csvRows) {
+      const items = splitList(r.ngo_list);
+      for (const it of items) all.push(it);
+    }
+    const ngos = uniqueSorted(all);
+
+    DOM.ngoSelect.innerHTML = `<option value="">All NGOs</option>`;
+    for (const n of ngos) {
+      const opt = document.createElement("option");
+      opt.value = n;
+      opt.textContent = n;
+      DOM.ngoSelect.appendChild(opt);
+    }
+  }
+
   function computeFilteredRows() {
     return csvRows.filter(r => {
       const rRegion = normStr(r.Region);
@@ -185,6 +271,9 @@
 
       if (currentRegion && rRegion !== currentRegion) return false;
       if (currentZone && rZone !== currentZone) return false;
+
+      if (currentNgo && !ngoInRow(r, currentNgo)) return false;
+
       return true;
     });
   }
@@ -201,31 +290,90 @@
     if (DOM.kpiRecords) DOM.kpiRecords.textContent = recs.toLocaleString();
   }
 
+  function renderDetailsByPcode(pcode) {
+    if (!pcode) return;
+    const row = rowByPcode.get(pcode);
+
+    if (!row) {
+      if (DOM.detailsHint) DOM.detailsHint.textContent = "No 4W record for this woreda (PCODE not found in CSV).";
+      if (DOM.detailsBody) DOM.detailsBody.style.display = "none";
+      return;
+    }
+
+    const title = `${normStr(row.Woreda) || "Woreda"} — ${pcode}`;
+    const meta =
+      `${normStr(row.Region) || "—"} • ${normStr(row.Zone) || "—"} • ` +
+      `NGOs: ${safeNum(row.ngo_count)} • Activities: ${safeNum(row.activity_count)} • Records: ${safeNum(row.records)}`;
+
+    if (DOM.detailsHint) DOM.detailsHint.textContent = "";
+    if (DOM.detailsBody) DOM.detailsBody.style.display = "block";
+
+    if (DOM.detailsTitle) DOM.detailsTitle.textContent = title;
+    if (DOM.detailsMeta) DOM.detailsMeta.textContent = meta;
+
+    if (DOM.detailsNgos) DOM.detailsNgos.textContent = truncateText(row.ngo_list, 900);
+    if (DOM.detailsActivities) DOM.detailsActivities.textContent = truncateText(row.activity_list, 1200);
+    if (DOM.detailsFunding) DOM.detailsFunding.textContent = truncateText(row.funding_statuses, 800);
+
+    if (currentNgo) {
+      const best = extractNgoActivities(row.activity_list, currentNgo);
+      if (DOM.detailsNgoFocusWrap) DOM.detailsNgoFocusWrap.style.display = "block";
+
+      if (best) {
+        if (DOM.detailsNgoFocus) DOM.detailsNgoFocus.textContent = truncateText(best, 900);
+      } else {
+        // Do not invent mapping if the dataset doesn’t contain it.
+        if (DOM.detailsNgoFocus) DOM.detailsNgoFocus.textContent =
+          "No reliable NGO→activity mapping found in activity_list (dataset is aggregated). " +
+          "Use the woreda-level activity list above.";
+      }
+    } else {
+      if (DOM.detailsNgoFocusWrap) DOM.detailsNgoFocusWrap.style.display = "none";
+    }
+  }
+
+  // ---------- Styling ----------
+  function styleAdm3Bg() {
+    return {
+      pane: "adm3bg",
+      color: "#111827",
+      weight: 0.6,
+      opacity: 0.25,
+      fillOpacity: 0.04,
+      fillColor: "#ffffff"
+    };
+  }
+
+  function styleAdm3Focus(feature) {
+    const pcode = getAdm3PcodeFromFeature(feature);
+    const row = rowByPcode.get(pcode);
+    const ngoCount = safeNum(row?.ngo_count);
+
+    return {
+      pane: "adm3focus",
+      color: "#111827",
+      weight: 0.9,
+      opacity: 0.85,
+      fillOpacity: 0.85,
+      fillColor: colorForNgoCount(ngoCount)
+    };
+  }
+
   function makeTooltipHTML(feature) {
     const pcode = getAdm3PcodeFromFeature(feature);
     const row = rowByPcode.get(pcode);
 
-    const props = feature.properties || {};
-    const woredaName =
-      normStr(row?.Woreda) ||
-      normStr(props.ADM3_EN) ||
-      normStr(props.ADM3_NAME) ||
-      "Unknown woreda";
-
-    const region = normStr(row?.Region) || getRegionFromFeature(feature) || "—";
+    const woredaName = normStr(row?.Woreda) || "Unknown woreda";
+    const region = normStr(row?.Region) || "—";
     const zone = normStr(row?.Zone) || "—";
 
     const ngoCount = safeNum(row?.ngo_count);
     const activityCount = safeNum(row?.activity_count);
     const records = safeNum(row?.records);
 
-    const fundingStatuses = truncateList(row?.funding_statuses, 120);
-    const ngoList = truncateList(row?.ngo_list, 180);
-    const activityList = truncateList(row?.activity_list, 180);
-
     return `
       <div style="min-width:260px">
-        <div style="font-weight:700; font-size:14px; margin-bottom:6px;">${woredaName}</div>
+        <div style="font-weight:800; font-size:14px; margin-bottom:6px;">${woredaName}</div>
         <div style="font-size:12px; opacity:.85; margin-bottom:8px;">
           <div><b>Region:</b> ${region}</div>
           <div><b>Zone:</b> ${zone}</div>
@@ -239,63 +387,32 @@
           <div><b>Coverage class:</b> ${normStr(row?.coverage_class) || "—"}</div>
         </div>
 
-        <div style="font-size:12px; line-height:1.35;">
-          <div><b>Funding statuses:</b> ${fundingStatuses}</div>
-          <div style="margin-top:6px;"><b>NGO list:</b> ${ngoList}</div>
-          <div style="margin-top:6px;"><b>Activity list:</b> ${activityList}</div>
+        <div style="font-size:12px; opacity:.85;">
+          <div><b>NGOs:</b> ${truncateText(row?.ngo_list, 180)}</div>
+          <div style="margin-top:6px;"><b>Activities:</b> ${truncateText(row?.activity_list, 180)}</div>
         </div>
       </div>
     `;
   }
 
-  function styleAdm3Bg() {
-    return {
-      pane: "adm3bg",
-      color: "#111827",
-      weight: 0.6,
-      opacity: 0.35,
-      fillOpacity: 0.05,
-      fillColor: "#ffffff"
-    };
-  }
-
-  function styleAdm3Focus(feature) {
-    const pcode = getAdm3PcodeFromFeature(feature);
-    const row = rowByPcode.get(pcode);
-    const ngoCount = safeNum(row?.ngo_count);
-
-    return {
-      pane: "adm3focus",
-      color: "#111827",
-      weight: 0.8,
-      opacity: 0.8,
-      fillOpacity: 0.85,
-      fillColor: colorForNgoCount(ngoCount)
-    };
-  }
-
+  // ---------- Layers refresh ----------
   function refreshAdm3Layers() {
     if (!adm3Geo) return;
 
     const filteredRows = computeFilteredRows();
     updateKPIs(filteredRows);
 
-    // Build a set of pcodes in current filter
     const focusPcodes = new Set(filteredRows.map(r => normStr(r.adm3_pcode)));
 
-    // Remove previous layers (do not leak)
     if (adm3AllLayer) map.removeLayer(adm3AllLayer);
     if (adm3FocusLayer) map.removeLayer(adm3FocusLayer);
 
-    // Background: all woredas
+    // Background
     adm3AllLayer = L.geoJSON(adm3Geo, {
-      style: styleAdm3Bg,
-      onEachFeature: (feature, layer) => {
-        // Keep lightweight; no tooltip on bg
-      }
+      style: styleAdm3Bg
     }).addTo(map);
 
-    // Focus: only filtered woredas, colored
+    // Focus (filtered + colored)
     adm3FocusLayer = L.geoJSON(adm3Geo, {
       filter: (feature) => {
         const pcode = getAdm3PcodeFromFeature(feature);
@@ -309,26 +426,30 @@
           try {
             const b = layer.getBounds();
             if (b && b.isValid()) map.fitBounds(b, { padding: [18, 18] });
-          } catch (e) {
-            // no-op
-          }
+          } catch (e) {}
+
+          const pcode = getAdm3PcodeFromFeature(feature);
+          lastSelectedPcode = pcode;
+          renderDetailsByPcode(pcode);
         });
       }
     }).addTo(map);
 
-    // Fit bounds to focus if filter is active and has data
-    if ((currentRegion || currentZone) && adm3FocusLayer.getLayers().length > 0) {
+    // Fit bounds to focus when a filter is active
+    if ((currentRegion || currentZone || currentNgo) && adm3FocusLayer.getLayers().length > 0) {
       try {
         map.fitBounds(adm3FocusLayer.getBounds(), { padding: [20, 20] });
-      } catch (e) {
-        // fallback
-      }
+      } catch (e) {}
     }
   }
 
-  function resetView() {
+  function resetView(ev) {
+    if (ev && ev.preventDefault) ev.preventDefault();
+
     currentRegion = "";
     currentZone = "";
+    currentNgo = "";
+    lastSelectedPcode = "";
 
     if (DOM.regionSelect) DOM.regionSelect.value = "";
     if (DOM.zoneSelect) {
@@ -336,9 +457,14 @@
       DOM.zoneSelect.disabled = true;
       DOM.zoneSelect.innerHTML = `<option value="">All zones</option>`;
     }
+    if (DOM.ngoSelect) DOM.ngoSelect.value = "";
+
+    if (DOM.detailsHint) DOM.detailsHint.textContent = "Click a woreda on the map to see details here.";
+    if (DOM.detailsBody) DOM.detailsBody.style.display = "none";
+    if (DOM.detailsNgoFocusWrap) DOM.detailsNgoFocusWrap.style.display = "none";
 
     refreshAdm3Layers();
-    map.setView(ETHIOPIA_FALLBACK_VIEW.center, ETHIOPIA_FALLBACK_VIEW.zoom);
+    map.setView(ETH_FALLBACK.center, ETH_FALLBACK.zoom);
   }
 
   // ---------- Data loading ----------
@@ -360,16 +486,6 @@
     });
   }
 
-  function buildRegionOptions() {
-    const regions = uniqueSorted(csvRows.map(r => normStr(r.Region)));
-    for (const r of regions) {
-      const opt = document.createElement("option");
-      opt.value = r;
-      opt.textContent = r;
-      DOM.regionSelect.appendChild(opt);
-    }
-  }
-
   function indexRowsByPcode() {
     rowByPcode = new Map();
     for (const r of csvRows) {
@@ -380,24 +496,24 @@
   }
 
   function addAdmOverlays(adm1, adm2) {
-    // ADM2 grey (under ADM1)
+    // ADM2 grey
     adm2Layer = L.geoJSON(adm2, {
       pane: "adm2",
       style: {
         color: "#6b7280",
         weight: 1,
-        opacity: 0.6,
+        opacity: 0.55,
         fillOpacity: 0
       }
     }).addTo(map);
 
-    // ADM1 halo (white thick line)
+    // ADM1 halo
     adm1HaloLayer = L.geoJSON(adm1, {
       pane: "adm1halo",
       style: {
         color: "#ffffff",
         weight: 6,
-        opacity: 0.9,
+        opacity: 0.75,
         fillOpacity: 0
       }
     }).addTo(map);
@@ -414,7 +530,7 @@
     }).addTo(map);
   }
 
-  // ---------- Wiring UI ----------
+  // ---------- Wiring ----------
   function wireUI() {
     if (DOM.regionSelect) {
       DOM.regionSelect.addEventListener("change", () => {
@@ -424,6 +540,8 @@
 
         updateZoneOptions();
         refreshAdm3Layers();
+
+        if (lastSelectedPcode) renderDetailsByPcode(lastSelectedPcode);
       });
     }
 
@@ -431,6 +549,18 @@
       DOM.zoneSelect.addEventListener("change", () => {
         currentZone = normStr(DOM.zoneSelect.value);
         refreshAdm3Layers();
+
+        if (lastSelectedPcode) renderDetailsByPcode(lastSelectedPcode);
+      });
+    }
+
+    if (DOM.ngoSelect) {
+      DOM.ngoSelect.addEventListener("change", () => {
+        currentNgo = normStr(DOM.ngoSelect.value);
+        refreshAdm3Layers();
+
+        if (!currentNgo && DOM.detailsNgoFocusWrap) DOM.detailsNgoFocusWrap.style.display = "none";
+        if (lastSelectedPcode) renderDetailsByPcode(lastSelectedPcode);
       });
     }
 
@@ -442,11 +572,8 @@
   // ---------- Init ----------
   async function init() {
     setLegendSwatches();
+    map.setView(ETH_FALLBACK.center, ETH_FALLBACK.zoom);
 
-    // Start view
-    map.setView(ETHIOPIA_FALLBACK_VIEW.center, ETHIOPIA_FALLBACK_VIEW.zoom);
-
-    // Load all in parallel
     const [adm1, adm2, adm3, rows] = await Promise.all([
       loadGeoJSON(PATHS.adm1),
       loadGeoJSON(PATHS.adm2),
@@ -461,9 +588,11 @@
       Zone: normStr(r.Zone),
       Woreda: normStr(r.Woreda),
       adm3_pcode: normStr(r.adm3_pcode),
+
       ngo_count: safeNum(r.ngo_count),
       activity_count: safeNum(r.activity_count),
       records: safeNum(r.records),
+
       funding_statuses: normStr(r.funding_statuses),
       coverage_index: normStr(r.coverage_index),
       ngo_list: normStr(r.ngo_list),
@@ -473,13 +602,14 @@
 
     indexRowsByPcode();
     buildRegionOptions();
+    buildNgoOptions();
     addAdmOverlays(adm1, adm2);
+    updateZoneOptions();
     wireUI();
 
-    // Initial render
     refreshAdm3Layers();
 
-    // Fit to Ethiopia bounds using ADM1 if possible (more stable than hardcoded)
+    // Fit to Ethiopia bounds using ADM1 if possible
     try {
       const tmp = L.geoJSON(adm1);
       map.fitBounds(tmp.getBounds(), { padding: [20, 20] });
@@ -490,6 +620,6 @@
 
   init().catch(err => {
     console.error("[map_4w] init failed:", err);
-    alert("Map failed to load. Open console for details.");
+    alert("4W map failed to load. Open console for details.");
   });
 })();
