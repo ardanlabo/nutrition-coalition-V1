@@ -4,8 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Dashboard – Facility LMRI & Supply Modality</title>
+
+  <!-- ✅ PATCH: correct CSS path -->
   <link rel="stylesheet" href="assets/css/app.css" />
 </head>
+
 <body>
   <header class="topbar">
     <div class="topbar__left">
@@ -132,6 +135,12 @@
       <div class="card">
         <h2>Mini-maps</h2>
 
+        <!-- ✅ PATCH: image paths must match your actual filenames in assets/img/
+             Option 1 (recommended): rename your files to:
+               - assets/img/minimap_lmri.png
+               - assets/img/minimap_4w.png
+             If your files are named differently, adjust src accordingly.
+        -->
         <a class="minimap" href="map.html" title="Open LMRI coverage map">
           <img src="assets/img/minimap_lmri.png" alt="LMRI minimap" />
           <div class="minimap__label">LMRI coverage (click to open)</div>
@@ -157,6 +166,7 @@
     </aside>
   </main>
 
-  <script src="js/dashboard.js"></script>
+  <!-- ✅ PATCH: correct JS path (your repo uses assets/js/) -->
+  <script src="assets/js/dashboard.js"></script>
 </body>
 </html>
