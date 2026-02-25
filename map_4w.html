@@ -5,93 +5,90 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Coalition Decision Support v1 — 4W Coverage (Woreda)</title>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="assets/css/app.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
-    /* Si ton app.css gère déjà tout, tu peux enlever ce bloc.
-       Je garde un fallback minimal pour éviter page blanche si CSS casse. */
-    body { margin:0; }
-    #app { display:flex; height:100vh; }
-    #leftPanel { width:360px; padding:14px; overflow:auto; border-right:1px solid rgba(0,0,0,.08); }
-    #map { flex:1; }
-    .row { display:flex; gap:10px; }
-    .row > * { flex:1; }
-    .kpiGrid { display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-top:10px; }
-    .kpi { padding:10px; border:1px solid rgba(0,0,0,.08); border-radius:10px; }
-    .kpi .v { font-size:18px; font-weight:700; }
-    .muted { opacity:.75; font-size:12px; }
-    .legend { margin-top:10px; padding:10px; border:1px solid rgba(0,0,0,.08); border-radius:10px; }
-    .legendItem { display:flex; align-items:center; gap:8px; margin:6px 0; font-size:13px; }
-    .swatch { width:16px; height:16px; border-radius:4px; border:1px solid rgba(0,0,0,.12); }
-    .toolbar { display:flex; gap:10px; margin-bottom:10px; }
-    select, button { width:100%; padding:10px; border-radius:10px; border:1px solid rgba(0,0,0,.15); }
-    button { cursor:pointer; }
-    .divider { height:1px; background:rgba(0,0,0,.08); margin:12px 0; }
-    .topLinks { display:flex; gap:10px; margin-top:10px; }
-    .topLinks a { text-decoration:none; font-size:13px; }
+    /* map page layout (stable) */
+    body { overflow: hidden; }
+    .maplayout { display:flex; height:100vh; }
+    .sidebar { width:360px; padding:12px 18px; overflow:auto; border-right:1px solid var(--line); background:#0b0f17; }
+    #map { flex:1; min-height:100vh; }
+    .kpiGrid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .kpiBox { background:#0f1623; border:1px solid var(--line); border-radius:12px; padding:10px; }
+    .kpiBox .k { color:var(--muted); font-size:11px; }
+    .kpiBox .v { font-size:18px; font-weight:800; margin-top:4px; }
+    .legendList { margin-top:10px; }
+    .legendRow { display:flex; align-items:center; gap:10px; margin:6px 0; color:var(--muted); font-size:12px; }
+    .swatch { width:14px; height:14px; border-radius:4px; border:1px solid rgba(0,0,0,0.2); }
+    .links { display:flex; gap:12px; margin-top:12px; }
+    .links a { color:var(--muted); text-decoration:none; font-size:12px; }
+    .links a:hover { text-decoration:underline; }
   </style>
 </head>
 
 <body>
-  <div id="app">
-    <aside id="leftPanel">
-      <div>
-        <div class="muted">Coalition Decision Support v1</div>
-        <h2 style="margin:6px 0 10px 0;">4W Coverage — Woreda</h2>
+  <div class="maplayout">
+    <aside class="sidebar">
+      <div class="card">
+        <h2>Coalition Decision Support v1</h2>
+        <div style="font-size:20px;font-weight:800;margin-top:6px;">4W Coverage — Woreda</div>
 
-        <div class="toolbar">
-          <div style="flex:1;">
-            <label class="muted" for="regionSelect">Region</label>
+        <div class="filters" style="grid-template-columns:1fr 1fr; margin-top:12px;">
+          <div>
+            <label>Region</label>
             <select id="regionSelect">
               <option value="">All regions</option>
             </select>
           </div>
-          <div style="flex:1;">
-            <label class="muted" for="zoneSelect">Zone</label>
+
+          <div>
+            <label>Zone</label>
             <select id="zoneSelect" disabled>
               <option value="">All zones</option>
             </select>
           </div>
         </div>
 
-        <button id="resetBtn" type="button">Reset view</button>
+        <div style="margin-top:10px;">
+          <a class="btn" href="#" id="resetBtn" style="justify-content:center;width:100%;">Reset view</a>
+        </div>
 
-        <div class="divider"></div>
-
-        <div class="kpiGrid">
-          <div class="kpi">
-            <div class="muted">Woredas (in view / filtered)</div>
+        <div style="margin-top:12px;" class="kpiGrid">
+          <div class="kpiBox">
+            <div class="k">Woredas (in view / filtered)</div>
             <div class="v" id="kpiWoredas">—</div>
           </div>
-          <div class="kpi">
-            <div class="muted">Total NGOs (sum)</div>
+          <div class="kpiBox">
+            <div class="k">Total NGOs (sum)</div>
             <div class="v" id="kpiNgos">—</div>
           </div>
-          <div class="kpi">
-            <div class="muted">Total activities (sum)</div>
+          <div class="kpiBox">
+            <div class="k">Total activities (sum)</div>
             <div class="v" id="kpiActivities">—</div>
           </div>
-          <div class="kpi">
-            <div class="muted">Records (sum)</div>
+          <div class="kpiBox">
+            <div class="k">Records (sum)</div>
             <div class="v" id="kpiRecords">—</div>
           </div>
         </div>
 
-        <div class="legend" id="legendBox">
-          <div style="font-weight:700; margin-bottom:6px;">Legend — NGO count</div>
-          <div class="legendItem"><span class="swatch" data-swatch="c0"></span> 0</div>
-          <div class="legendItem"><span class="swatch" data-swatch="c1"></span> 1</div>
-          <div class="legendItem"><span class="swatch" data-swatch="c2"></span> 2</div>
-          <div class="legendItem"><span class="swatch" data-swatch="c3"></span> 3–4</div>
-          <div class="legendItem"><span class="swatch" data-swatch="c4"></span> 5–7</div>
-          <div class="legendItem"><span class="swatch" data-swatch="c5"></span> 8+</div>
-          <div class="muted" style="margin-top:8px;">
-            Tip: click a woreda to drill down (fit to bounds).
+        <div style="margin-top:12px;">
+          <div class="card" style="margin:0;">
+            <h2>Legend — NGO count</h2>
+            <div id="legendBox" class="legendList">
+              <div class="legendRow"><span class="swatch" data-swatch="c0"></span> 0</div>
+              <div class="legendRow"><span class="swatch" data-swatch="c1"></span> 1</div>
+              <div class="legendRow"><span class="swatch" data-swatch="c2"></span> 2</div>
+              <div class="legendRow"><span class="swatch" data-swatch="c3"></span> 3–4</div>
+              <div class="legendRow"><span class="swatch" data-swatch="c4"></span> 5–7</div>
+              <div class="legendRow"><span class="swatch" data-swatch="c5"></span> 8+</div>
+            </div>
+            <div class="note small">Tip: click a woreda to drill down (fit to bounds).</div>
           </div>
         </div>
 
-        <div class="topLinks">
+        <div class="links">
           <a href="index.html">Home</a>
           <a href="dashboard.html">Dashboard</a>
           <a href="map.html">LMRI map</a>
@@ -99,15 +96,15 @@
       </div>
     </aside>
 
-    <main id="map"></main>
+    <div id="map"></div>
   </div>
 
+  <!-- libs -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
-  <!-- Conservé pour cohérence de repo (helpers éventuels, constants, etc.) -->
-  <script src="js/common.js"></script>
-
-  <script src="js/map_4w.js"></script>
+  <!-- your scripts (correct paths for this repo) -->
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/map_4w.js"></script>
 </body>
 </html>
