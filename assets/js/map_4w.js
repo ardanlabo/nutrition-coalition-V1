@@ -36,13 +36,13 @@
 
   // Stable palette (light -> dark). Keep it constant for meeting readability.
   const COLORS = {
-    c0: "#f3f4f6",
-    c1: "#dbeafe",
-    c2: "#bfdbfe",
-    c3: "#93c5fd",
-    c4: "#60a5fa",
-    c5: "#2563eb"
-  };
+  c0: "#111827",  // 0 NGOs (quasi noir/bleu)
+  c1: "#1d4ed8",  // 1 (bleu franc)
+  c2: "#2563eb",  // 2
+  c3: "#3b82f6",  // 3–4
+  c4: "#60a5fa",  // 5–7
+  c5: "#93c5fd"   // 8+
+};
 
   // ---------- Leaflet map ----------
   const map = L.map("map", {
