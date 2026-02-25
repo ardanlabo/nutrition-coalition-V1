@@ -9,90 +9,185 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
   <style>
-    /* map page layout (stable) */
-    body { overflow: hidden; }
-    .maplayout { display:flex; height:100vh; }
-    .sidebar { width:360px; padding:12px 18px; overflow:auto; border-right:1px solid var(--line); background:#0b0f17; }
+    /* Page layout (stable, no framework) */
+    body { margin:0; overflow:hidden; }
+    .wrap { display:flex; height:100vh; }
+
+    /* Sidebar */
+    .sidebar {
+      width: 380px;
+      border-right: 1px solid var(--line);
+      background: var(--bg);
+      padding: 12px 14px;
+      overflow: auto;
+    }
+
+    /* Map container */
     #map { flex:1; min-height:100vh; }
-    .kpiGrid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
-    .kpiBox { background:#0f1623; border:1px solid var(--line); border-radius:12px; padding:10px; }
-    .kpiBox .k { color:var(--muted); font-size:11px; }
-    .kpiBox .v { font-size:18px; font-weight:800; margin-top:4px; }
-    .legendList { margin-top:10px; }
-    .legendRow { display:flex; align-items:center; gap:10px; margin:6px 0; color:var(--muted); font-size:12px; }
-    .swatch { width:14px; height:14px; border-radius:4px; border:1px solid rgba(0,0,0,0.2); }
-    .links { display:flex; gap:12px; margin-top:12px; }
-    .links a { color:var(--muted); text-decoration:none; font-size:12px; }
+
+    /* Local helpers (reuse your theme variables) */
+    .titleSmall { color: var(--muted); font-size: 12px; }
+    .titleBig { font-size: 18px; font-weight: 800; margin-top: 4px; }
+
+    .filters3 {
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:10px;
+      margin-top: 10px;
+    }
+    /* NGO select takes full row (so it doesn’t feel cramped) */
+    .filters3 .full { grid-column: 1 / -1; }
+
+    .kpiGrid2 {
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:10px;
+      margin-top: 10px;
+    }
+    .kpiBox {
+      background:#0f1623;
+      border:1px solid var(--line);
+      border-radius:12px;
+      padding:10px;
+    }
+    .kpiBox .k { color: var(--muted); font-size: 11px; }
+    .kpiBox .v { font-size: 18px; font-weight: 800; margin-top: 4px; }
+
+    .legendBox {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+      margin-top: 12px;
+    }
+    .legendRow {
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin: 6px 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .divider { height:1px; background: var(--line); margin: 12px 0; }
+
+    .links { display:flex; gap:12px; margin-top: 10px; }
+    .links a { color: var(--muted); text-decoration:none; font-size: 12px; }
     .links a:hover { text-decoration:underline; }
+
+    /* Details panel */
+    .detailsCard {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+      margin-top: 12px;
+    }
+    .detailsTitle { font-weight: 800; font-size: 14px; }
+    .prewrap { white-space: pre-wrap; word-break: break-word; }
   </style>
 </head>
 
 <body>
-  <div class="maplayout">
+  <div class="wrap">
     <aside class="sidebar">
-      <div class="card">
-        <h2>Coalition Decision Support v1</h2>
-        <div style="font-size:20px;font-weight:800;margin-top:6px;">4W Coverage — Woreda</div>
+      <div class="titleSmall">Coalition Decision Support v1</div>
+      <div class="titleBig">4W Coverage — Woreda</div>
 
-        <div class="filters" style="grid-template-columns:1fr 1fr; margin-top:12px;">
-          <div>
-            <label>Region</label>
-            <select id="regionSelect">
-              <option value="">All regions</option>
-            </select>
-          </div>
-
-          <div>
-            <label>Zone</label>
-            <select id="zoneSelect" disabled>
-              <option value="">All zones</option>
-            </select>
-          </div>
+      <div class="filters3">
+        <div>
+          <label for="regionSelect">Region</label>
+          <select id="regionSelect">
+            <option value="">All regions</option>
+          </select>
         </div>
 
-        <div style="margin-top:10px;">
-          <a class="btn" href="#" id="resetBtn" style="justify-content:center;width:100%;">Reset view</a>
+        <div>
+          <label for="zoneSelect">Zone</label>
+          <select id="zoneSelect" disabled>
+            <option value="">All zones</option>
+          </select>
         </div>
 
-        <div style="margin-top:12px;" class="kpiGrid">
-          <div class="kpiBox">
-            <div class="k">Woredas (in view / filtered)</div>
-            <div class="v" id="kpiWoredas">—</div>
-          </div>
-          <div class="kpiBox">
-            <div class="k">Total NGOs (sum)</div>
-            <div class="v" id="kpiNgos">—</div>
-          </div>
-          <div class="kpiBox">
-            <div class="k">Total activities (sum)</div>
-            <div class="v" id="kpiActivities">—</div>
-          </div>
-          <div class="kpiBox">
-            <div class="k">Records (sum)</div>
-            <div class="v" id="kpiRecords">—</div>
-          </div>
+        <div class="full">
+          <label for="ngoSelect">NGO</label>
+          <select id="ngoSelect">
+            <option value="">All NGOs</option>
+          </select>
         </div>
+      </div>
 
-        <div style="margin-top:12px;">
-          <div class="card" style="margin:0;">
-            <h2>Legend — NGO count</h2>
-            <div id="legendBox" class="legendList">
-              <div class="legendRow"><span class="swatch" data-swatch="c0"></span> 0</div>
-              <div class="legendRow"><span class="swatch" data-swatch="c1"></span> 1</div>
-              <div class="legendRow"><span class="swatch" data-swatch="c2"></span> 2</div>
-              <div class="legendRow"><span class="swatch" data-swatch="c3"></span> 3–4</div>
-              <div class="legendRow"><span class="swatch" data-swatch="c4"></span> 5–7</div>
-              <div class="legendRow"><span class="swatch" data-swatch="c5"></span> 8+</div>
-            </div>
-            <div class="note small">Tip: click a woreda to drill down (fit to bounds).</div>
+      <div style="margin-top:10px;">
+        <a class="btn" href="#" id="resetBtn" style="justify-content:center; width:100%;">Reset view</a>
+      </div>
+
+      <div class="kpiGrid2">
+        <div class="kpiBox">
+          <div class="k">Woredas (in view / filtered)</div>
+          <div class="v" id="kpiWoredas">—</div>
+        </div>
+        <div class="kpiBox">
+          <div class="k">Total NGOs (sum)</div>
+          <div class="v" id="kpiNgos">—</div>
+        </div>
+        <div class="kpiBox">
+          <div class="k">Total activities (sum)</div>
+          <div class="v" id="kpiActivities">—</div>
+        </div>
+        <div class="kpiBox">
+          <div class="k">Records (sum)</div>
+          <div class="v" id="kpiRecords">—</div>
+        </div>
+      </div>
+
+      <div class="legendBox" id="legendBox">
+        <div style="font-weight:800; font-size:13px; color:var(--muted); margin-bottom:8px;">Legend — NGO count</div>
+        <div class="legendRow"><span class="swatch" data-swatch="c0"></span> 0</div>
+        <div class="legendRow"><span class="swatch" data-swatch="c1"></span> 1</div>
+        <div class="legendRow"><span class="swatch" data-swatch="c2"></span> 2</div>
+        <div class="legendRow"><span class="swatch" data-swatch="c3"></span> 3–4</div>
+        <div class="legendRow"><span class="swatch" data-swatch="c4"></span> 5–7</div>
+        <div class="legendRow"><span class="swatch" data-swatch="c5"></span> 8+</div>
+        <div class="note small" style="margin-top:8px;">Tip: click a woreda to drill down (fit to bounds).</div>
+      </div>
+
+      <div class="detailsCard" id="detailsCard">
+        <div style="font-weight:800; font-size:13px; color:var(--muted); margin-bottom:8px;">Selected woreda</div>
+
+        <div class="small" id="detailsHint">Click a woreda on the map to see details here.</div>
+
+        <div id="detailsBody" style="display:none;">
+          <div class="detailsTitle" id="detailsTitle">—</div>
+          <div class="small" id="detailsMeta" style="margin-top:4px;">—</div>
+
+          <div class="divider"></div>
+
+          <div class="small"><b>NGOs in woreda:</b></div>
+          <div class="small prewrap" id="detailsNgos">—</div>
+
+          <div style="margin-top:10px;" class="small"><b>Activities in woreda:</b></div>
+          <div class="small prewrap" id="detailsActivities">—</div>
+
+          <div style="margin-top:10px;" class="small"><b>Funding statuses:</b></div>
+          <div class="small prewrap" id="detailsFunding">—</div>
+
+          <div id="detailsNgoFocusWrap" style="display:none; margin-top:10px;">
+            <div class="small"><b>Selected NGO — activities (best-effort):</b></div>
+            <div class="small prewrap" id="detailsNgoFocus">—</div>
           </div>
         </div>
+      </div>
 
-        <div class="links">
-          <a href="index.html">Home</a>
-          <a href="dashboard.html">Dashboard</a>
-          <a href="map.html">LMRI map</a>
-        </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="map.html">LMRI map</a>
       </div>
     </aside>
 
@@ -103,7 +198,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
-  <!-- your scripts (correct paths for this repo) -->
+  <!-- your scripts -->
   <script src="assets/js/common.js"></script>
   <script src="assets/js/map_4w.js"></script>
 </body>
