@@ -1,1 +1,162 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Dashboard</title></head><body>Dashboard placeholder</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard – Facility LMRI & Supply Modality</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__left">
+      <h1>Facility Dashboard – LMRI (T1/T2) & RUTF Supply Modality</h1>
+      <div class="subtitle">Decision-support (static prototype) • Dynamic filtering • Facility-level drill-down</div>
+    </div>
+    <div class="topbar__right">
+      <a class="btn" href="map.html">Open LMRI Map</a>
+      <a class="btn" href="index.html">Home</a>
+      <a class="btn" href="data/dashboard_facility_layer_v2_clean.csv" download>Download CSV</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- LEFT: Controls + KPIs + Tables -->
+    <section class="panel">
+      <div class="card">
+        <h2>Filters</h2>
+
+        <div class="filters">
+          <div>
+            <label>Region</label>
+            <select id="fRegion"></select>
+          </div>
+
+          <div>
+            <label>Zone</label>
+            <select id="fZone"></select>
+          </div>
+
+          <div>
+            <label>Woreda</label>
+            <select id="fWoreda"></select>
+          </div>
+
+          <div>
+            <label>Supply modality (T2)</label>
+            <select id="fSupplyT2">
+              <option value="">All</option>
+              <option value="1">NGO supplied RUTF</option>
+              <option value="0">No NGO supply</option>
+              <option value="na">Not reported</option>
+            </select>
+          </div>
+
+          <div>
+            <label>High risk (T2)</label>
+            <select id="fHighRisk">
+              <option value="">All</option>
+              <option value="1">High risk</option>
+              <option value="0">Not high risk</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Search HF</label>
+            <input id="fSearch" placeholder="Type HF name..." />
+          </div>
+        </div>
+
+        <div class="note">
+          Definitions: <b>LMRI</b> relates to RUTF stockout intensity; <b>T2 critical</b>=1 if LMRI T2 days &gt; 30.
+          Supply modality comes from facility-reported NGO RUTF supply fields (T1/T2). “Not reported” is kept as NA.
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Key metrics (current filter)</h2>
+        <div class="kpis" id="kpis"></div>
+      </div>
+
+      <div class="card">
+        <h2>High-risk split (T2) – Supply modality</h2>
+        <div class="hrgrid">
+          <div class="hrbox">
+            <div class="hrv" id="hrTotal">–</div>
+            <div class="hrl">High risk total (T2)</div>
+          </div>
+          <div class="hrbox">
+            <div class="hrv" id="hrSupply">–</div>
+            <div class="hrl">High risk + NGO supply</div>
+          </div>
+          <div class="hrbox">
+            <div class="hrv" id="hrNoSupply">–</div>
+            <div class="hrl">High risk + No NGO supply</div>
+          </div>
+          <div class="hrbox">
+            <div class="hrv" id="hrPctNoSupply">–</div>
+            <div class="hrl">% high risk without NGO supply</div>
+          </div>
+        </div>
+
+        <div class="small note" id="hrCheck"></div>
+      </div>
+
+      <div class="card">
+        <h2>Facility list</h2>
+        <div class="small" id="countLine"></div>
+        <div class="tablewrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Region</th>
+                <th>Zone</th>
+                <th>Woreda</th>
+                <th>HF</th>
+                <th>adm3_pcode</th>
+                <th>Supply T2</th>
+                <th>LMRI T2 days</th>
+                <th>T2 critical</th>
+                <th>Low data</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <div class="note small">Tip: use filters live during the meeting; this table is your “answer engine”.</div>
+      </div>
+    </section>
+
+    <!-- RIGHT: Mini maps (clickable only) -->
+    <aside class="rail">
+      <div class="card">
+        <h2>Mini-maps</h2>
+
+        <a class="minimap" href="map.html" title="Open LMRI coverage map">
+          <img src="assets/img/minimap_lmri.png" alt="LMRI minimap" />
+          <div class="minimap__label">LMRI coverage (click to open)</div>
+        </a>
+
+        <!-- Change href when your 4W map page exists -->
+        <a class="minimap" href="map_4w.html" title="Open 4W map">
+          <img src="assets/img/minimap_4w.png" alt="4W minimap" />
+          <div class="minimap__label">4W coverage (click to open)</div>
+        </a>
+
+        <div class="note small">Mini-maps are non-interactive by design (stable in meetings).</div>
+      </div>
+
+      <div class="card">
+        <h2>Method</h2>
+        <ul class="small">
+          <li>Unit: Health facility (HF)</li>
+          <li>Join: adm3_pcode (OCHA)</li>
+          <li>High risk: LMRI T2 critical (days &gt; 30)</li>
+          <li>Supply modality: facility-reported NGO RUTF supply</li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
