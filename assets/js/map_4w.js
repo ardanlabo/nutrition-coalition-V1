@@ -269,7 +269,7 @@
       color: "#111827",
       weight: 0.8,
       opacity: 0.8,
-      fillOpacity: 0.75,
+      fillOpacity: 0.85,
       fillColor: colorForNgoCount(ngoCount)
     };
   }
