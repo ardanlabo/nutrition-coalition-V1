@@ -1,20 +1,29 @@
 /* assets/js/map_4w.js
    4W woreda-level map — static GitHub Pages
+
    Data:
-     - data/4w_woreda_agg_pcode.csv
+     - data/4w_woreda_agg_pcode.csv  (choropleth + woreda-level tooltips/panel)
+     - data/4w_long_pcode.csv        (filters NGO/Activity + reliable NGO->activities)
      - data/adm1_ethiopia.geojson
      - data/adm2_ethiopia.geojson
      - data/adm3_ethiopia.geojson
 
-   Features:
+   Features (kept):
    - Region -> Zone dependent filters
-   - NGO filter (based on ngo_list)
    - Choropleth by ngo_count (0 / 1 / 2 / 3-4 / 5-7 / 8+)
    - Drilldown click (fitBounds)
    - ADM1 halo + red outline, ADM2 grey
    - KPIs dynamic
    - Left-side details panel for selected woreda
-   - Best-effort NGO->activities extraction (only if activity_list contains identifiable mapping)
+   - Legend stable
+   - scrollWheelZoom disabled
+   - panes z-order
+
+   Added (requested):
+   - NGO filter (reliable) based on long dataset
+   - Activity filter + Activity AND (two selects) based on long dataset
+   - When NGO selected + woreda clicked: show reliable NGO activities in that woreda
+   - When activity filter active: show NGOs matching activity(ies) in selected woreda
 */
 
 (function () {
@@ -23,13 +32,18 @@
     adm1: "data/adm1_ethiopia.geojson",
     adm2: "data/adm2_ethiopia.geojson",
     adm3: "data/adm3_ethiopia.geojson",
-    csv: "data/4w_woreda_agg_pcode.csv"
+    csvAgg: "data/4w_woreda_agg_pcode.csv",
+    csvLong: "data/4w_long_pcode.csv"
   };
 
   const DOM = {
     regionSelect: document.getElementById("regionSelect"),
     zoneSelect: document.getElementById("zoneSelect"),
     ngoSelect: document.getElementById("ngoSelect"),
+    // NEW (optional, but required for activity filtering UX)
+    activitySelect1: document.getElementById("activitySelect1"),
+    activitySelect2: document.getElementById("activitySelect2"),
+
     resetBtn: document.getElementById("resetBtn"),
 
     kpiWoredas: document.getElementById("kpiWoredas"),
@@ -46,8 +60,13 @@
     detailsNgos: document.getElementById("detailsNgos"),
     detailsActivities: document.getElementById("detailsActivities"),
     detailsFunding: document.getElementById("detailsFunding"),
+
     detailsNgoFocusWrap: document.getElementById("detailsNgoFocusWrap"),
-    detailsNgoFocus: document.getElementById("detailsNgoFocus")
+    detailsNgoFocus: document.getElementById("detailsNgoFocus"),
+
+    // NEW (optional) – if you add these in HTML, we’ll fill them
+    detailsActFocusWrap: document.getElementById("detailsActFocusWrap"),
+    detailsActFocus: document.getElementById("detailsActFocus")
   };
 
   // NGO count classes
@@ -61,7 +80,6 @@
   ];
 
   // High-contrast palette (meeting-friendly)
-  // Dark theme: keep c0 very dark, others clearly distinct
   const COLORS = {
     c0: "#0b1220",
     c1: "#1d4ed8",
@@ -107,12 +125,18 @@
   let adm3FocusLayer = null;
   let adm3Geo = null;
 
-  let csvRows = [];
-  let rowByPcode = new Map();
+  // Agg (woreda-level)
+  let aggRows = [];
+  let aggByPcode = new Map();
+
+  // Long (woreda x NGO x activity)
+  let longRows = [];
 
   let currentRegion = "";
   let currentZone = "";
   let currentNgo = "";
+  let currentAct1 = "";
+  let currentAct2 = "";
 
   let lastSelectedPcode = "";
 
@@ -121,6 +145,10 @@
   // ---------- Helpers ----------
   function normStr(v) {
     return (v ?? "").toString().trim();
+  }
+
+  function normUpper(v) {
+    return normStr(v).toUpperCase();
   }
 
   function safeNum(v) {
@@ -140,12 +168,6 @@
       .split(/[,;|\n]+/g)
       .map(x => x.trim())
       .filter(Boolean);
-  }
-
-  function ngoInRow(row, ngoName) {
-    if (!ngoName) return true;
-    const list = splitList(row?.ngo_list).map(x => x.toLowerCase());
-    return list.includes(ngoName.toLowerCase());
   }
 
   function truncateText(s, maxChars) {
@@ -186,27 +208,76 @@
     });
   }
 
-  // Best-effort extraction if activity_list contains patterns like:
-  // "NGO: activity1, activity2; NGO2: activity..."
-  function extractNgoActivities(activityListRaw, ngoName) {
-    const ngo = normStr(ngoName);
-    const txt = normStr(activityListRaw);
-    if (!ngo || !txt) return "";
+  function longRowMatchesFilters(r) {
+    // Region/Zone filters should match long dataset for accurate filtering set
+    const rRegion = normStr(r.Region);
+    const rZone = normStr(r.Zone);
 
-    const parts = txt.split(/[;|\n]+/g).map(x => x.trim()).filter(Boolean);
-    const hits = parts.filter(p => p.toLowerCase().includes(ngo.toLowerCase()));
-    if (!hits.length) return "";
+    if (currentRegion && rRegion !== currentRegion) return false;
+    if (currentZone && rZone !== currentZone) return false;
 
-    const cleaned = hits.map(h => {
-      const idx = h.indexOf(":");
-      if (idx !== -1) return h.slice(idx + 1).trim();
-      return h;
-    });
+    if (currentNgo && normStr(r.NGO) !== currentNgo) return false;
 
-    return cleaned.join("\n");
+    // Activities: AND logic if act2 selected
+    if (currentAct1 || currentAct2) {
+      const a = normStr(r.activity_code);
+      if (!a) return false;
+
+      // for AND we compute on group; here we only handle single activity, group handled elsewhere
+      if (currentAct1 && currentAct2) return true; // group-level check later
+      if (currentAct1 && a !== currentAct1) return false;
+      if (currentAct2 && a !== currentAct2) return false;
+    }
+
+    return true;
   }
 
-  // ---------- UI ----------
+  // Compute focus PCODEs from long dataset (reliable for NGO/Activity queries)
+  function computeFocusPcodesFromLong() {
+    // Base filter on region/zone/ngo first
+    const base = longRows.filter(r => {
+      const rRegion = normStr(r.Region);
+      const rZone = normStr(r.Zone);
+      if (currentRegion && rRegion !== currentRegion) return false;
+      if (currentZone && rZone !== currentZone) return false;
+      if (currentNgo && normStr(r.NGO) !== currentNgo) return false;
+      return true;
+    });
+
+    // If no activities selected, any row in base qualifies
+    if (!currentAct1 && !currentAct2) {
+      return new Set(base.map(r => normStr(r.adm3_pcode)).filter(Boolean));
+    }
+
+    // Single activity
+    if ((currentAct1 && !currentAct2) || (!currentAct1 && currentAct2)) {
+      const target = currentAct1 || currentAct2;
+      return new Set(
+        base
+          .filter(r => normStr(r.activity_code) === target)
+          .map(r => normStr(r.adm3_pcode))
+          .filter(Boolean)
+      );
+    }
+
+    // AND logic: pcode must have BOTH activities (within base, so region/zone/ngo already applied)
+    const byP = new Map(); // pcode -> Set(activity_code)
+    for (const r of base) {
+      const p = normStr(r.adm3_pcode);
+      if (!p) continue;
+      const a = normStr(r.activity_code);
+      if (!a) continue;
+      if (!byP.has(p)) byP.set(p, new Set());
+      byP.get(p).add(a);
+    }
+    const out = new Set();
+    for (const [p, aset] of byP.entries()) {
+      if (aset.has(currentAct1) && aset.has(currentAct2)) out.add(p);
+    }
+    return out;
+  }
+
+  // ---------- UI options ----------
   function updateZoneOptions() {
     const zoneSel = DOM.zoneSelect;
     if (!zoneSel) return;
@@ -218,8 +289,9 @@
       return;
     }
 
+    // zones from AGG is fine (woreda-level universe)
     const zones = uniqueSorted(
-      csvRows
+      aggRows
         .filter(r => normStr(r.Region) === currentRegion)
         .map(r => normStr(r.Zone))
     );
@@ -236,7 +308,7 @@
 
   function buildRegionOptions() {
     if (!DOM.regionSelect) return;
-    const regions = uniqueSorted(csvRows.map(r => normStr(r.Region)));
+    const regions = uniqueSorted(aggRows.map(r => normStr(r.Region)));
     for (const r of regions) {
       const opt = document.createElement("option");
       opt.value = r;
@@ -248,13 +320,8 @@
   function buildNgoOptions() {
     if (!DOM.ngoSelect) return;
 
-    const all = [];
-    for (const r of csvRows) {
-      const items = splitList(r.ngo_list);
-      for (const it of items) all.push(it);
-    }
-    const ngos = uniqueSorted(all);
-
+    // NGOs from LONG dataset (reliable)
+    const ngos = uniqueSorted(longRows.map(r => normStr(r.NGO)).filter(Boolean));
     DOM.ngoSelect.innerHTML = `<option value="">All NGOs</option>`;
     for (const n of ngos) {
       const opt = document.createElement("option");
@@ -264,25 +331,35 @@
     }
   }
 
-  function computeFilteredRows() {
-    return csvRows.filter(r => {
-      const rRegion = normStr(r.Region);
-      const rZone = normStr(r.Zone);
+  function buildActivityOptions() {
+    // activities from LONG dataset (activity_code)
+    const acts = uniqueSorted(longRows.map(r => normStr(r.activity_code)).filter(Boolean));
 
-      if (currentRegion && rRegion !== currentRegion) return false;
-      if (currentZone && rZone !== currentZone) return false;
+    function fill(selectEl) {
+      if (!selectEl) return;
+      selectEl.innerHTML = `<option value="">All activities</option>`;
+      for (const a of acts) {
+        const opt = document.createElement("option");
+        opt.value = a;
+        opt.textContent = a;
+        selectEl.appendChild(opt);
+      }
+    }
 
-      if (currentNgo && !ngoInRow(r, currentNgo)) return false;
-
-      return true;
-    });
+    fill(DOM.activitySelect1);
+    fill(DOM.activitySelect2);
   }
 
-  function updateKPIs(filteredRows) {
-    const woredas = filteredRows.length;
-    const ngos = filteredRows.reduce((acc, r) => acc + safeNum(r.ngo_count), 0);
-    const acts = filteredRows.reduce((acc, r) => acc + safeNum(r.activity_count), 0);
-    const recs = filteredRows.reduce((acc, r) => acc + safeNum(r.records), 0);
+  // ---------- KPIs ----------
+  function updateKPIsFromPcodes(focusPcodes) {
+    // focusPcodes is Set of pcodes
+    // KPI values computed from AGG rows intersecting focus
+    const rows = aggRows.filter(r => focusPcodes.has(normStr(r.adm3_pcode)));
+
+    const woredas = rows.length;
+    const ngos = rows.reduce((acc, r) => acc + safeNum(r.ngo_count), 0);
+    const acts = rows.reduce((acc, r) => acc + safeNum(r.activity_count), 0);
+    const recs = rows.reduce((acc, r) => acc + safeNum(r.records), 0);
 
     if (DOM.kpiWoredas) DOM.kpiWoredas.textContent = woredas.toLocaleString();
     if (DOM.kpiNgos) DOM.kpiNgos.textContent = ngos.toLocaleString();
@@ -290,12 +367,60 @@
     if (DOM.kpiRecords) DOM.kpiRecords.textContent = recs.toLocaleString();
   }
 
+  // ---------- Details panel ----------
+  function getNgoActivitiesInWoreda(pcode, ngoName) {
+    const p = normStr(pcode);
+    const ngo = normStr(ngoName);
+    if (!p || !ngo) return [];
+
+    const acts = longRows
+      .filter(r => normStr(r.adm3_pcode) === p && normStr(r.NGO) === ngo)
+      .map(r => normStr(r.activity_code))
+      .filter(Boolean);
+
+    return uniqueSorted(acts);
+  }
+
+  function getNgosMatchingActivitiesInWoreda(pcode, act1, act2) {
+    const p = normStr(pcode);
+    if (!p) return [];
+
+    const a1 = normStr(act1);
+    const a2 = normStr(act2);
+
+    // if none selected -> empty
+    if (!a1 && !a2) return [];
+
+    const rows = longRows.filter(r => normStr(r.adm3_pcode) === p);
+    const byNgo = new Map(); // NGO -> Set(activities)
+    for (const r of rows) {
+      const ngo = normStr(r.NGO);
+      const a = normStr(r.activity_code);
+      if (!ngo || !a) continue;
+      if (!byNgo.has(ngo)) byNgo.set(ngo, new Set());
+      byNgo.get(ngo).add(a);
+    }
+
+    const out = [];
+    for (const [ngo, aset] of byNgo.entries()) {
+      if (a1 && a2) {
+        if (aset.has(a1) && aset.has(a2)) out.push(ngo);
+      } else {
+        const target = a1 || a2;
+        if (aset.has(target)) out.push(ngo);
+      }
+    }
+
+    return out.sort((x, y) => x.localeCompare(y));
+  }
+
   function renderDetailsByPcode(pcode) {
     if (!pcode) return;
-    const row = rowByPcode.get(pcode);
+
+    const row = aggByPcode.get(pcode);
 
     if (!row) {
-      if (DOM.detailsHint) DOM.detailsHint.textContent = "No 4W record for this woreda (PCODE not found in CSV).";
+      if (DOM.detailsHint) DOM.detailsHint.textContent = "No 4W record for this woreda (PCODE not found in AGG CSV).";
       if (DOM.detailsBody) DOM.detailsBody.style.display = "none";
       return;
     }
@@ -311,24 +436,37 @@
     if (DOM.detailsTitle) DOM.detailsTitle.textContent = title;
     if (DOM.detailsMeta) DOM.detailsMeta.textContent = meta;
 
-    if (DOM.detailsNgos) DOM.detailsNgos.textContent = truncateText(row.ngo_list, 900);
-    if (DOM.detailsActivities) DOM.detailsActivities.textContent = truncateText(row.activity_list, 1200);
-    if (DOM.detailsFunding) DOM.detailsFunding.textContent = truncateText(row.funding_statuses, 800);
+    if (DOM.detailsNgos) DOM.detailsNgos.textContent = truncateText(row.ngo_list, 1200);
+    if (DOM.detailsActivities) DOM.detailsActivities.textContent = truncateText(row.activity_list, 1400);
+    if (DOM.detailsFunding) DOM.detailsFunding.textContent = truncateText(row.funding_statuses, 900);
 
+    // NGO focus (reliable now, from LONG)
     if (currentNgo) {
-      const best = extractNgoActivities(row.activity_list, currentNgo);
+      const acts = getNgoActivitiesInWoreda(pcode, currentNgo);
       if (DOM.detailsNgoFocusWrap) DOM.detailsNgoFocusWrap.style.display = "block";
-
-      if (best) {
-        if (DOM.detailsNgoFocus) DOM.detailsNgoFocus.textContent = truncateText(best, 900);
-      } else {
-        // Do not invent mapping if the dataset doesn’t contain it.
-        if (DOM.detailsNgoFocus) DOM.detailsNgoFocus.textContent =
-          "No reliable NGO→activity mapping found in activity_list (dataset is aggregated). " +
-          "Use the woreda-level activity list above.";
+      if (DOM.detailsNgoFocus) {
+        DOM.detailsNgoFocus.textContent = acts.length
+          ? acts.join(", ")
+          : "No activity record for this NGO in this woreda (based on LONG dataset).";
       }
     } else {
       if (DOM.detailsNgoFocusWrap) DOM.detailsNgoFocusWrap.style.display = "none";
+    }
+
+    // Activity focus (optional UI elements)
+    if (DOM.detailsActFocusWrap && DOM.detailsActFocus) {
+      const a1 = currentAct1;
+      const a2 = currentAct2;
+      const ngos = getNgosMatchingActivitiesInWoreda(pcode, a1, a2);
+      if (a1 || a2) {
+        DOM.detailsActFocusWrap.style.display = "block";
+        const label = a1 && a2 ? `${a1} + ${a2}` : (a1 || a2);
+        DOM.detailsActFocus.textContent = ngos.length
+          ? `For ${label}: ${truncateText(ngos.join(", "), 900)}`
+          : `For ${label}: no NGO found in this woreda (LONG dataset).`;
+      } else {
+        DOM.detailsActFocusWrap.style.display = "none";
+      }
     }
   }
 
@@ -346,7 +484,7 @@
 
   function styleAdm3Focus(feature) {
     const pcode = getAdm3PcodeFromFeature(feature);
-    const row = rowByPcode.get(pcode);
+    const row = aggByPcode.get(pcode);
     const ngoCount = safeNum(row?.ngo_count);
 
     return {
@@ -361,7 +499,7 @@
 
   function makeTooltipHTML(feature) {
     const pcode = getAdm3PcodeFromFeature(feature);
-    const row = rowByPcode.get(pcode);
+    const row = aggByPcode.get(pcode);
 
     const woredaName = normStr(row?.Woreda) || "Unknown woreda";
     const region = normStr(row?.Region) || "—";
@@ -370,6 +508,14 @@
     const ngoCount = safeNum(row?.ngo_count);
     const activityCount = safeNum(row?.activity_count);
     const records = safeNum(row?.records);
+
+    // Small “answer hint” when activity filters are set
+    let actHint = "";
+    if (currentAct1 || currentAct2) {
+      const ngos = getNgosMatchingActivitiesInWoreda(pcode, currentAct1, currentAct2);
+      const label = currentAct1 && currentAct2 ? `${currentAct1}+${currentAct2}` : (currentAct1 || currentAct2);
+      actHint = `<div style="margin-top:6px;"><b>${label} NGOs:</b> ${truncateText(ngos.join(", "), 160)}</div>`;
+    }
 
     return `
       <div style="min-width:260px">
@@ -390,6 +536,7 @@
         <div style="font-size:12px; opacity:.85;">
           <div><b>NGOs:</b> ${truncateText(row?.ngo_list, 180)}</div>
           <div style="margin-top:6px;"><b>Activities:</b> ${truncateText(row?.activity_list, 180)}</div>
+          ${actHint}
         </div>
       </div>
     `;
@@ -399,10 +546,11 @@
   function refreshAdm3Layers() {
     if (!adm3Geo) return;
 
-    const filteredRows = computeFilteredRows();
-    updateKPIs(filteredRows);
+    // Compute focus pcodes from LONG dataset (reliable filters)
+    const focusPcodes = computeFocusPcodesFromLong();
 
-    const focusPcodes = new Set(filteredRows.map(r => normStr(r.adm3_pcode)));
+    // KPIs computed from AGG intersect
+    updateKPIsFromPcodes(focusPcodes);
 
     if (adm3AllLayer) map.removeLayer(adm3AllLayer);
     if (adm3FocusLayer) map.removeLayer(adm3FocusLayer);
@@ -436,7 +584,8 @@
     }).addTo(map);
 
     // Fit bounds to focus when a filter is active
-    if ((currentRegion || currentZone || currentNgo) && adm3FocusLayer.getLayers().length > 0) {
+    if ((currentRegion || currentZone || currentNgo || currentAct1 || currentAct2) &&
+        adm3FocusLayer.getLayers().length > 0) {
       try {
         map.fitBounds(adm3FocusLayer.getBounds(), { padding: [20, 20] });
       } catch (e) {}
@@ -449,6 +598,8 @@
     currentRegion = "";
     currentZone = "";
     currentNgo = "";
+    currentAct1 = "";
+    currentAct2 = "";
     lastSelectedPcode = "";
 
     if (DOM.regionSelect) DOM.regionSelect.value = "";
@@ -458,10 +609,13 @@
       DOM.zoneSelect.innerHTML = `<option value="">All zones</option>`;
     }
     if (DOM.ngoSelect) DOM.ngoSelect.value = "";
+    if (DOM.activitySelect1) DOM.activitySelect1.value = "";
+    if (DOM.activitySelect2) DOM.activitySelect2.value = "";
 
     if (DOM.detailsHint) DOM.detailsHint.textContent = "Click a woreda on the map to see details here.";
     if (DOM.detailsBody) DOM.detailsBody.style.display = "none";
     if (DOM.detailsNgoFocusWrap) DOM.detailsNgoFocusWrap.style.display = "none";
+    if (DOM.detailsActFocusWrap) DOM.detailsActFocusWrap.style.display = "none";
 
     refreshAdm3Layers();
     map.setView(ETH_FALLBACK.center, ETH_FALLBACK.zoom);
@@ -486,12 +640,12 @@
     });
   }
 
-  function indexRowsByPcode() {
-    rowByPcode = new Map();
-    for (const r of csvRows) {
+  function indexAggByPcode() {
+    aggByPcode = new Map();
+    for (const r of aggRows) {
       const p = normStr(r.adm3_pcode);
       if (!p) continue;
-      rowByPcode.set(p, r);
+      aggByPcode.set(p, r);
     }
   }
 
@@ -549,7 +703,6 @@
       DOM.zoneSelect.addEventListener("change", () => {
         currentZone = normStr(DOM.zoneSelect.value);
         refreshAdm3Layers();
-
         if (lastSelectedPcode) renderDetailsByPcode(lastSelectedPcode);
       });
     }
@@ -558,8 +711,22 @@
       DOM.ngoSelect.addEventListener("change", () => {
         currentNgo = normStr(DOM.ngoSelect.value);
         refreshAdm3Layers();
+        if (lastSelectedPcode) renderDetailsByPcode(lastSelectedPcode);
+      });
+    }
 
-        if (!currentNgo && DOM.detailsNgoFocusWrap) DOM.detailsNgoFocusWrap.style.display = "none";
+    if (DOM.activitySelect1) {
+      DOM.activitySelect1.addEventListener("change", () => {
+        currentAct1 = normStr(DOM.activitySelect1.value);
+        refreshAdm3Layers();
+        if (lastSelectedPcode) renderDetailsByPcode(lastSelectedPcode);
+      });
+    }
+
+    if (DOM.activitySelect2) {
+      DOM.activitySelect2.addEventListener("change", () => {
+        currentAct2 = normStr(DOM.activitySelect2.value);
+        refreshAdm3Layers();
         if (lastSelectedPcode) renderDetailsByPcode(lastSelectedPcode);
       });
     }
@@ -574,16 +741,18 @@
     setLegendSwatches();
     map.setView(ETH_FALLBACK.center, ETH_FALLBACK.zoom);
 
-    const [adm1, adm2, adm3, rows] = await Promise.all([
+    const [adm1, adm2, adm3, agg, lng] = await Promise.all([
       loadGeoJSON(PATHS.adm1),
       loadGeoJSON(PATHS.adm2),
       loadGeoJSON(PATHS.adm3),
-      loadCSV(PATHS.csv)
+      loadCSV(PATHS.csvAgg),
+      loadCSV(PATHS.csvLong)
     ]);
 
     adm3Geo = adm3;
 
-    csvRows = rows.map(r => ({
+    // AGG rows
+    aggRows = agg.map(r => ({
       Region: normStr(r.Region),
       Zone: normStr(r.Zone),
       Woreda: normStr(r.Woreda),
@@ -600,11 +769,27 @@
       coverage_class: normStr(r.coverage_class)
     }));
 
-    indexRowsByPcode();
+    indexAggByPcode();
+
+    // LONG rows
+    // Expected columns: adm3_pcode, Region, Zone, Woreda, NGO, activity_code (and optionally activity_raw, funding_status)
+    longRows = lng.map(r => ({
+      adm3_pcode: normStr(r.adm3_pcode),
+      Region: normStr(r.Region),
+      Zone: normStr(r.Zone),
+      Woreda: normStr(r.Woreda),
+      NGO: normStr(r.NGO),
+      activity_code: normStr(r.activity_code || r.activity || r.Activity || r.ACTIVITY),
+      activity_raw: normStr(r.activity_raw),
+      funding_status: normStr(r.funding_status || r.Parent_Funding_Status || r["Parent Funding Status"])
+    })).filter(r => r.adm3_pcode && r.NGO && r.activity_code); // keep only usable
+
     buildRegionOptions();
-    buildNgoOptions();
-    addAdmOverlays(adm1, adm2);
     updateZoneOptions();
+    buildNgoOptions();
+    buildActivityOptions();
+
+    addAdmOverlays(adm1, adm2);
     wireUI();
 
     refreshAdm3Layers();
