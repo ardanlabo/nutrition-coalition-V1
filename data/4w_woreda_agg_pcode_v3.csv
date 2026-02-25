@@ -1,0 +1,216 @@
+adm3_pcode,Region,Zone,Woreda,ngo_count,activity_count,records,funding_statuses,ngo_list,activity_list,coverage_class
+ET010101,Tigray,North Western,Tahtay Adiyabo,3,8,17,"Fully funded, Partially funded","International Medical Corps, Mothers and Children Multisectoral Development Organization, Plan International","AM, CAPACITY, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET010103,Tigray,North Western,Zana,2,4,6,Fully funded,"International Medical Corps, Mothers and Children Multisectoral Development Organization","IYCF, NUTRITION, OTP, SC",2
+ET010104,Tigray,North Western,Tahtay Koraro,3,4,7,Fully funded,"Alliance for Medical Action, International Organization for Migration, International Rescue Committee","AM, IYCF, MAM, OTP",3-4
+ET010105,Tigray,North Western,Asgede,3,5,6,Fully funded,"Alliance for Medical Action, International Rescue Committee, Mothers and Children Multisectoral Development Organization","AM, IYCF, MAM, OTP, SC",3-4
+ET010107,Tigray,North Western,Sheraro town,2,6,8,Fully funded,"International Medical Corps, International Organization for Migration","AM, IYCF, MAM, NUTRITION, OTP, SC",2
+ET010110,Tigray,North Western,Seyemti Adyabo,2,3,3,Fully funded,"International Medical Corps, Medical Teams International","AM, MAM, OTP",2
+ET010111,Tigray,North Western,Adi Daero,3,8,12,Fully funded,"International Rescue Committee, Mothers and Children Multisectoral Development Organization, Plan International","AM, CAPACITY, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET010113,Tigray,North Western,Tsimbla,2,6,6,Fully funded,"International Rescue Committee, Tigray Development Association","AM, IYCF, MAM, NUTRITION, OTP, SC",2
+ET010114,Tigray,North Western,Endabaguna town,3,5,8,Fully funded,"International Medical Corps, International Organization for Migration, International Rescue Committee","AM, IYCF, MAM, OTP, SC",3-4
+ET010201,Tigray,Central,Chila,1,3,3,Fully funded,Action for Social Development and Environmental Protection Organization,"IYCF, OTP, SC",1
+ET010202,Tigray,Central,Aheferom,1,3,3,Fully funded,Action for Social Development and Environmental Protection Organization,"IYCF, OTP, SC",1
+ET010204,Tigray,Central,Adwa,2,4,7,Fully funded,"Action for Social Development and Environmental Protection Organization, Tigray Development Association","IYCF, NUTRITION, OTP, SC",2
+ET010205,Tigray,Central,Laelay Maychew,2,4,7,Fully funded,"Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere","AM, MAM, OTP, SC",2
+ET010207,Tigray,Central,Adet,1,3,3,Fully funded,Mothers and Children Multisectoral Development Organization,"IYCF, OTP, SC",1
+ET010209,Tigray,Central,Naeder,2,7,10,Fully funded,"Save the Children, Tigray Development Association","AM, CAPACITY, IYCF, MAM, NUTRITION, OTP, SC",2
+ET010210,Tigray,Central,Abergele (TG),2,6,6,Fully funded,"Action Against Hunger, Save Your Holy Land Association","AM, COMMUNITY, IYCF, MAM, OTP, SC",2
+ET010212,Tigray,Central,Adwa town,1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET010213,Tigray,Central,Axum town,3,6,12,Fully funded,"Save the Children, SOS Children's Villages, SOS Children’s Village","AM, CAPACITY, IYCF, MAM, OTP, SC",3-4
+ET010215,Tigray,Central,Ahsea,1,4,4,Fully funded,Tigray Development Association,"IYCF, NUTRITION, OTP, SC",1
+ET010216,Tigray,Central,Egela,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010217,Tigray,Central,Hahayle,1,5,5,Fully funded,Save the Children,"AM, CAPACITY, MAM, OTP, SC",1
+ET010218,Tigray,Central,Endafelasi,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010219,Tigray,Central,Emba Sieneti,2,4,5,Fully funded,"GOAL Ethiopia, Save the Children","AM, CAPACITY, MAM, OTP",2
+ET010220,Tigray,Central,Enticho town,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010221,Tigray,Central,Keyhe tekli,2,7,10,Fully funded,"Action Against Hunger, World vision international","AM, CAPACITY, IYCF, MAM, NUTRITION, OTP, SC",2
+ET010222,Tigray,Central,Tanqua Melashe,1,5,5,Fully funded,Action Against Hunger,"AM, IYCF, MAM, OTP, SC",1
+ET010301,Tigray,Eastern,Gulo Mekeda,1,4,4,Fully funded,Plan International,"AM, IYCF, MAM, SC",1
+ET010302,Tigray,Eastern,Erob,2,4,6,Fully funded,"Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere","AM, MAM, OTP, SC",2
+ET010304,Tigray,Eastern,Ganta Afeshum,2,6,9,Fully funded,"Plan International, Tigray Development Association","AM, IYCF, MAM, NUTRITION, OTP, SC",2
+ET010305,Tigray,Eastern,Hawzen,2,6,9,Fully funded,"Concern Worldwide, GOAL Ethiopia","AM, CAPACITY, IYCF, MAM, OTP, SC",2
+ET010307,Tigray,Eastern,Atsbi,2,7,9,Fully funded,"GOAL Ethiopia, Tigray Development Association","AM, CAPACITY, IYCF, MAM, NUTRITION, OTP, SC",2
+ET010308,Tigray,Eastern,Adigrat town,3,6,11,Fully funded,"Ethiopia Catholic Church-Social and Development Coordinating office, International Organization for Migration, Plan International","AM, IYCF, MAM, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET010309,Tigray,Eastern,Wukro town,2,6,8,Fully funded,"Concern Worldwide, GOAL Ethiopia","AM, CAPACITY, IYCF, MAM, OTP, SC",2
+ET010310,Tigray,Eastern,Bizet,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010311,Tigray,Eastern,Edaga Hamus town,1,3,3,Fully funded,Action for Social Development and Environmental Protection Organization,"IYCF, OTP, SC",1
+ET010312,Tigray,Eastern,Hawzen town,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010313,Tigray,Eastern,Freweyni town,1,3,3,Fully funded,Action for Social Development and Environmental Protection Organization,"IYCF, OTP, SC",1
+ET010314,Tigray,Eastern,Tsaeda Emba,1,5,5,Fully funded,Concern Worldwide,"AM, IYCF, MAM, OTP, SC",1
+ET010315,Tigray,Eastern,Atsbi town,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010316,Tigray,Eastern,Agulae,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010317,Tigray,Eastern,Geraleta,1,2,2,Fully funded,Concern Worldwide,"AM, MAM",1
+ET010318,Tigray,Eastern,Zala Anbesa town,1,3,3,Fully funded,Action for Social Development and Environmental Protection Organization,"IYCF, OTP, SC",1
+ET010401,Tigray,Southern,Selewa,1,4,4,Fully funded,World vision international,"AM, MAM, OTP, SC",1
+ET010402,Tigray,Southern,Bora (TG),1,4,4,Fully funded,World vision international,"AM, MAM, OTP, SC",1
+ET010403,Tigray,Southern,Neqsege,2,6,7,Fully funded,"Tigray Development Association, World vision international","AM, IYCF, MAM, NUTRITION, OTP, SC",2
+ET010404,Tigray,Southern,Emba Alaje,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010405,Tigray,Southern,Endamehoni,3,7,10,Fully funded,"Medical Teams International, Tigray Development Association, World vision international","AM, CAPACITY, IYCF, MAM, NUTRITION, OTP, SC",3-4
+ET010406,Tigray,Southern,Raya Azebo,2,3,3,Fully funded,"Medical Teams International, World vision international","AM, MAM, OTP",2
+ET010409,Tigray,Southern,Maichew town,1,4,4,Fully funded,Tigray Development Association,"IYCF, NUTRITION, OTP, SC",1
+ET010412,Tigray,Southern,Mekhoni town,1,1,1,Fully funded,Tigray Development Association,OTP,1
+ET010601,Tigray,South Eastern,Saharti,2,6,9,Fully funded,"Concern Worldwide, GOAL Ethiopia","AM, CAPACITY, IYCF, MAM, OTP, SC",2
+ET010602,Tigray,South Eastern,Enderta,3,4,4,Fully funded,"Action for Social Development and Environmental Protection Organization, Concern Worldwide, World vision international","AM, COMMUNITY, MAM, OTP",3-4
+ET010603,Tigray,South Eastern,Hintalo,2,6,6,Fully funded,"Concern Worldwide, GOAL Ethiopia","AM, CAPACITY, IYCF, MAM, OTP, SC",2
+ET010604,Tigray,South Eastern,Degua Temben,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010606,Tigray,South Eastern,Samre,5,6,13,Fully funded,"Concern Worldwide, SOS Children's Villages, SOS Children’s Village, SOS Ethiopia, Tigray Development Association","AM, IYCF, MAM, NUTRITION, OTP, SC",5-7
+ET010607,Tigray,South Eastern,Adigudom,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET010608,Tigray,South Eastern,Wajirat,1,6,6,Fully funded,GOAL Ethiopia,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET020102,Afar,Awsi /Zone 1,Elidar,1,7,7,Fully funded,Cooperative for Assistance and Relief Everywhere,"AM, CAPACITY, IYCF, MAM, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",1
+ET020103,Afar,Awsi /Zone 1,Asayita,1,5,5,Fully funded,Plan International,"AM, IYCF, MAM, OTP, SC",1
+ET020104,Afar,Awsi /Zone 1,Afambo,1,1,1,Fully funded,Save the Children,MAM,1
+ET020105,Afar,Awsi /Zone 1,Mile,1,1,1,Partially funded,Action for Social Development and Environmental Protection Organization,IYCF,1
+ET020106,Afar,Awsi /Zone 1,Chifra,2,5,6,"Fully funded, Partially funded","Action for Social Development and Environmental Protection Organization, Mothers and Children Multisectoral Development Organization","AM, IYCF, MAM, OTP, SC",2
+ET020201,Afar,Kilbati /Zone2,Erebti,1,1,1,Fully funded,Mercy Corps,IYCF,1
+ET020202,Afar,Kilbati /Zone2,Kunneba,2,5,6,Fully funded,"Plan International, World vision international","AM, IYCF, MAM, OTP, SC",2
+ET020203,Afar,Kilbati /Zone2,Abaala,3,10,18,Fully funded,"Cooperative for Assistance and Relief Every where, GOAL Ethiopia, Premiere Urgence Internationale","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET020205,Afar,Kilbati /Zone2,Berahile,3,6,10,Fully funded,"GOAL Ethiopia, Medical Teams International, Premiere Urgence Internationale","AM, IYCF, MAM, NUTRITION, OTP, SC",3-4
+ET020206,Afar,Kilbati /Zone2,Dalol,2,6,9,Fully funded,"Plan International, Premiere Urgence Internationale","AM, IYCF, MAM, NUTRITION, OTP, SC",2
+ET020207,Afar,Kilbati /Zone2,Afdera,1,6,6,Fully funded,Cooperative for Assistance and Relief Everywhere,"AM, IYCF, MAM, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",1
+ET020208,Afar,Kilbati /Zone2,Bidu,2,5,5,Fully funded,"Cooperative for Assistance and Relief Everywhere, World vision international","AM, IYCF, MAM, OTP, SC",2
+ET020209,Afar,Kilbati /Zone2,Abaala town,2,7,7,Fully funded,"Premiere Urgence Internationale, Save Your Holy Land Association","AM, COMMUNITY, IYCF, MAM, NUTRITION, OTP, SC",2
+ET020301,Afar,Gabi /Zone 3,Amibara,1,4,4,Fully funded,Premiere Urgence Internationale,"IYCF, NUTRITION, OTP, SC",1
+ET020303,Afar,Gabi /Zone 3,Gewane,1,1,1,Partially funded,Action for Social Development and Environmental Protection Organization,IYCF,1
+ET020304,Afar,Gabi /Zone 3,Dulecha,1,4,4,Fully funded,Premiere Urgence Internationale,"IYCF, NUTRITION, OTP, SC",1
+ET020307,Afar,Gabi /Zone 3,Hanruka,2,4,4,Fully funded,"Action for Social Development and Environmental Protection Organization, Nexus Ethiopia","IYCF, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET020401,Afar,Fanti /Zone 4,Awra (AF),1,2,2,Fully funded,GOAL Ethiopia,"OTP, SC",1
+ET020402,Afar,Fanti /Zone 4,Euwa,2,5,5,Fully funded,"GOAL Ethiopia, Plan International","AM, IYCF, MAM, OTP, SC",2
+ET020403,Afar,Fanti /Zone 4,Teru,1,3,3,Fully funded,Plan International,"AM, IYCF, MAM",1
+ET020404,Afar,Fanti /Zone 4,Yalo,2,3,3,Fully funded,"Empowerment For Development, Medical Teams International","AM, COMMUNITY, OTP",2
+ET020405,Afar,Fanti /Zone 4,Gulina,1,2,2,Fully funded,GOAL Ethiopia,"OTP, SC",1
+ET020504,Afar,Hari /Zone 5,Dalefage,1,5,5,Fully funded,Plan International,"AM, IYCF, MAM, OTP, SC",1
+ET030101,Amhara,North Gondar,Addi Arekay,2,7,9,"Fully funded, Partially funded","Medical Teams International, Plan International","AM, CAPACITY, IYCF, MAM, NUTRITION, OTP, SC",2
+ET030102,Amhara,North Gondar,Beyeda,2,5,10,"Fully funded, Partially funded","Concern Worldwide, Medical Teams International","AM, MAM, NUTRITION, OTP, SC",2
+ET030103,Amhara,North Gondar,Janamora,2,10,15,Fully funded,"Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET030105,Amhara,North Gondar,Dabat,1,4,4,Partially funded,Medical Teams International,"AM, IYCF, MAM, OTP",1
+ET030119,Amhara,North Gondar,Telemt,4,10,28,"Fully funded, Partially funded","Action for Social Development and Environmental Protection Organization, Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere, Medical Teams International","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET030212,Amhara,South Gondar,Guna Begemider,1,1,1,Fully funded,Save Your Holy Land Association,MAM,1
+ET030301,Amhara,North Wello,Bugna,4,9,16,Fully funded,"Action for Social Development and Environmental Protection Organization, Afro Ethiopia Integrated Development, Organization for Rehabilitation and Development in Amhara, World vision international","AM, BSFP, CAPACITY, COMMUNITY, IYCF, MAM, NUTRITION, OTP, SC",3-4
+ET030302,Amhara,North Wello,Raya Kobo,3,7,11,Fully funded,"GOAL Ethiopia, Medecins Du Monde- France, Plan International","AM, CAPACITY, COMMUNITY, IYCF, MAM, OTP, SC",3-4
+ET030304,Amhara,North Wello,Meket,3,4,9,"Fully funded, Partially funded","Action for Social Development and Environmental Protection Organization, GOAL Ethiopia, World vision international","CAPACITY, IYCF, OTP, SC",3-4
+ET030307,Amhara,North Wello,Guba Lafto,2,3,4,Fully funded,"GOAL Ethiopia, Medecins Du Monde- France","IYCF, OTP, SC",2
+ET030308,Amhara,North Wello,Habru,1,3,3,Fully funded,Action for Social Development and Environmental Protection Organization,"IYCF, OTP, SC",1
+ET030310,Amhara,North Wello,Lasta,1,6,6,Fully funded,Plan International,"AM, IYCF, MAM, NUTRITION, OTP, SC",1
+ET030311,Amhara,North Wello,Dawunt,2,4,4,Fully funded,"Action for Social Development and Environmental Protection Organization, Nexus Ethiopia","IYCF, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET030312,Amhara,North Wello,Gazo,1,4,4,Fully funded,GOAL Ethiopia,"AM, MAM, OTP, SC",1
+ET030313,Amhara,North Wello,Angot,1,4,4,Fully funded,GOAL Ethiopia,"AM, MAM, OTP, SC",1
+ET030401,Amhara,South Wello,Argoba,1,1,1,Fully funded,Concern Worldwide,AM,1
+ET030402,Amhara,South Wello,Tenta,1,2,2,Fully funded,Concern Worldwide,"AM, MAM",1
+ET030405,Amhara,South Wello,Thehulederie,1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET030407,Amhara,South Wello,Kalu,1,2,2,Fully funded,Concern Worldwide,"AM, MAM",1
+ET030422,Amhara,South Wello,Worebabu,1,3,3,Fully funded,World vision international,"IYCF, NUTRITION, OTP",1
+ET030520,Amhara,North Shewa (AM),Debre Berhan town,1,1,1,Fully funded,GOAL Ethiopia,OTP,1
+ET030602,Amhara,East Gojam,Hulet Ej Enese,1,3,3,Fully funded,Premiere Urgence Internationale,"IYCF, OTP, SC",1
+ET030605,Amhara,East Gojam,Enarj Enawga,1,2,2,Fully funded,Plan International,"AM, MAM",1
+ET030801,Amhara,Wag Hamra,Zequala,1,6,6,Fully funded,Plan International,"AM, COMMUNITY, IYCF, MAM, OTP, SC",1
+ET030802,Amhara,Wag Hamra,Sekota,2,10,11,Fully funded,"Cooperative for Assistance and Relief Everywhere, Nexus Ethiopia","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET030803,Amhara,Wag Hamra,Dehana,3,5,12,Fully funded,"Action Against Hunger, Cooperative for Assistance and Relief Everywhere, Organization for Rehabilitation and Development in Amhara","AM, IYCF, MAM, OTP, SC",3-4
+ET030804,Amhara,Wag Hamra,Gaz Gibla,5,7,17,Fully funded,"Action Against Hunger, Action for Social Development and Environmental Protection Organization, Cooperative for Assistance and Relief Everywhere, Organization for Rehabilitation and Development in Amhara, Positive Action for Development","AM, COMMUNITY, IYCF, MAM, NUTRITION, OTP, SC",5-7
+ET030805,Amhara,Wag Hamra,Abergele (AM),3,6,12,Fully funded,"Action Against Hunger, Cooperative for Assistance and Relief Everywhere, Positive Action for Development","AM, COMMUNITY, IYCF, MAM, OTP, SC",3-4
+ET030806,Amhara,Wag Hamra,Sahila,1,6,6,Fully funded,Plan International,"AM, IYCF, MAM, NUTRITION, OTP, SC",1
+ET030807,Amhara,Wag Hamra,Sekota town,1,5,5,Fully funded,Imagine 1 Day,"AM, BSFP, IYCF, RAPIDASSESSMENTS,SURVEYS…., SC",1
+ET030808,Amhara,Wag Hamra,Tsagbeji,4,9,24,Fully funded,"Action Against Hunger, Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere, Plan International","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, SC",3-4
+ET031004,Amhara,Oromia,Artuma Fursi,1,2,2,Fully funded,Plan International,"AM, MAM",1
+ET031005,Amhara,Oromia,Dewa Harewa,1,2,2,Fully funded,Plan International,"AM, MAM",1
+ET031109,Amhara,Central Gondar,Wegera,1,2,2,Fully funded,GOAL Ethiopia,"OTP, SC",1
+ET031118,Amhara,Central Gondar,Gondar town,1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET031122,Amhara,Central Gondar,Kinfaz Begela,1,2,2,Fully funded,Concern Worldwide,"AM, MAM",1
+ET031213,Amhara,West Gondar,Metema,2,6,12,"Fully funded, Partially funded","International Organization for Migration, Medical Teams International","AM, BSFP, IYCF, MAM, OTP, SC",2
+ET040101,Oromia,West Wellega,Mana Sibu,1,4,4,Fully funded,Action Against Hunger,"IYCF, NUTRITION, OTP, SC",1
+ET040103,Oromia,West Wellega,Gimbi,1,4,4,Fully funded,Action Against Hunger,"IYCF, NUTRITION, OTP, SC",1
+ET040116,Oromia,West Wellega,Begi,1,5,5,Partially funded,Action for Social Development and Environmental Protection Organization,"AM, IYCF, MAM, OTP, SC",1
+ET040197,Oromia,West Wellega,Leta Sibu,1,4,4,Fully funded,Action Against Hunger,"IYCF, NUTRITION, OTP, SC",1
+ET040203,Oromia,East Wellega,Gida Ayana,2,3,4,"Fully funded, Partially funded","Action for Social Development and Environmental Protection Organization, Positive Action for Development","IYCF, OTP, SC",2
+ET040208,Oromia,East Wellega,Gobu Seyo,1,2,2,Fully funded,Fayyaa Integrated Development Organization,"IYCF, OTP",1
+ET040210,Oromia,East Wellega,Diga,1,3,3,Fully funded,Fayyaa Integrated Development Organization,"IYCF, OTP, SC",1
+ET040213,Oromia,East Wellega,Guto Gida,1,4,4,Fully funded,Action for the Needy in Ethiopia,"CAPACITY, IYCF, NUTRITION, RAPIDASSESSMENTS,SURVEYS….",1
+ET040217,Oromia,East Wellega,Kiremu,1,3,3,Fully funded,World vision international,"IYCF, OTP, SC",1
+ET040405,Oromia,Jimma,Kersa (Jimma),1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET040406,Oromia,Jimma,Mena (Jimma),1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET040601,Oromia,North Shewa (OR),Wara Jarso,1,3,3,Partially funded,Action for Social Development and Environmental Protection Organization,"IYCF, OTP, SC",1
+ET040604,Oromia,North Shewa (OR),Kuyu,1,1,1,Fully funded,Action for the Needy in Ethiopia,IYCF,1
+ET040605,Oromia,North Shewa (OR),Degem,1,3,3,Fully funded,Fayyaa Integrated Development Organization,"IYCF, OTP, SC",1
+ET040701,Oromia,East Shewa,Fentale,1,1,1,Fully funded,Fayyaa Integrated Development Organization,IYCF,1
+ET040901,Oromia,West Hararge,Mieso,1,3,3,Fully funded,Positive Action for Development,"CAPACITY, COMMUNITY, IYCF",1
+ET040902,Oromia,West Hararge,Doba,1,3,3,Fully funded,Islamic Relief,"CAPACITY, IYCF, OTP",1
+ET040903,Oromia,West Hararge,Tulo (OR),1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET040906,Oromia,West Hararge,Anchar,1,1,1,Fully funded,Islamic Relief,CAPACITY,1
+ET040907,Oromia,West Hararge,Goba Koricha,1,5,5,Fully funded,Plan International,"AM, IYCF, MAM, OTP, SC",1
+ET040908,Oromia,West Hararge,Habro,1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET040991,Oromia,West Hararge,Gumbi Bordede,1,6,6,Partially funded,Mothers and Children Multisectoral Development Organization,"AM, CAPACITY, IYCF, MAM, OTP, SC",1
+ET041003,Oromia,East Hararge,Gursum (OR),1,2,2,Fully funded,Cooperative for Assistance and Relief Everywhere,"AM, MAM",1
+ET041004,Oromia,East Hararge,Babile (OR),1,1,1,Partially funded,Action for Social Development and Environmental Protection Organization,IYCF,1
+ET041007,Oromia,East Hararge,Kurfa Chele,1,7,7,Fully funded,Cooperative for Assistance and Relief Everywhere,"AM, CAPACITY, IYCF, MAM, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",1
+ET041008,Oromia,East Hararge,Kersa (East Hararge),2,6,8,Fully funded,"International Organization for Migration, World vision international","AM, CAPACITY, IYCF, MAM, OTP, SC",2
+ET041009,Oromia,East Hararge,Meta,1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET041010,Oromia,East Hararge,Goro Gutu,2,6,8,Fully funded,"International Organization for Migration, World vision international","AM, CAPACITY, IYCF, MAM, NUTRITION, OTP",2
+ET041013,Oromia,East Hararge,Bedeno,1,6,6,Fully funded,Action Against Hunger,"AM, IYCF, MAM, NUTRITION, OTP, SC",1
+ET041015,Oromia,East Hararge,Chinaksen,2,4,5,"Fully funded, Partially funded","Action for Social Development and Environmental Protection Organization, International Organization for Migration","AM, IYCF, MAM, OTP",2
+ET041016,Oromia,East Hararge,Girawa,1,6,6,Fully funded,Action Against Hunger,"AM, IYCF, MAM, NUTRITION, OTP, SC",1
+ET041017,Oromia,East Hararge,Golo Oda,2,6,9,Fully funded,"Action Against Hunger, Fayyaa Integrated Development Organization","AM, IYCF, MAM, NUTRITION, OTP, SC",2
+ET041018,Oromia,East Hararge,Meyu Muleke,3,5,8,Fully funded,"Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere, Fayyaa Integrated Development Organization","AM, IYCF, MAM, OTP, SC",3-4
+ET041098,Oromia,East Hararge,Kumbi,1,3,3,Fully funded,Fayyaa Integrated Development Organization,"IYCF, OTP, SC",1
+ET041115,Oromia,Bale,Gura Damole,1,1,1,Fully funded,Save the Children,IYCF,1
+ET041207,Oromia,Borena,Yabelo,3,3,4,"Fully funded, Partially funded","Action for Social Development and Environmental Protection Organization, Cooperative for Assistance and Relief Everywhere, SOS Children’s Village","AM, IYCF, MAM",3-4
+ET041210,Oromia,Borena,Moyale (OR),2,5,7,Fully funded,"Action Against Hunger, International Organization for Migration","AM, IYCF, MAM, OTP, SC",2
+ET041211,Oromia,Borena,Dire,5,10,20,"Fully funded, Partially funded","Action Against Hunger, Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere, Islamic Relief, Islamic Relief Ethiopia","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",5-7
+ET041212,Oromia,Borena,Teltale,2,10,13,Fully funded,"Action Against Hunger, Cooperative for Assistance and Relief Every where","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET041216,Oromia,Borena,Miyo,2,3,4,"Fully funded, Partially funded","Action Against Hunger, Action for Social Development and Environmental Protection Organization","IYCF, OTP, SC",2
+ET041219,Oromia,Borena,Dilo,1,2,2,Fully funded,GOAL Ethiopia,"IYCF, OTP",1
+ET041223,Oromia,Borena,Gomole,2,5,6,Fully funded,"GOAL Ethiopia, Plan International","AM, IYCF, MAM, OTP, SC",2
+ET041290,Oromia,Borena,Guchi,2,5,7,Fully funded,"Action Against Hunger, International Organization for Migration","AM, IYCF, MAM, OTP, SC",2
+ET041291,Oromia,Borena,Dubluk,3,5,9,Fully funded,"Cooperative for Assistance and Relief Everywhere, International Organization for Migration, Plan International","AM, IYCF, MAM, OTP, SC",3-4
+ET041295,Oromia,Borena,Elwaya,2,5,5,Fully funded,"Cooperative for Assistance and Relief Everywhere, GOAL Ethiopia","AM, IYCF, MAM, OTP, SC",2
+ET041296,Oromia,Borena,Yabelo town,1,1,1,Fully funded,SOS Children’s Village,IYCF,1
+ET041501,Oromia,West Guji,Bule Hora,1,5,5,Fully funded,Mothers and Children Multisectoral Development Organization,"AM, IYCF, MAM, OTP, SC",1
+ET041513,Oromia,West Guji,Abaya,1,5,5,Fully funded,Mothers and Children Multisectoral Development Organization,"AM, IYCF, MAM, OTP, SC",1
+ET041515,Oromia,West Guji,Dugda Dawa,2,5,8,Fully funded,"Mothers and Children Multisectoral Development Organization, Plan International","AM, IYCF, MAM, OTP, SC",2
+ET041701,Oromia,West Arsi,Siraro,2,4,5,"Fully funded, Partially funded","Action for Social Development and Environmental Protection Organization, Nexus Ethiopia","IYCF, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET041702,Oromia,West Arsi,Shala,1,4,4,Fully funded,World vision international,"CAPACITY, IYCF, OTP, SC",1
+ET041801,Oromia,Kelem Wellega,Hawa Galan,1,4,4,Fully funded,Action Against Hunger,"IYCF, NUTRITION, OTP, SC",1
+ET041805,Oromia,Kelem Wellega,Sayo,1,4,4,Fully funded,Action Against Hunger,"IYCF, NUTRITION, OTP, SC",1
+ET041806,Oromia,Kelem Wellega,Denbi Dollo town,1,4,4,Fully funded,Action Against Hunger,"IYCF, NUTRITION, OTP, SC",1
+ET042102,Oromia,East Bale,Lege Hida,2,5,5,Fully funded,"Save the Children, World vision international","AM, IYCF, MAM, OTP, SC",2
+ET042104,Oromia,East Bale,Rayitu,1,1,1,Fully funded,Save the Children,IYCF,1
+ET050104,Somali,Siti,Erer (SM),1,2,2,Fully funded,Medical Teams International,"AM, MAM",1
+ET050105,Somali,Siti,Afdem,2,4,4,Fully funded,"Action for Social Development and Environmental Protection Organization, Nexus Ethiopia","IYCF, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET050107,Somali,Siti,Miesso,2,3,3,Fully funded,"Medical Teams International, Relief and Development for Vulnerable","AM, IYCF, MAM",2
+ET050198,Somali,Siti,Gota-Biki,1,2,2,Fully funded,Medical Teams International,"AM, MAM",1
+ET050203,Somali,Fafan,Babile (SM),1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET050204,Somali,Fafan,Shabeeley,1,1,1,Fully funded,Concern Worldwide,OTP,1
+ET050601,Somali,Shabelle,East Imi,1,4,4,Fully funded,Concern Worldwide,"AM, MAM, OTP, SC",1
+ET050602,Somali,Shabelle,Adadle,1,6,6,Fully funded,Action Against Hunger,"AM, IYCF, MAM, NUTRITION, OTP, SC",1
+ET050604,Somali,Shabelle,Gode,1,4,4,Fully funded,Action Against Hunger,"IYCF, NUTRITION, OTP, SC",1
+ET050608,Somali,Shabelle,Berocano,2,4,6,Fully funded,"Action Against Hunger, Concern Worldwide","IYCF, NUTRITION, OTP, SC",2
+ET050698,Somali,Shabelle,Elale,1,4,4,Fully funded,Action Against Hunger,"IYCF, NUTRITION, OTP, SC",1
+ET050701,Somali,Doolo,Danod,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050702,Somali,Doolo,Bokh,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050703,Somali,Doolo,Galadi,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050788,Somali,Doolo,Daratole,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050798,Somali,Doolo,Lehel-Yucub,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050802,Somali,Afder,Charati,2,3,3,Fully funded,"International Rescue Committee, Partnership for Pastoralist Development Association","AM, MAM, RAPIDASSESSMENTS,SURVEYS….",2
+ET050804,Somali,Afder,Elkare /Serer,2,3,3,Fully funded,"Alliance for Medical Action, Partnership for Pastoralist Development Association","OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET050805,Somali,Afder,West Imi,2,6,6,Fully funded,"Concern Worldwide, Partnership for Pastoralist Development Association","AM, IYCF, MAM, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET050806,Somali,Afder,Hargele,3,5,5,Fully funded,"Alliance for Medical Action, International Rescue Committee, Partnership for Pastoralist Development Association","AM, MAM, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET050807,Somali,Afder,Barey,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050808,Somali,Afder,Dolobay,3,5,8,Fully funded,"Doctors with Africa CUAMM, Partnership for Pastoralist Development Association, Save the Children","IYCF, MAM, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET050809,Somali,Afder,Raso,2,5,5,Fully funded,"Concern Worldwide, Partnership for Pastoralist Development Association","CAPACITY, IYCF, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET050898,Somali,Afder,Kohle /Qoxle,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050901,Somali,Liban,Filtu,2,10,15,Fully funded,"Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",2
+ET050902,Somali,Liban,Dolo Ado,3,5,8,Fully funded,"Doctors with Africa CUAMM, Partnership for Pastoralist Development Association, Save the Children","IYCF, MAM, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET050903,Somali,Liban,Goro Baqaqsa,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050904,Somali,Liban,Guradamole,1,1,1,Fully funded,Partnership for Pastoralist Development Association,"RAPIDASSESSMENTS,SURVEYS….",1
+ET050991,Somali,Liban,Deka Suftu,3,10,15,Fully funded,"Cooperative for Assistance and Relief Every where, Cooperative for Assistance and Relief Everywhere, Partnership for Pastoralist Development Association","AM, CAPACITY, COMMUNITY, ISC, IYCF, MAM, NUTRITION, OTP, RAPIDASSESSMENTS,SURVEYS…., SC",3-4
+ET050999,Somali,Liban,Bokolmayo,2,4,4,Fully funded,"Cooperative for Assistance and Relief Everywhere, Partnership for Pastoralist Development Association","AM, IYCF, MAM, RAPIDASSESSMENTS,SURVEYS….",2
+ET051103,Somali,Daawa,Moyale (SM),1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
+ET060201,Benishangul-Gumuz,Metekel,Dangur,2,5,7,Fully funded,"Mothers and Children Multisectoral Development Organization, Premiere Urgence Internationale","AM, IYCF, MAM, OTP, SC",2
+ET060204,Benishangul-Gumuz,Metekel,Mandura,1,3,3,Fully funded,Fayyaa Integrated Development Organization,"IYCF, MAM, SC",1
+ET060205,Benishangul-Gumuz,Metekel,Dibate,1,5,5,Fully funded,Premiere Urgence Internationale,"AM, IYCF, MAM, OTP, SC",1
+ET060207,Benishangul-Gumuz,Metekel,Bulen,1,5,5,Fully funded,Premiere Urgence Internationale,"AM, IYCF, MAM, OTP, SC",1
+ET060302,Benishangul-Gumuz,Assosa,Kurmuk,2,5,6,Fully funded,"International Organization for Migration, Premiere Urgence Internationale","AM, IYCF, MAM, OTP, SC",2
+ET060305,Benishangul-Gumuz,Assosa,Bambasi,1,3,3,Fully funded,Action Against Hunger,"IYCF, OTP, SC",1
+ET060306,Benishangul-Gumuz,Assosa,Bilidigilu,1,4,4,Fully funded,Action Against Hunger,"CAPACITY, IYCF, OTP, SC",1
+ET120202,Gambela,Agnewak,Gambela Zuria,1,3,3,Fully funded,Action Against Hunger,"IYCF, OTP, SC",1
+ET120203,Gambela,Agnewak,Gog,1,3,3,Fully funded,Action Against Hunger,"IYCF, OTP, SC",1
+ET120407,Gambela,Itang Special woreda,Itang,2,3,6,Fully funded,"Action Against Hunger, Plan International","IYCF, OTP, SC",2
+ET150208,Dire Dawa,Dire Dawa rural,Biyoawale,1,4,4,Fully funded,International Organization for Migration,"AM, IYCF, MAM, OTP",1
