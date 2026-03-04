@@ -1,7 +1,7 @@
 // assets/js/network.js
-import Graph from "https://cdn.jsdelivr.net/npm/graphology@0.25.4/dist/graphology.esm.min.js";
-import Sigma from "https://cdn.jsdelivr.net/npm/sigma@2.4.0/build/sigma.esm.min.js";
-import FA2 from "https://cdn.jsdelivr.net/npm/graphology-layout-forceatlas2@0.10.1/dist/graphology-layout-forceatlas2.esm.min.js";
+import Graph from "https://esm.sh/graphology";
+import Sigma from "https://esm.sh/sigma";
+import FA2 from "https://esm.sh/graphology-layout-forceatlas2";
 
 const container = document.getElementById("network");
 
@@ -64,10 +64,7 @@ const renderer = new Sigma(graph, container, {
 });
 
 // ---- Hover highlight neighbors ----
-let lastHovered = null;
-
 renderer.on("enterNode", ({ node }) => {
-  lastHovered = node;
   const neighbors = new Set(graph.neighbors(node));
   neighbors.add(node);
 
@@ -83,7 +80,6 @@ renderer.on("enterNode", ({ node }) => {
 });
 
 renderer.on("leaveNode", () => {
-  lastHovered = null;
   graph.forEachNode((n) => graph.setNodeAttribute(n, "hidden", false));
   graph.forEachEdge((e) => graph.setEdgeAttribute(e, "hidden", false));
   renderer.refresh();
