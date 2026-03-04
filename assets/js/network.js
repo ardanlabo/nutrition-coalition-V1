@@ -1,97 +1,137 @@
-// assets/js/network.js
-import Graph from "https://unpkg.com/graphology@0.25.4/dist/graphology.esm.min.js";
-import Sigma from "https://unpkg.com/sigma@2.4.0/build/sigma.esm.min.js";
-import FA2 from "https://unpkg.com/graphology-layout-forceatlas2@0.10.1/dist/graphology-layout-forceatlas2.esm.min.js";
+// assets/js/network.js (UMD version - NO imports)
 
-const container = document.getElementById("network");
-if (!container) throw new Error("Missing #network container");
+function runSimpleForceLayout(graph, iterations = 240) {
+  const nodes = graph.nodes();
 
-// ---- Helpers ----
+  // init positions
+  nodes.forEach((n) => {
+    const a = graph.getNodeAttributes(n);
+    if (typeof a.x !== "number") graph.setNodeAttribute(n, "x", (Math.random() - 0.5) * 10);
+    if (typeof a.y !== "number") graph.setNodeAttribute(n, "y", (Math.random() - 0.5) * 10);
+  });
+
+  const repulsion = 0.02;
+  const attraction = 0.01;
+  const damping = 0.85;
+
+  const vx = Object.create(null);
+  const vy = Object.create(null);
+  nodes.forEach((n) => (vx[n] = vy[n] = 0));
+
+  for (let it = 0; it < iterations; it++) {
+    // repulsion
+    for (let i = 0; i < nodes.length; i++) {
+      const ni = nodes[i];
+      const xi = graph.getNodeAttribute(ni, "x");
+      const yi = graph.getNodeAttribute(ni, "y");
+
+      for (let j = i + 1; j < nodes.length; j++) {
+        const nj = nodes[j];
+        const xj = graph.getNodeAttribute(nj, "x");
+        const yj = graph.getNodeAttribute(nj, "y");
+
+        let dx = xi - xj;
+        let dy = yi - yj;
+        let d2 = dx * dx + dy * dy + 0.01; // avoid 0
+        let f = repulsion / d2;
+
+        vx[ni] += dx * f;
+        vy[ni] += dy * f;
+        vx[nj] -= dx * f;
+        vy[nj] -= dy * f;
+      }
+    }
+
+    // attraction on edges
+    graph.forEachEdge((e, attr, s, t) => {
+      const xs = graph.getNodeAttribute(s, "x");
+      const ys = graph.getNodeAttribute(s, "y");
+      const xt = graph.getNodeAttribute(t, "x");
+      const yt = graph.getNodeAttribute(t, "y");
+
+      const dx = xt - xs;
+      const dy = yt - ys;
+
+      vx[s] += dx * attraction;
+      vy[s] += dy * attraction;
+      vx[t] -= dx * attraction;
+      vy[t] -= dy * attraction;
+    });
+
+    // integrate
+    nodes.forEach((n) => {
+      let x = graph.getNodeAttribute(n, "x");
+      let y = graph.getNodeAttribute(n, "y");
+      vx[n] *= damping;
+      vy[n] *= damping;
+      x += vx[n];
+      y += vy[n];
+      graph.setNodeAttribute(n, "x", x);
+      graph.setNodeAttribute(n, "y", y);
+    });
+  }
+}
+
 function colorByType(t) {
   if (t === "org") return "rgba(80,170,255,0.95)";
   if (t === "activity") return "rgba(110,230,160,0.95)";
-  return "rgba(255,120,120,0.95)"; // woreda
+  return "rgba(255,120,120,0.95)";
 }
 
 function edgeColorByType(t) {
   if (t === "org_activity") return "rgba(255,255,255,0.22)";
-  return "rgba(255,255,255,0.14)"; // activity_woreda
+  return "rgba(255,255,255,0.14)";
 }
 
-// ---- Load data ----
-const res = await fetch("data/network_4w_demo.json", { cache: "no-store" });
-if (!res.ok) throw new Error(`Failed to load JSON (${res.status})`);
-const data = await res.json();
+(async function main() {
+  const container = document.getElementById("network");
+  if (!container) throw new Error("Missing #network container");
 
-// ---- Build graph ----
-const graph = new Graph();
+  const res = await fetch("data/network_4w_demo.json", { cache: "no-store" });
+  if (!res.ok) throw new Error("Failed to load data/network_4w_demo.json");
+  const data = await res.json();
 
-data.nodes.forEach((n) => {
-  graph.addNode(n.id, {
-    label: n.label || n.id,
-    size: n.size || 8,
-    color: colorByType(n.type),
-    type: n.type,
-    x: Math.random(),
-    y: Math.random(),
-    Region: n.Region || "",
-    Zone: n.Zone || "",
-    adm3_pcode: n.adm3_pcode || ""
-  });
-});
+  // graphology is global (UMD)
+  const graph = new graphology.Graph();
 
-data.edges.forEach((e) => {
-  // Avoid duplicates (undirected-like)
-  if (!graph.hasEdge(e.source, e.target) && !graph.hasEdge(e.target, e.source)) {
-    graph.addEdge(e.source, e.target, {
-      type: e.type,
-      weight: e.weight || 1,
-      color: edgeColorByType(e.type),
-      size: 1
+  data.nodes.forEach((n) => {
+    graph.addNode(n.id, {
+      label: n.label || n.id,
+      size: n.size || 8,
+      color: colorByType(n.type),
+      type: n.type,
+      x: (Math.random() - 0.5) * 10,
+      y: (Math.random() - 0.5) * 10
     });
-  }
-});
-
-// ---- Layout (Kumu-like clustering) ----
-const settings = FA2.inferSettings(graph);
-FA2.assign(graph, { settings, iterations: 160 });
-
-// ---- Render ----
-const renderer = new Sigma(graph, container, {
-  renderEdgeLabels: false,
-  minCameraRatio: 0.2,
-  maxCameraRatio: 4
-});
-
-// ---- Hover: highlight neighbors ----
-renderer.on("enterNode", ({ node }) => {
-  const neighbors = new Set(graph.neighbors(node));
-  neighbors.add(node);
-
-  graph.forEachNode((n) => graph.setNodeAttribute(n, "hidden", !neighbors.has(n)));
-  graph.forEachEdge((e, attrs, s, t) => {
-    graph.setEdgeAttribute(e, "hidden", !(neighbors.has(s) && neighbors.has(t)));
   });
 
-  renderer.refresh();
-});
+  data.edges.forEach((e, i) => {
+    const eid = e.id || `e_${i}`;
+    if (!graph.hasEdge(e.source, e.target) && !graph.hasEdge(e.target, e.source)) {
+      graph.addEdgeWithKey(eid, e.source, e.target, {
+        color: edgeColorByType(e.type),
+        size: 1
+      });
+    }
+  });
 
-renderer.on("leaveNode", () => {
-  graph.forEachNode((n) => graph.setNodeAttribute(n, "hidden", false));
-  graph.forEachEdge((e) => graph.setEdgeAttribute(e, "hidden", false));
-  renderer.refresh();
-});
+  // Layout
+  runSimpleForceLayout(graph, 220);
 
-// ---- Subtle autopan ----
-let t = 0;
-function animate() {
-  t += 0.0025;
-  const cam = renderer.getCamera();
-  const state = cam.getState();
-  cam.setState(
-    { angle: 0, ratio: state.ratio, x: Math.sin(t) * 0.03, y: Math.cos(t) * 0.03 },
-    { duration: 80 }
-  );
-  requestAnimationFrame(animate);
-}
-animate();
+  // Sigma is global (UMD)
+  const renderer = new Sigma(graph, container);
+
+  // subtle autopan
+  let t = 0;
+  function animate() {
+    t += 0.0025;
+    const cam = renderer.getCamera();
+    const state = cam.getState();
+    cam.setState(
+      { angle: 0, ratio: state.ratio, x: Math.sin(t) * 0.03, y: Math.cos(t) * 0.03 },
+      { duration: 80 }
+    );
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
