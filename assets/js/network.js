@@ -1,6 +1,5 @@
-// assets/js/network.js (UMD, stable, drag-friendly, readable)
-
-console.log("NETWORK.JS LOADED v5");
+// assets/js/network.js (UMD, stable, drag-friendly, readable) — v1.1
+console.log("NETWORK GRAPH VERSION v1.1");
 
 function runSimpleForceLayout(graph, iterations = 220) {
   const nodes = graph.nodes();
@@ -24,7 +23,7 @@ function runSimpleForceLayout(graph, iterations = 220) {
   });
 
   for (let it = 0; it < iterations; it++) {
-    // repulsion (O(n^2) OK for ~100 nodes)
+    // repulsion (O(n^2) OK for demo graphs)
     for (let i = 0; i < nodes.length; i++) {
       const ni = nodes[i];
       const xi = graph.getNodeAttribute(ni, "x");
@@ -88,8 +87,8 @@ function nodeFill(category) {
 }
 
 function edgeStroke(edgeType) {
-  if (edgeType === "org_activity") return "rgba(255,255,255,0.22)";
-  return "rgba(255,255,255,0.12)";
+  if (edgeType === "org_activity") return "rgba(255,255,255,0.20)";
+  return "rgba(255,255,255,0.10)";
 }
 
 (async function main() {
@@ -111,31 +110,31 @@ function edgeStroke(edgeType) {
   const graph = new graphology.Graph();
 
   data.nodes.forEach((n) => {
-    const category = n.type || "woreda"; // org/activity/woreda from JSON
+    const category = n.type || "woreda"; // from JSON: org/activity/woreda
 
     graph.addNode(n.id, {
       label: n.label || n.id,
 
-      // Sigma program type MUST be a valid sigma node program:
+      // Sigma program type: MUST be valid program name
       type: "circle",
 
-      // Our domain category:
+      // Domain category (ours)
       category,
 
-      // Visuals:
+      // Visuals
       color: nodeFill(category),
       size: n.size || 8,
 
-      // Layout init:
+      // Layout init
       x: (Math.random() - 0.5) * 10,
       y: (Math.random() - 0.5) * 10,
 
-      // keep original metadata if needed later
+      // Metadata (optional)
       Region: n.Region || "",
       Zone: n.Zone || "",
       adm3_pcode: n.adm3_pcode || "",
 
-      // label control:
+      // Label styling (sigma reads these)
       labelColor: "rgba(255,255,255,0.85)",
       labelSize: 10
     });
@@ -152,29 +151,29 @@ function edgeStroke(edgeType) {
     }
   });
 
-  // Layout (static positions computed once)
+  // Layout (compute once; stable)
   runSimpleForceLayout(graph, 220);
 
   // Renderer
   const renderer = new Sigma(graph, container, {
     renderEdgeLabels: false,
-    // keep labels off by default (we'll show them based on zoom)
+    // hide labels unless zoomed in (we update this below)
     labelRenderedSizeThreshold: 9999
   });
 
-  // Camera defaults (drag/pan enabled by default in sigma)
+  // Camera defaults (drag/pan enabled by default)
   renderer.getCamera().setState({ ratio: 1 });
 
-  // --- Better readability: hover highlight neighbors ---
+  // --- Hover highlight neighbors ---
   const dimNode = "rgba(255,255,255,0.10)";
   const dimEdge = "rgba(255,255,255,0.03)";
 
-  // store originals
-  graph.forEachNode((n, attrs) => {
-    graph.setNodeAttribute(n, "origColor", attrs.color);
+  // store original colors
+  graph.forEachNode((node, attrs) => {
+    graph.setNodeAttribute(node, "origColor", attrs.color);
   });
-  graph.forEachEdge((e, attrs) => {
-    graph.setEdgeAttribute(e, "origColor", attrs.color);
+  graph.forEachEdge((edge, attrs) => {
+    graph.setEdgeAttribute(edge, "origColor", attrs.color);
   });
 
   function resetStyles() {
@@ -206,17 +205,15 @@ function edgeStroke(edgeType) {
 
   renderer.on("leaveNode", () => resetStyles());
 
-  // --- Labels only when zoomed in (otherwise illegible) ---
+  // --- Labels only when zoomed ---
   function updateLabelThreshold() {
     const ratio = renderer.getCamera().getState().ratio;
-    // smaller ratio = zoomed in
-    // when zoomed in, allow labels; when zoomed out, hide
-    const threshold = ratio < 1.2 ? 0 : 9999;
+    const threshold = ratio < 1.2 ? 0 : 9999; // zoom in => show labels
     renderer.setSetting("labelRenderedSizeThreshold", threshold);
   }
 
   renderer.getCamera().on("updated", updateLabelThreshold);
   updateLabelThreshold();
 
-  console.log("Network graph ready.");
+  console.log("Network graph ready v1.1");
 })();
