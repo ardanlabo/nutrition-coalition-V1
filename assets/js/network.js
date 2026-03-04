@@ -1,9 +1,10 @@
 // assets/js/network.js
-import Graph from "https://esm.sh/graphology";
-import Sigma from "https://esm.sh/sigma";
-import FA2 from "https://esm.sh/graphology-layout-forceatlas2";
+import Graph from "https://unpkg.com/graphology@0.25.4/dist/graphology.esm.min.js";
+import Sigma from "https://unpkg.com/sigma@2.4.0/build/sigma.esm.min.js";
+import FA2 from "https://unpkg.com/graphology-layout-forceatlas2@0.10.1/dist/graphology-layout-forceatlas2.esm.min.js";
 
 const container = document.getElementById("network");
+if (!container) throw new Error("Missing #network container");
 
 // ---- Helpers ----
 function colorByType(t) {
@@ -18,8 +19,8 @@ function edgeColorByType(t) {
 }
 
 // ---- Load data ----
-const res = await fetch("data/network_4w_demo.json");
-if (!res.ok) throw new Error("Failed to load data/network_4w_demo.json");
+const res = await fetch("data/network_4w_demo.json", { cache: "no-store" });
+if (!res.ok) throw new Error(`Failed to load JSON (${res.status})`);
 const data = await res.json();
 
 // ---- Build graph ----
@@ -31,10 +32,8 @@ data.nodes.forEach((n) => {
     size: n.size || 8,
     color: colorByType(n.type),
     type: n.type,
-    // random initial positions for layout
     x: Math.random(),
     y: Math.random(),
-    // tooltip meta (optional)
     Region: n.Region || "",
     Zone: n.Zone || "",
     adm3_pcode: n.adm3_pcode || ""
@@ -42,6 +41,7 @@ data.nodes.forEach((n) => {
 });
 
 data.edges.forEach((e) => {
+  // Avoid duplicates (undirected-like)
   if (!graph.hasEdge(e.source, e.target) && !graph.hasEdge(e.target, e.source)) {
     graph.addEdge(e.source, e.target, {
       type: e.type,
@@ -63,15 +63,12 @@ const renderer = new Sigma(graph, container, {
   maxCameraRatio: 4
 });
 
-// ---- Hover highlight neighbors ----
+// ---- Hover: highlight neighbors ----
 renderer.on("enterNode", ({ node }) => {
   const neighbors = new Set(graph.neighbors(node));
   neighbors.add(node);
 
-  graph.forEachNode((n) => {
-    graph.setNodeAttribute(n, "hidden", !neighbors.has(n));
-  });
-
+  graph.forEachNode((n) => graph.setNodeAttribute(n, "hidden", !neighbors.has(n)));
   graph.forEachEdge((e, attrs, s, t) => {
     graph.setEdgeAttribute(e, "hidden", !(neighbors.has(s) && neighbors.has(t)));
   });
@@ -85,19 +82,14 @@ renderer.on("leaveNode", () => {
   renderer.refresh();
 });
 
-// ---- Subtle autopan (wow without gimmick) ----
+// ---- Subtle autopan ----
 let t = 0;
 function animate() {
   t += 0.0025;
   const cam = renderer.getCamera();
   const state = cam.getState();
   cam.setState(
-    {
-      angle: 0,
-      ratio: state.ratio,
-      x: Math.sin(t) * 0.03,
-      y: Math.cos(t) * 0.03
-    },
+    { angle: 0, ratio: state.ratio, x: Math.sin(t) * 0.03, y: Math.cos(t) * 0.03 },
     { duration: 80 }
   );
   requestAnimationFrame(animate);
