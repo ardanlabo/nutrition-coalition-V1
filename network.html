@@ -15,6 +15,7 @@
     width:100%;
     height:100vh;
   }
+
   .header{
     position:absolute;
     top:18px;
@@ -36,13 +37,14 @@
     user-select:none;
     pointer-events:none;
   }
+
   .legend{
     position:absolute;
     top:18px;
     right:22px;
     z-index:10;
     font-size:12px;
-    opacity:0.85;
+    opacity:0.88;
     user-select:none;
     pointer-events:none;
     background: rgba(255,255,255,0.04);
@@ -56,6 +58,51 @@
   .dot.org{ background: rgba(80,170,255,0.95); }
   .dot.reg{ background: rgba(190,140,255,0.95); }
   .dot.wor{ background: rgba(255,120,120,0.75); }
+
+  .panel{
+    position:absolute;
+    left:26px;
+    bottom:18px;
+    z-index:10;
+    width:340px;
+    max-width:42vw;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 14px;
+    padding: 12px 12px;
+    backdrop-filter: blur(8px);
+  }
+  .panel-title{
+    font-size:12px;
+    opacity:0.7;
+    margin-bottom:6px;
+  }
+  .panel-value{
+    font-size:14px;
+    font-weight:600;
+    opacity:0.92;
+    margin-bottom:8px;
+    line-height:1.25;
+  }
+  .panel-meta{
+    font-size:12px;
+    opacity:0.72;
+    line-height:1.35;
+  }
+  .btn{
+    display:inline-block;
+    margin-top:10px;
+    font-size:12px;
+    padding:8px 10px;
+    border-radius:10px;
+    border:1px solid rgba(255,255,255,0.14);
+    background: rgba(255,255,255,0.05);
+    color: rgba(255,255,255,0.85);
+    user-select:none;
+    pointer-events:auto;
+    cursor:pointer;
+  }
+  .btn:hover{ background: rgba(255,255,255,0.08); }
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/dist/vis-network.min.css">
@@ -63,13 +110,20 @@
 
 <body>
 
-<div class="header">Nutrition Cluster Network — v3.0</div>
-<div class="subheader">Default view: ORG ↔ REGION · Click an NGO to reveal its Woredas (radial) · Click again to collapse</div>
+<div class="header">Nutrition Cluster Network — v3.1</div>
+<div class="subheader">Spotlight view · Click an NGO to focus · Click again to collapse</div>
 
 <div class="legend">
   <div class="legend-row"><span class="dot org"></span> NGOs</div>
   <div class="legend-row"><span class="dot reg"></span> Regions</div>
-  <div class="legend-row"><span class="dot wor"></span> Woredas (on click)</div>
+  <div class="legend-row"><span class="dot wor"></span> Woredas (on focus)</div>
+</div>
+
+<div class="panel">
+  <div class="panel-title">FOCUS</div>
+  <div class="panel-value" id="focusName">Loading…</div>
+  <div class="panel-meta" id="focusMeta">—</div>
+  <div class="btn" id="resetBtn">Reset view</div>
 </div>
 
 <div id="network"></div>
