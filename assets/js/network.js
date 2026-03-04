@@ -1,13 +1,14 @@
-// assets/js/network.js — v2.0 (vis-network, robust)
-console.log("NETWORK GRAPH VERSION v2.0 (vis-network)");
+// assets/js/network.js — v2.1 (vis-network)
+// Cleaner visuals: faint edges by default, highlight on hover, hide woreda labels
+console.log("NETWORK GRAPH VERSION v2.1 (vis-network)");
 
-function colorByCategory(cat){
+function colorByCategory(cat) {
   if (cat === "org") return "rgba(80,170,255,0.92)";
   if (cat === "activity") return "rgba(110,230,160,0.92)";
   return "rgba(255,120,120,0.92)";
 }
 
-(async function main(){
+(async function main() {
   const container = document.getElementById("network");
   if (!container) return;
 
@@ -15,37 +16,48 @@ function colorByCategory(cat){
   if (!res.ok) throw new Error("Failed to load JSON");
   const data = await res.json();
 
-  // Convert nodes
+  // --- Nodes ---
   const nodes = data.nodes.map((n) => {
     const cat = n.type || "woreda";
+
     return {
       id: n.id,
-      label: n.label || n.id,
+
+      // Hide woreda labels by default (massive readability win)
+      label: cat === "woreda" ? "" : (n.label || n.id),
+
       group: cat,
       value: n.size || 8,
+
       color: {
         background: colorByCategory(cat),
         border: "rgba(255,255,255,0.35)",
         highlight: {
           background: colorByCategory(cat),
-          border: "rgba(255,255,255,0.8)"
+          border: "rgba(255,255,255,0.85)"
         },
         hover: {
           background: colorByCategory(cat),
-          border: "rgba(255,255,255,0.8)"
+          border: "rgba(255,255,255,0.85)"
         }
       },
-      font: { color: "rgba(255,255,255,0.85)", size: 12 },
+
+      font: { color: "rgba(255,255,255,0.85)", size: 12 }
     };
   });
 
-  // Convert edges
-  const edges = data.edges.map((e) => ({
+  // --- Edges ---
+  // IMPORTANT: we add explicit ids so we can update them on hover
+  const edges = data.edges.map((e, i) => ({
+    id: e.id || `edge_${i}`,
     from: e.source,
     to: e.target,
-    color: { color: "rgba(255,255,255,0.12)", highlight: "rgba(255,255,255,0.35)" },
     width: 1,
-    smooth: { type: "continuous" }  // curves => prettier
+
+    // faint by default
+    color: { color: "rgba(255,255,255,0.03)" },
+
+    smooth: { type: "continuous" }
   }));
 
   const visNodes = new vis.DataSet(nodes);
@@ -53,17 +65,19 @@ function colorByCategory(cat){
 
   const options = {
     autoResize: true,
+
     interaction: {
       hover: true,
       tooltipDelay: 120,
       hideEdgesOnDrag: true
     },
-    physics: {
-      enabled: false // IMPORTANT: we do a clean layered layout instead of chaotic physics
-    },
+
+    physics: { enabled: false },
+
     layout: {
-      improvedLayout: true
+      improvedLayout: false
     },
+
     groups: {
       org: { shape: "dot" },
       activity: { shape: "dot" },
@@ -73,25 +87,56 @@ function colorByCategory(cat){
 
   const network = new vis.Network(container, { nodes: visNodes, edges: visEdges }, options);
 
-  // Layered layout: org -> activity -> woreda
-  const orgs = nodes.filter(n => n.group === "org").map(n => n.id).sort();
-  const acts = nodes.filter(n => n.group === "activity").map(n => n.id).sort();
-  const wors = nodes.filter(n => n.group === "woreda").map(n => n.id).sort();
+  // --- Layered layout: org -> activity -> woreda ---
+  const orgs = nodes.filter((n) => n.group === "org").map((n) => n.id).sort();
+  const acts = nodes.filter((n) => n.group === "activity").map((n) => n.id).sort();
+  const wors = nodes.filter((n) => n.group === "woreda").map((n) => n.id).sort();
 
-  function setColumn(ids, x, spacing){
+  function setColumn(ids, x, spacing) {
     ids.forEach((id, i) => {
-      const y = (i - ids.length/2) * spacing;
+      const y = (i - ids.length / 2) * spacing;
       network.moveNode(id, x, y);
+      visNodes.update({ id, fixed: { x: true, y: true } });
     });
   }
 
-  // columns
-  setColumn(orgs, -600, 50);
-  setColumn(acts, 0, 70);
-  setColumn(wors, 600, 28);
+  setColumn(orgs, -650, 55);
+  setColumn(acts, 0, 75);
+  setColumn(wors, 650, 30);
 
   // Fit nicely
-  network.fit({ animation: { duration: 600, easingFunction: "easeInOutQuad" } });
+  network.fit({ animation: { duration: 500, easingFunction: "easeInOutQuad" } });
 
-  console.log("vis-network ready v2.0");
+  // --- Hover highlight edges ---
+  function setAllEdges(alpha) {
+    const col = `rgba(255,255,255,${alpha})`;
+    const updates = [];
+    visEdges.forEach((edge) => {
+      updates.push({ id: edge.id, color: { color: col } });
+    });
+    visEdges.update(updates);
+  }
+
+  // default faint edges
+  setAllEdges(0.03);
+
+  network.on("hoverNode", function (params) {
+    const connected = network.getConnectedEdges(params.node);
+
+    // dim all first
+    setAllEdges(0.02);
+
+    // highlight connected
+    const updates = connected.map((edgeId) => ({
+      id: edgeId,
+      color: { color: "rgba(255,255,255,0.45)" }
+    }));
+    visEdges.update(updates);
+  });
+
+  network.on("blurNode", function () {
+    setAllEdges(0.03);
+  });
+
+  console.log("vis-network ready v2.1");
 })();
