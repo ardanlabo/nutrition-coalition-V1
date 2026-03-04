@@ -1,82 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Coordination Network</title>
+// assets/js/network.js — v2.0 (vis-network, robust)
+console.log("NETWORK GRAPH VERSION v2.0 (vis-network)");
 
-<style>
-  body{
-    margin:0;
-    background:#0b0f14;
-    font-family:Arial, Helvetica, sans-serif;
-    color:white;
+function colorByCategory(cat){
+  if (cat === "org") return "rgba(80,170,255,0.92)";
+  if (cat === "activity") return "rgba(110,230,160,0.92)";
+  return "rgba(255,120,120,0.92)";
+}
+
+(async function main(){
+  const container = document.getElementById("network");
+  if (!container) return;
+
+  const res = await fetch("data/network_4w_demo.json", { cache: "no-store" });
+  if (!res.ok) throw new Error("Failed to load JSON");
+  const data = await res.json();
+
+  // Convert nodes
+  const nodes = data.nodes.map((n) => {
+    const cat = n.type || "woreda";
+    return {
+      id: n.id,
+      label: n.label || n.id,
+      group: cat,
+      value: n.size || 8,
+      color: {
+        background: colorByCategory(cat),
+        border: "rgba(255,255,255,0.35)",
+        highlight: {
+          background: colorByCategory(cat),
+          border: "rgba(255,255,255,0.8)"
+        },
+        hover: {
+          background: colorByCategory(cat),
+          border: "rgba(255,255,255,0.8)"
+        }
+      },
+      font: { color: "rgba(255,255,255,0.85)", size: 12 },
+    };
+  });
+
+  // Convert edges
+  const edges = data.edges.map((e) => ({
+    from: e.source,
+    to: e.target,
+    color: { color: "rgba(255,255,255,0.12)", highlight: "rgba(255,255,255,0.35)" },
+    width: 1,
+    smooth: { type: "continuous" }  // curves => prettier
+  }));
+
+  const visNodes = new vis.DataSet(nodes);
+  const visEdges = new vis.DataSet(edges);
+
+  const options = {
+    autoResize: true,
+    interaction: {
+      hover: true,
+      tooltipDelay: 120,
+      hideEdgesOnDrag: true
+    },
+    physics: {
+      enabled: false // IMPORTANT: we do a clean layered layout instead of chaotic physics
+    },
+    layout: {
+      improvedLayout: true
+    },
+    groups: {
+      org: { shape: "dot" },
+      activity: { shape: "dot" },
+      woreda: { shape: "dot" }
+    }
+  };
+
+  const network = new vis.Network(container, { nodes: visNodes, edges: visEdges }, options);
+
+  // Layered layout: org -> activity -> woreda
+  const orgs = nodes.filter(n => n.group === "org").map(n => n.id).sort();
+  const acts = nodes.filter(n => n.group === "activity").map(n => n.id).sort();
+  const wors = nodes.filter(n => n.group === "woreda").map(n => n.id).sort();
+
+  function setColumn(ids, x, spacing){
+    ids.forEach((id, i) => {
+      const y = (i - ids.length/2) * spacing;
+      network.moveNode(id, x, y);
+    });
   }
-  #network{
-    width:100%;
-    height:100vh;
-  }
-  .header{
-    position:absolute;
-    top:18px;
-    left:26px;
-    z-index:10;
-    font-size:18px;
-    font-weight:600;
-    opacity:0.92;
-    user-select:none;
-    pointer-events:none;
-  }
-  .subheader{
-    position:absolute;
-    top:42px;
-    left:26px;
-    z-index:10;
-    font-size:12px;
-    opacity:0.65;
-    user-select:none;
-    pointer-events:none;
-  }
-  .legend{
-    position:absolute;
-    top:18px;
-    right:22px;
-    z-index:10;
-    font-size:12px;
-    opacity:0.8;
-    user-select:none;
-    pointer-events:none;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.10);
-    border-radius: 12px;
-    padding: 10px 12px;
-    backdrop-filter: blur(6px);
-  }
-  .legend-row{ display:flex; align-items:center; gap:8px; margin:6px 0; }
-  .dot{ width:10px; height:10px; border-radius:50%; display:inline-block; }
-  .dot.org{ background: rgba(80,170,255,0.92); }
-  .dot.act{ background: rgba(110,230,160,0.92); }
-  .dot.wor{ background: rgba(255,120,120,0.92); }
-</style>
 
-<!-- vis-network (stable UMD) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/dist/vis-network.min.css">
-</head>
+  // columns
+  setColumn(orgs, -600, 50);
+  setColumn(acts, 0, 70);
+  setColumn(wors, 600, 28);
 
-<body>
+  // Fit nicely
+  network.fit({ animation: { duration: 600, easingFunction: "easeInOutQuad" } });
 
-<div class="header">Nutrition Cluster Network — v2.0</div>
-<div class="subheader">Drag to pan · Scroll to zoom · Hover to explore</div>
-
-<div class="legend">
-  <div class="legend-row"><span class="dot org"></span> NGOs</div>
-  <div class="legend-row"><span class="dot act"></span> Activities</div>
-  <div class="legend-row"><span class="dot wor"></span> Woredas</div>
-</div>
-
-<div id="network"></div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/dist/vis-network.min.js"></script>
-<script src="assets/js/network.js"></script>
-
-</body>
-</html>
+  console.log("vis-network ready v2.0");
+})();
