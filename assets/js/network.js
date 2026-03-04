@@ -1,4 +1,5 @@
-// assets/js/network.js (UMD version - NO imports)
+// assets/js/network.js
+// Version UMD compatible with sigma + graphology CDN
 
 function runSimpleForceLayout(graph, iterations = 240) {
   const nodes = graph.nodes();
@@ -14,11 +15,15 @@ function runSimpleForceLayout(graph, iterations = 240) {
   const attraction = 0.01;
   const damping = 0.85;
 
-  const vx = Object.create(null);
-  const vy = Object.create(null);
-  nodes.forEach((n) => (vx[n] = vy[n] = 0));
+  const vx = {};
+  const vy = {};
+  nodes.forEach((n) => {
+    vx[n] = 0;
+    vy[n] = 0;
+  });
 
   for (let it = 0; it < iterations; it++) {
+
     // repulsion
     for (let i = 0; i < nodes.length; i++) {
       const ni = nodes[i];
@@ -32,7 +37,8 @@ function runSimpleForceLayout(graph, iterations = 240) {
 
         let dx = xi - xj;
         let dy = yi - yj;
-        let d2 = dx * dx + dy * dy + 0.01; // avoid 0
+        let d2 = dx * dx + dy * dy + 0.01;
+
         let f = repulsion / d2;
 
         vx[ni] += dx * f;
@@ -42,7 +48,7 @@ function runSimpleForceLayout(graph, iterations = 240) {
       }
     }
 
-    // attraction on edges
+    // attraction along edges
     graph.forEachEdge((e, attr, s, t) => {
       const xs = graph.getNodeAttribute(s, "x");
       const ys = graph.getNodeAttribute(s, "y");
@@ -62,10 +68,13 @@ function runSimpleForceLayout(graph, iterations = 240) {
     nodes.forEach((n) => {
       let x = graph.getNodeAttribute(n, "x");
       let y = graph.getNodeAttribute(n, "y");
+
       vx[n] *= damping;
       vy[n] *= damping;
+
       x += vx[n];
       y += vy[n];
+
       graph.setNodeAttribute(n, "x", x);
       graph.setNodeAttribute(n, "y", y);
     });
@@ -84,54 +93,82 @@ function edgeColorByType(t) {
 }
 
 (async function main() {
+
   const container = document.getElementById("network");
-  if (!container) throw new Error("Missing #network container");
+  if (!container) {
+    console.error("Network container not found");
+    return;
+  }
 
   const res = await fetch("data/network_4w_demo.json", { cache: "no-store" });
-  if (!res.ok) throw new Error("Failed to load data/network_4w_demo.json");
+
+  if (!res.ok) {
+    console.error("Failed to load JSON");
+    return;
+  }
+
   const data = await res.json();
 
-  // graphology is global (UMD)
+  // Graphology global (UMD)
   const graph = new graphology.Graph();
 
   data.nodes.forEach((n) => {
+
     graph.addNode(n.id, {
       label: n.label || n.id,
       size: n.size || 8,
       color: colorByType(n.type),
-      type: n.type,
+
+      // IMPORTANT: we store category, NOT type
+      category: n.type,
+
       x: (Math.random() - 0.5) * 10,
       y: (Math.random() - 0.5) * 10
     });
+
   });
 
   data.edges.forEach((e, i) => {
-    const eid = e.id || `e_${i}`;
+
+    const edgeId = e.id || "e" + i;
+
     if (!graph.hasEdge(e.source, e.target) && !graph.hasEdge(e.target, e.source)) {
-      graph.addEdgeWithKey(eid, e.source, e.target, {
-        color: edgeColorByType(e.type),
-        size: 1
+
+      graph.addEdgeWithKey(edgeId, e.source, e.target, {
+        size: 1,
+        color: edgeColorByType(e.type)
       });
+
     }
+
   });
 
   // Layout
   runSimpleForceLayout(graph, 220);
 
-  // Sigma is global (UMD)
+  // Sigma global (UMD)
   const renderer = new Sigma(graph, container);
 
-  // subtle autopan
+  // Subtle camera animation
   let t = 0;
+
   function animate() {
+
     t += 0.0025;
+
     const cam = renderer.getCamera();
     const state = cam.getState();
-    cam.setState(
-      { angle: 0, ratio: state.ratio, x: Math.sin(t) * 0.03, y: Math.cos(t) * 0.03 },
-      { duration: 80 }
-    );
+
+    cam.setState({
+      angle: 0,
+      ratio: state.ratio,
+      x: Math.sin(t) * 0.03,
+      y: Math.cos(t) * 0.03
+    }, { duration: 80 });
+
     requestAnimationFrame(animate);
   }
+
   animate();
+
 })();
