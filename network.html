@@ -42,7 +42,7 @@
     right:22px;
     z-index:10;
     font-size:12px;
-    opacity:0.8;
+    opacity:0.85;
     user-select:none;
     pointer-events:none;
     background: rgba(255,255,255,0.04);
@@ -53,9 +53,9 @@
   }
   .legend-row{ display:flex; align-items:center; gap:8px; margin:6px 0; }
   .dot{ width:10px; height:10px; border-radius:50%; display:inline-block; }
-  .dot.org{ background: rgba(80,170,255,0.92); }
-  .dot.act{ background: rgba(110,230,160,0.92); }
-  .dot.wor{ background: rgba(255,120,120,0.92); }
+  .dot.org{ background: rgba(80,170,255,0.95); }
+  .dot.reg{ background: rgba(190,140,255,0.95); }
+  .dot.wor{ background: rgba(255,120,120,0.75); }
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/dist/vis-network.min.css">
@@ -63,13 +63,13 @@
 
 <body>
 
-<div class="header">Nutrition Cluster Network — v2.1</div>
-<div class="subheader">Drag to pan · Scroll to zoom · Hover a node to reveal links</div>
+<div class="header">Nutrition Cluster Network — v3.0</div>
+<div class="subheader">Default view: ORG ↔ REGION · Click an NGO to reveal its Woredas (radial) · Click again to collapse</div>
 
 <div class="legend">
   <div class="legend-row"><span class="dot org"></span> NGOs</div>
-  <div class="legend-row"><span class="dot act"></span> Activities</div>
-  <div class="legend-row"><span class="dot wor"></span> Woredas</div>
+  <div class="legend-row"><span class="dot reg"></span> Regions</div>
+  <div class="legend-row"><span class="dot wor"></span> Woredas (on click)</div>
 </div>
 
 <div id="network"></div>
