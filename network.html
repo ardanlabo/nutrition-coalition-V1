@@ -25,7 +25,7 @@
     font-size:18px;
     font-weight:600;
     letter-spacing:0.2px;
-    opacity:0.9;
+    opacity:0.92;
     user-select:none;
     pointer-events:none;
   }
@@ -40,13 +40,40 @@
     user-select:none;
     pointer-events:none;
   }
+
+  .legend{
+    position:absolute;
+    top:18px;
+    right:22px;
+    z-index:10;
+    font-size:12px;
+    opacity:0.8;
+    user-select:none;
+    pointer-events:none;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 12px;
+    padding: 10px 12px;
+    backdrop-filter: blur(6px);
+  }
+  .legend-row{ display:flex; align-items:center; gap:8px; margin:6px 0; }
+  .dot{ width:10px; height:10px; border-radius:50%; display:inline-block; }
+  .dot.org{ background: rgba(80,170,255,0.92); }
+  .dot.act{ background: rgba(110,230,160,0.92); }
+  .dot.wor{ background: rgba(255,120,120,0.92); }
 </style>
 </head>
 
 <body>
 
-<div class="header">Nutrition Cluster Network — v1.1</div>
+<div class="header">Nutrition Cluster Network — v1.2</div>
 <div class="subheader">Drag to pan · Scroll to zoom · Hover to highlight</div>
+
+<div class="legend">
+  <div class="legend-row"><span class="dot org"></span> NGOs</div>
+  <div class="legend-row"><span class="dot act"></span> Activities</div>
+  <div class="legend-row"><span class="dot wor"></span> Woredas</div>
+</div>
 
 <div id="network"></div>
 
