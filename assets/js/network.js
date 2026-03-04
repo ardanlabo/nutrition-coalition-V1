@@ -1,94 +1,70 @@
-// assets/js/network.js (UMD, stable, drag-friendly, readable) — v1.1
-console.log("NETWORK GRAPH VERSION v1.1");
+// assets/js/network.js — v1.2
+// UMD, stable, layered layout (ORG → ACTIVITY → WOREDA), readable
 
-function runSimpleForceLayout(graph, iterations = 220) {
-  const nodes = graph.nodes();
+console.log("NETWORK GRAPH VERSION v1.2");
 
-  // init positions
-  nodes.forEach((n) => {
-    const a = graph.getNodeAttributes(n);
-    if (typeof a.x !== "number") graph.setNodeAttribute(n, "x", (Math.random() - 0.5) * 10);
-    if (typeof a.y !== "number") graph.setNodeAttribute(n, "y", (Math.random() - 0.5) * 10);
-  });
-
-  const repulsion = 0.02;
-  const attraction = 0.01;
-  const damping = 0.85;
-
-  const vx = {};
-  const vy = {};
-  nodes.forEach((n) => {
-    vx[n] = 0;
-    vy[n] = 0;
-  });
-
-  for (let it = 0; it < iterations; it++) {
-    // repulsion (O(n^2) OK for demo graphs)
-    for (let i = 0; i < nodes.length; i++) {
-      const ni = nodes[i];
-      const xi = graph.getNodeAttribute(ni, "x");
-      const yi = graph.getNodeAttribute(ni, "y");
-
-      for (let j = i + 1; j < nodes.length; j++) {
-        const nj = nodes[j];
-        const xj = graph.getNodeAttribute(nj, "x");
-        const yj = graph.getNodeAttribute(nj, "y");
-
-        const dx = xi - xj;
-        const dy = yi - yj;
-        const d2 = dx * dx + dy * dy + 0.01;
-
-        const f = repulsion / d2;
-
-        vx[ni] += dx * f;
-        vy[ni] += dy * f;
-        vx[nj] -= dx * f;
-        vy[nj] -= dy * f;
-      }
-    }
-
-    // attraction on edges
-    graph.forEachEdge((e, attr, s, t) => {
-      const xs = graph.getNodeAttribute(s, "x");
-      const ys = graph.getNodeAttribute(s, "y");
-      const xt = graph.getNodeAttribute(t, "x");
-      const yt = graph.getNodeAttribute(t, "y");
-
-      const dx = xt - xs;
-      const dy = yt - ys;
-
-      vx[s] += dx * attraction;
-      vy[s] += dy * attraction;
-      vx[t] -= dx * attraction;
-      vy[t] -= dy * attraction;
-    });
-
-    // integrate
-    nodes.forEach((n) => {
-      let x = graph.getNodeAttribute(n, "x");
-      let y = graph.getNodeAttribute(n, "y");
-
-      vx[n] *= damping;
-      vy[n] *= damping;
-
-      x += vx[n];
-      y += vy[n];
-
-      graph.setNodeAttribute(n, "x", x);
-      graph.setNodeAttribute(n, "y", y);
-    });
-  }
-}
-
+// --- Colors ---
 function nodeFill(category) {
   if (category === "org") return "rgba(80,170,255,0.92)";
   if (category === "activity") return "rgba(110,230,160,0.92)";
-  return "rgba(255,120,120,0.92)"; // woreda
+  return "rgba(255,120,120,0.92)";
 }
 
 function edgeStroke(edgeType) {
-  if (edgeType === "org_activity") return "rgba(255,255,255,0.20)";
+  if (edgeType === "org_activity") return "rgba(255,255,255,0.18)";
   return "rgba(255,255,255,0.10)";
+}
+
+// --- Layout: 3 columns / layers ---
+function runLayeredLayout(graph) {
+  const orgs = [];
+  const acts = [];
+  const wors = [];
+
+  graph.forEachNode((node, attrs) => {
+    if (attrs.category === "org") orgs.push(node);
+    else if (attrs.category === "activity") acts.push(node);
+    else wors.push(node);
+  });
+
+  // Sort for stability (prevents random reshuffles)
+  orgs.sort();
+  acts.sort();
+  wors.sort();
+
+  // Column x positions
+  const xOrg = -3.2;
+  const xAct = 0.0;
+  const xWor = 3.2;
+
+  // Vertical spacing (tune if needed)
+  const spacingOrg = 0.55;
+  const spacingAct = 0.70;
+  const spacingWor = 0.30;
+
+  // Center each column vertically
+  orgs.forEach((node, i) => {
+    graph.setNodeAttribute(node, "x", xOrg);
+    graph.setNodeAttribute(node, "y", (i - orgs.length / 2) * spacingOrg);
+  });
+
+  acts.forEach((node, i) => {
+    graph.setNodeAttribute(node, "x", xAct);
+    graph.setNodeAttribute(node, "y", (i - acts.length / 2) * spacingAct);
+  });
+
+  wors.forEach((node, i) => {
+    graph.setNodeAttribute(node, "x", xWor);
+    graph.setNodeAttribute(node, "y", (i - wors.length / 2) * spacingWor);
+  });
+
+  // Small jitter to avoid perfect overlaps
+  graph.forEachNode((node) => {
+    const x = graph.getNodeAttribute(node, "x");
+    const y = graph.getNodeAttribute(node, "y");
+    graph.setNodeAttribute(node, "x", x + (Math.random() - 0.5) * 0.08);
+    graph.setNodeAttribute(node, "y", y + (Math.random() - 0.5) * 0.08);
+  });
 }
 
 (async function main() {
@@ -98,7 +74,6 @@ function edgeStroke(edgeType) {
     return;
   }
 
-  // Load data
   const res = await fetch("data/network_4w_demo.json", { cache: "no-store" });
   if (!res.ok) {
     console.error("Failed to load data/network_4w_demo.json", res.status);
@@ -106,83 +81,74 @@ function edgeStroke(edgeType) {
   }
   const data = await res.json();
 
-  // Build graph
   const graph = new graphology.Graph();
 
+  // Nodes
   data.nodes.forEach((n) => {
-    const category = n.type || "woreda"; // from JSON: org/activity/woreda
+    const category = n.type || "woreda"; // org/activity/woreda from JSON
 
     graph.addNode(n.id, {
       label: n.label || n.id,
 
-      // Sigma program type: MUST be valid program name
+      // Sigma rendering program (must be valid)
       type: "circle",
 
-      // Domain category (ours)
+      // Our category
       category,
 
       // Visuals
       color: nodeFill(category),
       size: n.size || 8,
 
-      // Layout init
-      x: (Math.random() - 0.5) * 10,
-      y: (Math.random() - 0.5) * 10,
+      // Init pos (will be overridden by layered layout)
+      x: 0,
+      y: 0,
 
-      // Metadata (optional)
+      // Optional meta
       Region: n.Region || "",
       Zone: n.Zone || "",
       adm3_pcode: n.adm3_pcode || "",
 
-      // Label styling (sigma reads these)
       labelColor: "rgba(255,255,255,0.85)",
       labelSize: 10
     });
   });
 
+  // Edges
   data.edges.forEach((e, i) => {
     const edgeId = e.id || `e_${i}`;
     if (!graph.hasEdge(e.source, e.target) && !graph.hasEdge(e.target, e.source)) {
       graph.addEdgeWithKey(edgeId, e.source, e.target, {
-        type: e.type || "link",
+        edgeType: e.type || "link",
         color: edgeStroke(e.type),
         size: 1
       });
     }
   });
 
-  // Layout (compute once; stable)
-  runSimpleForceLayout(graph, 220);
+  // Layout (structured and readable)
+  runLayeredLayout(graph);
 
   // Renderer
   const renderer = new Sigma(graph, container, {
     renderEdgeLabels: false,
-    // hide labels unless zoomed in (we update this below)
     labelRenderedSizeThreshold: 9999
   });
 
-  // Camera defaults (drag/pan enabled by default)
+  // Default camera
   renderer.getCamera().setState({ ratio: 1 });
 
-  // --- Hover highlight neighbors ---
+  // Hover highlight neighbors
   const dimNode = "rgba(255,255,255,0.10)";
   const dimEdge = "rgba(255,255,255,0.03)";
 
-  // store original colors
-  graph.forEachNode((node, attrs) => {
-    graph.setNodeAttribute(node, "origColor", attrs.color);
-  });
-  graph.forEachEdge((edge, attrs) => {
-    graph.setEdgeAttribute(edge, "origColor", attrs.color);
-  });
+  // Save original colors
+  graph.forEachNode((node, attrs) => graph.setNodeAttribute(node, "origColor", attrs.color));
+  graph.forEachEdge((edge, attrs) => graph.setEdgeAttribute(edge, "origColor", attrs.color));
 
   function resetStyles() {
-    graph.forEachNode((n) => {
-      graph.setNodeAttribute(n, "color", graph.getNodeAttribute(n, "origColor"));
-    });
-    graph.forEachEdge((e) => {
-      graph.setEdgeAttribute(e, "color", graph.getEdgeAttribute(e, "origColor"));
-    });
+    graph.forEachNode((n) => graph.setNodeAttribute(n, "color", graph.getNodeAttribute(n, "origColor")));
+    graph.forEachEdge((e) => graph.setEdgeAttribute(e, "color", graph.getEdgeAttribute(e, "origColor")));
     renderer.refresh();
   }
 
@@ -205,15 +171,15 @@ function edgeStroke(edgeType) {
 
   renderer.on("leaveNode", () => resetStyles());
 
-  // --- Labels only when zoomed ---
+  // Labels only when zoomed
   function updateLabelThreshold() {
     const ratio = renderer.getCamera().getState().ratio;
-    const threshold = ratio < 1.2 ? 0 : 9999; // zoom in => show labels
+    const threshold = ratio < 1.25 ? 0 : 9999;
     renderer.setSetting("labelRenderedSizeThreshold", threshold);
   }
 
   renderer.getCamera().on("updated", updateLabelThreshold);
   updateLabelThreshold();
 
-  console.log("Network graph ready v1.1");
+  console.log("Network graph ready v1.2");
 })();
