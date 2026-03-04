@@ -1,0 +1,2443 @@
+{
+  "meta": {
+    "title": "Nutrition Cluster 4W Network (Site Demo)",
+    "notes": "Auto-generated from 4w_demo_clean.csv; downsampled for visual clarity on website.",
+    "filters": {
+      "top_orgs": [
+        "Cooperative for Assistance and Relief Everywhere",
+        "Plan International",
+        "Action Against Hunger",
+        "GOAL Ethiopia",
+        "International Organization for Migration",
+        "Medical Teams International",
+        "Action for Social Development and Environmental Protection Organization",
+        "Concern Worldwide",
+        "Mothers and Children Multisectoral Development Organization",
+        "World vision international",
+        "Tigray Development Association",
+        "Premiere Urgence Internationale"
+      ],
+      "top_activities": [
+        "SAM (OTP)",
+        "AM",
+        "MAM Moderate Acute Malnutrit…",
+        "SAM (SC)",
+        "IYCF -E Infant and Young Chi…",
+        "Capacity Building",
+        "Nutrition Supplement/medicin…",
+        "Nutrition assessment (rapid …",
+        "Community led originated nut…",
+        "ISC package of key intervent…"
+      ],
+      "top_woredas_n": 45
+    },
+    "counts": {
+      "nodes_total": 67,
+      "edges_total": 372,
+      "orgs": 12,
+      "activities": 10,
+      "woredas": 45
+    }
+  },
+  "nodes": [
+    {
+      "id": "Action Against Hunger",
+      "label": "Action Against Hunger",
+      "type": "org",
+      "size": 16.61
+    },
+    {
+      "id": "Action for Social Development and Environmental Protection Organization",
+      "label": "Action for Social Development and Environmental Protection Organization",
+      "type": "org",
+      "size": 15.59
+    },
+    {
+      "id": "Concern Worldwide",
+      "label": "Concern Worldwide",
+      "type": "org",
+      "size": 15.59
+    },
+    {
+      "id": "Cooperative for Assistance and Relief Everywhere",
+      "label": "Cooperative for Assistance and Relief Everywhere",
+      "type": "org",
+      "size": 17.91
+    },
+    {
+      "id": "GOAL Ethiopia",
+      "label": "GOAL Ethiopia",
+      "type": "org",
+      "size": 16.12
+    },
+    {
+      "id": "International Organization for Migration",
+      "label": "International Organization for Migration",
+      "type": "org",
+      "size": 15.59
+    },
+    {
+      "id": "Medical Teams International",
+      "label": "Medical Teams International",
+      "type": "org",
+      "size": 16.61
+    },
+    {
+      "id": "Mothers and Children Multisectoral Development Organization",
+      "label": "Mothers and Children Multisectoral Development Organization",
+      "type": "org",
+      "size": 15.59
+    },
+    {
+      "id": "Plan International",
+      "label": "Plan International",
+      "type": "org",
+      "size": 17.5
+    },
+    {
+      "id": "Premiere Urgence Internationale",
+      "label": "Premiere Urgence Internationale",
+      "type": "org",
+      "size": 16.12
+    },
+    {
+      "id": "Tigray Development Association",
+      "label": "Tigray Development Association",
+      "type": "org",
+      "size": 15.0
+    },
+    {
+      "id": "World vision international",
+      "label": "World vision international",
+      "type": "org",
+      "size": 15.59
+    },
+    {
+      "id": "AM",
+      "label": "AM",
+      "type": "activity",
+      "size": 20.0
+    },
+    {
+      "id": "Capacity Building",
+      "label": "Capacity Building",
+      "type": "activity",
+      "size": 20.0
+    },
+    {
+      "id": "Community led originated nut…",
+      "label": "Community led originated nut…",
+      "type": "activity",
+      "size": 17.66
+    },
+    {
+      "id": "ISC package of key intervent…",
+      "label": "ISC package of key intervent…",
+      "type": "activity",
+      "size": 16.91
+    },
+    {
+      "id": "IYCF -E Infant and Young Chi…",
+      "label": "IYCF -E Infant and Young Chi…",
+      "type": "activity",
+      "size": 20.0
+    },
+    {
+      "id": "MAM Moderate Acute Malnutrit…",
+      "label": "MAM Moderate Acute Malnutrit…",
+      "type": "activity",
+      "size": 20.0
+    },
+    {
+      "id": "Nutrition Supplement/medicin…",
+      "label": "Nutrition Supplement/medicin…",
+      "type": "activity",
+      "size": 20.0
+    },
+    {
+      "id": "Nutrition assessment (rapid …",
+      "label": "Nutrition assessment (rapid …",
+      "type": "activity",
+      "size": 19.0
+    },
+    {
+      "id": "SAM (OTP)",
+      "label": "SAM (OTP)",
+      "type": "activity",
+      "size": 20.0
+    },
+    {
+      "id": "SAM (SC)",
+      "label": "SAM (SC)",
+      "type": "activity",
+      "size": 20.0
+    },
+    {
+      "id": "Abaala",
+      "label": "Abaala",
+      "type": "woreda",
+      "size": 12.91,
+      "Region": "Afar",
+      "Zone": "Kilbati /Zone2",
+      "adm3_pcode": "ET020203"
+    },
+    {
+      "id": "Abergele (AM)",
+      "label": "Abergele (AM)",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Amhara",
+      "Zone": "Wag Hamra",
+      "adm3_pcode": "ET030805"
+    },
+    {
+      "id": "Abiy Adi town",
+      "label": "Abiy Adi town",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Tigray",
+      "Zone": "Central",
+      "adm3_pcode": null
+    },
+    {
+      "id": "Addi Arekay",
+      "label": "Addi Arekay",
+      "type": "woreda",
+      "size": 11.61,
+      "Region": "Amhara",
+      "Zone": "North Gondar",
+      "adm3_pcode": "ET030101"
+    },
+    {
+      "id": "Adi Daero",
+      "label": "Adi Daero",
+      "type": "woreda",
+      "size": 12.07,
+      "Region": "Tigray",
+      "Zone": "North Western",
+      "adm3_pcode": "ET010111"
+    },
+    {
+      "id": "Adigrat town",
+      "label": "Adigrat town",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Tigray",
+      "Zone": "Eastern",
+      "adm3_pcode": "ET010308"
+    },
+    {
+      "id": "Atsbi",
+      "label": "Atsbi",
+      "type": "woreda",
+      "size": 11.61,
+      "Region": "Tigray",
+      "Zone": "Eastern",
+      "adm3_pcode": "ET010307"
+    },
+    {
+      "id": "Berahile",
+      "label": "Berahile",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Afar",
+      "Zone": "Kilbati /Zone2",
+      "adm3_pcode": "ET020205"
+    },
+    {
+      "id": "Dalol",
+      "label": "Dalol",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Afar",
+      "Zone": "Kilbati /Zone2",
+      "adm3_pcode": "ET020206"
+    },
+    {
+      "id": "Dehana",
+      "label": "Dehana",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Amhara",
+      "Zone": "Wag Hamra",
+      "adm3_pcode": "ET030803"
+    },
+    {
+      "id": "Deka Suftu",
+      "label": "Deka Suftu",
+      "type": "woreda",
+      "size": 12.91,
+      "Region": "Somali",
+      "Zone": "Liban",
+      "adm3_pcode": "ET050991"
+    },
+    {
+      "id": "Dire",
+      "label": "Dire",
+      "type": "woreda",
+      "size": 12.91,
+      "Region": "Oromia",
+      "Zone": "Borena",
+      "adm3_pcode": "ET041211"
+    },
+    {
+      "id": "Dubluk",
+      "label": "Dubluk",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Oromia",
+      "Zone": "Borena",
+      "adm3_pcode": "ET041291"
+    },
+    {
+      "id": "Dugda Dawa",
+      "label": "Dugda Dawa",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Oromia",
+      "Zone": "West Guji",
+      "adm3_pcode": "ET041515"
+    },
+    {
+      "id": "Elidar",
+      "label": "Elidar",
+      "type": "woreda",
+      "size": 11.61,
+      "Region": "Afar",
+      "Zone": "Awsi /Zone 1",
+      "adm3_pcode": "ET020102"
+    },
+    {
+      "id": "Endaba Tsahma",
+      "label": "Endaba Tsahma",
+      "type": "woreda",
+      "size": 10.0,
+      "Region": "Tigray",
+      "Zone": "Central",
+      "adm3_pcode": null
+    },
+    {
+      "id": "Endamehoni",
+      "label": "Endamehoni",
+      "type": "woreda",
+      "size": 11.61,
+      "Region": "Tigray",
+      "Zone": "Southern",
+      "adm3_pcode": "ET010405"
+    },
+    {
+      "id": "Filtu",
+      "label": "Filtu",
+      "type": "woreda",
+      "size": 12.91,
+      "Region": "Somali",
+      "Zone": "Liban",
+      "adm3_pcode": "ET050901"
+    },
+    {
+      "id": "Ganta Afeshum",
+      "label": "Ganta Afeshum",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Tigray",
+      "Zone": "Eastern",
+      "adm3_pcode": "ET010304"
+    },
+    {
+      "id": "Gaz Gibla",
+      "label": "Gaz Gibla",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Amhara",
+      "Zone": "Wag Hamra",
+      "adm3_pcode": "ET030804"
+    },
+    {
+      "id": "Goro Gutu",
+      "label": "Goro Gutu",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Oromia",
+      "Zone": "East Hararge",
+      "adm3_pcode": "ET041010"
+    },
+    {
+      "id": "Guchi",
+      "label": "Guchi",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Oromia",
+      "Zone": "Borena",
+      "adm3_pcode": "ET041290"
+    },
+    {
+      "id": "Hawzen",
+      "label": "Hawzen",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Tigray",
+      "Zone": "Eastern",
+      "adm3_pcode": "ET010305"
+    },
+    {
+      "id": "Janamora",
+      "label": "Janamora",
+      "type": "woreda",
+      "size": 12.91,
+      "Region": "Amhara",
+      "Zone": "North Gondar",
+      "adm3_pcode": "ET030103"
+    },
+    {
+      "id": "Kersa (East Hararge)",
+      "label": "Kersa (East Hararge)",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Oromia",
+      "Zone": "East Hararge",
+      "adm3_pcode": "ET041008"
+    },
+    {
+      "id": "Keyhe tekli",
+      "label": "Keyhe tekli",
+      "type": "woreda",
+      "size": 11.61,
+      "Region": "Tigray",
+      "Zone": "Central",
+      "adm3_pcode": "ET010221"
+    },
+    {
+      "id": "Kilte Awulaelo",
+      "label": "Kilte Awulaelo",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Tigray",
+      "Zone": "Eastern",
+      "adm3_pcode": null
+    },
+    {
+      "id": "Kurfa Chele",
+      "label": "Kurfa Chele",
+      "type": "woreda",
+      "size": 11.61,
+      "Region": "Oromia",
+      "Zone": "East Hararge",
+      "adm3_pcode": "ET041007"
+    },
+    {
+      "id": "Laelay Maychew",
+      "label": "Laelay Maychew",
+      "type": "woreda",
+      "size": 10.0,
+      "Region": "Tigray",
+      "Zone": "Central",
+      "adm3_pcode": "ET010205"
+    },
+    {
+      "id": "Laelay Tselemti/ Dima",
+      "label": "Laelay Tselemti/ Dima",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Contested",
+      "Zone": "Area 2",
+      "adm3_pcode": null
+    },
+    {
+      "id": "Meket",
+      "label": "Meket",
+      "type": "woreda",
+      "size": 10.0,
+      "Region": "Amhara",
+      "Zone": "North Wello",
+      "adm3_pcode": "ET030304"
+    },
+    {
+      "id": "Metema",
+      "label": "Metema",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Amhara",
+      "Zone": "West Gondar",
+      "adm3_pcode": "ET031213"
+    },
+    {
+      "id": "Moyale (OR)",
+      "label": "Moyale (OR)",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Oromia",
+      "Zone": "Borena",
+      "adm3_pcode": "ET041210"
+    },
+    {
+      "id": "Rama Adi Arbaete",
+      "label": "Rama Adi Arbaete",
+      "type": "woreda",
+      "size": 10.0,
+      "Region": "Tigray",
+      "Zone": "Central",
+      "adm3_pcode": null
+    },
+    {
+      "id": "Raya Kobo",
+      "label": "Raya Kobo",
+      "type": "woreda",
+      "size": 11.61,
+      "Region": "Amhara",
+      "Zone": "North Wello",
+      "adm3_pcode": "ET030302"
+    },
+    {
+      "id": "Saharti",
+      "label": "Saharti",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Tigray",
+      "Zone": "South Eastern",
+      "adm3_pcode": "ET010601"
+    },
+    {
+      "id": "Samre",
+      "label": "Samre",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Tigray",
+      "Zone": "South Eastern",
+      "adm3_pcode": "ET010606"
+    },
+    {
+      "id": "Sekota",
+      "label": "Sekota",
+      "type": "woreda",
+      "size": 12.91,
+      "Region": "Amhara",
+      "Zone": "Wag Hamra",
+      "adm3_pcode": "ET030802"
+    },
+    {
+      "id": "Shire Endaslasie town",
+      "label": "Shire Endaslasie town",
+      "type": "woreda",
+      "size": 10.59,
+      "Region": "Tigray",
+      "Zone": "North Western",
+      "adm3_pcode": null
+    },
+    {
+      "id": "Tahtay Adiyabo",
+      "label": "Tahtay Adiyabo",
+      "type": "woreda",
+      "size": 11.61,
+      "Region": "Tigray",
+      "Zone": "North Western",
+      "adm3_pcode": "ET010101"
+    },
+    {
+      "id": "Telemt",
+      "label": "Telemt",
+      "type": "woreda",
+      "size": 12.91,
+      "Region": "Amhara",
+      "Zone": "North Gondar",
+      "adm3_pcode": "ET030119"
+    },
+    {
+      "id": "Teltale",
+      "label": "Teltale",
+      "type": "woreda",
+      "size": 12.91,
+      "Region": "Oromia",
+      "Zone": "Borena",
+      "adm3_pcode": "ET041212"
+    },
+    {
+      "id": "Tsagbeji",
+      "label": "Tsagbeji",
+      "type": "woreda",
+      "size": 12.5,
+      "Region": "Amhara",
+      "Zone": "Wag Hamra",
+      "adm3_pcode": "ET030808"
+    },
+    {
+      "id": "Tselemti/ West Telemt",
+      "label": "Tselemti/ West Telemt",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Contested",
+      "Zone": "Area 2",
+      "adm3_pcode": "ET060306"
+    },
+    {
+      "id": "Wukro town",
+      "label": "Wukro town",
+      "type": "woreda",
+      "size": 11.12,
+      "Region": "Tigray",
+      "Zone": "Eastern",
+      "adm3_pcode": "ET010309"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Action Against Hunger",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action Against Hunger",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action Against Hunger",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action Against Hunger",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action Against Hunger",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action Against Hunger",
+      "target": "Nutrition Supplement/medicin…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Premiere Urgence Internationale",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Premiere Urgence Internationale",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Premiere Urgence Internationale",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Premiere Urgence Internationale",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Premiere Urgence Internationale",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "Capacity Building",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "Nutrition assessment (rapid …",
+      "type": "org_activity"
+    },
+    {
+      "source": "International Organization for Migration",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "International Organization for Migration",
+      "target": "Nutrition assessment (rapid …",
+      "type": "org_activity"
+    },
+    {
+      "source": "International Organization for Migration",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "International Organization for Migration",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "International Organization for Migration",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Tigray Development Association",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Tigray Development Association",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Tigray Development Association",
+      "target": "Nutrition Supplement/medicin…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Tigray Development Association",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "World vision international",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "World vision international",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "World vision international",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "World vision international",
+      "target": "Capacity Building",
+      "type": "org_activity"
+    },
+    {
+      "source": "GOAL Ethiopia",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "GOAL Ethiopia",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "GOAL Ethiopia",
+      "target": "Capacity Building",
+      "type": "org_activity"
+    },
+    {
+      "source": "GOAL Ethiopia",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Medical Teams International",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Medical Teams International",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Medical Teams International",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Medical Teams International",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Medical Teams International",
+      "target": "Capacity Building",
+      "type": "org_activity"
+    },
+    {
+      "source": "Medical Teams International",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Medical Teams International",
+      "target": "Nutrition Supplement/medicin…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action for Social Development and Environmental Protection Organization",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action for Social Development and Environmental Protection Organization",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action for Social Development and Environmental Protection Organization",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action for Social Development and Environmental Protection Organization",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action for Social Development and Environmental Protection Organization",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "GOAL Ethiopia",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "GOAL Ethiopia",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Action Against Hunger",
+      "target": "Capacity Building",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "Capacity Building",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "Community led originated nut…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Premiere Urgence Internationale",
+      "target": "Nutrition Supplement/medicin…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Concern Worldwide",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Concern Worldwide",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "Nutrition Supplement/medicin…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Concern Worldwide",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Mothers and Children Multisectoral Development Organization",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Concern Worldwide",
+      "target": "IYCF -E Infant and Young Chi…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Mothers and Children Multisectoral Development Organization",
+      "target": "SAM (OTP)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Mothers and Children Multisectoral Development Organization",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Mothers and Children Multisectoral Development Organization",
+      "target": "MAM Moderate Acute Malnutrit…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Mothers and Children Multisectoral Development Organization",
+      "target": "AM",
+      "type": "org_activity"
+    },
+    {
+      "source": "Concern Worldwide",
+      "target": "SAM (SC)",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "Community led originated nut…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "Nutrition Supplement/medicin…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Cooperative for Assistance and Relief Everywhere",
+      "target": "ISC package of key intervent…",
+      "type": "org_activity"
+    },
+    {
+      "source": "World vision international",
+      "target": "Nutrition Supplement/medicin…",
+      "type": "org_activity"
+    },
+    {
+      "source": "Plan International",
+      "target": "Nutrition assessment (rapid …",
+      "type": "org_activity"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Dehana",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Dehana",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Dehana",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Dehana",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Dehana",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Berahile",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Berahile",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Berahile",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Berahile",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Berahile",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Dalol",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Dalol",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Dalol",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Dalol",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Dalol",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Abiy Adi town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Abiy Adi town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Abiy Adi town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Abiy Adi town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Moyale (OR)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Moyale (OR)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Moyale (OR)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Kurfa Chele",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Kurfa Chele",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Kurfa Chele",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Kurfa Chele",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Kurfa Chele",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Kurfa Chele",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Kurfa Chele",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Elidar",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Elidar",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Adigrat town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Adigrat town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Adigrat town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Adigrat town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Adigrat town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Shire Endaslasie town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Shire Endaslasie town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Shire Endaslasie town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Shire Endaslasie town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Metema",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Metema",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Metema",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Metema",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Endamehoni",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Endamehoni",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Endamehoni",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Endamehoni",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Ganta Afeshum",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Ganta Afeshum",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Ganta Afeshum",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Atsbi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Atsbi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Keyhe tekli",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Keyhe tekli",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Keyhe tekli",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Keyhe tekli",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Keyhe tekli",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Kersa (East Hararge)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Kersa (East Hararge)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Kersa (East Hararge)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Meket",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Meket",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Meket",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Meket",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Samre",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Samre",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Samre",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Samre",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Moyale (OR)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Moyale (OR)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Guchi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Guchi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Guchi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Guchi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Dubluk",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Dubluk",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Dubluk",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Dubluk",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Kersa (East Hararge)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Kersa (East Hararge)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Goro Gutu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Goro Gutu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Goro Gutu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Goro Gutu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Elidar",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Elidar",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Elidar",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Elidar",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Elidar",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Kilte Awulaelo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Kilte Awulaelo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Kilte Awulaelo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Kilte Awulaelo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Addi Arekay",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Addi Arekay",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Addi Arekay",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Laelay Tselemti/ Dima",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Laelay Tselemti/ Dima",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Laelay Tselemti/ Dima",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Laelay Tselemti/ Dima",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Laelay Tselemti/ Dima",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Atsbi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Atsbi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Atsbi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Saharti",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Saharti",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Saharti",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Saharti",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Hawzen",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Hawzen",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Hawzen",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Hawzen",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Abiy Adi town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Wukro town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Wukro town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Wukro town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Wukro town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Abiy Adi town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Raya Kobo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Raya Kobo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Raya Kobo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Raya Kobo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Raya Kobo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Raya Kobo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Raya Kobo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Ganta Afeshum",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Dalol",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Abergele (AM)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Abergele (AM)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Abergele (AM)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Abergele (AM)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Abergele (AM)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Tselemti/ West Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Laelay Tselemti/ Dima",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Endaba Tsahma",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Rama Adi Arbaete",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Laelay Maychew",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Endamehoni",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Endamehoni",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Gaz Gibla",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Gaz Gibla",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Kilte Awulaelo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Samre",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Wukro town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Hawzen",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Endaba Tsahma",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Endaba Tsahma",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Endaba Tsahma",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Saharti",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Dugda Dawa",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Rama Adi Arbaete",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Rama Adi Arbaete",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Rama Adi Arbaete",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Laelay Maychew",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Laelay Maychew",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Laelay Maychew",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Berahile",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Dubluk",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Dugda Dawa",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Addi Arekay",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Addi Arekay",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Addi Arekay",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Tselemti/ West Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Tselemti/ West Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Ganta Afeshum",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Ganta Afeshum",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Adigrat town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Gaz Gibla",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Gaz Gibla",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Addi Arekay",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Tselemti/ West Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Tselemti/ West Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Tselemti/ West Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Kilte Awulaelo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Samre",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Gaz Gibla",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Dugda Dawa",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Dugda Dawa",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Dugda Dawa",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Metema",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Atsbi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Hawzen",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Wukro town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Saharti",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Atsbi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Guchi",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Sekota",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Kersa (East Hararge)",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Goro Gutu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Goro Gutu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Endamehoni",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Keyhe tekli",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Keyhe tekli",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Telemt",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Janamora",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Deka Suftu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Filtu",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Shire Endaslasie town",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Tahtay Adiyabo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Dire",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Teltale",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Tsagbeji",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Community led originated nut…",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "ISC package of key intervent…",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Abaala",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Adi Daero",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (SC)",
+      "target": "Adi Daero",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "SAM (OTP)",
+      "target": "Tahtay Adiyabo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Tahtay Adiyabo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Tahtay Adiyabo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Tahtay Adiyabo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Tahtay Adiyabo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "IYCF -E Infant and Young Chi…",
+      "target": "Adi Daero",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "MAM Moderate Acute Malnutrit…",
+      "target": "Adi Daero",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "AM",
+      "target": "Adi Daero",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Capacity Building",
+      "target": "Adi Daero",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition Supplement/medicin…",
+      "target": "Adi Daero",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Tahtay Adiyabo",
+      "type": "activity_woreda"
+    },
+    {
+      "source": "Nutrition assessment (rapid …",
+      "target": "Adi Daero",
+      "type": "activity_woreda"
+    }
+  ]
+}
