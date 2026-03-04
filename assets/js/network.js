@@ -1,151 +1,154 @@
-// assets/js/network.js — v3.0
-// Default: ORG ↔ REGION
-// Drill-down: click ORG to spawn its Woredas in a radial layout (click again to collapse)
+// assets/js/network.js — v3.1 (Spotlight / site-hero)
+// Goal: LOOK GOOD on a website. Not exhaustive analytics.
+// Default: show ORGs + REGIONS, but edges are hidden.
+// Auto-focus a featured NGO on load (wow). Click NGO to focus.
 
-console.log("NETWORK GRAPH VERSION v3.0");
+console.log("NETWORK GRAPH VERSION v3.1");
 
-const MAX_WOREDAS_ON_EXPAND = 30;   // prevent visual overload
-const RADIAL_RADIUS = 220;         // pixels-ish in vis coordinates
+const DATA_URL = "data/network_4w_demo.json"; // keep your existing filename
+const FEATURED_ORG_NAME = "International Organization for Migration"; // will fallback if not found
+
+const MAX_WOREDAS_ON_EXPAND = 26;     // visual budget
+const RADIAL_RADIUS = 120;           // compact
+const EDGE_FAINT = "rgba(255,255,255,0.03)";
+const EDGE_HIDDEN = "rgba(255,255,255,0.00)";
+const EDGE_HI = "rgba(255,255,255,0.55)";
 
 function rgba(r,g,b,a){ return `rgba(${r},${g},${b},${a})`; }
 
 const COLORS = {
   org: rgba(80,170,255,0.95),
   region: rgba(190,140,255,0.95),
-  woreda: rgba(255,120,120,0.75),
-  edgeFaint: rgba(255,255,255,0.06),
-  edgeHi: rgba(255,255,255,0.55)
+  woreda: rgba(255,120,120,0.78),
+
+  orgDim: rgba(80,170,255,0.18),
+  regionDim: rgba(190,140,255,0.18),
+  woredaDim: rgba(255,120,120,0.10),
+
+  border: rgba(255,255,255,0.22),
+  borderHi: rgba(255,255,255,0.85),
 };
 
-function safeRegionName(r){
-  const s = (r || "").toString().trim();
-  return s.length ? s : "Unknown region";
+function safe(s){ return (s || "").toString().trim(); }
+function safeRegionName(r){ return safe(r) || "Unknown"; }
+
+function setPanel(name, meta){
+  const n = document.getElementById("focusName");
+  const m = document.getElementById("focusMeta");
+  if (n) n.textContent = name || "—";
+  if (m) m.textContent = meta || "—";
 }
 
-function nodeStyle(kind){
-  if (kind === "org") {
-    return {
-      shape: "dot",
-      color: { background: COLORS.org, border: rgba(255,255,255,0.40) },
-      font: { color: rgba(255,255,255,0.90), size: 12 },
-      borderWidth: 1
-    };
-  }
-  if (kind === "region") {
-    return {
-      shape: "dot",
-      color: { background: COLORS.region, border: rgba(255,255,255,0.30) },
-      font: { color: rgba(255,255,255,0.90), size: 13 },
-      borderWidth: 1
-    };
-  }
-  // woreda
-  return {
-    shape: "dot",
-    color: { background: COLORS.woreda, border: rgba(255,255,255,0.18) },
-    font: { color: rgba(255,255,255,0.80), size: 11 },
-    borderWidth: 1
-  };
-}
-
-// Build ORG→WOREDA coverage by traversing ORG→ACTIVITY→WOREDA
-function buildOrgToWoredaMap(graphData) {
-  const nodesById = new Map(graphData.nodes.map(n => [n.id, n]));
-  const out = new Map(); // orgId -> Set(woredaId)
-
-  // adjacency
+function buildAdj(data){
   const adj = new Map();
-  graphData.nodes.forEach(n => adj.set(n.id, []));
-  graphData.edges.forEach(e => {
+  data.nodes.forEach(n => adj.set(n.id, []));
+  data.edges.forEach(e => {
     if (!adj.has(e.source)) adj.set(e.source, []);
     if (!adj.has(e.target)) adj.set(e.target, []);
     adj.get(e.source).push(e.target);
     adj.get(e.target).push(e.source);
   });
-
-  // find orgs
-  const orgIds = graphData.nodes.filter(n => n.type === "org").map(n => n.id);
-  const isActivity = (id) => (nodesById.get(id)?.type === "activity");
-  const isWoreda = (id) => (nodesById.get(id)?.type === "woreda");
-
-  orgIds.forEach(orgId => {
-    const woredaSet = new Set();
-    const neigh = adj.get(orgId) || [];
-
-    // org neighbors that are activities
-    const acts = neigh.filter(isActivity);
-
-    // woredas are neighbors of those activities
-    acts.forEach(aid => {
-      const aNeigh = adj.get(aid) || [];
-      aNeigh.forEach(x => {
-        if (isWoreda(x)) woredaSet.add(x);
-      });
-    });
-
-    out.set(orgId, woredaSet);
-  });
-
-  return { out, nodesById };
+  return adj;
 }
 
-(async function main() {
+// Build org -> set(woreda) via org->activity->woreda
+function buildOrgToWoreda(data){
+  const nodesById = new Map(data.nodes.map(n => [n.id, n]));
+  const adj = buildAdj(data);
+
+  const isActivity = (id) => nodesById.get(id)?.type === "activity";
+  const isWoreda = (id) => nodesById.get(id)?.type === "woreda";
+
+  const orgIds = data.nodes.filter(n => n.type === "org").map(n => n.id);
+
+  const orgToW = new Map();
+  orgIds.forEach(orgId => {
+    const wset = new Set();
+    const neigh = adj.get(orgId) || [];
+    const acts = neigh.filter(isActivity);
+    acts.forEach(aid => {
+      const aNeigh = adj.get(aid) || [];
+      aNeigh.forEach(x => { if (isWoreda(x)) wset.add(x); });
+    });
+    orgToW.set(orgId, wset);
+  });
+
+  return { orgToW, nodesById };
+}
+
+(async function main(){
   const container = document.getElementById("network");
   if (!container) return;
 
-  const res = await fetch("data/network_4w_demo.json", { cache: "no-store" });
-  if (!res.ok) throw new Error("Failed to load data/network_4w_demo.json");
+  const res = await fetch(DATA_URL, { cache:"no-store" });
+  if (!res.ok) throw new Error("Failed to load " + DATA_URL);
   const data = await res.json();
 
-  const { out: orgToWoreda, nodesById } = buildOrgToWoredaMap(data);
+  const { orgToW, nodesById } = buildOrgToWoreda(data);
 
-  // --- Build REGION nodes from woreda metadata ---
-  const regionToWoredas = new Map(); // regionName -> Set(woredaId)
+  // Regions from woreda metadata
+  const regionToWoredas = new Map();
   data.nodes.forEach(n => {
     if (n.type !== "woreda") return;
-    const region = safeRegionName(n.Region);
-    if (!regionToWoredas.has(region)) regionToWoredas.set(region, new Set());
-    regionToWoredas.get(region).add(n.id);
+    const r = safeRegionName(n.Region);
+    if (!regionToWoredas.has(r)) regionToWoredas.set(r, new Set());
+    regionToWoredas.get(r).add(n.id);
   });
 
   const regions = Array.from(regionToWoredas.keys()).sort();
 
-  // --- Create vis datasets (ONLY ORGs + REGIONS by default) ---
-  const baseNodes = [];
-  const baseEdges = [];
-
-  // ORG nodes
-  const orgNodes = data.nodes.filter(n => n.type === "org").sort((a,b)=>a.label.localeCompare(b.label));
-  orgNodes.forEach((n) => {
-    baseNodes.push({
+  // Sort orgs by coverage (for featured fallback)
+  const orgNodes = data.nodes
+    .filter(n => n.type === "org")
+    .map(n => ({
       id: n.id,
       label: n.label || n.id,
+      cov: (orgToW.get(n.id)?.size || 0)
+    }))
+    .sort((a,b)=> b.cov - a.cov || a.label.localeCompare(b.label));
+
+  let featuredOrgId = orgNodes.find(o => o.label === FEATURED_ORG_NAME)?.id || orgNodes[0]?.id;
+
+  // --- Base nodes (ORG + REGION only) ---
+  const baseNodes = [];
+
+  orgNodes.forEach(o => {
+    baseNodes.push({
+      id: o.id,
       kind: "org",
-      ...nodeStyle("org"),
-      value: 14,
-      title: n.label || n.id
+      label: o.label,
+      value: Math.min(26, 12 + Math.sqrt(Math.max(o.cov,1))*2.2),
+      shape: "dot",
+      color: { background: COLORS.org, border: COLORS.border },
+      font: { color: rgba(255,255,255,0.90), size: 12 },
+      borderWidth: 1,
+      title: `${o.label} — ${o.cov} woredas (demo)`
     });
   });
 
-  // REGION nodes
-  regions.forEach((r) => {
+  regions.forEach(r => {
     const size = regionToWoredas.get(r)?.size || 1;
     baseNodes.push({
       id: `REGION::${r}`,
-      label: r,
       kind: "region",
-      ...nodeStyle("region"),
-      value: Math.min(22, 10 + Math.sqrt(size) * 2),
+      label: r,
+      value: Math.min(24, 10 + Math.sqrt(size)*2.0),
+      shape: "dot",
+      color: { background: COLORS.region, border: COLORS.border },
+      font: { color: rgba(255,255,255,0.90), size: 13 },
+      borderWidth: 1,
       title: `${r} — ${size} woredas (demo)`
     });
   });
 
-  // ORG -> REGION edges weighted by number of woredas in that region for that org
-  orgNodes.forEach((org) => {
-    const wset = orgToWoreda.get(org.id) || new Set();
+  // --- Base edges ORG -> REGION (we create all but keep them hidden until focus) ---
+  const baseEdges = [];
+  const MIN_WOREDAS_PER_REGION_LINK = 2; // remove noise
 
-    // count per region
+  orgNodes.forEach(org => {
+    const wset = orgToW.get(org.id) || new Set();
     const counts = new Map();
+
     wset.forEach(wid => {
       const wn = nodesById.get(wid);
       const r = safeRegionName(wn?.Region);
@@ -153,16 +156,17 @@ function buildOrgToWoredaMap(graphData) {
     });
 
     counts.forEach((c, r) => {
-      // skip tiny links to reduce clutter (demo tuning)
-      if (c < 1) return;
+      if (c < MIN_WOREDAS_PER_REGION_LINK) return;
 
       baseEdges.push({
         id: `E::${org.id}::REGION::${r}`,
         from: org.id,
         to: `REGION::${r}`,
         width: Math.min(6, 1 + Math.log(1 + c)),
-        color: { color: COLORS.edgeFaint, highlight: COLORS.edgeHi },
-        smooth: { type: "continuous" }
+        smooth: { type:"continuous" },
+
+        // start hidden
+        color: { color: EDGE_HIDDEN, highlight: EDGE_HI }
       });
     });
   });
@@ -170,7 +174,6 @@ function buildOrgToWoredaMap(graphData) {
   const visNodes = new vis.DataSet(baseNodes);
   const visEdges = new vis.DataSet(baseEdges);
 
-  // --- Network options ---
   const options = {
     autoResize: true,
     interaction: {
@@ -184,134 +187,213 @@ function buildOrgToWoredaMap(graphData) {
 
   const network = new vis.Network(container, { nodes: visNodes, edges: visEdges }, options);
 
-  // --- Layout ORGs left, REGIONS right (stable) ---
-  function layoutBase() {
-    const orgIds = orgNodes.map(o => o.id);
-    const regIds = regions.map(r => `REGION::${r}`);
-
-    function setColumn(ids, x, spacing) {
-      ids.forEach((id, i) => {
-        const y = (i - ids.length / 2) * spacing;
-        network.moveNode(id, x, y);
-        // lock X, let Y breathe slightly (more natural)
-        visNodes.update({ id, fixed: { x: true, y: false } });
-      });
-    }
-
-    setColumn(orgIds, -520, 70);
-    setColumn(regIds, 520, 55);
-
-    network.fit({ animation: { duration: 450, easingFunction: "easeInOutQuad" } });
+  // --- Base layout: ORGs left, REGIONS right ---
+  function setColumn(ids, x, spacing){
+    ids.forEach((id,i)=>{
+      const y = (i - ids.length/2) * spacing;
+      network.moveNode(id, x, y);
+      visNodes.update({ id, fixed: { x:true, y:false } }); // lock X only, looks natural
+    });
   }
 
-  layoutBase();
+  const orgIds = orgNodes.map(o => o.id);
+  const regIds = regions.map(r => `REGION::${r}`);
 
-  // --- Drilldown state: expanded orgs -> their spawned woreda node ids ---
-  const expanded = new Map(); // orgId -> array of spawned woreda vis ids
+  setColumn(orgIds, -520, 72);
+  setColumn(regIds, 520, 64);
 
-  function collapseOrg(orgId) {
+  network.fit({ animation:{ duration: 450, easingFunction:"easeInOutQuad" } });
+
+  // --- Drilldown nodes for focused org ---
+  const expanded = new Map(); // orgId -> spawned woreda node ids
+
+  function removeDrill(orgId){
     const spawned = expanded.get(orgId);
     if (!spawned) return;
 
-    // remove woreda edges & nodes created for this org
-    const edgeIdsToRemove = [];
-    spawned.forEach(wNodeId => {
-      edgeIdsToRemove.push(`E::DRILL::${orgId}::${wNodeId}`);
-    });
-
-    visEdges.remove(edgeIdsToRemove);
+    const eids = spawned.map(wid => `E::DRILL::${orgId}::${wid}`);
+    visEdges.remove(eids);
     visNodes.remove(spawned);
 
     expanded.delete(orgId);
   }
 
-  function expandOrg(orgId) {
-    const wset = orgToWoreda.get(orgId);
+  function addDrill(orgId){
+    const wset = orgToW.get(orgId);
     if (!wset || wset.size === 0) return;
 
-    // limit to avoid a mess (demo tuning)
     const woredaIds = Array.from(wset).slice(0, MAX_WOREDAS_ON_EXPAND);
 
-    // get org position as center for radial layout
-    const orgPos = network.getPositions([orgId])[orgId] || { x: -520, y: 0 };
+    const pos = network.getPositions([orgId])[orgId] || { x:-520, y:0 };
 
-    const spawnedNodeIds = [];
+    const spawned = [];
 
     woredaIds.forEach((wid, idx) => {
       const wn = nodesById.get(wid);
-      const label = wn?.label || wn?.id || wid;
+      const label = safe(wn?.label) || safe(wn?.id) || wid;
       const region = safeRegionName(wn?.Region);
+      const zone = safe(wn?.Zone);
+      const pcode = safe(wn?.adm3_pcode);
 
-      const angle = (2 * Math.PI * idx) / woredaIds.length;
-      const x = orgPos.x + Math.cos(angle) * RADIAL_RADIUS;
-      const y = orgPos.y + Math.sin(angle) * (RADIAL_RADIUS * 0.65);
+      const ang = (2*Math.PI*idx)/woredaIds.length;
+      const x = pos.x + Math.cos(ang) * RADIAL_RADIUS;
+      const y = pos.y + Math.sin(ang) * (RADIAL_RADIUS * 0.70);
 
-      const vNodeId = `W::${orgId}::${wid}`; // unique per org drilldown
-      spawnedNodeIds.push(vNodeId);
+      const vId = `W::${orgId}::${wid}`;
+      spawned.push(vId);
 
       visNodes.add({
-        id: vNodeId,
-        label: "",                   // no label (clean)
-        title: `${label} (${region})`,
+        id: vId,
         kind: "woreda",
-        ...nodeStyle("woreda"),
-        value: 6,
+        label: "", // keep clean, tooltip only
+        title: `${label}${zone ? " · "+zone : ""} · ${region}${pcode ? " · "+pcode : ""}`,
+        value: 3,
+        shape: "dot",
+        color: { background: COLORS.woreda, border: rgba(255,255,255,0.14) },
+        font: { color: rgba(255,255,255,0.80), size: 11 },
+        borderWidth: 1,
         x, y,
-        fixed: { x: true, y: true }  // keep radial ring stable
+        fixed: { x:true, y:true }
       });
 
       visEdges.add({
-        id: `E::DRILL::${orgId}::${vNodeId}`,
+        id: `E::DRILL::${orgId}::${vId}`,
         from: orgId,
-        to: vNodeId,
+        to: vId,
         width: 1,
-        color: { color: rgba(255,255,255,0.18), highlight: COLORS.edgeHi },
-        smooth: { type: "continuous" }
+        smooth: { type:"continuous" },
+        color: { color: rgba(255,255,255,0.16), highlight: EDGE_HI }
       });
     });
 
-    expanded.set(orgId, spawnedNodeIds);
-
-    network.fit({ animation: { duration: 350, easingFunction: "easeInOutQuad" } });
+    expanded.set(orgId, spawned);
   }
 
-  // --- Edge fading + highlight ---
-  function setAllEdges(alpha) {
-    const col = `rgba(255,255,255,${alpha})`;
+  // --- Spotlight focus ---
+  let focusedOrg = null;
+
+  function dimAll(){
+    // dim nodes
     const updates = [];
-    visEdges.forEach((edge) => {
-      updates.push({ id: edge.id, color: { color: col, highlight: COLORS.edgeHi } });
+    visNodes.forEach(n => {
+      if (n.kind === "org"){
+        updates.push({ id:n.id, color:{ background: COLORS.orgDim, border: rgba(255,255,255,0.10) }, font:{ color: rgba(255,255,255,0.35) } });
+      } else if (n.kind === "region"){
+        updates.push({ id:n.id, color:{ background: COLORS.regionDim, border: rgba(255,255,255,0.10) }, font:{ color: rgba(255,255,255,0.35) } });
+      } else {
+        updates.push({ id:n.id, color:{ background: COLORS.woredaDim, border: rgba(255,255,255,0.10) } });
+      }
     });
-    visEdges.update(updates);
+    visNodes.update(updates);
+
+    // hide base edges
+    const eUpdates = [];
+    visEdges.forEach(e => {
+      if ((e.id || "").startsWith("E::DRILL::")) return;
+      eUpdates.push({ id:e.id, color:{ color: EDGE_HIDDEN, highlight: EDGE_HI } });
+    });
+    visEdges.update(eUpdates);
   }
 
-  setAllEdges(0.05);
+  function focusOrg(orgId){
+    // clear previous drill
+    if (focusedOrg && focusedOrg !== orgId) removeDrill(focusedOrg);
 
-  network.on("hoverNode", function (params) {
-    const connected = network.getConnectedEdges(params.node);
-    setAllEdges(0.02);
-    visEdges.update(connected.map(id => ({ id, color: { color: COLORS.edgeHi, highlight: COLORS.edgeHi } })));
-  });
+    focusedOrg = orgId;
 
-  network.on("blurNode", function () {
-    setAllEdges(0.05);
-  });
+    dimAll();
 
-  // --- Click behaviour: toggle drilldown on ORG nodes only ---
-  network.on("click", function (params) {
+    // highlight focused org node
+    visNodes.update({
+      id: orgId,
+      color: { background: COLORS.org, border: COLORS.borderHi },
+      font: { color: rgba(255,255,255,0.95), size: 12 }
+    });
+
+    // show only its ORG->REGION edges (and brighten connected regions)
+    const showEdges = [];
+    const brightenRegions = [];
+
+    visEdges.forEach(e => {
+      if ((e.id || "").startsWith(`E::${orgId}::REGION::`)){
+        showEdges.push({ id:e.id, color:{ color: EDGE_FAINT, highlight: EDGE_HI } });
+        brightenRegions.push(e.to);
+      }
+    });
+
+    visEdges.update(showEdges);
+
+    // brighten connected regions
+    brightenRegions.forEach(rid => {
+      visNodes.update({
+        id: rid,
+        color: { background: COLORS.region, border: COLORS.border },
+        font: { color: rgba(255,255,255,0.92), size: 13 }
+      });
+    });
+
+    // drill-down woredas for wow
+    addDrill(orgId);
+
+    const orgLabel = visNodes.get(orgId)?.label || orgId;
+    const cov = orgToW.get(orgId)?.size || 0;
+    setPanel(orgLabel, `${cov} woredas in dataset · Links shown only for this NGO · Hover nodes for tooltips`);
+
+    network.fit({ animation:{ duration: 420, easingFunction:"easeInOutQuad" } });
+  }
+
+  function resetView(){
+    if (focusedOrg) removeDrill(focusedOrg);
+    focusedOrg = null;
+
+    // restore base node colors
+    const updates = [];
+    visNodes.forEach(n => {
+      if (n.kind === "org"){
+        updates.push({ id:n.id, color:{ background: COLORS.org, border: COLORS.border }, font:{ color: rgba(255,255,255,0.90), size:12 } });
+      } else if (n.kind === "region"){
+        updates.push({ id:n.id, color:{ background: COLORS.region, border: COLORS.border }, font:{ color: rgba(255,255,255,0.90), size:13 } });
+      }
+    });
+    visNodes.update(updates);
+
+    // hide all base edges again (clean homepage)
+    const eUpdates = [];
+    visEdges.forEach(e => {
+      if ((e.id || "").startsWith("E::DRILL::")) return;
+      eUpdates.push({ id:e.id, color:{ color: EDGE_HIDDEN, highlight: EDGE_HI } });
+    });
+    visEdges.update(eUpdates);
+
+    setPanel("Overview", "Click an NGO to focus. This view is intentionally minimal for a clean website visual.");
+
+    network.fit({ animation:{ duration: 420, easingFunction:"easeInOutQuad" } });
+  }
+
+  // interactions
+  network.on("click", (params) => {
     if (!params.nodes || params.nodes.length === 0) return;
     const nodeId = params.nodes[0];
     const node = visNodes.get(nodeId);
-    if (!node) return;
+    if (!node || node.kind !== "org") return;
 
-    if (node.kind !== "org") return;
-
-    if (expanded.has(nodeId)) {
-      collapseOrg(nodeId);
+    if (focusedOrg === nodeId){
+      resetView();
+      // immediately focus featured again? no: leave overview clean
     } else {
-      expandOrg(nodeId);
+      focusOrg(nodeId);
     }
   });
 
-  console.log("Network ready v3.0 (ORG↔REGION + drilldown woredas on click)");
+  const resetBtn = document.getElementById("resetBtn");
+  if (resetBtn) resetBtn.addEventListener("click", resetView);
+
+  // Start: clean overview, then auto-focus featured for wow
+  resetView();
+  if (featuredOrgId) {
+    // small delay so it feels intentional
+    setTimeout(() => focusOrg(featuredOrgId), 350);
+  }
+
+  console.log("Network ready v3.1 (Spotlight)");
 })();
