@@ -16,6 +16,7 @@
       <div class="subtitle">Decision-support (static prototype) • Dynamic filtering • Facility-level drill-down</div>
     </div>
     <div class="topbar__right">
+      <a class="btn" href="decision-map.html">Open Decision Map</a>
       <a class="btn" href="map.html">Open LMRI Map</a>
       <a class="btn" href="map_4w.html">Open 4W Map</a>
       <a class="btn" href="index.html">Home</a>
@@ -72,7 +73,7 @@
 
         <div class="note">
           Definitions: <b>LMRI</b> relates to RUTF stockout intensity; <b>T2 status</b>=1 if LMRI T2 days &gt; 30.
-          Supply modality comes from facility-reported NGO RUTF supply fields (T1/T2). “Not reported” is kept as NA.
+          Supply modality comes from facility-reported NGO RUTF supply fields (T1/T2). "Not reported" is kept as NA.
         </div>
       </div>
 
@@ -126,7 +127,7 @@
             <tbody id="rows"></tbody>
           </table>
         </div>
-        <div class="note small">Tip: use filters live during the meeting; this table is your “answer engine”.</div>
+        <div class="note small">Tip: use filters live during the meeting; this table is your "answer engine".</div>
       </div>
     </section>
 
@@ -135,12 +136,11 @@
       <div class="card">
         <h2>Mini-maps</h2>
 
-        <!-- ✅ PATCH: image paths must match your actual filenames in assets/img/
-             Option 1 (recommended): rename your files to:
-               - assets/img/minimap_lmri.png
-               - assets/img/minimap_4w.png
-             If your files are named differently, adjust src accordingly.
-        -->
+        <a class="minimap" href="decision-map.html" title="Open Decision Map">
+          <img src="assets/img/minimap_decision.png" alt="Decision map minimap" />
+          <div class="minimap__label">Decision map (click to open)</div>
+        </a>
+
         <a class="minimap" href="map.html" title="Open LMRI coverage map">
           <img src="assets/img/minimap_lmri.png" alt="LMRI minimap" />
           <div class="minimap__label">LMRI coverage (click to open)</div>
