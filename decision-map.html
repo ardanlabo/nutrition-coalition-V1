@@ -455,22 +455,20 @@ function drawBaseNodes(){
 function buildResponseGraph(w){
   if(!w){graphNodes=[];return;}
   const reg=REGIONAL[w.region];if(!reg){graphNodes=[];return;}
-  const[wx,wy]=project(w.lon,w.lat);
-  const[rx,ry]=project(reg.capital.lon,reg.capital.lat);
-  const[ax,ay]=project(ADDIS.lon,ADDIS.lat);
-  const[nx,ny]=project(reg.ngo.lon,reg.ngo.lat);
   graphNodes=[
-    {id:'ngo',     px:nx,py:ny,color:w.has_support?'#5B8DB8':'#C0392B',label:w.has_support?reg.ngo.name:'No NGO',sublabel:w.has_support?'Field presence':'Coverage gap',isGap:!w.has_support},
-    {id:'regional',px:rx,py:ry,color:'#9B7FCC',label:reg.capital.city,sublabel:'Regional BoH'},
-    {id:'federal', px:ax,py:ay,color:'#C9A84C',label:'UNICEF',sublabel:'Addis Ababa'},
+    {id:'ngo',     lon:reg.ngo.lon,lat:reg.ngo.lat,color:w.has_support?'#5B8DB8':'#C0392B',label:w.has_support?reg.ngo.name:'No NGO',sublabel:w.has_support?'Field presence':'Coverage gap',isGap:!w.has_support},
+    {id:'regional',lon:reg.capital.lon,lat:reg.capital.lat,color:'#9B7FCC',label:reg.capital.city,sublabel:'Regional BoH'},
+    {id:'federal', lon:ADDIS.lon,lat:ADDIS.lat,color:'#C9A84C',label:'UNICEF',sublabel:'Addis Ababa'},
   ];
-  graphNodes._wx=wx;graphNodes._wy=wy;graphNodes._reg=reg;graphNodes._w=w;
+  graphNodes._reg=reg;graphNodes._w=w;
+  graphNodes._wlon=w.lon;graphNodes._wlat=w.lat;
 }
 
 function drawResponseGraph(){
   if(!graphNodes.length)return;
   const t=(animFrame%80)/80;
-  const wx=graphNodes._wx,wy=graphNodes._wy;
+  const[wx,wy]=project(graphNodes._wlon,graphNodes._wlat);
+  graphNodes.forEach(gn=>{const[px,py]=project(gn.lon,gn.lat);gn.px=px;gn.py=py;});
   const ngo=graphNodes.find(g=>g.id==='ngo');
   const regional=graphNodes.find(g=>g.id==='regional');
   const federal=graphNodes.find(g=>g.id==='federal');
