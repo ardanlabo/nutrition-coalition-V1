@@ -558,13 +558,6 @@ function selectWoreda(w){
   const ngoName=reg.ngo.name;
   const colors=NGO_COLORS[ngoName]||NGO_DEFAULT;
   buildTerritoryForNgo(ngoName,w.region);
-  // Auto-zoom to woreda's region if not already zoomed
-  if(activeRegion==='all'){
-    zoomToRegion(w.region);
-    document.querySelectorAll('.region-btn').forEach(b=>{
-      b.classList.toggle('active',b.dataset.region===w.region);
-    });
-  }
   const col=RISK_COLOR[w.risk];
   const coverageText=w.has_support?`${w.facilities_support} facilities under ${ngoName} umbrella · ${w.facilities} still uncovered`:`No NGO support · ${w.facilities} facilities uncovered`;
   document.getElementById('db-answer').textContent=`→ ${w.woreda} — ${RISK_LABEL[w.risk]}`;
